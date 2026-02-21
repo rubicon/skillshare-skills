@@ -1,0 +1,8 @@
+{
+  "source": "github.com/obra/superpowers/verification-before-completion",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:13:46.618394-06:00",
+  "repo_url": "https://github.com/obra/superpowers.git",
+  "subdir": "skills/verification-before-completion",
+  "version": "a0b9ecc"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/algorithmic-art",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:08:43.379347-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/algorithmic-art",
+  "version": "1ed29a0"
+}

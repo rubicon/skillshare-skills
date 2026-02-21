@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/doc-coauthoring",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:12.160708-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/doc-coauthoring",
+  "version": "1ed29a0"
+}

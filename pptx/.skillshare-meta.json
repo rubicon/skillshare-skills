@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/pptx",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:11:45.67309-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/pptx",
+  "version": "1ed29a0"
+}

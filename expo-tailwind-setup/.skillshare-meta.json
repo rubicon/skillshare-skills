@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/expo-tailwind-setup",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:34.266997-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/expo-app-design/skills/expo-tailwind-setup",
+  "version": "0b19547"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/slack-gif-creator",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:12:44.700349-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/slack-gif-creator",
+  "version": "1ed29a0"
+}

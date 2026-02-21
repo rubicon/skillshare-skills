@@ -1,0 +1,8 @@
+{
+  "source": "github.com/supabase/agent-skills/supabase-postgres-best-practices",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:12:49.969911-06:00",
+  "repo_url": "https://github.com/supabase/agent-skills.git",
+  "subdir": "skills/supabase-postgres-best-practices",
+  "version": "760460c"
+}

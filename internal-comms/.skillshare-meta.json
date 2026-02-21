@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/internal-comms",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:58.027484-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/internal-comms",
+  "version": "1ed29a0"
+}

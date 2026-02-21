@@ -1,0 +1,8 @@
+{
+  "source": "github.com/coreyhaines31/marketingskills/ab-test-setup",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:08:38.183043-06:00",
+  "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+  "subdir": "skills/ab-test-setup",
+  "version": "ea8df82"
+}

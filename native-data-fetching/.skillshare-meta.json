@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/native-data-fetching",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:11:16.606684-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/expo-app-design/skills/native-data-fetching",
+  "version": "0b19547"
+}

@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/building-native-ui",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:09:42.062343-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/expo-app-design/skills/building-native-ui",
+  "version": "0b19547"
+}

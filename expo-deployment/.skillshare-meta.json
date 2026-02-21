@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/expo-deployment",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:29.668642-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/expo-deployment/skills/expo-deployment",
+  "version": "0b19547"
+}

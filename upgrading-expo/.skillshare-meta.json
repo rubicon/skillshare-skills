@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/upgrading-expo",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:13:17.607872-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/upgrading-expo/skills/upgrading-expo",
+  "version": "0b19547"
+}

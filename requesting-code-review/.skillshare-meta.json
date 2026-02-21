@@ -1,0 +1,8 @@
+{
+  "source": "github.com/obra/superpowers/requesting-code-review",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:12:26.955237-06:00",
+  "repo_url": "https://github.com/obra/superpowers.git",
+  "subdir": "skills/requesting-code-review",
+  "version": "a0b9ecc"
+}

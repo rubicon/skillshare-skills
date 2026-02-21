@@ -1,0 +1,8 @@
+{
+  "source": "github.com/inf-sh/skills/agent-tools",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:08:41.791921-06:00",
+  "repo_url": "https://github.com/inf-sh/skills.git",
+  "subdir": "skills/agent-tools",
+  "version": "6465e05"
+}

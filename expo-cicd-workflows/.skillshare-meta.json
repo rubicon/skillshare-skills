@@ -1,0 +1,8 @@
+{
+  "source": "github.com/expo/skills/expo-cicd-workflows",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:27.877376-06:00",
+  "repo_url": "https://github.com/expo/skills.git",
+  "subdir": "plugins/expo-deployment/skills/expo-cicd-workflows",
+  "version": "0b19547"
+}

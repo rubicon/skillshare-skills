@@ -1,0 +1,8 @@
+{
+  "source": "github.com/vercel-labs/skills/find-skills",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:10:37.947935-06:00",
+  "repo_url": "https://github.com/vercel-labs/skills.git",
+  "subdir": "skills/find-skills",
+  "version": "e00ad19"
+}

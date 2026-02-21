@@ -1,0 +1,8 @@
+{
+  "source": "github.com/anthropics/skills/canvas-design",
+  "type": "github-subdir",
+  "installed_at": "2026-02-20T22:09:43.847769-06:00",
+  "repo_url": "https://github.com/anthropics/skills.git",
+  "subdir": "skills/canvas-design",
+  "version": "1ed29a0"
+}
