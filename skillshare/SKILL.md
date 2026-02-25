@@ -1,6 +1,6 @@
 ---
 name: skillshare
-version: v0.15.4
+version: v0.15.5
 description: |
   Syncs skills across AI CLI tools (Claude, Cursor, Windsurf, etc.) from a single source of truth.
   Global mode (~/.config/skillshare/) and project mode (.skillshare/ per-repo).
@@ -38,7 +38,7 @@ Force with `-p` (project) or `-g` (global).
 | **Targets** | `target add/remove/list` | ✓ (`-p`) |
 | **Security** | `audit [name]` | ✓ (`-p`) |
 | **Trash** | `trash list\|restore\|delete\|empty` | ✓ (`-p`) |
-| **Log** | `log [--audit] [--tail N]` | ✓ (`-p`) |
+| **Log** | `log [--json\|--no-tui] [--audit] [--tail N]` | ✓ (`-p`) |
 | **Backup** | `backup`, `restore` | ✗ |
 | **Web UI** | `ui` (`-g` global, `-p` project) | ✓ (`-p`) |
 | **Upgrade** | `upgrade [--cli\|--skill]` | — |

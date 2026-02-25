@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/canva-sdks/canva-claude-skills/branded-presentation",
+  "type": "github-subdir",
+  "installed_at": "2026-02-24T17:34:31.111691-06:00",
+  "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
+  "subdir": "branded-presentation",
+  "version": "18fdb6f",
+  "file_hashes": {
+    "SKILL.md": "sha256:dd77c8d3152477fd80937f535d85fbbd59e80407655b3f556f6cd7536ba86a6d"
+  }
+}

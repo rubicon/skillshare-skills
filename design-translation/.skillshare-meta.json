@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/canva-sdks/canva-claude-skills/design-translation",
+  "type": "github-subdir",
+  "installed_at": "2026-02-24T17:34:31.135645-06:00",
+  "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
+  "subdir": "design-translation",
+  "version": "18fdb6f",
+  "file_hashes": {
+    "SKILL.md": "sha256:744673995cb90c1effc13a62f3114a1a200cbcfe4bfb616caa31ea048b6704f6"
+  }
+}
