@@ -1,8 +1,15 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/referral-program",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:19.100108-06:00",
+  "installed_at": "2026-03-13T18:26:58.004592-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/referral-program",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "eec8f49ec442fb179dc51fb05b4bfd5d68dfd39d",
+  "file_hashes": {
+    "SKILL.md": "sha256:b84708a01d428290c7a24c74b7e2522168e198143142fcc862e69c7f4a1190f3",
+    "evals/evals.json": "sha256:5a85f1b483081ca88a48800b82c32175c06e9bda020e4416e11f0c1413b17d54",
+    "references/affiliate-programs.md": "sha256:691313b7c7157c1791759e046c08434219172fa5c3dc145a04ed8476c503fe0c",
+    "references/program-examples.md": "sha256:2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a"
+  }
 }

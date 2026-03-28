@@ -1,0 +1,16 @@
+{
+  "source": "github.com/bradsjm/hassio-addons/addon-opencode/skills/home-assistant-automation-scripts",
+  "type": "github-subdir",
+  "installed_at": "2026-03-13T10:43:40.675687-05:00",
+  "repo_url": "https://github.com/bradsjm/hassio-addons.git",
+  "subdir": "addon-opencode/skills/home-assistant-automation-scripts",
+  "version": "c8f7a6d",
+  "tree_hash": "949c1c485b40a91f53cdc76ffeff82032d3875a7",
+  "file_hashes": {
+    "SKILL.md": "sha256:cc7d160870a9b6dbc5a571172894a1e007d30708a1c00ec7cd1b14f5a855fcee",
+    "references/DEBUG_WORKFLOWS.md": "sha256:e31afa56a19ad169eaac984085f947bc18f6c24b69a58268979b1221212a4d5e",
+    "references/LIMITED_TEMPLATES.md": "sha256:d83e560442a063ecbf1dd314aeeb1858c42e0a5657cf171935ee8fe5707c2200",
+    "references/REFERENCE.md": "sha256:eb44f796a30abf4217e7c9dfa72ddc8b43dc698490c7675b4005200510d61a53",
+    "references/TEMPLATE_ENTITY_GUIDE.md": "sha256:095b46fcb452193e4634daed7b88027cf37ba8fa3902db32c068d1df66d6129f"
+  }
+}

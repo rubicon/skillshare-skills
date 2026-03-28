@@ -1,8 +1,12 @@
 {
   "source": "github.com/obra/superpowers/verification-before-completion",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:13:46.618394-06:00",
+  "installed_at": "2026-03-13T18:26:15.303391-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/verification-before-completion",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "ceb2f1f67f4cadb29b32a06e54d3d0be832071f5",
+  "file_hashes": {
+    "SKILL.md": "sha256:ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c"
+  }
 }

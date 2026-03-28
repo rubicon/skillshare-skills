@@ -1,8 +1,12 @@
 {
   "source": "github.com/obra/superpowers/executing-plans",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:20.256054-06:00",
+  "installed_at": "2026-03-13T18:26:01.769082-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/executing-plans",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "20087d25fb28f5f54578d873dc198ab24b34f967",
+  "file_hashes": {
+    "SKILL.md": "sha256:a711f83fb762e2ea0fa151f598893da9911a408895c91cc7a7e0770dd59a27b3"
+  }
 }

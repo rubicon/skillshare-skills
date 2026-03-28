@@ -1,8 +1,22 @@
 {
   "source": "github.com/obra/superpowers/systematic-debugging",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:51.89468-06:00",
+  "installed_at": "2026-03-13T18:26:09.615343-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/systematic-debugging",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+  "file_hashes": {
+    "CREATION-LOG.md": "sha256:b482ef9a918fbfc6c369729e8160633ddfa2332466dd362ee73f1527c239ef8b",
+    "SKILL.md": "sha256:4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+    "condition-based-waiting-example.ts": "sha256:40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+    "condition-based-waiting.md": "sha256:e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+    "defense-in-depth.md": "sha256:1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+    "find-polluter.sh": "sha256:6462747eae9b175ac145b78bcfaeab755654a75e32637f08eb633f065a9e1d7c",
+    "root-cause-tracing.md": "sha256:a81bee9448794d261b4aca8487c595d11ff4bd4e10a5f96bca1117dd32527050",
+    "test-academic.md": "sha256:fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+    "test-pressure-1.md": "sha256:0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+    "test-pressure-2.md": "sha256:b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+    "test-pressure-3.md": "sha256:96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708"
+  }
 }

@@ -1,8 +1,13 @@
 {
   "source": "github.com/obra/superpowers/requesting-code-review",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:26.955237-06:00",
+  "installed_at": "2026-03-13T18:26:06.46004-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/requesting-code-review",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "ed265b1a03114cc400d5524afc5c961a4aa9ea8b",
+  "file_hashes": {
+    "SKILL.md": "sha256:a5ff68586ccf62d1803cedeb71d60fd96ec05591d29c8d123196117eefd34cd0",
+    "code-reviewer.md": "sha256:7f5328dca12cb200005ae9d4386f63a9b0acb735ece57f82db206b4a3189ccae"
+  }
 }

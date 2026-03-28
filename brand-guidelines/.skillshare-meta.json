@@ -1,8 +1,13 @@
 {
   "source": "github.com/anthropics/skills/brand-guidelines",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:09:38.561962-06:00",
+  "installed_at": "2026-03-13T18:27:08.534117-05:00",
   "repo_url": "https://github.com/anthropics/skills.git",
   "subdir": "skills/brand-guidelines",
-  "version": "1ed29a0"
+  "version": "98669c1",
+  "tree_hash": "7dc45f289fa37f9763a993008d9500e9a157fa4a",
+  "file_hashes": {
+    "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "SKILL.md": "sha256:1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+  }
 }

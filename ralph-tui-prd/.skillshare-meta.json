@@ -1,8 +1,12 @@
 {
   "source": "github.com/subsy/ralph-tui/ralph-tui-prd",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:07.083911-06:00",
+  "installed_at": "2026-03-13T18:26:21.204585-05:00",
   "repo_url": "https://github.com/subsy/ralph-tui.git",
   "subdir": "skills/ralph-tui-prd",
-  "version": "9988dc6"
+  "version": "fcea670",
+  "tree_hash": "bf73ca88685816787c9822388db5b6519dd0848e",
+  "file_hashes": {
+    "SKILL.md": "sha256:9534f7cdf173c08ff084854934dc739dd94027dcb438fc14e96c87f2a272a7d8"
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-javascript",
+  "type": "github-subdir",
+  "installed_at": "2026-03-26T15:19:56.549456-05:00",
+  "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+  "subdir": "skills/n8n-code-javascript",
+  "version": "6689ebc",
+  "tree_hash": "09f060342347dc56f3e61fe5113e9b4d2a8db622",
+  "file_hashes": {
+    "BUILTIN_FUNCTIONS.md": "sha256:345ccb504b6dba99bfa8101382736757deeac3cae4d55e5df45c4d87e9509a5c",
+    "COMMON_PATTERNS.md": "sha256:061ea53d19198ba711d6286306f684861cd0fdd5230e919d0f36e66cb9f962d0",
+    "DATA_ACCESS.md": "sha256:29f361baabfc6f9d2bb213a23520a359cd9cb46073fdf03c48453ad4ac00d544",
+    "ERROR_PATTERNS.md": "sha256:3eeb3ecb2e8c36d96a97be7598e77613ddda00d35a52a5b35780257dcebeb71d",
+    "README.md": "sha256:73249e59fa9aa7cdd8feec532a4a5c69c4d73cc0ba084afd266f4acafad05e13",
+    "SKILL.md": "sha256:d086e94a8d673d451b932902e310bcbe967ecd3d18ecc9984975c04eb42ab14a"
+  }
+}

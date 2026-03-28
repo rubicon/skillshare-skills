@@ -1,8 +1,14 @@
 {
   "source": "github.com/google-labs-code/stitch-skills/design-md",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:07.700166-06:00",
+  "installed_at": "2026-03-13T18:26:19.534896-05:00",
   "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
   "subdir": "skills/design-md",
-  "version": "51d6d5a"
+  "version": "ad0b5cc",
+  "tree_hash": "0a84781f35accede7cf373a4129d93bfb7651930",
+  "file_hashes": {
+    "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
+    "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
+    "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+  }
 }

@@ -1,8 +1,14 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/schema-markup",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:30.250631-06:00",
+  "installed_at": "2026-03-13T18:26:59.430995-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/schema-markup",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "7a0e3936ea4cc91c8735148d5964cce5c9ce0bfa",
+  "file_hashes": {
+    "SKILL.md": "sha256:728f221b25d062afe204f3980d46db4800ac05f9fb68fd2cdcc8e7bfa7b68e79",
+    "evals/evals.json": "sha256:a7bf50c54e093b633b221ee7f149c6ded8f431df98c2ab64dfbd0f6f1290b2b9",
+    "references/schema-examples.md": "sha256:5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318"
+  }
 }

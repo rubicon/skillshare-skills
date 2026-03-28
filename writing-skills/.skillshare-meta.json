@@ -1,8 +1,18 @@
 {
-  "source": "github.com/obra/superpowers/writing-skills",
+  "source": "https://github.com/obra/superpowers.git/skills/writing-skills",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:14:20.230157-06:00",
+  "installed_at": "2026-03-26T15:27:21.930661-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/writing-skills",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "80e8c7d3be99d55d5d76c9516cc45a1e7f48f281",
+  "file_hashes": {
+    "SKILL.md": "sha256:38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
+    "anthropic-best-practices.md": "sha256:20914c2fda31670c75fe91710e18a53d413ce0d00b5102acfa251d75c9226e3f",
+    "examples/CLAUDE_MD_TESTING.md": "sha256:0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+    "graphviz-conventions.dot": "sha256:e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+    "persuasion-principles.md": "sha256:c3c84f572a51dd8b6d4fc6e5cbdc2bc3b9e07ba381a45bdabfce7ad2894dd828",
+    "render-graphs.js": "sha256:ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+    "testing-skills-with-subagents.md": "sha256:c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade"
+  }
 }

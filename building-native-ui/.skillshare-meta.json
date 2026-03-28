@@ -1,8 +1,26 @@
 {
   "source": "github.com/expo/skills/building-native-ui",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:09:42.062343-06:00",
+  "installed_at": "2026-03-13T18:28:20.889894-05:00",
   "repo_url": "https://github.com/expo/skills.git",
-  "subdir": "plugins/expo-app-design/skills/building-native-ui",
-  "version": "0b19547"
+  "subdir": "plugins/expo/skills/building-native-ui",
+  "version": "7f17ad5",
+  "tree_hash": "0078663cbdc42e388d2eb9c291dda1a0774eee29",
+  "file_hashes": {
+    "SKILL.md": "sha256:dc9c08d2601ea0f3df25656da2c6bff4f28fbc164901fabf7c8b504f5c833c19",
+    "references/animations.md": "sha256:3e855090009f0fde1652694344b2bfb7d9ed9c645789e243933c3e58f28c3670",
+    "references/controls.md": "sha256:e63a7e92cac8a5d0ceb9ed5f05e19ea9cd4d865a8bea6ff8f8a82c74c77fa180",
+    "references/form-sheet.md": "sha256:947de9cf35a15aacf3f02e96e45942b5e4826e536e529570886e5ddbb7ec8591",
+    "references/gradients.md": "sha256:63ced0392f67c41bf90e726613d139a389db609799bfcb91124e6e69b9a66e70",
+    "references/icons.md": "sha256:0436582534ae1cc468805ac5ab9a3cb0fb25faeaededb1d5f415ea246814c596",
+    "references/media.md": "sha256:b05966f4b2ab48b57ea82da172359000295726585f7ffe18a2e5a1be93f2c14f",
+    "references/route-structure.md": "sha256:4c3d70edeb7e36d965c4d96fa150f23ee57e01be5f6c57dd3e34c6309aab7e87",
+    "references/search.md": "sha256:6eefcc0345167031b3661d17090100b101cbedc1053de2e679090405658dfa92",
+    "references/storage.md": "sha256:265e8bc21adcd698062f18fa442e0e07e99e67868576f18aac2112e5381ffbf1",
+    "references/tabs.md": "sha256:2793a7ac0a45cf65564bcf2f6f9282539d201a4b8bea620dc0b53de092454de4",
+    "references/toolbar-and-headers.md": "sha256:14d9a71dd949bd2b28a5bd531f6b9c1b4f3fa847a86db8c5218fee67b5295769",
+    "references/visual-effects.md": "sha256:2c1dfd5438f27e4c15bc09ececc57810a58a13e633dc782caac93f8f52cadadf",
+    "references/webgpu-three.md": "sha256:3a247a7740e4bab4aea5dec8b81c7782a5918bb221838a05f6a94c669f145679",
+    "references/zoom-transitions.md": "sha256:cacc1665e9f3044762765d2cd55fd1ead9627f06478f12dfa2280c6f9ae88ede"
+  }
 }

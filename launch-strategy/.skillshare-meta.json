@@ -1,8 +1,13 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/launch-strategy",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:11:00.939297-06:00",
+  "installed_at": "2026-03-13T18:26:40.772212-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/launch-strategy",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "8022dd22bdb5fd09938d38c54abf063f1daca68f",
+  "file_hashes": {
+    "SKILL.md": "sha256:60cafd9a762403b9e45612cc9c2cb5d7b699e66a109fe94c1f052b851c0f18d1",
+    "evals/evals.json": "sha256:401010b0833d4fb2f738cb91921d9f32f03915c60cbc0276c41053dd48b1cf06"
+  }
 }

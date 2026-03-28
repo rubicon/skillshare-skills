@@ -1,8 +1,14 @@
 {
-  "source": "github.com/coreyhaines31/marketingskills/free-tool-strategy",
+  "source": "https://github.com/coreyhaines31/marketingskills.git/skills/free-tool-strategy",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:45.98451-06:00",
+  "installed_at": "2026-03-26T15:27:26.585541-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/free-tool-strategy",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "9c85331d3ecac584097c67b822eeec32395f9408",
+  "file_hashes": {
+    "SKILL.md": "sha256:88f8f02bccb380f397a312c9468eaebc25aedb30b452ebe304d55af3cd841a9a",
+    "evals/evals.json": "sha256:90cdc0ba2210b2ab72fb1cbc89080df2cd4aeb3d779f3d743bd383e3a31b9be1",
+    "references/tool-types.md": "sha256:3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
+  }
 }

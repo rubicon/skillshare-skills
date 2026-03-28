@@ -1,8 +1,13 @@
 {
-  "source": "github.com/expo/skills/native-data-fetching",
+  "source": "https://github.com/expo/skills.git/plugins/expo/skills/native-data-fetching",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:11:16.606684-06:00",
+  "installed_at": "2026-03-26T15:19:50.472287-05:00",
   "repo_url": "https://github.com/expo/skills.git",
-  "subdir": "plugins/expo-app-design/skills/native-data-fetching",
-  "version": "0b19547"
+  "subdir": "plugins/expo/skills/native-data-fetching",
+  "version": "7f17ad5",
+  "tree_hash": "f7dbb2c2ad7ed6247a5bf74c81611feb01f5d13e",
+  "file_hashes": {
+    "SKILL.md": "sha256:ab855acdad6f593eb597b2891671808bf57fc4618fb0eaa26a84ea30576a5d5e",
+    "references/expo-router-loaders.md": "sha256:f842c86483a15380c44a4b49db27bf3d41e17b48b1f44b9a2bbacc563a9dcbe6"
+  }
 }

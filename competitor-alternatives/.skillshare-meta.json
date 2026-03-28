@@ -1,8 +1,15 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/competitor-alternatives",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:09:55.765487-06:00",
+  "installed_at": "2026-03-13T18:26:27.838498-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/competitor-alternatives",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "4bc4760726d967ec06fa601f341ab5ed014c251f",
+  "file_hashes": {
+    "SKILL.md": "sha256:1db87980b24239715c09c78cf77f24eb054dd59f83ee48397cfb8afd18d18790",
+    "evals/evals.json": "sha256:630927a9defa40e9edd78280b94c0c1e539b8c2a57915816c848775053655bf9",
+    "references/content-architecture.md": "sha256:9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
+    "references/templates.md": "sha256:8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046"
+  }
 }

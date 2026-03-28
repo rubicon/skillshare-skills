@@ -1,8 +1,12 @@
 {
   "source": "github.com/expo/skills/expo-api-routes",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:22.069872-06:00",
+  "installed_at": "2026-03-13T18:28:22.20063-05:00",
   "repo_url": "https://github.com/expo/skills.git",
-  "subdir": "plugins/expo-app-design/skills/expo-api-routes",
-  "version": "0b19547"
+  "subdir": "plugins/expo/skills/expo-api-routes",
+  "version": "7f17ad5",
+  "tree_hash": "43ff4f9cb35a82e83b97cd48e0cd4dfa7aa912a1",
+  "file_hashes": {
+    "SKILL.md": "sha256:db4d2cd6fbce04d9a7914db6e37513c218d5fb678e962c034ebfc122c7406fd3"
+  }
 }

@@ -1,8 +1,18 @@
 {
   "source": "github.com/anthropics/skills/slack-gif-creator",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:12:44.700349-06:00",
+  "installed_at": "2026-03-13T18:28:09.48742-05:00",
   "repo_url": "https://github.com/anthropics/skills.git",
   "subdir": "skills/slack-gif-creator",
-  "version": "1ed29a0"
+  "version": "98669c1",
+  "tree_hash": "d5cd683598c6ac0174bdb3b3b5be1dfc35430c12",
+  "file_hashes": {
+    "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "SKILL.md": "sha256:2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22",
+    "core/easing.py": "sha256:60bc943449802541f0f0881a874faa7ef408aaaf0b758fde756664ada7740452",
+    "core/frame_composer.py": "sha256:a127ea8f2a58893ea10a5c7b5cab4e2010af6515adc538676eb0cc14f5a03985",
+    "core/gif_builder.py": "sha256:b6f50d738c491ee0438a2e86e897f71cdab9792494ba4605f140befb0bddbf89",
+    "core/validators.py": "sha256:56bd19e3aae05f8387d78ec8185d6098b3dc909d1fa041211753da37212528a3",
+    "requirements.txt": "sha256:edc7108a0c6b56183566c71ee96830f6dc791e3b41952112d9cb56b33a6bd757"
+  }
 }

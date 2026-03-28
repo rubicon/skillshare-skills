@@ -1,8 +1,16 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/paid-ads",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:11:33.507952-06:00",
+  "installed_at": "2026-03-13T18:26:48.604405-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/paid-ads",
-  "version": "ea8df82"
+  "version": "9d4d29a",
+  "tree_hash": "e2f1b03529f010bfd165280bb635a1b146ccbb75",
+  "file_hashes": {
+    "SKILL.md": "sha256:065a516ee82d1c260ec89f859fa4856e1deb7291a136d9ea64d5f1c7e906aec3",
+    "evals/evals.json": "sha256:60b6fd1257aa3e41ace941d722a96bcff16f50d50b4daf9650ce731a6bb2b17f",
+    "references/ad-copy-templates.md": "sha256:853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
+    "references/audience-targeting.md": "sha256:21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
+    "references/platform-setup-checklists.md": "sha256:b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69"
+  }
 }

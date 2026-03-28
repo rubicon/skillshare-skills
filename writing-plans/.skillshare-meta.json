@@ -1,8 +1,13 @@
 {
-  "source": "github.com/obra/superpowers/writing-plans",
+  "source": "https://github.com/obra/superpowers.git/skills/writing-plans",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:14:16.037712-06:00",
+  "installed_at": "2026-03-26T15:27:22.155757-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/writing-plans",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "704e240d4b281baf8a339e1418baa249860197f7",
+  "file_hashes": {
+    "SKILL.md": "sha256:90056bad3d5f196fa7c9fec0ffe592e6d9c86bc983e406642a51d1a4198b7024",
+    "plan-document-reviewer-prompt.md": "sha256:6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
+  }
 }

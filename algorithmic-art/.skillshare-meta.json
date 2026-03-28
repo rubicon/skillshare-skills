@@ -1,8 +1,15 @@
 {
   "source": "github.com/anthropics/skills/algorithmic-art",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:08:43.379347-06:00",
+  "installed_at": "2026-03-13T18:27:05.464857-05:00",
   "repo_url": "https://github.com/anthropics/skills.git",
   "subdir": "skills/algorithmic-art",
-  "version": "1ed29a0"
+  "version": "98669c1",
+  "tree_hash": "22db2d12091c56340987a877047435ba84a1cdb2",
+  "file_hashes": {
+    "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "SKILL.md": "sha256:3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
+    "templates/generator_template.js": "sha256:9ee0f1da52ef8f7bbfde1917123654880890d43f2d388642d71eab6dd78f94c4",
+    "templates/viewer.html": "sha256:86c79d7ce97d2599ebe4bd9b97fdeb7295c9d3ed61ceeb513cbe1b2bb5d1ce29"
+  }
 }

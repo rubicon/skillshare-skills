@@ -1,0 +1,22 @@
+{
+  "source": "https://github.com/homeassistant-ai/skills.git/skills/home-assistant-best-practices",
+  "type": "github-subdir",
+  "installed_at": "2026-03-26T15:19:51.001485-05:00",
+  "repo_url": "https://github.com/homeassistant-ai/skills.git",
+  "subdir": "skills/home-assistant-best-practices",
+  "version": "2aacd6e",
+  "tree_hash": "d7e71fb3bd9e621c9f24078506eb5ac65b49a109",
+  "file_hashes": {
+    "SKILL.md": "sha256:636d83bcdf2f18ff940bc7cd67a74c4d4b7e6d3e6dd5e8c0606cc8e4a8d81c72",
+    "evals/evals.json": "sha256:ffff51bff26106ef8cf141aadf2e154403495f6a588758585aaa7c1ec951e1b9",
+    "references/automation-patterns.md": "sha256:ef6540e3dc4f09fe41b05c89174d1b50a1aa97190f0049334b4460a0f767e3c7",
+    "references/dashboard-cards.md": "sha256:4fb25434e51576f311d17559d39db6a309091997a7a886a4f0775bc52451b32b",
+    "references/dashboard-guide.md": "sha256:88b83bcb913e5585495a523242c93924bb7d279c6f979610f3b0cf7efaca3ba0",
+    "references/device-control.md": "sha256:4c6d3ae5bea377550d0c7039571c3bac8a05715dec030fd6ee91834999ea0f44",
+    "references/domain-docs.md": "sha256:aac3185ca572f671f83ef239591ffb5d12659add4344e941c7c6e8dc8039da1e",
+    "references/examples.yaml": "sha256:fe51281e1d28784dd1f716d8a992beb4401adbad149c0f5bbdfecddf3d5c8068",
+    "references/helper-selection.md": "sha256:5d705bc41df27989edf34c7d1c2046ec437ee381d2648f95cc631a36625e9222",
+    "references/safe-refactoring.md": "sha256:859716dbc676fc67846f8b5069b2a02011caefda1655a50aa0bf970bd5c3b09c",
+    "references/template-guidelines.md": "sha256:aeb70cf0aac9d21670d637783cfb159c4e2b4c59ec035b80ed2825b558dec24c"
+  }
+}

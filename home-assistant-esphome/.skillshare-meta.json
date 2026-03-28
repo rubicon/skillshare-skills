@@ -1,0 +1,17 @@
+{
+  "source": "github.com/bradsjm/hassio-addons/addon-opencode/skills/home-assistant-esphome",
+  "type": "github-subdir",
+  "installed_at": "2026-03-13T10:43:37.121997-05:00",
+  "repo_url": "https://github.com/bradsjm/hassio-addons.git",
+  "subdir": "addon-opencode/skills/home-assistant-esphome",
+  "version": "c8f7a6d",
+  "tree_hash": "f63149a47c4026907a6569601af196f6be54bb92",
+  "file_hashes": {
+    "SKILL.md": "sha256:f6b12c4796a6a6a3831e3661ce5cfc583bbf1462d1f118d8b20faafe773f6616",
+    "references/ha-config-flow.md": "sha256:dc24c4431073e7f74e626fe74581fa83cf55303100db4e1ae04bc01385b6c05a",
+    "references/resources.md": "sha256:559e50e654594208c9875e1fcbb9b7a6ad562136b39fe1aff0a542cbc130e4ef",
+    "references/snippets.md": "sha256:8e7b4f2e9484745083bc8a5bcbeedd64980d8025e4dc7580693e558541ab208e",
+    "references/troubleshooting.md": "sha256:74f21b3b7ec8466088af87374c54e73b993fd530a8c71366c86999dde1422b7c",
+    "scripts/gen_esphome_noise_psk.py": "sha256:07645b059136b3a64dc89226a400abc21d759f62b4dddb36fc22f43070bbae0b"
+  }
+}

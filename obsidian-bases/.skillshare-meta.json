@@ -1,0 +1,12 @@
+{
+  "source": "github.com/MarsWang42/OrbitOS/EN/.agents/skills/obsidian-bases",
+  "type": "github-subdir",
+  "installed_at": "2026-03-13T10:42:59.588556-05:00",
+  "repo_url": "https://github.com/MarsWang42/OrbitOS.git",
+  "subdir": "EN/.agents/skills/obsidian-bases",
+  "version": "4836c2e",
+  "tree_hash": "9103e27e8be3be08583c321cb7c21ff53f5f6dd3",
+  "file_hashes": {
+    "SKILL.md": "sha256:769b27496cd3f9df91be7226a2e1aaca39b9cfe4b67f45defb60a9d22c4039eb"
+  }
+}

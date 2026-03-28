@@ -1,8 +1,12 @@
 {
   "source": "github.com/obra/superpowers/finishing-a-development-branch",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:41.274852-06:00",
+  "installed_at": "2026-03-13T18:26:03.360414-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/finishing-a-development-branch",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "7656b8ebe0c9659ea548ba2981b078b333d1846e",
+  "file_hashes": {
+    "SKILL.md": "sha256:dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e"
+  }
 }

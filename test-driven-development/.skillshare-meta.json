@@ -1,8 +1,13 @@
 {
   "source": "github.com/obra/superpowers/test-driven-development",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:13:07.804965-06:00",
+  "installed_at": "2026-03-13T18:26:10.949124-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/test-driven-development",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "98904a7d8e0e04b9bd46220b9b17298f45fe0b72",
+  "file_hashes": {
+    "SKILL.md": "sha256:7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
+    "testing-anti-patterns.md": "sha256:bde453bc258f06543987477c837939afaa774ea2acbd9f308d702fc452bc4283"
+  }
 }

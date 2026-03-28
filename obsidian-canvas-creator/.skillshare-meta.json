@@ -1,0 +1,16 @@
+{
+  "source": "github.com/axtonliu/axton-obsidian-visual-skills/obsidian-canvas-creator",
+  "type": "github-subdir",
+  "installed_at": "2026-03-13T10:42:54.965221-05:00",
+  "repo_url": "https://github.com/axtonliu/axton-obsidian-visual-skills.git",
+  "subdir": "obsidian-canvas-creator",
+  "version": "1265976",
+  "tree_hash": "d3ad114c28c7d8a52bdf34784d4f9086778a8dec",
+  "file_hashes": {
+    "SKILL.md": "sha256:77bdb4ad4bf7d0ba6bd6f4c51f332216ea90a971837951605cf1008aa9b54ef3",
+    "assets/template-freeform-grouped.canvas": "sha256:95e2358b75e0dafddff94c3ff74397ae2f970552c2a2f33fa7e51faad875ceef",
+    "assets/template-mindmap-simple.canvas": "sha256:0be885214ed6195b0e52f120fc94244dd207c077636d8b8a943d86f6a6f844a0",
+    "references/canvas-spec.md": "sha256:46b46513b68742dcf6e436c316eff16c9ecd140a7173f5f1be6252e3eac3da19",
+    "references/layout-algorithms.md": "sha256:1582ed5fbdf9abbca31f738c9146c833b4bf237bbf5c4dea594fbdc53cf46677"
+  }
+}

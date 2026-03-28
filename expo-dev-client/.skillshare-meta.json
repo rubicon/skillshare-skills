@@ -1,8 +1,12 @@
 {
   "source": "github.com/expo/skills/expo-dev-client",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:10:32.137841-06:00",
+  "installed_at": "2026-03-13T18:28:26.819854-05:00",
   "repo_url": "https://github.com/expo/skills.git",
-  "subdir": "plugins/expo-app-design/skills/expo-dev-client",
-  "version": "0b19547"
+  "subdir": "plugins/expo/skills/expo-dev-client",
+  "version": "7f17ad5",
+  "tree_hash": "5adb1357248d76daeb2a80ee65824819b0b21a49",
+  "file_hashes": {
+    "SKILL.md": "sha256:aa79e42e9cd96ea92d4e691fb8222145055dec1b868b7defce224a41d8878a5f"
+  }
 }

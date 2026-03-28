@@ -18,6 +18,29 @@ infsh app run falai/flux-dev-lora --input '{"prompt": "a sunset over mountains"}
 infsh app run user/app-name@1.0.0 --input input.json
 ```
 
+## Local File Uploads
+
+The CLI automatically uploads local files when you provide a file path instead of a URL. Any field that accepts a URL also accepts a local path:
+
+```bash
+# Upscale a local image
+infsh app run falai/topaz-image-upscaler --input '{"image": "/path/to/photo.jpg", "upscale_factor": 2}'
+
+# Image-to-video from local file
+infsh app run falai/wan-2-5-i2v --input '{"image": "./my-image.png", "prompt": "make it move"}'
+
+# Avatar with local audio and image
+infsh app run bytedance/omnihuman-1-5 --input '{"audio": "/path/to/speech.mp3", "image": "/path/to/face.jpg"}'
+
+# Post tweet with local media
+infsh app run x/post-create --input '{"text": "Check this out!", "media": "./screenshot.png"}'
+```
+
+Supported paths:
+- Absolute paths: `/home/user/images/photo.jpg`
+- Relative paths: `./image.png`, `../data/video.mp4`
+- Home directory: `~/Pictures/photo.jpg`
+
 ## Generate Sample Input
 
 Before running, generate a sample input file:

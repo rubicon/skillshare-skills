@@ -1,8 +1,19 @@
 {
-  "source": "github.com/obra/superpowers/brainstorming",
+  "source": "https://github.com/obra/superpowers.git/skills/brainstorming",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:09:36.56403-06:00",
+  "installed_at": "2026-03-26T15:27:21.976765-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/brainstorming",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "f260c775073816860fef8a37c032ac77e2ff5821",
+  "file_hashes": {
+    "SKILL.md": "sha256:bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+    "scripts/frame-template.html": "sha256:fb22ba9d47f3b83b56e0a95d52a3c2727db03b0d4365078d92c850293a62457b",
+    "scripts/helper.js": "sha256:e763d82f32b4ebb320be2f0d08449d3e5a0585778edf5c407c1fdab3f39976a5",
+    "scripts/server.cjs": "sha256:ea81185f581897c67d4b417eeb9bc7a158c50e0932c73047054fe53efc2683ef",
+    "scripts/start-server.sh": "sha256:3442a54b5ee5511637d27bf696e092b72f94c2324f40b5ba4410da4dd0c23bc8",
+    "scripts/stop-server.sh": "sha256:f65b7634a27343eab2086bdb6c59ba78695685f471b5a577b08a8817f7c50600",
+    "spec-document-reviewer-prompt.md": "sha256:12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+    "visual-companion.md": "sha256:a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+  }
 }

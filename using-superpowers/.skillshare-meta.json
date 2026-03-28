@@ -1,8 +1,14 @@
 {
-  "source": "github.com/obra/superpowers/using-superpowers",
+  "source": "https://github.com/obra/superpowers.git/skills/using-superpowers",
   "type": "github-subdir",
-  "installed_at": "2026-02-20T22:13:38.085345-06:00",
+  "installed_at": "2026-03-26T15:27:22.055525-05:00",
   "repo_url": "https://github.com/obra/superpowers.git",
   "subdir": "skills/using-superpowers",
-  "version": "a0b9ecc"
+  "version": "eafe962",
+  "tree_hash": "53bdaa7bc95ff9bebdfdde4093a2b7ef34f54c15",
+  "file_hashes": {
+    "SKILL.md": "sha256:5fa548a85ce639dc6a2ea53607f9d405363c9b935004d0d95dc16e9629752d00",
+    "references/codex-tools.md": "sha256:9014e6746c9a6d3af9eeb9608f1ad637ee334e5a12d178747e3042937fc3da2b",
+    "references/gemini-tools.md": "sha256:477239fd7b4868f016662831e0fe840557ce91217f057f742a41af57a53554de"
+  }
 }

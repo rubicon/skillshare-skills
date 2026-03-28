@@ -1,0 +1,13 @@
+{
+  "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/development/php-wordpress",
+  "type": "github-subdir",
+  "installed_at": "2026-03-13T10:43:18.955244-05:00",
+  "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
+  "subdir": "skills/development/php-wordpress",
+  "version": "36bf1f66f4",
+  "tree_hash": "130f147876f1868bbe1a33ffe733fcbdae0a9033",
+  "file_hashes": {
+    "SKILL.md": "sha256:a87ef366b730658115bab1e4aecb10a22456deff954b07623c781567bd1d88d6",
+    "metadata.json": "sha256:8ecf3befbea562b331a6a4be538d77ba45090a39b57a0ff89d6265f2aeb3f5dc"
+  }
+}
