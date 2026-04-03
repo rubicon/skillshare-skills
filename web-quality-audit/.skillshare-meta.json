@@ -1,0 +1,13 @@
+{
+  "source": "github.com/runkids/my-skills/web-dev/web-quality-audit",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.463558-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "web-dev/web-quality-audit",
+  "version": "6d8b466",
+  "tree_hash": "558f18889f365c622e77113422662b76fe1990c5",
+  "file_hashes": {
+    "SKILL.md": "sha256:aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01",
+    "scripts/analyze.sh": "sha256:5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253"
+  }
+}

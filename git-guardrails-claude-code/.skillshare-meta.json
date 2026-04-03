@@ -1,0 +1,13 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/git-guardrails-claude-code",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.039827-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/git-guardrails-claude-code",
+  "version": "6d8b466",
+  "tree_hash": "bdce2d4c80dda00fb0d0ee176ea1f513bb463b33",
+  "file_hashes": {
+    "SKILL.md": "sha256:03c4de7613c712aea336d64c467ea3ed14be2cbd52345925fe949c75c01c29f7",
+    "scripts/block-dangerous-git.sh": "sha256:234922b83c0a1737ee7300806c21ac0f389b07aaeb65c2d71ccedafbc5e1ea4b"
+  }
+}

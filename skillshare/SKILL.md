@@ -12,7 +12,7 @@ description: |
   audit pipelines, or building/sharing skill hubs (hub index, hub add).
 argument-hint: "[command] [target] [--json] [--dry-run] [-p|-g]"
 metadata:
-  version: v0.18.2
+  version: v0.18.6
 ---
 
 # Skillshare CLI
@@ -36,6 +36,8 @@ skillshare install user/repo --all               # Install everything
 skillshare install user/repo --into frontend     # Place in subdirectory
 skillshare install gitlab.com/team/repo          # Any Git host
 skillshare install user/repo --track             # Enable `update` later
+skillshare install user/repo -b develop --all    # Install from branch
+skillshare install user/repo --track -b develop  # Track specific branch
 skillshare install user/repo -s pdf -p           # Install to project
 skillshare install                               # Reinstall all tracked remotes from config
 skillshare sync                                  # Always sync after install
@@ -74,6 +76,15 @@ skillshare uninstall my-skill                    # Remove one (moves to trash)
 skillshare uninstall skill-a skill-b             # Remove multiple
 skillshare uninstall -G frontend                 # Remove entire group
 skillshare sync                                  # Always sync after uninstall
+```
+### Enable / Disable Skills
+```bash
+skillshare disable draft-*                       # Hide from sync (adds to .skillignore)
+skillshare enable draft-*                        # Restore (removes from .skillignore)
+skillshare disable my-skill -p                   # Project mode
+skillshare disable my-skill --dry-run            # Preview
+# TUI: press E in `skillshare list` to toggle
+skillshare sync                                  # Always sync after toggle
 ```
 ### Team / Organization
 ```bash
@@ -145,6 +156,7 @@ See [TROUBLESHOOTING.md](references/TROUBLESHOOTING.md) for more.
 | `install`, `uninstall`, `update`, `check`, `search`, `new` | ✓ (`-p`) | ✓ (except new) |
 | `target`, `audit`, `analyze`, `trash`, `log`, `hub` | ✓ (`-p`) | ✓ (target list, audit, analyze, log) |
 | `extras init/list/remove/collect/source/mode` | ✓ (`-p`, except source) | ✓ (list, mode) |
+| `enable`, `disable` | ✓ (auto) | ✗ |
 | `push`, `pull`, `backup`, `restore` | ✗ | ✗ |
 | `tui`, `upgrade` | ✗ | ✗ |
 | `ui` | ✓ (`-p`) | ✗ |

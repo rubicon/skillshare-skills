@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/polish",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.757606-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/polish",
+  "version": "6d8b466",
+  "tree_hash": "c0c8d34bf795e83ef2c4a6cb723bd6e55dd1dd11",
+  "file_hashes": {
+    "SKILL.md": "sha256:b2a458921a707792c1a39ed95ce6a38034e14a92049119c3f12ce6dc0b3b3537"
+  }
+}

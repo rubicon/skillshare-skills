@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/critique",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.632914-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/critique",
+  "version": "6d8b466",
+  "tree_hash": "2df285b99876d995da0fb3530f89629810ee83e6",
+  "file_hashes": {
+    "SKILL.md": "sha256:22cfc064796a900e20e22fa185c0b2acc5a614b012d85f6faea1baaec136f9cc"
+  }
+}

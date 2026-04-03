@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/ubiquitous-language",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.205361-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/ubiquitous-language",
+  "version": "6d8b466",
+  "tree_hash": "28b1557bfd18a60c1adc597d8b02a2473ea6b754",
+  "file_hashes": {
+    "SKILL.md": "sha256:3725ffaccedaa0fcfc891a5c6281da7b0f73b0c6fa0135000eba60ba75163c4e"
+  }
+}

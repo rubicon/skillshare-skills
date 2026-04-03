@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/teach-impeccable",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.785362-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/teach-impeccable",
+  "version": "6d8b466",
+  "tree_hash": "56210372d6cf5669891188a9e76eee4d9bccd489",
+  "file_hashes": {
+    "SKILL.md": "sha256:42d7000a647ec23a54fc9dcd865dfbfc909eb36f1833172d2294644ab98e8682"
+  }
+}

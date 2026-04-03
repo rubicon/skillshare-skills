@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/delight",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.649398-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/delight",
+  "version": "6d8b466",
+  "tree_hash": "e6b7cfe572e81c25e9a492f807d9df9e9cde4cd1",
+  "file_hashes": {
+    "SKILL.md": "sha256:2010a2d35ae02b76c3ad05db20803a0c5b15b6a8a534054541ee1be696fd2279"
+  }
+}

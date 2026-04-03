@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/extract",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.678299-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/extract",
+  "version": "6d8b466",
+  "tree_hash": "c96bd96dcf8e2c126423c97272247d3d3cddba3a",
+  "file_hashes": {
+    "SKILL.md": "sha256:420c980e4d6929dc8a25ff2d5ca5c38eef106e211e2270d3735ab945c06da9b6"
+  }
+}

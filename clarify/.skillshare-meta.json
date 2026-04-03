@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/clarify",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.602847-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/clarify",
+  "version": "6d8b466",
+  "tree_hash": "9ae010e30e84a6d39ce61b84037e82b0e285cf3e",
+  "file_hashes": {
+    "SKILL.md": "sha256:8eb7c1401fed4564aabc392828c850b5776167eb1d926d45997c7f93ab56ae90"
+  }
+}

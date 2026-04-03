@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/onboard",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.725328-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/onboard",
+  "version": "6d8b466",
+  "tree_hash": "edc97af88b5cdab449c948330b4d031dfae56dc8",
+  "file_hashes": {
+    "SKILL.md": "sha256:a298633a609d5c258b7ae972b6b82b8208e8d07adbfc4c6e23f980e71aae7876"
+  }
+}

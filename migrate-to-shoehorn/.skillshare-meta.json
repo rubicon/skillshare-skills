@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/migrate-to-shoehorn",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.080148-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/migrate-to-shoehorn",
+  "version": "6d8b466",
+  "tree_hash": "5c3aba1f2b8b9d28ca152df507f8894e1ffb9a43",
+  "file_hashes": {
+    "SKILL.md": "sha256:de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+  }
+}

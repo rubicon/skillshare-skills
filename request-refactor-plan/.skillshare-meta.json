@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/request-refactor-plan",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.133736-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/request-refactor-plan",
+  "version": "6d8b466",
+  "tree_hash": "dc93d00fee8cb10afe23d0e4b28461ea7de8fe04",
+  "file_hashes": {
+    "SKILL.md": "sha256:d59de4ba6cc1fe2dd267e8b9b5a1fd88e3e739e2130bc9dd78061d2a072830b8"
+  }
+}

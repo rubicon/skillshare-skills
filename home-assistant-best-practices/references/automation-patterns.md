@@ -9,6 +9,7 @@ This document covers native Home Assistant automation constructs that should be 
 4. [Automation Modes](#automation-modes)
 5. [if/then vs choose](#ifthen-vs-choose)
 6. [Trigger IDs](#trigger-ids)
+7. [Disabling Automations](#disabling-automations)
 
 ---
 
@@ -599,3 +600,67 @@ automation:
 ```
 
 Access trigger info in templates with `trigger.id`, `trigger.entity_id`, `trigger.to_state`, etc.
+
+---
+
+## Disabling Automations
+
+Home Assistant provides two distinct ways to disable an automation, with different persistence and behavior.
+
+### Method 1: Turn Off (Temporary, State Machine)
+
+`automation.turn_off` disables the automation's configured triggers — it will not fire automatically. The entity remains in the state machine with state `off` and can still be invoked via the `automation.trigger` service.
+
+```yaml
+- action: automation.turn_off
+  target:
+    entity_id: automation.my_automation
+  data:
+    stop_actions: true  # default: true — stops currently running actions
+```
+
+| Attribute | Value |
+| --- | --- |
+| `stop_actions` | Optional. Stops currently active action runs. **Defaults to `true`.** |
+| Survives reload? | Yes — state is stored in `core.restore_state` |
+| Survives restart? | Only if the automation has an `id:` field — `core.restore_state` matches by `entity_id`, which is derived from `alias:` without `id:` and is unstable if automations are added, removed, or have conflicting aliases |
+| Entity in state machine? | Yes — state is `off` |
+| Re-enable via | `automation.turn_on` |
+
+**`initial_state` override:** If the automation YAML contains an explicit `initial_state` value, it overrides the stored state after a restart (`true` forces on, `false` forces off regardless of stored state).
+
+### Method 2: Registry Disable (Permanent, via Entity Registry)
+
+Disabling an automation via *Settings → Automations → open automation → ⋮ → Settings → Enabled toggle* sets `disabled_by: user` in `core.entity_registry`. The entity is removed from the state machine entirely.
+
+| Attribute | Value |
+| --- | --- |
+| Survives reload? | Yes — stored in `core.entity_registry` |
+| Survives restart? | Yes |
+| Entity in state machine? | **No** — `GET /api/states/<entity_id>` returns 404 |
+| Requires `id:` field? | Yes — the `id:` field in `automations.yaml` becomes the automation's `unique_id`, which is required for an entity registry entry |
+| Re-enable via | UI toggle (*Settings → Automations → open automation → ⋮ → Settings → Enabled toggle*) or WebSocket API (`config/entity_registry/update` with `{"disabled_by": null}`) |
+
+**Note:** The list toggle on the Automations page (`/config/automation/dashboard`) calls `automation.turn_on`/`turn_off` (Method 1). The *Enabled toggle* under *Settings → Automations → open automation → ⋮ → Settings → Enabled toggle* modifies the entity registry (Method 2). Both can be active simultaneously — an automation can be registry-enabled but in state `off`, or registry-disabled but with a stored `on` state.
+
+### AVOID: `enabled: false` in automations.yaml
+
+```yaml
+# AVOID — enabled: is not a valid top-level key
+- alias: My Automation
+  enabled: false       # not a valid top-level key
+  triggers: ...
+```
+
+`enabled:` is **not** a valid top-level key in `automations.yaml`. Home Assistant rejects unknown keys during schema validation, so the automation loads as `unavailable`.
+
+```yaml
+# CORRECT — disable temporarily via service (Method 1)
+- action: automation.turn_off
+  target:
+    entity_id: automation.my_automation
+
+# CORRECT — disable permanently via entity registry (Method 2)
+# UI: Settings → Automations → open automation → ⋮ → Settings → Enabled toggle
+# Or via WebSocket API: config/entity_registry/update (disabled_by: user)
+```

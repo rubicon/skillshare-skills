@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/impeccable/normalize",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.709232-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/impeccable/normalize",
+  "version": "6d8b466",
+  "tree_hash": "1afe5d194bdafc5e2c310d67f1552c7faf63405e",
+  "file_hashes": {
+    "SKILL.md": "sha256:e93333019ce17c7eb55632521767493c06110cf22511a9a741bc71e630f79896"
+  }
+}

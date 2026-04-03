@@ -1,0 +1,19 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/frontend-slides",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.521288-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/frontend-slides",
+  "version": "6d8b466",
+  "tree_hash": "05760ed20db64b5bcceb9c38fea2eb36f88bf10f",
+  "file_hashes": {
+    "LICENSE": "sha256:62928eb197fe4662d1efc3af0735b3ba5df3c0308badd9a2baf2b619009f5366",
+    "README.md": "sha256:04bee6468f6621d6104cfd8d7aa28ba2d285ab696be63a0b185f921bed919487",
+    "SKILL.md": "sha256:139d0414bec53664ac63c97b79edefe1db9bac4009848b946a3a0463c4b18c76",
+    "STYLE_PRESETS.md": "sha256:6dc14784dc7f59620a28e814ecbcaedcec387fac72db7cb81e623924cb5063f6",
+    "animation-patterns.md": "sha256:1b7b7409893b68c09effb04f20a4603a5168e4956d76c3999c2ba8f86c4bbc8f",
+    "html-template.md": "sha256:cee304c9bdfaa25eb4a1b4953ac1b5de6fbf1f412b23528a8848f79c81746d05",
+    "scripts/extract-pptx.py": "sha256:4f5e7603c99b8b53e20c5b2a65abdf5edf9422b4c490dca9f2b872a752c17d2a",
+    "viewport-base.css": "sha256:dab42c1a556a0fa51d3c39f7edfb93d8303e5c29625ade479a18ba97f2640734"
+  }
+}

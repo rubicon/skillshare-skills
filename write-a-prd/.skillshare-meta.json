@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/write-a-prd",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.218604-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/write-a-prd",
+  "version": "6d8b466",
+  "tree_hash": "6a4010706a74c3ed8ead8e11eed44196342f348f",
+  "file_hashes": {
+    "SKILL.md": "sha256:72bd3f589ba90b10824d285757edeaab392f46974942b8f40de523bff02615d3"
+  }
+}

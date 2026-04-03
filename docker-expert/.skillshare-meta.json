@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/devops/docker-expert",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.480936-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "devops/docker-expert",
+  "version": "6d8b466",
+  "tree_hash": "dfc8dbfb578ad5ff4cb3256bc3015ef36c91e736",
+  "file_hashes": {
+    "SKILL.md": "sha256:e33b08feeaa8e110c08dddd030970547356514d42aa484e52f51e2fd2d4f451b"
+  }
+}

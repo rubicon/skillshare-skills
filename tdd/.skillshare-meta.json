@@ -1,0 +1,17 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/tdd",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.177203-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/tdd",
+  "version": "6d8b466",
+  "tree_hash": "41c4d2f9374114643aa0b8113fab4d838962c483",
+  "file_hashes": {
+    "SKILL.md": "sha256:1d0a1439aefa3ebe6a8fe83b5bb4559610d75268edd0bd4ef7d391d841742fc5",
+    "deep-modules.md": "sha256:f2123700bf953db1740625686c75bdd145efd486357c47c6818c869fee657a32",
+    "interface-design.md": "sha256:764c5ff0e3fa6b4ab7095eb65ccc7201e090baf19fa16051dfdb72c06d27417d",
+    "mocking.md": "sha256:3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+    "refactoring.md": "sha256:54fced22dd1911b7094c3fe7979b7c1a40d40be307482c4adf7dc0588f27d6cc",
+    "tests.md": "sha256:e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a"
+  }
+}

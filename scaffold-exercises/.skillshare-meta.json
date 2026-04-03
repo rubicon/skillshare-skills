@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/mattpocock/scaffold-exercises",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.146875-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "mattpocock/scaffold-exercises",
+  "version": "6d8b466",
+  "tree_hash": "a17b42e2e780efd6ca0e0b397ffdd0a2c57931c0",
+  "file_hashes": {
+    "SKILL.md": "sha256:75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9"
+  }
+}

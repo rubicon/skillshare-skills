@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/frontend/ui-skills",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:41.883678-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "frontend/ui-skills",
+  "version": "6d8b466",
+  "tree_hash": "fa29545b25f17fd8ce970d3bb299860ef97e0b60",
+  "file_hashes": {
+    "SKILL.md": "sha256:44266f3a4aebcf91cc37836dd5080fa47af71871735fbb00a17b3331533b9028"
+  }
+}

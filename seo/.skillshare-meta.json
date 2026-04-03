@@ -1,0 +1,12 @@
+{
+  "source": "github.com/runkids/my-skills/web-dev/seo",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.426811-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "web-dev/seo",
+  "version": "6d8b466",
+  "tree_hash": "1ec86b22a3ac6abcc25c7aef9bd5b9885ba23f59",
+  "file_hashes": {
+    "SKILL.md": "sha256:f3e546112a3168515486c533d13156a1d4dcd9402f3d116730cef573a20e2804"
+  }
+}

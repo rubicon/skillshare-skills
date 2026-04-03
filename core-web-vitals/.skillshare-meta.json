@@ -1,0 +1,13 @@
+{
+  "source": "github.com/runkids/my-skills/web-dev/core-web-vitals",
+  "type": "github-subdir",
+  "installed_at": "2026-03-28T04:54:42.389348-05:00",
+  "repo_url": "https://github.com/runkids/my-skills.git",
+  "subdir": "web-dev/core-web-vitals",
+  "version": "6d8b466",
+  "tree_hash": "77c3d3e256bad2ae244100c587a340888943783f",
+  "file_hashes": {
+    "SKILL.md": "sha256:b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c",
+    "references/LCP.md": "sha256:4c5043ef7e1ae4058191a51fbfe5121668bd3677842a2ef563a45a9ca6685d92"
+  }
+}

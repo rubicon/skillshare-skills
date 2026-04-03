@@ -1,13 +1,13 @@
 {
   "source": "github.com/coreyhaines31/marketingskills/seo-audit",
   "type": "github-subdir",
-  "installed_at": "2026-03-13T18:27:00.837529-05:00",
+  "installed_at": "2026-03-28T04:33:25.277585-05:00",
   "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
   "subdir": "skills/seo-audit",
-  "version": "9d4d29a",
-  "tree_hash": "c5423e592d1ce900fafca88b17f3896eea53b237",
+  "version": "7c8c087",
+  "tree_hash": "363d92283cd9566761d8ec18d4fa9def5cbc2c29",
   "file_hashes": {
-    "SKILL.md": "sha256:94b91d7f70d6941ed776d94babb6cec9af94fe9dbe2ce6795bddf45a8d635ef8",
+    "SKILL.md": "sha256:a6e064274364a743faeebe24c767ead7c5259cd71025aee784b2414c2e014918",
     "evals/evals.json": "sha256:fa7fa4b047a4aceaf0247c366dfca5fe371e2adfde97e32c667c727c3e840861",
     "references/ai-writing-detection.md": "sha256:f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4"
   }
