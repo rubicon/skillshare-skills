@@ -71,32 +71,6 @@
         "references/test-templates.md": "sha256:761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
       }
     },
-    "accessibility": {
-      "source": "github.com/runkids/my-skills/web-dev/accessibility",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.366082-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "web-dev/accessibility",
-      "version": "6d8b466",
-      "tree_hash": "85dea92573904389645ea4817aa27b61a39df790",
-      "file_hashes": {
-        "SKILL.md": "sha256:65021e9ccab70165539db82070257d4e2e2c7d7b0f857825299da2e4a7a8704c",
-        "references/A11Y-PATTERNS.md": "sha256:f10e238dd4dd3c4f51134c2056bc02d3dd4f8fb6ccc9145c2c1ba7aab4d58140",
-        "references/WCAG.md": "sha256:16683e025e3833d931c9d880645d98a448827f97e10189b6c8f12c832e7a2361"
-      }
-    },
-    "adapt": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/adapt",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.53949-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/adapt",
-      "version": "6d8b466",
-      "tree_hash": "ee6e9438b0e9d889c3086a650d89f1a407c624b7",
-      "file_hashes": {
-        "SKILL.md": "sha256:7b3555367c32bc7669bd3310cdead06a1d7a24073372d02bc3f24c0425b10b5a"
-      }
-    },
     "agent-browser": {
       "source": "https://github.com/vercel-labs/agent-browser.git/skills/agent-browser",
       "type": "github-subdir",
@@ -1831,66 +1805,6 @@
         "references/updated-hook-performance.md": "sha256:ded08ce93f9b23082538846f84e8d159d84af757c27b2c6b43a9283df803a32b"
       }
     },
-    "vue-options-api-best-practices": {
-      "source": "github.com/runkids/my-skills/frontend/vue/vue-options-api-best-practices",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.920221-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/vue/vue-options-api-best-practices",
-      "version": "6d8b466",
-      "tree_hash": "56c162c105c9a3ba92f790c563946510e2408a9f",
-      "file_hashes": {
-        "SKILL.md": "sha256:fd0a8c9e698a5d0413290f5c8e934f8ddd8c3db68ea5c2bd352a749b85744ea8",
-        "reference/no-arrow-functions-in-lifecycle-hooks.md": "sha256:09976ddecb206b254e3df0e605bd8e0fe2b5d097a326ec7093546cb8ed3320e7",
-        "reference/no-arrow-functions-in-methods.md": "sha256:6e47800df48a714983d5c9456e409d0985b2e1ad41e6b93043bcbe24d06ad2ed",
-        "reference/stateful-methods-lifecycle.md": "sha256:ce572e7e1f206d76065f5df5a9ff361239bc758e644474f7da026ac945e010ad",
-        "reference/ts-options-api-arrow-functions-validators.md": "sha256:0c5a6525ccf71c9fa709b2039534d9c204c2bfa9e5a8d50be161db295340edfd",
-        "reference/ts-options-api-computed-return-types.md": "sha256:1f7069179859fc7dbb881fa88539c2259ed408eb8d88024ad710cc2d3742b271",
-        "reference/ts-options-api-proptype-complex-types.md": "sha256:3c6b97836b0b0525e1be0467086b6c82759ff1eb349342f4ef07bdd98c786489",
-        "reference/ts-options-api-provide-inject-limitations.md": "sha256:fbca83e55f8444212a48d63ba73f7b017f507a1e281c0f9ac1d68a9ab152e7e4",
-        "reference/ts-options-api-type-event-handlers.md": "sha256:7f0ee1f5c093c09ca743323e9a4999fc89b0c23c364d6143aa508a36862ef358",
-        "reference/ts-options-api-use-definecomponent.md": "sha256:7430211d979c775b3b4578438447a1d4c4b02c3ec925908041ae4f808eb7d788",
-        "reference/ts-strict-mode-options-api.md": "sha256:ce786575eeb5b4a9db2b3d9890dd9691a6a09316797f4010a728d140d528464b"
-      }
-    },
-    "vue-pinia-best-practices": {
-      "source": "github.com/runkids/my-skills/frontend/vue/vue-pinia-best-practices",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.958224-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/vue/vue-pinia-best-practices",
-      "version": "6d8b466",
-      "tree_hash": "37254c9685a742b50b0f41e9ff41ea063ebf098b",
-      "file_hashes": {
-        "SKILL.md": "sha256:70c5fae1e97d1df1d7a1207ad1df606d0c7375855f0c1cb0c9c94351931ab862",
-        "reference/pinia-no-active-pinia-error.md": "sha256:fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf",
-        "reference/pinia-setup-store-return-all-state.md": "sha256:95d5864bc01a56a40a12017dad428ea57f23b882e0a02d628643edffb8647424",
-        "reference/pinia-store-destructuring-breaks-reactivity.md": "sha256:7f00a924204a3648e2654379b4c7d71259bb0ec3dc5f68f3a11034b6f56e08cf",
-        "reference/state-url-for-ephemeral-filters.md": "sha256:577f7b629c84b82775de6b3dd7b114fac419f91b648e86c0c6b2966d1ad74ffd",
-        "reference/state-use-pinia-for-large-apps.md": "sha256:6fe95588bbc4d9eb3051e6d8898cfbf3d074c34aae20aadeea08f73e8bfccefd",
-        "reference/store-method-binding-parentheses.md": "sha256:5275681aaa16ed6fb506a3899c72c545c26f1873296878324d5317573215f3a0"
-      }
-    },
-    "vue-router-best-practices": {
-      "source": "github.com/runkids/my-skills/frontend/vue/vue-router-best-practices",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.999324-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/vue/vue-router-best-practices",
-      "version": "6d8b466",
-      "tree_hash": "721c7107d9ca65d7728e23b1aaed1540f972ea78",
-      "file_hashes": {
-        "SKILL.md": "sha256:33889faf631e80bf112a096dfe3e76029447f05f99d6d5c0aea2daddff186d7c",
-        "reference/router-beforeenter-no-param-trigger.md": "sha256:8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad",
-        "reference/router-beforerouteenter-no-this.md": "sha256:c525231bb699cacb2764e804312df2c601ba9f23d7b81936bbaf418b015d1ced",
-        "reference/router-guard-async-await-pattern.md": "sha256:97521c582a7495e5540c93975737562c41d0eb3aa99c2fb3a6acaa2411ecd69e",
-        "reference/router-navigation-guard-infinite-loop.md": "sha256:38749bac69bc717cb99539f61fa4994c9294acbb795b5b93c80e1775b0c5b2cf",
-        "reference/router-navigation-guard-next-deprecated.md": "sha256:81dee3b480c31f72456fc4a81a67a717c1f96b798fcafb938ac18b92bb7bf8c0",
-        "reference/router-param-change-no-lifecycle.md": "sha256:8813b065391b5467e878935d196eb014d5dd27ee599a128b5194a0dc0da1b557",
-        "reference/router-simple-routing-cleanup.md": "sha256:3ff3b3d102f0312fe53da77d3c54c0a1e938e511ec2588bcc53bc02f35b99374",
-        "reference/router-use-vue-router-for-production.md": "sha256:4212de1b50d1f53d5f831ca6945d53994e8e2cfbfb11b0a0c232bc53c032c8a1"
-      }
-    },
     "web-design-guidelines": {
       "source": "https://github.com/vercel-labs/agent-skills.git/skills/web-design-guidelines",
       "type": "github-subdir",
@@ -1901,55 +1815,6 @@
       "tree_hash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
       "file_hashes": {
         "SKILL.md": "sha256:f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
-      }
-    },
-    "web-development-best-practices": {
-      "source": "github.com/runkids/my-skills/web-dev/web-development-best-practices",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.446575-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "web-dev/web-development-best-practices",
-      "version": "6d8b466",
-      "tree_hash": "7f190a6012cd1f53afc936223b4033f45c3bedc9",
-      "file_hashes": {
-        "SKILL.md": "sha256:f32182e2cd742818f6b3b86f40be319eeae9cb10e392e3e4a8e8f586bad4eccf"
-      }
-    },
-    "web-quality-audit": {
-      "source": "github.com/runkids/my-skills/web-dev/web-quality-audit",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.463558-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "web-dev/web-quality-audit",
-      "version": "6d8b466",
-      "tree_hash": "558f18889f365c622e77113422662b76fe1990c5",
-      "file_hashes": {
-        "SKILL.md": "sha256:aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01",
-        "scripts/analyze.sh": "sha256:5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253"
-      }
-    },
-    "write-a-prd": {
-      "source": "github.com/runkids/my-skills/mattpocock/write-a-prd",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.218604-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/write-a-prd",
-      "version": "6d8b466",
-      "tree_hash": "6a4010706a74c3ed8ead8e11eed44196342f348f",
-      "file_hashes": {
-        "SKILL.md": "sha256:72bd3f589ba90b10824d285757edeaab392f46974942b8f40de523bff02615d3"
-      }
-    },
-    "write-a-skill": {
-      "source": "github.com/runkids/my-skills/mattpocock/write-a-skill",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.231954-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/write-a-skill",
-      "version": "6d8b466",
-      "tree_hash": "d105269954ba1819b3c103f0ccc50407ada0e980",
-      "file_hashes": {
-        "SKILL.md": "sha256:be8f20e66309258034b82a7db5040b03798aa40546f9d387662c2bd86be23123"
       }
     }
   }
