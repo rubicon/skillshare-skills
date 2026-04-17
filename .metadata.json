@@ -16,11 +16,6 @@
       "tracked": true,
       "branch": "main"
     },
-    "_javicasper-memory-forge": {
-      "source": "https://github.com/javicasper/memory-forge.git",
-      "tracked": true,
-      "branch": "master"
-    },
     "_jezweb-claude-skills": {
       "source": "https://github.com/jezweb/claude-skills.git",
       "tracked": true,
