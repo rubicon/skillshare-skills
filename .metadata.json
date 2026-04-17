@@ -6,6 +6,11 @@
       "tracked": true,
       "branch": "main"
     },
+    "_SukinShetty-Nemp-memory": {
+      "source": "https://github.com/SukinShetty/Nemp-memory.git",
+      "tracked": true,
+      "branch": "main"
+    },
     "_anthropics-skills": {
       "source": "https://github.com/anthropics/skills.git",
       "tracked": true,
