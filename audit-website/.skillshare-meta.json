@@ -1,8 +1,0 @@
-{
-  "source": "github.com/squirrelscan/skills/audit-website",
-  "type": "github-subdir",
-  "installed_at": "2026-02-20T22:09:32.038474-06:00",
-  "repo_url": "https://github.com/squirrelscan/skills.git",
-  "subdir": "audit-website",
-  "version": "91e0dfb"
-}

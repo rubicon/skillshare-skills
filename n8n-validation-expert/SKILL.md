@@ -1,6 +1,6 @@
 ---
 name: n8n-validation-expert
-description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, or the validation loop process.
+description: Interpret validation errors and guide fixing them. Use when encountering validation errors, validation warnings, false positives, operator structure issues, or need help understanding validation results. Also use when asking about validation profiles, error types, the validation loop process, or auto-fix capabilities. Consult this skill whenever a validate_node or validate_workflow call returns errors or warnings — it knows which warnings are false positives and which errors need real fixes.
 ---
 
 # n8n Validation Expert
@@ -296,6 +296,38 @@ config.text = "={{$json.name}}";  // Add {{}}
 // Fix - correct typo
 config.expression = "={{$node['HTTP Request'].json.data}}";
 ```
+
+### 6. patchNodeField Errors
+**What it means**: A `patchNodeField` operation failed during `n8n_update_partial_workflow`
+
+The `patchNodeField` operation is strict by design — it errors instead of silently continuing when something is wrong. This catches mistakes early but means you need to handle these specific error cases.
+
+**Error: Find string not found**
+The patch's `find` value doesn't exist in the target field. This usually means the content was already changed, or the find string has a typo.
+
+```
+patchNodeField: find string not found in field "parameters.jsCode"
+```
+
+**How to fix**: Double-check the exact string. Use `n8n_get_workflow` to inspect the current field value. Whitespace and line endings matter — if unsure, use `regex: true` with `\s+` for flexible whitespace matching.
+
+**Error: Ambiguous match (multiple occurrences)**
+The find string appears more than once in the field. Without `replaceAll: true`, this is treated as ambiguous and rejected.
+
+```
+patchNodeField: find string matches 3 times in field "parameters.jsCode" — set replaceAll: true to replace all, or use a more specific find string
+```
+
+**How to fix**: Either set `replaceAll: true` if you want to replace all occurrences, or make your find string more specific to match only the intended location.
+
+**Error: Invalid regex pattern**
+When `regex: true`, the pattern is validated for correctness and safety.
+
+```
+patchNodeField: invalid or unsafe regex pattern
+```
+
+**How to fix**: Check regex syntax. Nested quantifiers like `(a+)+` and overlapping alternations like `(\w|\d)+` are rejected as ReDoS risks. Simplify the pattern.
 
 ---
 
@@ -722,7 +754,8 @@ For comprehensive error catalogs and false positive examples:
 3. Review warnings and decide if acceptable
 4. Deploy with confidence
 
-**Related Skills**:
+**Related Skills & Tools**:
 - n8n MCP Tools Expert - Use validation tools correctly
 - n8n Expression Syntax - Fix expression errors
 - n8n Node Configuration - Understand required fields
+- `n8n_audit_instance` - Proactive security validation (hardcoded secrets, unauthenticated webhooks, missing error handling, data retention)

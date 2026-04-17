@@ -7,9 +7,11 @@ This document covers native Home Assistant automation constructs that should be 
 2. [Trigger Types](#trigger-types)
 3. [Wait Actions](#wait-actions)
 4. [Automation Modes](#automation-modes)
-5. [if/then vs choose](#ifthen-vs-choose)
-6. [Trigger IDs](#trigger-ids)
-7. [Disabling Automations](#disabling-automations)
+5. [Continue on Error](#continue-on-error)
+6. [Repeat Actions](#repeat-actions)
+7. [if/then vs choose](#ifthen-vs-choose)
+8. [Trigger IDs](#trigger-ids)
+9. [Disabling Automations](#disabling-automations)
 
 ---
 
@@ -192,7 +194,7 @@ When you must use a template, use the shorthand syntax:
 # Shorthand (preferred when template is necessary)
 conditions:
   - "{{ trigger.to_state.attributes.brightness > 100 }}"
-  
+
 # Long form (equivalent)
 conditions:
   - condition: template
@@ -203,37 +205,47 @@ conditions:
 
 ## Trigger Types
 
+### Purpose-Specific Triggers (2026.2+)
+
+The HA visual automation editor offers **purpose-specific triggers and conditions** organized by real-world concepts (door opened, motion detected, temperature threshold, battery low, etc.) rather than by technical entity domain. These work across entity types — e.g., "when a door opens" fires whether the door is a contact sensor or a motorized cover.
+
+**Key points:**
+- This is a **UI editor feature** — under the hood, it generates standard `state`, `numeric_state`, and other trigger types
+- No new YAML trigger syntax — the YAML output uses the same triggers documented below
+- Available concepts: door/window/gate open/close, motion/occupancy detection, temperature/humidity/illuminance thresholds, power consumption, battery status, air quality, climate, and more
+- When creating automations via the API, use the standard YAML trigger types below
+
 ### State Trigger
 
 The workhorse trigger. Fires on entity state changes.
 
 ```yaml
 # Basic state change to specific value
-trigger:
+triggers:
   - trigger: state
     entity_id: binary_sensor.motion
     to: "on"
 
 # From specific state
-trigger:
+triggers:
   - trigger: state
     entity_id: light.bedroom
     from: "off"
     to: "on"
 
 # Any state change (omit to/from)
-trigger:
+triggers:
   - trigger: state
     entity_id: sensor.temperature
 
 # Attribute change
-trigger:
+triggers:
   - trigger: state
     entity_id: climate.thermostat
     attribute: current_temperature
 
 # Duration trigger (entity has been in state for X)
-trigger:
+triggers:
   - trigger: state
     entity_id: light.porch
     to: "on"
@@ -241,7 +253,7 @@ trigger:
       minutes: 30
 
 # Multiple entities
-trigger:
+triggers:
   - trigger: state
     entity_id:
       - binary_sensor.motion_kitchen
@@ -254,7 +266,7 @@ trigger:
 Fires when crossing a threshold.
 
 ```yaml
-trigger:
+triggers:
   - trigger: numeric_state
     entity_id: sensor.temperature
     above: 25
@@ -268,22 +280,22 @@ Fires at specific times.
 
 ```yaml
 # Fixed time
-trigger:
+triggers:
   - trigger: time
     at: "07:00:00"
 
 # Input datetime helper
-trigger:
+triggers:
   - trigger: time
     at: input_datetime.morning_alarm
 
 # Time pattern (every 5 minutes)
-trigger:
+triggers:
   - trigger: time_pattern
     minutes: "/5"
 
 # Every hour at :30
-trigger:
+triggers:
   - trigger: time_pattern
     minutes: 30
 ```
@@ -293,7 +305,7 @@ trigger:
 Fires at sunrise/sunset with optional offset.
 
 ```yaml
-trigger:
+triggers:
   - trigger: sun
     event: sunset
     offset: "-00:30:00"  # 30 minutes before sunset
@@ -305,7 +317,7 @@ Fires on Home Assistant events.
 
 ```yaml
 # ZHA button event
-trigger:
+triggers:
   - trigger: event
     event_type: zha_event
     event_data:
@@ -313,9 +325,21 @@ trigger:
       command: "on"
 
 # Custom event
-trigger:
+triggers:
   - trigger: event
     event_type: my_custom_event
+```
+
+**Multi-trigger guard for `trigger.event`:** In automations mixing event and non-event triggers, `trigger.event` is `LoggingUndefined` for non-event triggers. Attribute access (`.data`, `.split()`) raises `UndefinedError`; `in` on a bare `LoggingUndefined` silently returns `False`. Use `trigger.platform == 'event'` as a short-circuit guard:
+
+```yaml
+# AVOID — trigger.event.data raises UndefinedError when a non-event trigger fires
+conditions:
+  - "{{ 'light.kitchen' in trigger.event.data.entity_id }}"
+
+# CORRECT — guard prevents evaluating trigger.event on non-event triggers
+conditions:
+  - "{{ trigger.platform == 'event' and 'light.kitchen' in trigger.event.data.entity_id }}"
 ```
 
 ### MQTT Trigger
@@ -323,7 +347,7 @@ trigger:
 Fires on MQTT messages.
 
 ```yaml
-trigger:
+triggers:
   - trigger: mqtt
     topic: "zigbee2mqtt/button/action"
     payload: "single"
@@ -335,7 +359,7 @@ Device triggers use device_id which is NOT persistent. Prefer state triggers.
 
 ```yaml
 # Avoid when possible - device_id changes on re-add
-trigger:
+triggers:
   - trigger: device
     domain: mqtt
     device_id: abc123
@@ -423,11 +447,11 @@ New triggers are ignored while running. A warning is logged.
 automation:
   - alias: "Doorbell notification"
     mode: single
-    trigger:
+    triggers:
       - trigger: state
         entity_id: binary_sensor.doorbell
         to: "on"
-    action:
+    actions:
       - action: notify.mobile_app
         data:
           message: "Someone at the door!"
@@ -456,11 +480,11 @@ automation:
   - alias: "Garage door controller"
     mode: queued
     max: 5  # Maximum queue size
-    trigger:
+    triggers:
       - trigger: state
         entity_id: input_boolean.garage_door_trigger
         to: "on"
-    action:
+    actions:
       - action: cover.toggle
         target:
           entity_id: cover.garage_door
@@ -479,7 +503,7 @@ automation:
   - alias: "Window open too long"
     mode: parallel
     max: 10  # Maximum parallel runs
-    trigger:
+    triggers:
       - trigger: state
         entity_id:
           - binary_sensor.window_bedroom
@@ -488,7 +512,7 @@ automation:
         to: "on"
         for:
           minutes: 30
-    action:
+    actions:
       - action: notify.mobile_app
         data:
           message: "{{ trigger.to_state.name }} has been open for 30 minutes"
@@ -504,6 +528,77 @@ automation:
     mode: single
     max_exceeded: silent  # No warning logged
 ```
+
+---
+
+## Continue on Error
+
+Any automation action can be set to continue execution even if it fails, using the `continue_on_error` key. Since 2026.3, this is also configurable in the visual editor (three-dots menu on any action).
+
+```yaml
+actions:
+  - action: light.turn_on
+    target:
+      entity_id: light.patio
+    continue_on_error: true  # Automation proceeds even if this fails
+  - action: notify.mobile_app
+    data:
+      message: "Light action attempted"
+```
+
+**Use sparingly** — silently swallowing errors makes debugging harder. Best for non-critical actions (e.g., logging, optional notifications) where a failure shouldn't block the rest of the automation.
+
+---
+
+## Repeat Actions
+
+Four repeat variants are available:
+
+```yaml
+# Repeat N times
+- repeat:
+    count: 3
+    sequence:
+      - action: light.toggle
+        target:
+          entity_id: light.bedroom
+
+# Repeat while condition is true
+- repeat:
+    while:
+      - condition: state
+        entity_id: binary_sensor.door
+        state: "on"
+    sequence:
+      - action: notify.mobile_app
+        data:
+          message: "Door still open"
+      - delay:
+          minutes: 5
+
+# Repeat until condition is true
+- repeat:
+    until:
+      - condition: numeric_state
+        entity_id: sensor.temperature
+        below: 25
+    sequence:
+      - delay:
+          minutes: 1
+
+# Repeat for each item in a list
+- repeat:
+    for_each:
+      - "light.kitchen"
+      - "light.bedroom"
+      - "light.hallway"
+    sequence:
+      - action: light.turn_off
+        target:
+          entity_id: "{{ repeat.item }}"
+```
+
+Access `repeat.index` (1-based) and `repeat.item` (for `for_each`) inside the sequence.
 
 ---
 
@@ -567,7 +662,7 @@ Assign IDs to triggers for use in conditions and choose:
 ```yaml
 automation:
   - alias: "Multi-trigger automation"
-    trigger:
+    triggers:
       - trigger: state
         entity_id: binary_sensor.motion
         to: "on"
@@ -580,7 +675,7 @@ automation:
           minutes: 5
         id: "motion_off"
 
-    action:
+    actions:
       - choose:
           - conditions:
               - condition: trigger

@@ -1,0 +1,2785 @@
+{
+  "version": 1,
+  "entries": {
+    "_Piebald-AI-claude-code-system-prompts": {
+      "source": "https://github.com/Piebald-AI/claude-code-system-prompts.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_anthropics-skills": {
+      "source": "https://github.com/anthropics/skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_danielgwilson-plaud": {
+      "source": "https://github.com/danielgwilson/plaud.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_javicasper-memory-forge": {
+      "source": "https://github.com/javicasper/memory-forge.git",
+      "tracked": true,
+      "branch": "master"
+    },
+    "_jezweb-claude-skills": {
+      "source": "https://github.com/jezweb/claude-skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_obra-superpowers": {
+      "source": "https://github.com/obra/superpowers.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_openai-skills": {
+      "source": "https://github.com/openai/skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_remotion-dev-skills": {
+      "source": "https://github.com/remotion-dev/skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_rubicon-agency-agents": {
+      "source": "https://github.com/rubicon/agency-agents.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_rubicon-ai-skills": {
+      "source": "https://github.com/rubicon/ai-skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_upstash-context7": {
+      "source": "https://github.com/upstash/context7.git",
+      "tracked": true,
+      "branch": "master"
+    },
+    "_wshobson-agents": {
+      "source": "https://github.com/wshobson/agents.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "ab-test-setup": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/ab-test-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.542243-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/ab-test-setup",
+      "version": "9125d82",
+      "tree_hash": "76160d84e49a78aa73adcd4812081e5397b86845",
+      "file_hashes": {
+        "SKILL.md": "sha256:f0ec8a14d24834dafeef67432df10b3505e683302ca2231ce50cdbb21bf6aa8c",
+        "evals/evals.json": "sha256:b8f6db99c9b1e01d1ad9e26b01f1e6878a811cbffa1507ab39567966c397867f",
+        "references/sample-size-guide.md": "sha256:96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2",
+        "references/test-templates.md": "sha256:761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
+      }
+    },
+    "accessibility": {
+      "source": "github.com/runkids/my-skills/web-dev/accessibility",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.366082-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/accessibility",
+      "version": "6d8b466",
+      "tree_hash": "85dea92573904389645ea4817aa27b61a39df790",
+      "file_hashes": {
+        "SKILL.md": "sha256:65021e9ccab70165539db82070257d4e2e2c7d7b0f857825299da2e4a7a8704c",
+        "references/A11Y-PATTERNS.md": "sha256:f10e238dd4dd3c4f51134c2056bc02d3dd4f8fb6ccc9145c2c1ba7aab4d58140",
+        "references/WCAG.md": "sha256:16683e025e3833d931c9d880645d98a448827f97e10189b6c8f12c832e7a2361"
+      }
+    },
+    "adapt": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/adapt",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.53949-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/adapt",
+      "version": "6d8b466",
+      "tree_hash": "ee6e9438b0e9d889c3086a650d89f1a407c624b7",
+      "file_hashes": {
+        "SKILL.md": "sha256:7b3555367c32bc7669bd3310cdead06a1d7a24073372d02bc3f24c0425b10b5a"
+      }
+    },
+    "agent-browser": {
+      "source": "https://github.com/vercel-labs/agent-browser.git/skills/agent-browser",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:47.037507-05:00",
+      "repo_url": "https://github.com/vercel-labs/agent-browser.git",
+      "subdir": "skills/agent-browser",
+      "version": "2114bdf",
+      "tree_hash": "67d654a553c1bd21b4cff0d9d61d75cd9a67e635",
+      "file_hashes": {
+        "SKILL.md": "sha256:eb4d564a7cd9f299acb0d59007ab94d121b559e143e8723203900c54654b1afe",
+        "references/authentication.md": "sha256:8ccc30f2613523630cf3771a07d71339676d93c63623631a4206521c6d78d2e5",
+        "references/commands.md": "sha256:b2b65677a3b318d5124f2e44243ffe2bca44c4e71f0b923f164a6cdb2fe4591d",
+        "references/profiling.md": "sha256:15f1e6c7994d7471a274dc1476992d0ec178acd91f8b626e0d6f24a4dbef738f",
+        "references/proxy-support.md": "sha256:4c44ba60d9397523109fdbdf1d972739691856c5bf6bf1587fc58793c71b4671",
+        "references/session-management.md": "sha256:2ce531bf105aaf827a907a4e255e00321eef5994ca0e21e41c28489c0a8efebb",
+        "references/snapshot-refs.md": "sha256:c2aa75f5a3c1b34a72d53c06b68cc97d8a3c295134257d48f315cdff1c06455d",
+        "references/video-recording.md": "sha256:c2c12bd8c44e5d36fbb94cfc376180d47507d3c26a7ee8876b892fc700dcf332",
+        "templates/authenticated-session.sh": "sha256:1fa9926c36dbe71191120ce067e5e3babe732cd1cc605020f3bd04dc430aa58c",
+        "templates/capture-workflow.sh": "sha256:bf3f3a2f8413773891d9fa400d2a2fddf6d73ffc7a9b2fa00f797f944171c3d5",
+        "templates/form-automation.sh": "sha256:b86836986d339f736b15ca78cf3d566e845a6293ae25a5b00aa520b837572650"
+      }
+    },
+    "agent-tools": {
+      "source": "https://github.com/inf-sh/skills.git/tools/agent-tools",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:03.804044-05:00",
+      "repo_url": "https://github.com/inf-sh/skills.git",
+      "subdir": "tools/agent-tools",
+      "version": "b684df1",
+      "tree_hash": "2071a97c627653e044d6ffd8887c5365d08fd41f",
+      "file_hashes": {
+        "SKILL.md": "sha256:d8153322b0b7d060f4d51462f104feefd9fac94110f56991d572f7fb7a607ae1",
+        "references/app-discovery.md": "sha256:99a6745ccf5e4a358b9fa4371c9321bfc517096ccf6e52d6cf0c69eb08de0abf",
+        "references/authentication.md": "sha256:65924807bfa86c677ecc8b3f1714adbec266cecab1864e46cb9f0a7492d9de2e",
+        "references/cli-reference.md": "sha256:f5e64c46a4e9d90e918ff7eada0dd189891ea8aabcb64ddbeda7f39d8d1d24f3",
+        "references/running-apps.md": "sha256:b320745c7f8ae07f5084af98ea83280fdc2bc18b8af44afb4a46a2078b9ce614"
+      }
+    },
+    "ai-hooks-integration": {
+      "source": "https://github.com/runkids/ai-hooks-integration.git/skills/ai-hooks-integration",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:28.041379-05:00",
+      "repo_url": "https://github.com/runkids/ai-hooks-integration.git",
+      "subdir": "skills/ai-hooks-integration",
+      "version": "c73efc4",
+      "tree_hash": "788c5ede75af46208d7bde543990d40d1dcaa379",
+      "file_hashes": {
+        "SKILL.md": "sha256:d153d5523448837d94b1ea4f2378a824cc92444af17d104e10bc45cacf616b48",
+        "references/contracts/canonical-event-contract.yaml": "sha256:7aedb363d201a807fa93691025751ae16c08851d1e9cfe274b69df962ddd82bc",
+        "references/contracts/claude-configchange-contract.yaml": "sha256:be60e303da12a9bf033e751c9d35378e019fd719319521df74ec8144dc08809d",
+        "references/contracts/claude-notification-contract.yaml": "sha256:488a0fea67938c2425f143c03dfbf0e1ad31d9f232eb030dc665a432a866942d",
+        "references/contracts/claude-permissionrequest-contract.yaml": "sha256:934e3a3000c12b1499e85b381bbb4b3b699613e6cac353ab0e1f1950c6990b79",
+        "references/contracts/claude-posttooluse-contract.yaml": "sha256:dafe5114a4a4e30f25bf94ccbe92d3d78dc3914c1a96a0206260cf293c4913a1",
+        "references/contracts/claude-posttoolusefailure-contract.yaml": "sha256:96bf037ec328945c0f8dacce88612695a7791a7a3b3d2b42f308cdd4109dac47",
+        "references/contracts/claude-precompact-contract.yaml": "sha256:0e449ee5f40e09045e42f448aa501f81b84b7a0530aa0a782fe81e0006d2b02a",
+        "references/contracts/claude-pretooluse-contract.yaml": "sha256:3697fffb6909377d917549bb8c1dde06a365f1d7c6e75329dbf73de351f783df",
+        "references/contracts/claude-sessionend-contract.yaml": "sha256:f76377ec5268cf054719b4c9debb1965f9a55107555abc605ded2e5b79e62fe8",
+        "references/contracts/claude-sessionstart-contract.yaml": "sha256:50ac6354f5e92151586b02180fdb5c900b3bb6ac20f7d67ed1fd38d31acee0b5",
+        "references/contracts/claude-stop-contract.yaml": "sha256:a6e58ebcb84a32413228a408ffb8bfa730e9dde6a4fe6d29a28c19c6dc63ebaf",
+        "references/contracts/claude-subagentstart-contract.yaml": "sha256:dfd9a5cb725e5ec7c58a3e11a04c8927e640d564ea34cbe2915d66907cec108e",
+        "references/contracts/claude-subagentstop-contract.yaml": "sha256:692bbfe34dc4921cb65ed7aa445a8e35881179fa5d44c69a6a52ffb9fbdb352a",
+        "references/contracts/claude-taskcompleted-contract.yaml": "sha256:d7398d8624fa507c57134d54b8d9b99948b3fe962a7ca992d024e711809191b3",
+        "references/contracts/claude-teammateidle-contract.yaml": "sha256:a37d3c5b0e67719ab0f2fe384ea722c7fff6c6a6e989d0a01885fc3d316d1809",
+        "references/contracts/claude-userpromptsubmit-contract.yaml": "sha256:a7c3cd23d23f2b4d26c0a2520ebcea09cb6fb1d38095ce0d17c6728e2059fb9a",
+        "references/contracts/claude-worktree-contract.yaml": "sha256:78200ecbb2cec668c898ddece621d304be16c25918c1fe4e7048c5d27a5b950a",
+        "references/contracts/cursor-beforeShellExecution-contract.yaml": "sha256:3e1c091cf3c54dd62f32d40570ef7783647a8f79a1eb525bb12985e026ab45f5",
+        "references/contracts/gemini-agent-contract.yaml": "sha256:cf5ab12695819b2bfba220d4395c8e30f382dade5b9be0d56be163d8acdb2d1a",
+        "references/contracts/gemini-beforetool-contract.yaml": "sha256:c31d43e7887c3c6da38728797617ae89ca49009eabe907e89430c9f27be01f4d",
+        "references/contracts/gemini-model-contract.yaml": "sha256:a0fd85b22ec58cc5399445ed4c2310afe113c6beaae1b0f45c7f5b3573a1a37f",
+        "references/contracts/gemini-session-contract.yaml": "sha256:b1aa661c284687ae1ff865fbe940adc269ef498ccb2777993974723a9a6ab94d",
+        "references/contracts/opencode-plugin-contract.yaml": "sha256:91c1e90a9290b7ace478608b438b80d2655b53906746fd36a6bcc61e04011b14",
+        "references/schemas/canonical-event.schema.json": "sha256:8d7aa1d94022fdd5f3f40990c7b52045d3d85dec6601ecb87e89314e3b5f0a9a",
+        "references/schemas/claude-hooks.schema.json": "sha256:02531f332cfe1805f2ea1d8fae43e9d692927478c2e9c8b9b0769f81fea3ea3b",
+        "references/schemas/cursor-hooks.schema.json": "sha256:8be9492df02a1826f756130032438d523bb51535e18ac5831e5f437f22132bd9",
+        "references/schemas/gemini-hooks.schema.json": "sha256:11eebfb833d5062325e624eef67875b4c37d565678d6399c5753eb2b01c349ec",
+        "references/tool-reference.md": "sha256:ef99855d3e01143e581a6369b828cec30a30325827f7dd81d9c2490152eb841d",
+        "references/unified-hook-usage.md": "sha256:c8de803f2b05432fe87cdb4f942ec014462c6554067470219d1c102981eb56ab",
+        "references/use-cases.md": "sha256:56ce87b0ba6ed18e530e573d1be130e1f442ece41f1dcdde2f7f1e5a0c168eac",
+        "scripts/install_all.py": "sha256:4cbd5bc25bafaf80ff4bf755b8954c435e96c351d521828870f015c344e2a9b0",
+        "scripts/install_cli_wrapper.py": "sha256:4ee1decc812c0e5c148dc7405585a9ed2b3f6a3875cb5d6951172bbe26c8ca72",
+        "scripts/install_opencode_plugin.py": "sha256:658f65b066db6dc171f580fcaec578a5dd889a484745b80c66ffe86742442dc3",
+        "scripts/merge_hooks.py": "sha256:8165cfa67c54bafc28a4cb46c2f082b6915542b44d8135a6c78e72ada0b5bcf2",
+        "scripts/remove_all.py": "sha256:a9479fbff385c0261965cfefe4ad0a04a6dc6b39e75f3bd58f78d7025e9b18b6",
+        "scripts/remove_cli_wrapper.py": "sha256:5cc1ddeafe856d731f593d50d23254b1141e0fb8bd69ea77cbcf55d6987679e9",
+        "scripts/remove_hooks.py": "sha256:462f8ffcfdbf8f2c7b8f75a5d862e46ca87af7630296545ffa80cc82047d8519",
+        "scripts/remove_opencode_plugin.py": "sha256:0d308b4c9249225aad3916e58ab22a959a58beefe81192dd626e7bfeb9b59a78",
+        "scripts/runtime/__init__.py": "sha256:6c82ff6d337569bfb419250a74998129b6e1733f3812fe3fcf9633afc0d050c6",
+        "scripts/runtime/cli_wrapper.py": "sha256:17ec433fc7b82609f6afed5080d6bca72b452973e5664d42572f1238e5839938",
+        "scripts/runtime/detect_source.py": "sha256:17a3c94f03290506f7cfc7425efa3df9d9dd79f3573d717aeaa2b24a2a1d4bfc",
+        "scripts/runtime/tool_config.py": "sha256:dbeac7eca7d58201ec83902fcc6ac618e00305316e704b132a26fcc18e4ee706",
+        "scripts/runtime/unified_hook.py": "sha256:1fe1a39ba034e891ddbbc8661304367ec1121fafd6f096b6017ac332e976a68e",
+        "tests/__init__.py": "sha256:c977b38925ed6ac53a27a07e10d1ac7cf34dc54a6eb9b09b3b9f25104c91b3c6",
+        "tests/test_cli_wrapper.py": "sha256:4cb423f8680ff1b3999065b7274dcd6f5809885ae667dc9490bde234a62c082d",
+        "tests/test_detect_source.py": "sha256:2f6391ae294e8a3f8ce1d1c4c6fd36254bf9f52fd4bbaf08aa91c9de93b2f4ba",
+        "tests/test_merge_hooks.py": "sha256:f388af4a6d784c44dc5ad48c9b74f563e245679cdef8c877355ce705a4ac4d64",
+        "tests/test_unified_hook.py": "sha256:9fefd16c450d4dce6e1227e658c55ad67224073df1fde1bc68e1c93c08347245"
+      }
+    },
+    "algorithmic-art": {
+      "source": "https://github.com/anthropics/skills.git/skills/algorithmic-art",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:21.660581-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/algorithmic-art",
+      "version": "12ab35c",
+      "tree_hash": "22db2d12091c56340987a877047435ba84a1cdb2",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef",
+        "templates/generator_template.js": "sha256:9ee0f1da52ef8f7bbfde1917123654880890d43f2d388642d71eab6dd78f94c4",
+        "templates/viewer.html": "sha256:86c79d7ce97d2599ebe4bd9b97fdeb7295c9d3ed61ceeb513cbe1b2bb5d1ce29"
+      }
+    },
+    "analytics-tracking": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/analytics-tracking",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.522903-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/analytics-tracking",
+      "version": "9125d82",
+      "tree_hash": "d6d50fd2bd4440bb0f075b4f2818a70667991f8b",
+      "file_hashes": {
+        "SKILL.md": "sha256:e93ec5e3baed561a7c28b629687c6076daec9ba8d9fc95c5494bf953c66291e5",
+        "evals/evals.json": "sha256:912b64c0b018b3b136696527e35113e75a80c3d7efb2a3c3fac5f6e522166931",
+        "references/event-library.md": "sha256:efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412",
+        "references/ga4-implementation.md": "sha256:f33fd6db0cbdb1bdc183af5f52bedd956d14680e54bca2e2c3917de29698636e",
+        "references/gtm-implementation.md": "sha256:112da33832439d2ae0b2729e5031fc927df444cd1ae8eb20542d45c1b5690f52"
+      }
+    },
+    "animate": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/animate",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.555671-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/animate",
+      "version": "6d8b466",
+      "tree_hash": "bf1fa40dd0a800a6e83fa315b92c9ed248ea445d",
+      "file_hashes": {
+        "SKILL.md": "sha256:7b2509b96be10698f008ab2bae74028e96a2f228ea8ce8c152aa26f1336fa960"
+      }
+    },
+    "ascii-box-check": {
+      "source": "github.com/runkids/my-skills/utils/ascii-box-check",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.250895-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "utils/ascii-box-check",
+      "version": "6d8b466",
+      "tree_hash": "30372645b17287017d820618ba39992a81eba2c1",
+      "file_hashes": {
+        "README.md": "sha256:76e9b2bc330edd54659acd51193b4dded73e5324f91c6219dfadb0267bfdd0ca",
+        "SKILL.md": "sha256:e17a2d342316f1b435e5e57c9bfaf2c6d83ed1d93cb4052975b70649bc26271e",
+        "scripts/check.py": "sha256:298a616817bdf57eb15f585b468db5e37d923d8868bc9d2fc3e09dc3fa6f027f",
+        "scripts/pad_line.py": "sha256:f97806cf4466d6a7928a979c0e6ad3d7383c7946f9e906f8f0610f6e95921ce2"
+      }
+    },
+    "audit": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/audit",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.571843-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/audit",
+      "version": "6d8b466",
+      "tree_hash": "a9a1ba81d7aeb8c38be6bd839293cb45ae06b82d",
+      "file_hashes": {
+        "SKILL.md": "sha256:7c287c2676e09b020c2bcfb415e137acc46b0a6db3fbb0e22d8220b8e12ab7c4"
+      }
+    },
+    "audit-website": {
+      "source": "https://github.com/squirrelscan/skills.git/audit-website",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:47.58947-05:00",
+      "repo_url": "https://github.com/squirrelscan/skills.git",
+      "subdir": "audit-website",
+      "version": "91e0dfb",
+      "tree_hash": "ec491d7739b80f4c64126ae674384cbbcac953ae",
+      "file_hashes": {
+        "README.md": "sha256:dac344f4ff7869e8f37f3dafa5211db6ca27abb579dd12c2ce91a786bdb5d8b1",
+        "SKILL.md": "sha256:f438c268920af5456d8af6f8571df131de5f6b560c6f1980da5ba8d21ee5be3b",
+        "agents/openai.yaml": "sha256:3e3e01c7a255c8e0b7175ffb2c1498f62baff88bbf793e02d483355a85bff16e",
+        "assets/icon-large.png": "sha256:5a5ccd84f57b8a030caf51cc7e57b1b412996ad7db837303a2473f6e4313073c",
+        "assets/icon-small.svg": "sha256:ea7f6275693d96577383d550f97eda5e5fdd70da51b7f770dabf84bb72b7759d",
+        "references/OUTPUT-FORMAT.md": "sha256:4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a"
+      }
+    },
+    "aussie-business-english": {
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/aussie-business-english",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:04.571597-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/aussie-business-english",
+      "version": "bf91757",
+      "tree_hash": "76581d3b8a350fb73d5128e883f7f2031ed7db87",
+      "file_hashes": {
+        "SKILL.md": "sha256:facee7f5b6d8a3d471ed883c856e44ba4b9a840575a6c39dd6d887d09aa76b45"
+      }
+    },
+    "bolder": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/bolder",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.587539-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/bolder",
+      "version": "6d8b466",
+      "tree_hash": "ae8d08d3632c1bfc4b7c3db5614c0a37a25d2939",
+      "file_hashes": {
+        "SKILL.md": "sha256:0f37de88cf64cd447254011d8a02b898f40b1926c9f0747900977ce9af2a0496"
+      }
+    },
+    "brainstorming": {
+      "source": "https://github.com/obra/superpowers.git/skills/brainstorming",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:27.296058-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/brainstorming",
+      "version": "917e5f5",
+      "tree_hash": "f260c775073816860fef8a37c032ac77e2ff5821",
+      "file_hashes": {
+        "SKILL.md": "sha256:bba47904a7f6bbee3bf8a107ebbe84e65d392be683bbb898ded736b29e415f90",
+        "scripts/frame-template.html": "sha256:fb22ba9d47f3b83b56e0a95d52a3c2727db03b0d4365078d92c850293a62457b",
+        "scripts/helper.js": "sha256:e763d82f32b4ebb320be2f0d08449d3e5a0585778edf5c407c1fdab3f39976a5",
+        "scripts/server.cjs": "sha256:ea81185f581897c67d4b417eeb9bc7a158c50e0932c73047054fe53efc2683ef",
+        "scripts/start-server.sh": "sha256:3442a54b5ee5511637d27bf696e092b72f94c2324f40b5ba4410da4dd0c23bc8",
+        "scripts/stop-server.sh": "sha256:f65b7634a27343eab2086bdb6c59ba78695685f471b5a577b08a8817f7c50600",
+        "spec-document-reviewer-prompt.md": "sha256:12cb5ed58aef41b8da6fbb505547c71ca3f5658c83b66ca6e556c936308b3189",
+        "visual-companion.md": "sha256:a2bc6fc47d0df1df981d02f707a16225b147f462e7059175ad2bc5e6dd29fcae"
+      }
+    },
+    "brand-guidelines": {
+      "source": "https://github.com/anthropics/skills.git/skills/brand-guidelines",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:21.99265-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/brand-guidelines",
+      "version": "12ab35c",
+      "tree_hash": "7dc45f289fa37f9763a993008d9500e9a157fa4a",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+      }
+    },
+    "branded-presentation": {
+      "source": "https://github.com/canva-sdks/canva-claude-skills.git/branded-presentation",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:28.576628-05:00",
+      "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
+      "subdir": "branded-presentation",
+      "version": "7d454de",
+      "tree_hash": "335851041dd9271437a31d4de54683740b7a707a",
+      "file_hashes": {
+        "SKILL.md": "sha256:cb941d4892cfeda9034f77cccaf1e1d8c45546bd3a41c5c85e72e37055150ca1"
+      }
+    },
+    "building-native-ui": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/building-native-ui",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.354731-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/building-native-ui",
+      "version": "8f26555",
+      "tree_hash": "0078663cbdc42e388d2eb9c291dda1a0774eee29",
+      "file_hashes": {
+        "SKILL.md": "sha256:dc9c08d2601ea0f3df25656da2c6bff4f28fbc164901fabf7c8b504f5c833c19",
+        "references/animations.md": "sha256:3e855090009f0fde1652694344b2bfb7d9ed9c645789e243933c3e58f28c3670",
+        "references/controls.md": "sha256:e63a7e92cac8a5d0ceb9ed5f05e19ea9cd4d865a8bea6ff8f8a82c74c77fa180",
+        "references/form-sheet.md": "sha256:947de9cf35a15aacf3f02e96e45942b5e4826e536e529570886e5ddbb7ec8591",
+        "references/gradients.md": "sha256:63ced0392f67c41bf90e726613d139a389db609799bfcb91124e6e69b9a66e70",
+        "references/icons.md": "sha256:0436582534ae1cc468805ac5ab9a3cb0fb25faeaededb1d5f415ea246814c596",
+        "references/media.md": "sha256:b05966f4b2ab48b57ea82da172359000295726585f7ffe18a2e5a1be93f2c14f",
+        "references/route-structure.md": "sha256:4c3d70edeb7e36d965c4d96fa150f23ee57e01be5f6c57dd3e34c6309aab7e87",
+        "references/search.md": "sha256:6eefcc0345167031b3661d17090100b101cbedc1053de2e679090405658dfa92",
+        "references/storage.md": "sha256:265e8bc21adcd698062f18fa442e0e07e99e67868576f18aac2112e5381ffbf1",
+        "references/tabs.md": "sha256:2793a7ac0a45cf65564bcf2f6f9282539d201a4b8bea620dc0b53de092454de4",
+        "references/toolbar-and-headers.md": "sha256:14d9a71dd949bd2b28a5bd531f6b9c1b4f3fa847a86db8c5218fee67b5295769",
+        "references/visual-effects.md": "sha256:2c1dfd5438f27e4c15bc09ececc57810a58a13e633dc782caac93f8f52cadadf",
+        "references/webgpu-three.md": "sha256:3a247a7740e4bab4aea5dec8b81c7782a5918bb221838a05f6a94c669f145679",
+        "references/zoom-transitions.md": "sha256:cacc1665e9f3044762765d2cd55fd1ead9627f06478f12dfa2280c6f9ae88ede"
+      }
+    },
+    "canvas-design": {
+      "source": "https://github.com/anthropics/skills.git/skills/canvas-design",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:22.863004-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/canvas-design",
+      "version": "12ab35c",
+      "tree_hash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b",
+        "canvas-fonts/ArsenalSC-OFL.txt": "sha256:8ddd61b18ba2c0d0dbe4a691cf5f1a0673f473d02fa0546e67ee88c006aeff6e",
+        "canvas-fonts/ArsenalSC-Regular.ttf": "sha256:65e6f89df58f68fd905b3add34a79dd6106aa3b3044df0dad9676fff53d504b9",
+        "canvas-fonts/BigShoulders-Bold.ttf": "sha256:b43bcd198b9fdf717dd42aa61a34dba32e01aceaeae659d689afd0ca52c37ea2",
+        "canvas-fonts/BigShoulders-OFL.txt": "sha256:fbc746aabf0eb1847dfd92e2efc4596d79fa897d60b8e64062a22f585508fb3f",
+        "canvas-fonts/BigShoulders-Regular.ttf": "sha256:18a879fc71978a4447150705caf880a9da3860083c259fd29e6dc03057b6842a",
+        "canvas-fonts/Boldonse-OFL.txt": "sha256:45cc82ab4032273c0924025ffcf8f0665a68e1a5955e3f7247e5daf1deeb1326",
+        "canvas-fonts/Boldonse-Regular.ttf": "sha256:cc2e540604565c0f90a7d8d46194a2f42fc9c45512cd2e39bf03b50eb68c35a4",
+        "canvas-fonts/BricolageGrotesque-Bold.ttf": "sha256:a737b146fe0d77ffe8a86e3cd16700dd431d3b1e420d4fd80e142cd68a1cb50d",
+        "canvas-fonts/BricolageGrotesque-OFL.txt": "sha256:0e4f4eb8534bc66a76aca13dd19c1f9731b2008866b29ccff182b764649df9b4",
+        "canvas-fonts/BricolageGrotesque-Regular.ttf": "sha256:972a6d098c9867ae131d0ea99e221e63976b11a19d4b931c2c7ace525674e4f6",
+        "canvas-fonts/CrimsonPro-Bold.ttf": "sha256:48f191e38355c8db100eb3ce157c20f9302a3b9a37b44a660f77ecfce3986609",
+        "canvas-fonts/CrimsonPro-Italic.ttf": "sha256:52318db3526b644e6efa60be0b3ca5a50e40fbe8bd026c261e0aa206f0772267",
+        "canvas-fonts/CrimsonPro-OFL.txt": "sha256:35680d14547b6748b6f362a052a46d22764ce5eccf96e18b74f567bb2ee58114",
+        "canvas-fonts/CrimsonPro-Regular.ttf": "sha256:48fad08cb1917a7b2f2c6fe5135d6c07743a6663cf7631ec4481108aaf081422",
+        "canvas-fonts/DMMono-OFL.txt": "sha256:bfe7842fcb88323e2981e24710c25202677385a8c75fb6a87217b275a0247ae3",
+        "canvas-fonts/DMMono-Regular.ttf": "sha256:f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450",
+        "canvas-fonts/EricaOne-OFL.txt": "sha256:e0de629968b52255548d5fafcf30b24ff9edae0eda362380755a75816404d0fa",
+        "canvas-fonts/EricaOne-Regular.ttf": "sha256:db1d89e80e33a8a01beaaac7a85df582857d24a43f1e181461aa7ff5d701476a",
+        "canvas-fonts/GeistMono-Bold.ttf": "sha256:75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d",
+        "canvas-fonts/GeistMono-OFL.txt": "sha256:6a873c900f584109b13ae0aaf81d6e3cf0a68751a216b03f7b6c68d547057bb4",
+        "canvas-fonts/GeistMono-Regular.ttf": "sha256:a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e",
+        "canvas-fonts/Gloock-OFL.txt": "sha256:c0a3f3125ac491ef3d1f09f401be4834c646562f647e44f2bcbc49f0466c656d",
+        "canvas-fonts/Gloock-Regular.ttf": "sha256:e86b4ce66dbd3f1f83eee8db99ec96e0da1128c3f53df0e9b3b7472025dfe960",
+        "canvas-fonts/IBMPlexMono-Bold.ttf": "sha256:dbd2a2fb024579438d6400a84e57579bfd2dbe67c306c8fd9fde92a61e4f2eea",
+        "canvas-fonts/IBMPlexMono-OFL.txt": "sha256:5294ce778857e1eb02e830b6ab06435537d38f43055327e73d03a2d4d57d5123",
+        "canvas-fonts/IBMPlexMono-Regular.ttf": "sha256:ab08018ccd276b79fb2c636bb95b9c543598f9d50505fe92506fcb4dae7810cd",
+        "canvas-fonts/IBMPlexSerif-Bold.ttf": "sha256:b8d294e9b5c5a0940f167c3ced0f7ef2e3f57082ca3ff096ef30e86e26c1c159",
+        "canvas-fonts/IBMPlexSerif-BoldItalic.ttf": "sha256:da64b75f4284f53e7b5c71fa190a35b8bf3494fe19f1804c81c3a53340bca570",
+        "canvas-fonts/IBMPlexSerif-Italic.ttf": "sha256:b11f1048745e715a55c9d837b3f10226ca3d78867b7db7251ddad8f98dcf0f38",
+        "canvas-fonts/IBMPlexSerif-Regular.ttf": "sha256:77cd233a2af8dc6b1022faea3bb3b01f3c75af68bcf530cb6aeb15982ff3dbb7",
+        "canvas-fonts/InstrumentSans-Bold.ttf": "sha256:444f85bf1c4b0e1ce1ca624f6be54bcd832207714ccaf4ea99ee531341683bdf",
+        "canvas-fonts/InstrumentSans-BoldItalic.ttf": "sha256:3762f6cef95d6039489ad5ba5787d4c30f17a1ad01e9ac3c816ed69692722a68",
+        "canvas-fonts/InstrumentSans-Italic.ttf": "sha256:78e85858e371b2cb4e18f617c10f0f937c0e12a0887ffee98555b24ed305b3a7",
+        "canvas-fonts/InstrumentSans-OFL.txt": "sha256:bf4dc6d13a8cccd4807133c77a1ee9619a16b92cb23322258725ab6731c2f6e5",
+        "canvas-fonts/InstrumentSans-Regular.ttf": "sha256:a22cb26e48fd79bcb01bf2fc92d36785474dce36d9c544ab0a8868c2657c4a87",
+        "canvas-fonts/InstrumentSerif-Italic.ttf": "sha256:9c86e4d5a47b50224a2463a9eca8535835257c8e85c470c2c6b454b1af6f046e",
+        "canvas-fonts/InstrumentSerif-Regular.ttf": "sha256:56ac3be03ac3ba283196b3e77850ab2ffcf56cfb6fd3212c5620109a972f8c99",
+        "canvas-fonts/Italiana-OFL.txt": "sha256:8373b11312ace78c4cec2e8f9f6aa9f2330601107dac7bcf899c6f2dbd40c5a5",
+        "canvas-fonts/Italiana-Regular.ttf": "sha256:15c4dd6ab8cf4a29ba8826f65edcbe2f6c266c557d34d081f25072dfd5605fd2",
+        "canvas-fonts/JetBrainsMono-Bold.ttf": "sha256:a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3",
+        "canvas-fonts/JetBrainsMono-OFL.txt": "sha256:a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697",
+        "canvas-fonts/JetBrainsMono-Regular.ttf": "sha256:b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5",
+        "canvas-fonts/Jura-Light.ttf": "sha256:c891a381df056b2c4dfe85841e911bf45da0890fa21a7b2692cbe5ea1f505e1e",
+        "canvas-fonts/Jura-Medium.ttf": "sha256:c72965cb732a92872643819fd1734128238583cc36b116313859137a51d3368a",
+        "canvas-fonts/Jura-OFL.txt": "sha256:eaf9bdb675f6d87e5feb88199ab3ea581d3bd2082f426e384fa9c394576d7260",
+        "canvas-fonts/LibreBaskerville-OFL.txt": "sha256:55959eef5b0c3b2e3c1c7631b8ff0f9447d75de20f29cfa7db5bcfb026763343",
+        "canvas-fonts/LibreBaskerville-Regular.ttf": "sha256:2101302538d9e88adb679031c04623e4578b5745e89566284fd2c508d79acae0",
+        "canvas-fonts/Lora-Bold.ttf": "sha256:7d74015e950c2fb66519c7295b8155621d22200ae2ca2a4c6b43ce3c490cac87",
+        "canvas-fonts/Lora-BoldItalic.ttf": "sha256:152f87e71f5ddb60d5c57ecd9132807c947e65c42977193c9164e7c5a6690081",
+        "canvas-fonts/Lora-Italic.ttf": "sha256:be627e595184e8afe521f08da0607eee613f1997d423bc8dadc5798995581377",
+        "canvas-fonts/Lora-OFL.txt": "sha256:62e37a82d3f1ef2a70712885fa8b3144b65fd144d8e748d6196b690a354d792c",
+        "canvas-fonts/Lora-Regular.ttf": "sha256:7ed00e7c9cdf16ab7e2fd2361fe45d4f0b61263cd60aae398b27b7ee08108827",
+        "canvas-fonts/NationalPark-Bold.ttf": "sha256:69ac4c301c4a7233c6e602d12a92c54d7967b575f4449951c45ce773f7acff53",
+        "canvas-fonts/NationalPark-OFL.txt": "sha256:81c6c71d83b5b45d7344f96df12bb4a2477a5b092a9144757ee1d0f50f855175",
+        "canvas-fonts/NationalPark-Regular.ttf": "sha256:a477338b7e18308d476650dfe31235ef86a883572665e56ffb5fb80f82009b58",
+        "canvas-fonts/NothingYouCouldDo-OFL.txt": "sha256:7c2a6970584ddad04919816163746f83b378078015899b18468b40f05e9ce128",
+        "canvas-fonts/NothingYouCouldDo-Regular.ttf": "sha256:d866f985896d3280f4fce72db7e17302c24a0c1fdb0699b6b5ed3af14f944d57",
+        "canvas-fonts/Outfit-Bold.ttf": "sha256:6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1",
+        "canvas-fonts/Outfit-OFL.txt": "sha256:1945b62cd76da9a3051a1660dde72afaa64ffc2666d30e7a78356d651653ba2f",
+        "canvas-fonts/Outfit-Regular.ttf": "sha256:f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe",
+        "canvas-fonts/PixelifySans-Medium.ttf": "sha256:38397504f71c122b03d234ea6f55118e3d5bdbddffd82bedddbd7755d3b3be82",
+        "canvas-fonts/PixelifySans-OFL.txt": "sha256:7f54d1d9f1ae1ba9f2722f978145f90324fea34ca3c2304b3a29cfa96ac6037e",
+        "canvas-fonts/PoiretOne-OFL.txt": "sha256:2eaf541f7eb8b512e4c757a5212060abf5b6edfef230e9d7640bf736b315c33a",
+        "canvas-fonts/PoiretOne-Regular.ttf": "sha256:9cf265b139648b36b6c0afdfeb0bf27f7e66db9a16094bc40f644d8da05bc318",
+        "canvas-fonts/RedHatMono-Bold.ttf": "sha256:7ef48353f4be5ddb90f000f6fad48f2b62b3e8c27d9818d8d45ff46c201065e0",
+        "canvas-fonts/RedHatMono-OFL.txt": "sha256:435fbfb7e66988b2a06686a4cb966faec733f35d8fe100a1601573c27f3e0bb8",
+        "canvas-fonts/RedHatMono-Regular.ttf": "sha256:452fe826871b37539f5212b20c87cf30f82f58dd2741f1c96edd1dcbdc0db6b4",
+        "canvas-fonts/Silkscreen-OFL.txt": "sha256:6b849745119bbe85ec01fd080c9cd50234da9f52ac6e48b55d1a424a0c4d7ca9",
+        "canvas-fonts/Silkscreen-Regular.ttf": "sha256:49567408600809e25147e9225ac4f37f410e2df45a750696c45027531fb65f1b",
+        "canvas-fonts/SmoochSans-Medium.ttf": "sha256:dd76e6e77cce82f827a8654cd906e9ce58f3aaf78adda63c4a7f655b8ecb41f0",
+        "canvas-fonts/SmoochSans-OFL.txt": "sha256:74c9c4eb88e891483e1b7bc54780b452cbf4f4df66d4e71881d7569aa2130749",
+        "canvas-fonts/Tektur-Medium.ttf": "sha256:52bbe8c9b057b3d2da4eeace31a524b1ea26a1375ae34319cf6900ccc57a4c82",
+        "canvas-fonts/Tektur-OFL.txt": "sha256:3f1466cb5438f31782eeb6e895f3a655bc4d090e24263e331f555357d1cb734e",
+        "canvas-fonts/Tektur-Regular.ttf": "sha256:162e1b36c4718c5b051b36c971ad7e50d341944f35618f480422ebbe72988f98",
+        "canvas-fonts/WorkSans-Bold.ttf": "sha256:240d125fc9f8561363dc1ea3f513501253bd70942f41468f48f0b0cafb0c82e2",
+        "canvas-fonts/WorkSans-BoldItalic.ttf": "sha256:a5b2cad813df0aaa7d16621f2e93b5117c25e9bc788bc9a3ad218e9d6348ce34",
+        "canvas-fonts/WorkSans-Italic.ttf": "sha256:6b7f7002e0b0c8b261fe878658ef5551e3e59d9f6b609b04efb90dde1e2c1ada",
+        "canvas-fonts/WorkSans-OFL.txt": "sha256:ace8c22a3326318b54e67c3691857929634205533f454a70ef5a3473ddb2e2ba",
+        "canvas-fonts/WorkSans-Regular.ttf": "sha256:e67985a843df0d3cdee51a3d0f329eb1774a344ad9ff0c9ab923751f1577e2a4",
+        "canvas-fonts/YoungSerif-OFL.txt": "sha256:cdcb8039606b40a027a6d24586ec62d5fe29c701343d82a048c829cb28a3dd28",
+        "canvas-fonts/YoungSerif-Regular.ttf": "sha256:f8dc08f77abad753a00670af70756a8ace938e5c3f0b770f4f4c2071c4bd8fc6"
+      }
+    },
+    "check-skill-conflicts": {
+      "source": "https://github.com/plinde/claude-plugins.git/check-skill-conflicts/skills/check-skill-conflicts",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:27.906535-05:00",
+      "repo_url": "https://github.com/plinde/claude-plugins.git",
+      "subdir": "check-skill-conflicts/skills/check-skill-conflicts",
+      "version": "1de3b7d",
+      "tree_hash": "642aa709bbbf7fbbc94bc7cec7741ac93b3ca5e2",
+      "file_hashes": {
+        "SKILL.md": "sha256:dcb2579152168933d308a029d0f733ea95cd32775d8a47541978d7b528f406cd",
+        "scripts/check-conflicts.sh": "sha256:31c25b2058dd601a25b3bbf62edfaf0274da0b065a997801255953c65d29b9b3"
+      }
+    },
+    "clarify": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/clarify",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.602847-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/clarify",
+      "version": "6d8b466",
+      "tree_hash": "9ae010e30e84a6d39ce61b84037e82b0e285cf3e",
+      "file_hashes": {
+        "SKILL.md": "sha256:8eb7c1401fed4564aabc392828c850b5776167eb1d926d45997c7f93ab56ae90"
+      }
+    },
+    "clawdirect": {
+      "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:05.25431-05:00",
+      "repo_url": "https://github.com/napoleond/clawdirect.git",
+      "subdir": "skills/clawdirect",
+      "version": "b645ffd",
+      "tree_hash": "3cf1191b0cf5583bf81f7e2a090dce72ece56755",
+      "file_hashes": {
+        "SKILL.md": "sha256:f3f70fdc8919b1cdd5adb174b51abb6d3b8639e5831714a49dec412e7ca71f3e"
+      }
+    },
+    "clawdirect-dev": {
+      "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect-dev",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:05.373151-05:00",
+      "repo_url": "https://github.com/napoleond/clawdirect.git",
+      "subdir": "skills/clawdirect-dev",
+      "version": "b645ffd",
+      "tree_hash": "79b9f63b631fcee06de9cceff1394ed781732e1d",
+      "file_hashes": {
+        "SKILL.md": "sha256:d8cd2a7583c67bd8a1c9e77d4db73cc2e8e969ae7be6ca571a0dddf96a09855f"
+      }
+    },
+    "code-reviewer": {
+      "source": "https://github.com/google-gemini/gemini-cli.git/.gemini/skills/code-reviewer",
+      "type": "github-subdir",
+      "installed_at": "2026-03-13T10:43:44.487365-05:00",
+      "repo_url": "https://github.com/google-gemini/gemini-cli.git",
+      "subdir": ".gemini/skills/code-reviewer",
+      "version": "8d0b2d7",
+      "tree_hash": "e580e60f488d74811fbec80427183553295d7ceb",
+      "file_hashes": {
+        "SKILL.md": "sha256:d2bd763e7cfa424845c54639d4a97cdb0aa03b5eedeabb1d171a16086584cec9"
+      }
+    },
+    "colorize": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/colorize",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.618081-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/colorize",
+      "version": "6d8b466",
+      "tree_hash": "d05b32cc0ceef553df96102a9d82ab7fb0aa22e6",
+      "file_hashes": {
+        "SKILL.md": "sha256:3961667bb6f73bf52ee1f01b07300837f93962803398ee063d6333c70c6555b0"
+      }
+    },
+    "competitor-alternatives": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/competitor-alternatives",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.709577-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/competitor-alternatives",
+      "version": "9125d82",
+      "tree_hash": "4bc4760726d967ec06fa601f341ab5ed014c251f",
+      "file_hashes": {
+        "SKILL.md": "sha256:1db87980b24239715c09c78cf77f24eb054dd59f83ee48397cfb8afd18d18790",
+        "evals/evals.json": "sha256:630927a9defa40e9edd78280b94c0c1e539b8c2a57915816c848775053655bf9",
+        "references/content-architecture.md": "sha256:9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
+        "references/templates.md": "sha256:8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046"
+      }
+    },
+    "content-strategy": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/content-strategy",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.605618-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/content-strategy",
+      "version": "9125d82",
+      "tree_hash": "cacb03a8610f958ece2096ca38d0c96b1b6299bf",
+      "file_hashes": {
+        "SKILL.md": "sha256:bfaf5c1a7c492a57a236ef993c21b9858bc57e080d301f3a4e3969d53730d13e",
+        "evals/evals.json": "sha256:eb330d1f3baefe0bab560e3ce42201a4e1e2cae4da530fb3d2a6314816772d2e",
+        "references/headless-cms.md": "sha256:5434e226fd593a2e1174264c37b7cba589e60a82739deec0c29107b48f1ffae5"
+      }
+    },
+    "context7": {
+      "source": "https://github.com/intellectronica/agent-skills.git/skills/context7",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:31.445775-05:00",
+      "repo_url": "https://github.com/intellectronica/agent-skills.git",
+      "subdir": "skills/context7",
+      "version": "3412af7",
+      "tree_hash": "c7ab574e006997d98e8a2d8fb7a1db0d2477b180",
+      "file_hashes": {
+        "SKILL.md": "sha256:e1c404ae31f71cb1ef108abfbd153f5761f1ed715a9d9e4c2067e61ff673f42f"
+      }
+    },
+    "copy-editing": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copy-editing",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.771002-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/copy-editing",
+      "version": "9125d82",
+      "tree_hash": "cf109c81e85ead41d13e18a39ad20a90ec9db406",
+      "file_hashes": {
+        "SKILL.md": "sha256:f5d48af637b9978a90a02118e7f88c36c881c98504fd3ae5df3d82fae641f910",
+        "evals/evals.json": "sha256:91a98f24fbe3449bd79a17aa0fac81c963ae20150052a41bbd9f3f67c0d53771",
+        "references/content-refresh.md": "sha256:8a3a2d301bb2b8b2a780f5bef43093ab42295041b2fea2a9caeca2421ef3c79b",
+        "references/plain-english-alternatives.md": "sha256:df4f820d4c63ae8a517c64a243c101658352cd07d002355bf3c97de0a00f3775"
+      }
+    },
+    "copywriting": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copywriting",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:13.660833-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/copywriting",
+      "version": "9125d82",
+      "tree_hash": "4ac08d315b36a42902eb015f913743a241986011",
+      "file_hashes": {
+        "SKILL.md": "sha256:f5d879acc5caa36e64c03382b08a6910ede4ab150ee78c97827a2f1ed1feb9dd",
+        "evals/evals.json": "sha256:bb2958b15648d180d04b676a42a22b7e2317c8c3314a71a6b56612164f7550c5",
+        "references/copy-frameworks.md": "sha256:f387b6ed4b510efa9f0d3c459f4898971c8b0176e8c34185040cb264eca50186",
+        "references/natural-transitions.md": "sha256:4ff23f8943af2f65b072f26f1c53ce55f19cc26d7be211c11cae8e34b43e859f"
+      }
+    },
+    "core-web-vitals": {
+      "source": "github.com/runkids/my-skills/web-dev/core-web-vitals",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.389348-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/core-web-vitals",
+      "version": "6d8b466",
+      "tree_hash": "77c3d3e256bad2ae244100c587a340888943783f",
+      "file_hashes": {
+        "SKILL.md": "sha256:b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c",
+        "references/LCP.md": "sha256:4c5043ef7e1ae4058191a51fbfe5121668bd3677842a2ef563a45a9ca6685d92"
+      }
+    },
+    "critique": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/critique",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.632914-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/critique",
+      "version": "6d8b466",
+      "tree_hash": "2df285b99876d995da0fb3530f89629810ee83e6",
+      "file_hashes": {
+        "SKILL.md": "sha256:22cfc064796a900e20e22fa185c0b2acc5a614b012d85f6faea1baaec136f9cc"
+      }
+    },
+    "delight": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/delight",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.649398-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/delight",
+      "version": "6d8b466",
+      "tree_hash": "e6b7cfe572e81c25e9a492f807d9df9e9cde4cd1",
+      "file_hashes": {
+        "SKILL.md": "sha256:2010a2d35ae02b76c3ad05db20803a0c5b15b6a8a534054541ee1be696fd2279"
+      }
+    },
+    "design-an-interface": {
+      "source": "github.com/runkids/my-skills/mattpocock/design-an-interface",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.014746-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/design-an-interface",
+      "version": "6d8b466",
+      "tree_hash": "8cee0f3972c941554b510c1d655fe8333f302b63",
+      "file_hashes": {
+        "SKILL.md": "sha256:a2596e9fa2d50e23ba014f64a5b8f9df4eb56b846a52cad152899ef5eb97b085"
+      }
+    },
+    "design-md": {
+      "source": "https://github.com/google-labs-code/stitch-skills.git/skills/design-md",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:17.386408-05:00",
+      "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
+      "subdir": "skills/design-md",
+      "version": "6c0cbdb",
+      "tree_hash": "0a84781f35accede7cf373a4129d93bfb7651930",
+      "file_hashes": {
+        "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
+        "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
+        "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+      }
+    },
+    "design-translation": {
+      "source": "https://github.com/canva-sdks/canva-claude-skills.git/design-translation",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:28.696589-05:00",
+      "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
+      "subdir": "design-translation",
+      "version": "7d454de",
+      "tree_hash": "853520b2134ddc1acc7c7a72b91d509318a222fb",
+      "file_hashes": {
+        "SKILL.md": "sha256:c10b609033f5727c53d3c05dddd61c4e3d0de9a314b78420b2109dc6629192eb"
+      }
+    },
+    "dispatching-parallel-agents": {
+      "source": "https://github.com/obra/superpowers.git/skills/dispatching-parallel-agents",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:25.335317-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/dispatching-parallel-agents",
+      "version": "917e5f5",
+      "tree_hash": "ebd0490e6b0bccfdb9f9c0cc9dd6a066036c8d89",
+      "file_hashes": {
+        "SKILL.md": "sha256:76806091c7f923ba2596546b19cccd98a08e57a68745df77c3a7b998fe838e2b"
+      }
+    },
+    "distill": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/distill",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.66498-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/distill",
+      "version": "6d8b466",
+      "tree_hash": "eb05eb66b59ea1960a9d99fdd1e81ed622f88193",
+      "file_hashes": {
+        "SKILL.md": "sha256:5aa0388fb9519de4fab6b02556500fac9f6d164b5a5d6d4ed9a4b989b51e2f37"
+      }
+    },
+    "doc-coauthoring": {
+      "source": "https://github.com/anthropics/skills.git/skills/doc-coauthoring",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:21.263897-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/doc-coauthoring",
+      "version": "12ab35c",
+      "tree_hash": "d9df960e61fe2bafe9183e37de6f9f6b73b74087",
+      "file_hashes": {
+        "SKILL.md": "sha256:2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4"
+      }
+    },
+    "docker-expert": {
+      "source": "https://github.com/runkids/my-skills.git/devops/docker-expert",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:30.681761-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "devops/docker-expert",
+      "version": "1accf06",
+      "tree_hash": "dfc8dbfb578ad5ff4cb3256bc3015ef36c91e736",
+      "file_hashes": {
+        "SKILL.md": "sha256:e33b08feeaa8e110c08dddd030970547356514d42aa484e52f51e2fd2d4f451b"
+      }
+    },
+    "docx": {
+      "source": "https://github.com/anthropics/skills.git/skills/docx",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:22.225613-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/docx",
+      "version": "12ab35c",
+      "tree_hash": "a0d216202f9793a78da44cf96aabe48f42e627ac",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "sha256:cfbabd72b1aec7dfaad988fb6e5e16b27dc744b9a00cae15db9045e95f53903e",
+        "scripts/__init__.py": "sha256:01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "scripts/accept_changes.py": "sha256:0c991d2bc7304a1248e9f3bf9b1498f0b6e76641fc457e7cbd73c99b4eef3a74",
+        "scripts/comment.py": "sha256:e86e4e17ec5805780325206d20d3ed5a8f7024f1e4641ac8f46ef5df0b564f63",
+        "scripts/office/helpers/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/office/helpers/merge_runs.py": "sha256:7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+        "scripts/office/helpers/simplify_redlines.py": "sha256:560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+        "scripts/office/pack.py": "sha256:b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "sha256:41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "sha256:3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "sha256:29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "sha256:5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "sha256:5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "sha256:5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "sha256:b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "sha256:bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "sha256:d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "sha256:3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "sha256:0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "sha256:e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "sha256:0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "sha256:0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "sha256:9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "sha256:bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "sha256:7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "sha256:3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "sha256:12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "sha256:beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "sha256:f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "sha256:585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "sha256:133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "sha256:6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "sha256:475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "sha256:c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "sha256:a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "sha256:9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "sha256:451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "sha256:6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "sha256:f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+        "scripts/office/schemas/mce/mc.xsd": "sha256:3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "sha256:568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "sha256:0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "sha256:be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "sha256:fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "sha256:127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "sha256:842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "sha256:16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+        "scripts/office/soffice.py": "sha256:a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+        "scripts/office/unpack.py": "sha256:83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+        "scripts/office/validate.py": "sha256:1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+        "scripts/office/validators/__init__.py": "sha256:83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+        "scripts/office/validators/base.py": "sha256:d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+        "scripts/office/validators/docx.py": "sha256:0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+        "scripts/office/validators/pptx.py": "sha256:f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+        "scripts/office/validators/redlining.py": "sha256:f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+        "scripts/templates/comments.xml": "sha256:a08ba83ee8790ac9e3dc61921f4988f19edd7e06ac09d6f1897a877c1581818d",
+        "scripts/templates/commentsExtended.xml": "sha256:544eeecfeceed4b468fff163cd9c366d33641c8b8ab691ce002576197846afe8",
+        "scripts/templates/commentsExtensible.xml": "sha256:bad10b3283e6ad6e7ef6d1ca5169683721ed690ee331282c65df04017e080631",
+        "scripts/templates/commentsIds.xml": "sha256:db20f9616e004ec42ef736e80c2384e45db0f8d1194d31dc8b37c7d6ecdd6420",
+        "scripts/templates/people.xml": "sha256:056f63aa1197fd8c9dda980c9f1b9ff016fd5fa4a462df8aec5f384f39d23e37"
+      }
+    },
+    "edit-article": {
+      "source": "github.com/runkids/my-skills/mattpocock/edit-article",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.026316-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/edit-article",
+      "version": "6d8b466",
+      "tree_hash": "7cd5903b2bcbf71e0de4c6f9ba598bcd2f982b63",
+      "file_hashes": {
+        "SKILL.md": "sha256:cc372fb25b552017765aa0dac1b108f77eaee4555d607041efc1ad5d8c995b4a"
+      }
+    },
+    "executing-plans": {
+      "source": "https://github.com/obra/superpowers.git/skills/executing-plans",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:25.493405-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/executing-plans",
+      "version": "917e5f5",
+      "tree_hash": "20087d25fb28f5f54578d873dc198ab24b34f967",
+      "file_hashes": {
+        "SKILL.md": "sha256:a711f83fb762e2ea0fa151f598893da9911a408895c91cc7a7e0770dd59a27b3"
+      }
+    },
+    "expo-api-routes": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-api-routes",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:30.098838-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/expo-api-routes",
+      "version": "8f26555",
+      "tree_hash": "43ff4f9cb35a82e83b97cd48e0cd4dfa7aa912a1",
+      "file_hashes": {
+        "SKILL.md": "sha256:db4d2cd6fbce04d9a7914db6e37513c218d5fb678e962c034ebfc122c7406fd3"
+      }
+    },
+    "expo-cicd-workflows": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-cicd-workflows",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.512925-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/expo-cicd-workflows",
+      "version": "8f26555",
+      "tree_hash": "3e9753a3ba093b8be385deb28db384d183f1e8b9",
+      "file_hashes": {
+        "SKILL.md": "sha256:484e1867238a1760d775dd9492ad720ef5099367fbef6907974c69a6a8adc723",
+        "scripts/fetch.js": "sha256:6e00c6fa7277c429c18ae211d1b6515caf2fdf500136cf297921c05d27447483",
+        "scripts/package.json": "sha256:c405e32c72836c09697b19e326ac56786b6d06d830fce577d0785c9382a69daf",
+        "scripts/validate.js": "sha256:6cae9885ca926a450dc8ad08775d80334f551ed5192c7d1acadf89d34201bd4c"
+      }
+    },
+    "expo-deployment": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-deployment",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.68352-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/expo-deployment",
+      "version": "8f26555",
+      "tree_hash": "1b85cb69d451371559ff6af4f08283a0a6679d1c",
+      "file_hashes": {
+        "SKILL.md": "sha256:81b700b0cfe12ac175d4f64d052464db5f7ddc40e8a29cba52c642d87acee0dd",
+        "references/app-store-metadata.md": "sha256:47fbf9077985548a1f58daf584f5fadea24f8b7edc9107230b5d93765708d81f",
+        "references/ios-app-store.md": "sha256:714ecc7855d899892dda359be4a2f8f55f636a4c12c95d96b623046fb4ca0b9b",
+        "references/play-store.md": "sha256:54b7bf0729e8706bcb24c66c16b2c4fea81a4689709a37b6ed5776bc2974f074",
+        "references/testflight.md": "sha256:2f6d2451c676f1360f46defcad6feebb1ad341926a49ed015c5d2aa100c9525d",
+        "references/workflows.md": "sha256:01b66f8fd1754cf2d51c90a4f65505aae32deeea0c6bed169cf8db151f8f415e"
+      }
+    },
+    "expo-dev-client": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-dev-client",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.828613-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/expo-dev-client",
+      "version": "8f26555",
+      "tree_hash": "5adb1357248d76daeb2a80ee65824819b0b21a49",
+      "file_hashes": {
+        "SKILL.md": "sha256:aa79e42e9cd96ea92d4e691fb8222145055dec1b868b7defce224a41d8878a5f"
+      }
+    },
+    "expo-tailwind-setup": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-tailwind-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:30.230098-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/expo-tailwind-setup",
+      "version": "8f26555",
+      "tree_hash": "bf60256bc226ad60a1eb0a6ce5e32b4aa83b5576",
+      "file_hashes": {
+        "SKILL.md": "sha256:6abfc223a376571e0ee84014b3b474a3f2828ac2ebcde59c5c2b6b4bc802e233"
+      }
+    },
+    "extract": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/extract",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.678299-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/extract",
+      "version": "6d8b466",
+      "tree_hash": "c96bd96dcf8e2c126423c97272247d3d3cddba3a",
+      "file_hashes": {
+        "SKILL.md": "sha256:420c980e4d6929dc8a25ff2d5ca5c38eef106e211e2270d3735ab945c06da9b6"
+      }
+    },
+    "feature-radar": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar"
+    },
+    "find-skills": {
+      "source": "https://github.com/vercel-labs/skills.git/skills/find-skills",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:08.8294-05:00",
+      "repo_url": "https://github.com/vercel-labs/skills.git",
+      "subdir": "skills/find-skills",
+      "version": "004c738",
+      "tree_hash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "file_hashes": {
+        "SKILL.md": "sha256:1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
+      }
+    },
+    "finishing-a-development-branch": {
+      "source": "https://github.com/obra/superpowers.git/skills/finishing-a-development-branch",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.376555-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/finishing-a-development-branch",
+      "version": "917e5f5",
+      "tree_hash": "7656b8ebe0c9659ea548ba2981b078b333d1846e",
+      "file_hashes": {
+        "SKILL.md": "sha256:dd2f82c6dc8582b621f9eb57fcb65f557f88eadf872727ac81d0840ae12c504e"
+      }
+    },
+    "form-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/form-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.848203-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/form-cro",
+      "version": "9125d82",
+      "tree_hash": "ad53ff2e1e58321af8132170d24bd02b7d2b8d14",
+      "file_hashes": {
+        "SKILL.md": "sha256:d6830115b70cc76eb6e4588b877f6c498d517e2df39899cf4155354a53149963",
+        "evals/evals.json": "sha256:81196e64016fb9d4e52e4c362d07f5c11070d28011eb1514c348709be60d249b"
+      }
+    },
+    "free-tool-strategy": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/free-tool-strategy",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:13.817977-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/free-tool-strategy",
+      "version": "9125d82",
+      "tree_hash": "9c85331d3ecac584097c67b822eeec32395f9408",
+      "file_hashes": {
+        "SKILL.md": "sha256:88f8f02bccb380f397a312c9468eaebc25aedb30b452ebe304d55af3cd841a9a",
+        "evals/evals.json": "sha256:90cdc0ba2210b2ab72fb1cbc89080df2cd4aeb3d779f3d743bd383e3a31b9be1",
+        "references/tool-types.md": "sha256:3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
+      }
+    },
+    "frontend-design": {
+      "source": "https://github.com/anthropics/skills.git/skills/frontend-design",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:24.038407-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/frontend-design",
+      "version": "12ab35c",
+      "tree_hash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "SKILL.md": "sha256:b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+      }
+    },
+    "frontend-slides": {
+      "source": "https://github.com/runkids/my-skills.git/frontend/frontend-slides",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:30.548311-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/frontend-slides",
+      "version": "1accf06",
+      "tree_hash": "0bc9432bf106691497baf853109b0ab58040c324",
+      "file_hashes": {
+        "LICENSE": "sha256:62928eb197fe4662d1efc3af0735b3ba5df3c0308badd9a2baf2b619009f5366",
+        "README.md": "sha256:9139ed31db2c6656e5a404edcd35b9eae15ddba997726f854dfc272cb6652bdc",
+        "SKILL.md": "sha256:41fccbe44d4882f412e141028eb21395bb13327492a512abee6e55c672cb0c5a",
+        "STYLE_PRESETS.md": "sha256:6dc14784dc7f59620a28e814ecbcaedcec387fac72db7cb81e623924cb5063f6",
+        "animation-patterns.md": "sha256:1b7b7409893b68c09effb04f20a4603a5168e4956d76c3999c2ba8f86c4bbc8f",
+        "html-template.md": "sha256:cee304c9bdfaa25eb4a1b4953ac1b5de6fbf1f412b23528a8848f79c81746d05",
+        "scripts/deploy.sh": "sha256:74a1103519a61f90bf3912ee2eda81c77be0b944700d213e7fc08506bd8745f1",
+        "scripts/export-pdf.sh": "sha256:16336202904f677bb988e784a3e1d5098ff09381733b63047c3a688d6a1989b4",
+        "scripts/extract-pptx.py": "sha256:4f5e7603c99b8b53e20c5b2a65abdf5edf9422b4c490dca9f2b872a752c17d2a",
+        "viewport-base.css": "sha256:dab42c1a556a0fa51d3c39f7edfb93d8303e5c29625ade479a18ba97f2640734"
+      }
+    },
+    "git-guardrails-claude-code": {
+      "source": "github.com/runkids/my-skills/mattpocock/git-guardrails-claude-code",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.039827-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/git-guardrails-claude-code",
+      "version": "6d8b466",
+      "tree_hash": "bdce2d4c80dda00fb0d0ee176ea1f513bb463b33",
+      "file_hashes": {
+        "SKILL.md": "sha256:03c4de7613c712aea336d64c467ea3ed14be2cbd52345925fe949c75c01c29f7",
+        "scripts/block-dangerous-git.sh": "sha256:234922b83c0a1737ee7300806c21ac0f389b07aaeb65c2d71ccedafbc5e1ea4b"
+      }
+    },
+    "grill-me": {
+      "source": "github.com/runkids/my-skills/mattpocock/grill-me",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.051817-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/grill-me",
+      "version": "6d8b466",
+      "tree_hash": "5ccb9c909bd8066687ddd4c5e1108f537ec40fb9",
+      "file_hashes": {
+        "SKILL.md": "sha256:a9f2912c0f532176b109e9db52161304cc9d7b2624bee49c70bfa95f0afe35a6"
+      }
+    },
+    "harden": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/harden",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.695166-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/harden",
+      "version": "6d8b466",
+      "tree_hash": "8816ba03356f0c69efffb657b05d6409ae484470",
+      "file_hashes": {
+        "SKILL.md": "sha256:350f2b4c2038d05d881a64cac5b0968f6b736860e01a42c146e445ce3de45fc7"
+      }
+    },
+    "home-assistant-automation-scripts": {
+      "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-automation-scripts",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:32.006411-05:00",
+      "repo_url": "https://github.com/bradsjm/hassio-addons.git",
+      "subdir": "addon-opencode/skills/home-assistant-automation-scripts",
+      "version": "c8f7a6d",
+      "tree_hash": "949c1c485b40a91f53cdc76ffeff82032d3875a7",
+      "file_hashes": {
+        "SKILL.md": "sha256:cc7d160870a9b6dbc5a571172894a1e007d30708a1c00ec7cd1b14f5a855fcee",
+        "references/DEBUG_WORKFLOWS.md": "sha256:e31afa56a19ad169eaac984085f947bc18f6c24b69a58268979b1221212a4d5e",
+        "references/LIMITED_TEMPLATES.md": "sha256:d83e560442a063ecbf1dd314aeeb1858c42e0a5657cf171935ee8fe5707c2200",
+        "references/REFERENCE.md": "sha256:eb44f796a30abf4217e7c9dfa72ddc8b43dc698490c7675b4005200510d61a53",
+        "references/TEMPLATE_ENTITY_GUIDE.md": "sha256:095b46fcb452193e4634daed7b88027cf37ba8fa3902db32c068d1df66d6129f"
+      }
+    },
+    "home-assistant-best-practices": {
+      "source": "https://github.com/homeassistant-ai/skills.git/skills/home-assistant-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:09.427012-05:00",
+      "repo_url": "https://github.com/homeassistant-ai/skills.git",
+      "subdir": "skills/home-assistant-best-practices",
+      "version": "e503410",
+      "tree_hash": "856d9dd6784424ca64e3122f7db1f247d16e2c17",
+      "file_hashes": {
+        "SKILL.md": "sha256:1850611f413c4074283b8bbf313c5b3f5c0825925bcd64dbe454df6b5541e08f",
+        "evals/evals.json": "sha256:ffff51bff26106ef8cf141aadf2e154403495f6a588758585aaa7c1ec951e1b9",
+        "references/automation-patterns.md": "sha256:b242bb23e650f7ed3e2f6e7ff74aa4c0a72a6670376ad40a56f3b8b2f8c2d415",
+        "references/dashboard-cards.md": "sha256:3178d08a1399d6232e23442d204553b1c58595b2a3863d0eeeea8919787ecb6e",
+        "references/dashboard-guide.md": "sha256:f64ff06bc6cc85357696ac866cf7f5d40b4f9597993d7291316d5df17a948378",
+        "references/device-control.md": "sha256:5c578a43739507291d7ffe1ace5afee16447afd96425ec0b534ff84e3b47c906",
+        "references/domain-docs.md": "sha256:aac3185ca572f671f83ef239591ffb5d12659add4344e941c7c6e8dc8039da1e",
+        "references/examples.yaml": "sha256:35d04157ab2509d4660ca417d9e658915a85a747e21938d76876a73722cfe556",
+        "references/helper-selection.md": "sha256:10687f218d26e7fc85a39fe01e490d257c28b50e53a098e487ca52284ae557df",
+        "references/safe-refactoring.md": "sha256:4538db7d9970eeff521d610e48064b2a18cb6d55c843d5b6dc761e99f038f87d",
+        "references/template-guidelines.md": "sha256:1c1644e0a15c57f2c25d166141e86f13107843df65f084a8f3a2b8e5282bef66",
+        "references/yaml-only-integrations.md": "sha256:2f4a8890e9110aed9cdbe199d5c9d355aa08dfdbca73bc95ca0ead03b8018774"
+      }
+    },
+    "home-assistant-entities-services": {
+      "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-entities-services",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:32.127528-05:00",
+      "repo_url": "https://github.com/bradsjm/hassio-addons.git",
+      "subdir": "addon-opencode/skills/home-assistant-entities-services",
+      "version": "c8f7a6d",
+      "tree_hash": "7b18282bc1bddad72705cb712f201a7f16e3bc84",
+      "file_hashes": {
+        "SKILL.md": "sha256:dbf33b9e0bea5b229d9a23da2f5b6dfb1aa5d21e7ba162b0b7110e151cb9814f",
+        "references/LIMITED_TEMPLATES.md": "sha256:d83e560442a063ecbf1dd314aeeb1858c42e0a5657cf171935ee8fe5707c2200",
+        "references/STATE_OBJECT_QUICKREF.md": "sha256:c8ed5a3f55de1c906e3012d2ab00a5ea68e1aabe4f65e86c2e782a6e9b82ffa8"
+      }
+    },
+    "home-assistant-esphome": {
+      "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-esphome",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:32.252132-05:00",
+      "repo_url": "https://github.com/bradsjm/hassio-addons.git",
+      "subdir": "addon-opencode/skills/home-assistant-esphome",
+      "version": "c8f7a6d",
+      "tree_hash": "f63149a47c4026907a6569601af196f6be54bb92",
+      "file_hashes": {
+        "SKILL.md": "sha256:f6b12c4796a6a6a3831e3661ce5cfc583bbf1462d1f118d8b20faafe773f6616",
+        "references/ha-config-flow.md": "sha256:dc24c4431073e7f74e626fe74581fa83cf55303100db4e1ae04bc01385b6c05a",
+        "references/resources.md": "sha256:559e50e654594208c9875e1fcbb9b7a6ad562136b39fe1aff0a542cbc130e4ef",
+        "references/snippets.md": "sha256:8e7b4f2e9484745083bc8a5bcbeedd64980d8025e4dc7580693e558541ab208e",
+        "references/troubleshooting.md": "sha256:74f21b3b7ec8466088af87374c54e73b993fd530a8c71366c86999dde1422b7c",
+        "scripts/gen_esphome_noise_psk.py": "sha256:07645b059136b3a64dc89226a400abc21d759f62b4dddb36fc22f43070bbae0b"
+      }
+    },
+    "improve-codebase-architecture": {
+      "source": "github.com/runkids/my-skills/mattpocock/improve-codebase-architecture",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.066007-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/improve-codebase-architecture",
+      "version": "6d8b466",
+      "tree_hash": "312e1e0b4127762914e4e7056b317a8d387bbf14",
+      "file_hashes": {
+        "REFERENCE.md": "sha256:dd47bb0359f8e09db95d393c6b9f8c77430af37826d939557edc2abef59cddbb",
+        "SKILL.md": "sha256:8e4831b6332ab9b806f9d439d56568fcceec73bfb68a4eed5d5048482d22d63a"
+      }
+    },
+    "internal-comms": {
+      "source": "https://github.com/anthropics/skills.git/skills/internal-comms",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:23.022571-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/internal-comms",
+      "version": "12ab35c",
+      "tree_hash": "8e2c21adc81f221477a4d3ecec07abcbc8a9320a",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+        "examples/3p-updates.md": "sha256:087e4363c0f3513728a7e695eeb9ead5c3ecd12a4681b59340691180e65b68fc",
+        "examples/company-newsletter.md": "sha256:30f81cfbdb03858a006169c72169024089c7c5d3d32611d337782da4f38c86b5",
+        "examples/faq-answers.md": "sha256:5ecd3356cd6666937f2ebefa753253edfdbdca15e368d07baf398bfcced72484",
+        "examples/general-comms.md": "sha256:4d3a4bb198a77626bcf018e96b2b45a2dbabed172d4ade0fcd70d23ae8a47a47"
+      }
+    },
+    "launch-strategy": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/launch-strategy",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.655605-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/launch-strategy",
+      "version": "9125d82",
+      "tree_hash": "734dd2661bb982c79c9c65d71858d96a57b7fca9",
+      "file_hashes": {
+        "SKILL.md": "sha256:5d603157a784f42521128334d68904c00f62a0b7ee92dceb7b182473d5e9a8a1",
+        "evals/evals.json": "sha256:401010b0833d4fb2f738cb91921d9f32f03915c60cbc0276c41053dd48b1cf06"
+      }
+    },
+    "marketing-ideas": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-ideas",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.904816-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/marketing-ideas",
+      "version": "9125d82",
+      "tree_hash": "c4fdc0b5badda1bdd6f5182dd023eb18a0f29404",
+      "file_hashes": {
+        "SKILL.md": "sha256:06f3abcebf414e92fd93abef15e33eebcbde2382e861d13af30aecef5929b3c5",
+        "evals/evals.json": "sha256:e502cff97126feb030aebb98a5b98943eac02d55499171c29a8377d88b1dcbd9",
+        "references/ideas-by-category.md": "sha256:fac44ef0ea24a3035d85bd11096adef408497ea073ad156933f2d356d482dde2"
+      }
+    },
+    "marketing-psychology": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-psychology",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.010696-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/marketing-psychology",
+      "version": "9125d82",
+      "tree_hash": "ec8b7c10f5707ab69cd6e658a75480cd3e18ceef",
+      "file_hashes": {
+        "SKILL.md": "sha256:f02553dd64733891481ac1df303d34e0773259c970cfc61b7a5e95da158f308a",
+        "evals/evals.json": "sha256:af882022e407c71a7f40df7507421917cabb3d42b4dad8d4facb11193cdc5e3e"
+      }
+    },
+    "mcp-builder": {
+      "source": "https://github.com/anthropics/skills.git/skills/mcp-builder",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:22.447567-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/mcp-builder",
+      "version": "12ab35c",
+      "tree_hash": "9173e2c2107aac82d4ca6c726d71e89d11760470",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:0f4592dcb53cf2b5d6b7febee6b4152018b565551a1c29e3c612f57b218ab295",
+        "reference/evaluation.md": "sha256:8c99479f8a2d22a636c38e274537aac3610879e26f34e0709825077c4576f427",
+        "reference/mcp_best_practices.md": "sha256:80fb4369a349447cf18ecdd7494fe7938b6065377e9f08c077cec411093a3007",
+        "reference/node_mcp_server.md": "sha256:c3ba35a4f599dd53be9c6555ae72c19a7bf412cd5426576c2c08d42755482c66",
+        "reference/python_mcp_server.md": "sha256:2da52f77e675191014ca2e146a4b95aa04d0ca7dd7e2b100322df15ade685e80",
+        "scripts/connections.py": "sha256:9403668a2041568772082a8b334122c1f88daf0541fb393af4522d0094a47a6e",
+        "scripts/evaluation.py": "sha256:49ed1d17cdce5da101b210197740713f49b935c29d4f339542a14b132658e6f7",
+        "scripts/example_evaluation.xml": "sha256:9272b348ddcc4b06ba562367ccd0770e018158c0068ac5116d5e34aaeff8777a",
+        "scripts/requirements.txt": "sha256:d5d7558b2368ecea9dfeed7d1fbc71ee9e0750bebd1282faa527d528a344c3c7"
+      }
+    },
+    "migrate-to-shoehorn": {
+      "source": "github.com/runkids/my-skills/mattpocock/migrate-to-shoehorn",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.080148-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/migrate-to-shoehorn",
+      "version": "6d8b466",
+      "tree_hash": "5c3aba1f2b8b9d28ca152df507f8894e1ffb9a43",
+      "file_hashes": {
+        "SKILL.md": "sha256:de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
+      }
+    },
+    "n8n-code-javascript": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-javascript",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:19.226789-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-code-javascript",
+      "version": "eca0d13",
+      "tree_hash": "9128861fcee88b0850f21b2d043b7b48af99f0af",
+      "file_hashes": {
+        "BUILTIN_FUNCTIONS.md": "sha256:345ccb504b6dba99bfa8101382736757deeac3cae4d55e5df45c4d87e9509a5c",
+        "COMMON_PATTERNS.md": "sha256:061ea53d19198ba711d6286306f684861cd0fdd5230e919d0f36e66cb9f962d0",
+        "DATA_ACCESS.md": "sha256:29f361baabfc6f9d2bb213a23520a359cd9cb46073fdf03c48453ad4ac00d544",
+        "ERROR_PATTERNS.md": "sha256:3eeb3ecb2e8c36d96a97be7598e77613ddda00d35a52a5b35780257dcebeb71d",
+        "README.md": "sha256:73249e59fa9aa7cdd8feec532a4a5c69c4d73cc0ba084afd266f4acafad05e13",
+        "SKILL.md": "sha256:17cd7ee42f9ed76674d2ca44b95772b3d52954179c3fa5a1cc1d3ff9269e27ed"
+      }
+    },
+    "n8n-code-python": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-python",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:18.171271-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-code-python",
+      "version": "eca0d13",
+      "tree_hash": "c59bdfa16380b74e601d9b467c463b0cee472bcd",
+      "file_hashes": {
+        "COMMON_PATTERNS.md": "sha256:74ca1f00db9649258def40e74f9f5fc5b791f5d9896be315aa92735eb4c2971c",
+        "DATA_ACCESS.md": "sha256:a7e09fe0b0b024454bef960e626d7122777e0f72ed3d575f26c9c75b4b1ceca7",
+        "ERROR_PATTERNS.md": "sha256:8b66ae02734845ec02382f545d1d72fb673b26d78ceb0537fb212c11d4bc74f0",
+        "README.md": "sha256:db1313128607f0b26411d24d1ab21661f3fac2bfde3078963a51670b15e8674d",
+        "SKILL.md": "sha256:db7359f954a68168a3d6dfe986814ebd9debb89a1be968bfa53523adb195924c",
+        "STANDARD_LIBRARY.md": "sha256:fb862e9734948f5eb320e7adfdca68fba3d535eb039c4159715519a245600f2c"
+      }
+    },
+    "n8n-expression-syntax": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-expression-syntax",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:18.339001-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-expression-syntax",
+      "version": "eca0d13",
+      "tree_hash": "ac59d657c64f99b144fb14a055918e4a0820acb6",
+      "file_hashes": {
+        "COMMON_MISTAKES.md": "sha256:31400d8b454039410ca9ce9fb4f833d3f2ea563b0732fe633a9a5f9554b9fde8",
+        "EXAMPLES.md": "sha256:91fb77611cb7d7d48c9ec0eb3f5e2aad8fed3a7b305a429662b40b56c01521b3",
+        "README.md": "sha256:30eef969ebe6b5c8fff8f9f9d99dd195f6c5e5390b26e143f508a7484030134e",
+        "SKILL.md": "sha256:8f9f534d548596ab7b1622aadebbee78d55a5e5208b22f308aa7b2679c7cba5b"
+      }
+    },
+    "n8n-mcp-tools-expert": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-mcp-tools-expert",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:18.503876-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-mcp-tools-expert",
+      "version": "eca0d13",
+      "tree_hash": "ca96541368ede5aac5daa4b006ab7d46e0b747d2",
+      "file_hashes": {
+        "README.md": "sha256:31df5f3060d0320e9cc030c4f214b84511fd907f2c4cc90f43009da7c5ff6b7d",
+        "SEARCH_GUIDE.md": "sha256:294d87425d4c3d145a969e6408709d00103dadbaf4bbcd14dedc848f63a10ea0",
+        "SKILL.md": "sha256:5854a097a9d9aaf85213ff154d235734feda9af08af42c3ba69fc618de4d8bed",
+        "VALIDATION_GUIDE.md": "sha256:00fb22d0d5cd6ce616ccac21cd66bb85ef781cb15e3ac4db0121bc7744c08642",
+        "WORKFLOW_GUIDE.md": "sha256:aebda9fde073000fce5a3c15ae499202b7d327e46c068fdbd6e77a09d65b75d3"
+      }
+    },
+    "n8n-node-configuration": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-node-configuration",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:18.689003-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-node-configuration",
+      "version": "eca0d13",
+      "tree_hash": "96430eadae906cc3971b1ab69d3df28ed4c7c6f3",
+      "file_hashes": {
+        "DEPENDENCIES.md": "sha256:2045e0757cae39a43d18c6c8123777218f04a3acde17b3e3d75caf8d36776199",
+        "OPERATION_PATTERNS.md": "sha256:79eb300acb4122ca9584acdf55d9274fcbd920b1cafbc68c7b885b0d5f84e856",
+        "README.md": "sha256:029d5e9610553369ce504f1873e888481011a691492a61cc31a43a3aa41258e4",
+        "SKILL.md": "sha256:ed84a8637e5ca1f0979575c95265e77ac8632157af2077caf20da4af5af77dd5"
+      }
+    },
+    "n8n-validation-expert": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-validation-expert",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:18.83964-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-validation-expert",
+      "version": "eca0d13",
+      "tree_hash": "4e6951f003596046a724e4664740bd27b2ce6d74",
+      "file_hashes": {
+        "ERROR_CATALOG.md": "sha256:394064d56b98f0a30e797808fc2545094c0829b3ef4fda52b62b71c7a73108ef",
+        "FALSE_POSITIVES.md": "sha256:ab1f943d29f72559231551afb692632febb26dd05924989b217f511cf7b10489",
+        "README.md": "sha256:f29aa898822c96940c96774055221c5ed4b02729a608a74119e4306944f03db6",
+        "SKILL.md": "sha256:b530ea60844721aa47d924583257046033b98ffab1b3a7e75dca2cb7c4fa0eb5"
+      }
+    },
+    "n8n-workflow-patterns": {
+      "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-workflow-patterns",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:19.043408-05:00",
+      "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
+      "subdir": "skills/n8n-workflow-patterns",
+      "version": "eca0d13",
+      "tree_hash": "7f4c96ee5d98bccade037ebd8480c99df203adc7",
+      "file_hashes": {
+        "README.md": "sha256:e8a3b4b71a870d60f2b50e3509f9dd86be8b11ac3d559ae1e0433d786b6465be",
+        "SKILL.md": "sha256:37de9d46291e2d9844daa9fc5eb7311190a1518183627d23f9f2d3286f020cb7",
+        "ai_agent_workflow.md": "sha256:f3f04d7a043d1f3eb310b6fc56115ebee4d0482e801ed9443f06e4ccf93a32ee",
+        "database_operations.md": "sha256:bce26745af0c0d59f8cb8e20a8835eaf3886e99b4ccac253445e6c072202f4ae",
+        "http_api_integration.md": "sha256:d89908c0a1770df284c6c7399f31e51d762acd408d9d0c911c1df5d6d752ebeb",
+        "scheduled_tasks.md": "sha256:eadb6038043be2417d4ebd6e4031937e97c53f9ac37dc771bc3466ec79d15c58",
+        "webhook_processing.md": "sha256:03174d27d0e25884c3171de8dff99927932e64ed93a9520625a960800742770d"
+      }
+    },
+    "native-data-fetching": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/native-data-fetching",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.970736-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/native-data-fetching",
+      "version": "8f26555",
+      "tree_hash": "f7dbb2c2ad7ed6247a5bf74c81611feb01f5d13e",
+      "file_hashes": {
+        "SKILL.md": "sha256:ab855acdad6f593eb597b2891671808bf57fc4618fb0eaa26a84ea30576a5d5e",
+        "references/expo-router-loaders.md": "sha256:f842c86483a15380c44a4b49db27bf3d41e17b48b1f44b9a2bbacc563a9dcbe6"
+      }
+    },
+    "next-best-practices": {
+      "source": "https://github.com/vercel-labs/next-skills.git/skills/next-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:32.827828-05:00",
+      "repo_url": "https://github.com/vercel-labs/next-skills.git",
+      "subdir": "skills/next-best-practices",
+      "version": "038954e",
+      "tree_hash": "ad17eb27952b39a6ab0061bd50e8a2213b63a3ec",
+      "file_hashes": {
+        "SKILL.md": "sha256:c78f952d4e98bf3694856dbf70c03a6037d4e258ff3701f2642bfdf108549a25",
+        "async-patterns.md": "sha256:3a5e4a91d8399f0922c4a3b15b3490fbeb7396f976139a92311ea34cfa300584",
+        "bundling.md": "sha256:5496b337073985068c61527e0a89fbf7088faa47b9f92d2dd09a7d070cb48a7c",
+        "data-patterns.md": "sha256:538c8e24cd60eded9825a9461f2c644f5e6e5203d95aa4bf7c9486412bcc7aa1",
+        "debug-tricks.md": "sha256:62617a7cb131a2111f9f033617404fadb3458d56aeb0643f75aa5b2e43abf192",
+        "directives.md": "sha256:60b82ee24a8d43631da59beeec11f46ab25ce83c8000578f2222ecb6b6cadf4d",
+        "error-handling.md": "sha256:30b4e825b625df01d4a7c441591ac46782aab4f913432e96f408153d5fa62098",
+        "file-conventions.md": "sha256:95eeb1c6e1c98571192662c8ba3cbf6a034f754596aba54a35077a50a5266de3",
+        "font.md": "sha256:cb1f8d43e8fbca39839056b4621724837858bdace13e73bf3faf69abca318a21",
+        "functions.md": "sha256:39a8a418af501d7132d289f4b5dd6cae59d1bfa6fda941d502fc29bb0204e079",
+        "hydration-error.md": "sha256:d4baec07ab818045e284c45dd24422685ac934a38ea325139651f664a94eff57",
+        "image.md": "sha256:231a15ddea67fe0b965762cc89993ca5aaeb0c35c0e67767bd53ca138ec04c05",
+        "metadata.md": "sha256:19b00274877056f222f2284be5ade2479690e79e86af9a0466bc9d209506a95d",
+        "parallel-routes.md": "sha256:d8a1c2546d90af2b37e22a4a56a1978555af0d62a7683e349ce3e3287ab8a4af",
+        "route-handlers.md": "sha256:976a17de8024b3a65063350ae0fb6b9b617293f06358305800c858f58b015680",
+        "rsc-boundaries.md": "sha256:2b50b0310884609efc9f2620fbb81ef83a30a810544e449ff669c55935d5b920",
+        "runtime-selection.md": "sha256:7abb95f9af0f4769e7e9e91aba94a5787ed16e2c4009a140c8577a3a49828060",
+        "scripts.md": "sha256:fff3bc7530d5af472e2825fde69a26218c9e58acba74d60913f403baab4628a3",
+        "self-hosting.md": "sha256:f59e9afa0ff4dcbe20374dff13517ccec3ac6a239ef6d02e0ee8863cf9fc7082",
+        "suspense-boundaries.md": "sha256:63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a"
+      }
+    },
+    "normalize": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/normalize",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.709232-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/normalize",
+      "version": "6d8b466",
+      "tree_hash": "1afe5d194bdafc5e2c310d67f1552c7faf63405e",
+      "file_hashes": {
+        "SKILL.md": "sha256:e93333019ce17c7eb55632521767493c06110cf22511a9a741bc71e630f79896"
+      }
+    },
+    "obsidian": {
+      "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:44.051195-05:00",
+      "repo_url": "https://github.com/elizaOS/eliza.git",
+      "subdir": "packages/skills/skills/obsidian",
+      "version": "154dd93",
+      "tree_hash": "6aecd4a037e5c0d0f38c2de9f97d03498cefe9e4",
+      "file_hashes": {
+        "SKILL.md": "sha256:53982459e6d529a4cff805864b011097c60df8941886e5f9eced142a86596d1e"
+      }
+    },
+    "obsidian-bases": {
+      "source": "github.com/MarsWang42/OrbitOS/EN/.agents/skills/obsidian-bases",
+      "type": "github-subdir",
+      "installed_at": "2026-03-13T10:42:59.588556-05:00",
+      "repo_url": "https://github.com/MarsWang42/OrbitOS.git",
+      "subdir": "EN/.agents/skills/obsidian-bases",
+      "version": "4836c2e",
+      "tree_hash": "9103e27e8be3be08583c321cb7c21ff53f5f6dd3",
+      "file_hashes": {
+        "SKILL.md": "sha256:769b27496cd3f9df91be7226a2e1aaca39b9cfe4b67f45defb60a9d22c4039eb"
+      }
+    },
+    "obsidian-canvas-creator": {
+      "source": "https://github.com/axtonliu/axton-obsidian-visual-skills.git/obsidian-canvas-creator",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:33.520098-05:00",
+      "repo_url": "https://github.com/axtonliu/axton-obsidian-visual-skills.git",
+      "subdir": "obsidian-canvas-creator",
+      "version": "1265976",
+      "tree_hash": "d3ad114c28c7d8a52bdf34784d4f9086778a8dec",
+      "file_hashes": {
+        "SKILL.md": "sha256:77bdb4ad4bf7d0ba6bd6f4c51f332216ea90a971837951605cf1008aa9b54ef3",
+        "assets/template-freeform-grouped.canvas": "sha256:95e2358b75e0dafddff94c3ff74397ae2f970552c2a2f33fa7e51faad875ceef",
+        "assets/template-mindmap-simple.canvas": "sha256:0be885214ed6195b0e52f120fc94244dd207c077636d8b8a943d86f6a6f844a0",
+        "references/canvas-spec.md": "sha256:46b46513b68742dcf6e436c316eff16c9ecd140a7173f5f1be6252e3eac3da19",
+        "references/layout-algorithms.md": "sha256:1582ed5fbdf9abbca31f738c9146c833b4bf237bbf5c4dea594fbdc53cf46677"
+      }
+    },
+    "obsidian-cli": {
+      "source": "https://github.com/openclaw/skills.git/skills/adolago/obsidian-cli",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:39:10.764477-05:00",
+      "repo_url": "https://github.com/openclaw/skills.git",
+      "subdir": "skills/adolago/obsidian-cli",
+      "version": "e0cef38450",
+      "tree_hash": "ceeff3a4ae59b53f89eeae4857fcd03e669bae8f",
+      "file_hashes": {
+        "SKILL.md": "sha256:1bf33c51c9b3367aabf4cb9a5a410a5f7dcfb6d1d152ad5b2960a2dac8715c0b",
+        "_meta.json": "sha256:46b2667083f724ed791640860d6468efa41c9f5399adf1b1c2c70e8352fc1ac8"
+      }
+    },
+    "obsidian-markdown": {
+      "source": "https://github.com/davepoon/buildwithclaude.git/plugins/all-skills/skills/obsidian-markdown",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:20.308063-05:00",
+      "repo_url": "https://github.com/davepoon/buildwithclaude.git",
+      "subdir": "plugins/all-skills/skills/obsidian-markdown",
+      "version": "8f2b986",
+      "tree_hash": "515c9398ac3d032914a1a17eb2cf8c7a523e01d2",
+      "file_hashes": {
+        "SKILL.md": "sha256:08796569d2aa144647a0d68130831e7586260ad595d473b3674707d5cd5ca1a7"
+      }
+    },
+    "obsidian-project-assistant": {
+      "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/data/obsidian-project-assistant",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:35:14.011125-05:00",
+      "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
+      "subdir": "skills/data/obsidian-project-assistant",
+      "version": "59baff2b30",
+      "tree_hash": "e20263c119f60870c7c64843ee376f361a268a9f",
+      "file_hashes": {
+        "SKILL.md": "sha256:f4dcad59b7b506abb72b298d020c1ed61f43fed7626a8c33241c5f9c2e8b6eea",
+        "metadata.json": "sha256:f4b04c5aae910e30baefd05839df64d6443b0d7f00c0ba5931dc0005801a8869"
+      }
+    },
+    "obsidian-tag-normalizer": {
+      "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/documents/obsidian-tag-normalizer",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:35:14.320235-05:00",
+      "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
+      "subdir": "skills/documents/obsidian-tag-normalizer",
+      "version": "59baff2b30",
+      "tree_hash": "ebaa8b061cf4de1447900413d59b4fcf37dc8673",
+      "file_hashes": {
+        "SKILL.md": "sha256:58bc851eafa31b9a22654d31956b0bf72db9226d821a809ad5bb623baf6a6fd3",
+        "metadata.json": "sha256:7519fe0c56a02b0a8052dd4f6c825730caa5cddc71c8e1fb4d826b8504e82388"
+      }
+    },
+    "obsidian-vault": {
+      "source": "github.com/runkids/my-skills/mattpocock/obsidian-vault",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.095082-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/obsidian-vault",
+      "version": "6d8b466",
+      "tree_hash": "5f812e7044017ff999ae11adc62470bbeb11a587",
+      "file_hashes": {
+        "SKILL.md": "sha256:7bed1d552aa5e9345e493cd62cb13e65c5d829d153c349afdb2cb91c809fa6c4"
+      }
+    },
+    "onboard": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/onboard",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.725328-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/onboard",
+      "version": "6d8b466",
+      "tree_hash": "edc97af88b5cdab449c948330b4d031dfae56dc8",
+      "file_hashes": {
+        "SKILL.md": "sha256:a298633a609d5c258b7ae972b6b82b8208e8d07adbfc4c6e23f980e71aae7876"
+      }
+    },
+    "onboarding-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/onboarding-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.144265-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/onboarding-cro",
+      "version": "9125d82",
+      "tree_hash": "c04583ce1432d2d9969877cd7cd007e9f4e87e36",
+      "file_hashes": {
+        "SKILL.md": "sha256:94899064ca72db87c9d84d27f393ec61ac03db9a0c1fd465e9aee4d31cdf8134",
+        "evals/evals.json": "sha256:617f6842f6a482d928c739969612ddd21176253672c98832a662f6cdee538f8e",
+        "references/experiments.md": "sha256:b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932"
+      }
+    },
+    "optimize": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/optimize",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.741062-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/optimize",
+      "version": "6d8b466",
+      "tree_hash": "1c05318567eb4bc67e1cc69f2d83169b14a219c0",
+      "file_hashes": {
+        "SKILL.md": "sha256:55b73a153dad1dd8a4946fc116a9d938b9270fb6224880c9828682540cb929c5"
+      }
+    },
+    "page-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/page-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:13.96555-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/page-cro",
+      "version": "9125d82",
+      "tree_hash": "d3dc4cfd6552df0653f35b5ef4b750bba1126246",
+      "file_hashes": {
+        "SKILL.md": "sha256:60db341ae3a52ecd6521bdbb3741e22b20197ec130c61728cbbb7c1951988c9c",
+        "evals/evals.json": "sha256:e7adaa24952dc15b1ef432c922082e40615b8470ed02c2fc06dacaa6e78c3b96",
+        "references/experiments.md": "sha256:bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca"
+      }
+    },
+    "paid-ads": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/paid-ads",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.069538-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/paid-ads",
+      "version": "9125d82",
+      "tree_hash": "e2f1b03529f010bfd165280bb635a1b146ccbb75",
+      "file_hashes": {
+        "SKILL.md": "sha256:065a516ee82d1c260ec89f859fa4856e1deb7291a136d9ea64d5f1c7e906aec3",
+        "evals/evals.json": "sha256:60b6fd1257aa3e41ace941d722a96bcff16f50d50b4daf9650ce731a6bb2b17f",
+        "references/ad-copy-templates.md": "sha256:853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
+        "references/audience-targeting.md": "sha256:21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
+        "references/platform-setup-checklists.md": "sha256:b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69"
+      }
+    },
+    "paywall-upgrade-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/paywall-upgrade-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.205964-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/paywall-upgrade-cro",
+      "version": "9125d82",
+      "tree_hash": "23fdb20d9fb8c5c7c0b6b6b750c1ed18a006102d",
+      "file_hashes": {
+        "SKILL.md": "sha256:aa09549f503bb656af4109bfdb256d7e12fda988e5f26ecffe19c88b5d9c07e6",
+        "evals/evals.json": "sha256:9ae38af8a47e7ed597af4b5ee6289a4d0bf1eb84b4566d3f2efebe08347df811",
+        "references/experiments.md": "sha256:5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19"
+      }
+    },
+    "pdf": {
+      "source": "https://github.com/anthropics/skills.git/skills/pdf",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:23.216411-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/pdf",
+      "version": "12ab35c",
+      "tree_hash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "sha256:9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c",
+        "forms.md": "sha256:9530b3f57034792e0242a3abfe8b3c296466329551916f2ff6c5a70db78f7e44",
+        "reference.md": "sha256:03a5f964f8abecbbe156f363356e927e864d7ee964f1012c84ee1bfc8acbeb95",
+        "scripts/check_bounding_boxes.py": "sha256:0ced522402dd7b3c82a0be9518cf4e485fa9cc0467d7beab6ddb04cb36fcc3e1",
+        "scripts/check_fillable_fields.py": "sha256:1fe10b9980a5493c9bbec8c20630c603eaa475b45403751c08f26738736647b8",
+        "scripts/convert_pdf_to_images.py": "sha256:7f58e292a67e18a8ff000d30bad2469389546731f7e8a698cc1d0aed001ea15d",
+        "scripts/create_validation_image.py": "sha256:8fa9fd7962c9f940045b81cf6b991e7c1057c1838e3f9cc6d305007a222ffebf",
+        "scripts/extract_form_field_info.py": "sha256:bb235b36f497bbb1c7c6821cecf527bbba7213520de11219da99f7b13a38c109",
+        "scripts/extract_form_structure.py": "sha256:6814e3fe8f78c2b16d766c132b5a727ff7a31b71d76a7d46bd6e40fe50bc97c5",
+        "scripts/fill_fillable_fields.py": "sha256:d140872c2e92e41b1e05370ae8d270c5b7f5ebdf55d9905f03bc974a9c708ff5",
+        "scripts/fill_pdf_form_with_annotations.py": "sha256:8a56e063a49ed53c0b0e1d312ecf8023af76816ed139486ec3b539873de202fd"
+      }
+    },
+    "performance": {
+      "source": "github.com/runkids/my-skills/web-dev/performance",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.407219-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/performance",
+      "version": "6d8b466",
+      "tree_hash": "52d9671ac23cb2e73df8051a5e342bd674ca06a9",
+      "file_hashes": {
+        "SKILL.md": "sha256:4a480aded5001c237d9503ec3c6c6c6d5cc38bb7935912bb1c2bb9c3ee637350"
+      }
+    },
+    "php-wordpress": {
+      "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/development/php-wordpress",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:35:14.461287-05:00",
+      "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
+      "subdir": "skills/development/php-wordpress",
+      "version": "59baff2b30",
+      "tree_hash": "130f147876f1868bbe1a33ffe733fcbdae0a9033",
+      "file_hashes": {
+        "SKILL.md": "sha256:a87ef366b730658115bab1e4aecb10a22456deff954b07623c781567bd1d88d6",
+        "metadata.json": "sha256:8ecf3befbea562b331a6a4be538d77ba45090a39b57a0ff89d6265f2aeb3f5dc"
+      }
+    },
+    "polish": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/polish",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.757606-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/polish",
+      "version": "6d8b466",
+      "tree_hash": "c0c8d34bf795e83ef2c4a6cb723bd6e55dd1dd11",
+      "file_hashes": {
+        "SKILL.md": "sha256:b2a458921a707792c1a39ed95ce6a38034e14a92049119c3f12ce6dc0b3b3537"
+      }
+    },
+    "popup-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/popup-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.302127-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/popup-cro",
+      "version": "9125d82",
+      "tree_hash": "9765605f67cbfcb2abc966ee19a645d30bb97bb6",
+      "file_hashes": {
+        "SKILL.md": "sha256:30c6d8c8c89e088724c4bef541142022532f26b9053861084896b447cef2ff95",
+        "evals/evals.json": "sha256:c848432b048adb0eadc2f212e058e0c08d21ad1cd7196c9c8acbcf4bb0f2d931"
+      }
+    },
+    "pptx": {
+      "source": "https://github.com/anthropics/skills.git/skills/pptx",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:23.473402-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/pptx",
+      "version": "12ab35c",
+      "tree_hash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "sha256:e5b0df918cbe9d62508b3cf808d73899633f82fc19f6258a25ef9f0de7e62125",
+        "editing.md": "sha256:6cb47c3ab17e60b7de37e83131c409ef5a90a01bfb54e999905a9c9f7dd88e68",
+        "pptxgenjs.md": "sha256:9539534d92b7170813b735a448750df3580390da2da6c52a02b687ed53ecba86",
+        "scripts/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/add_slide.py": "sha256:04233ba3932c6b8611677347891616456e243cc09b7f9769408b8c83d9acfe64",
+        "scripts/clean.py": "sha256:3e3966a17f488a1ddc7145f0b7ec9f25595afa1f3a427ab05e610f1a328feea9",
+        "scripts/office/helpers/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/office/helpers/merge_runs.py": "sha256:7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+        "scripts/office/helpers/simplify_redlines.py": "sha256:560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+        "scripts/office/pack.py": "sha256:b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "sha256:41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "sha256:3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "sha256:29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "sha256:5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "sha256:5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "sha256:5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "sha256:b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "sha256:bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "sha256:d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "sha256:3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "sha256:0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "sha256:e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "sha256:0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "sha256:0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "sha256:9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "sha256:bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "sha256:7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "sha256:3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "sha256:12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "sha256:beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "sha256:f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "sha256:585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "sha256:133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "sha256:6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "sha256:475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "sha256:c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "sha256:a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "sha256:9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "sha256:451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "sha256:6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "sha256:f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+        "scripts/office/schemas/mce/mc.xsd": "sha256:3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "sha256:568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "sha256:0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "sha256:be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "sha256:fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "sha256:127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "sha256:842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "sha256:16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+        "scripts/office/soffice.py": "sha256:a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+        "scripts/office/unpack.py": "sha256:83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+        "scripts/office/validate.py": "sha256:1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+        "scripts/office/validators/__init__.py": "sha256:83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+        "scripts/office/validators/base.py": "sha256:d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+        "scripts/office/validators/docx.py": "sha256:0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+        "scripts/office/validators/pptx.py": "sha256:f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+        "scripts/office/validators/redlining.py": "sha256:f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+        "scripts/thumbnail.py": "sha256:e959ecd4f19735161218bc44d0648a46da17874323fb3e19c2e9cb50cefe6ce7"
+      }
+    },
+    "prd-to-issues": {
+      "source": "github.com/runkids/my-skills/mattpocock/prd-to-issues",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.10879-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/prd-to-issues",
+      "version": "6d8b466",
+      "tree_hash": "d586f6f07f091195650fa4060e3c41a0d39d9aba",
+      "file_hashes": {
+        "SKILL.md": "sha256:8d964c1c399ea58ce9c05cfb9dbfef9525d2c0b6d132caae384347a3cda33c9e"
+      }
+    },
+    "prd-to-plan": {
+      "source": "github.com/runkids/my-skills/mattpocock/prd-to-plan",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.121491-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/prd-to-plan",
+      "version": "6d8b466",
+      "tree_hash": "0ebf7bab024029ceffb5562fcb051fbbb4f4db1a",
+      "file_hashes": {
+        "SKILL.md": "sha256:96fa3e558ad0b88c8776d3cee3eb50e41808273d053b5fecc3c80d4ccde9cc38"
+      }
+    },
+    "pricing-strategy": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/pricing-strategy",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.101859-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/pricing-strategy",
+      "version": "9125d82",
+      "tree_hash": "5de24bfb9a0fce1b389954aed86325f35e99e26f",
+      "file_hashes": {
+        "SKILL.md": "sha256:e049d919778199f0f33e09e4bb08f9331edd821ec32503c5b919725696ca92b3",
+        "evals/evals.json": "sha256:6b8f002adfdccd3c1d4b88abcac62666399f527b07fad4e89d470c4e1eaf97a5",
+        "references/research-methods.md": "sha256:b6aab09860dbab2f11d69cc9c179cc7f6e1a100ede28e5c49b59070a2caaeb15",
+        "references/tier-structure.md": "sha256:b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
+      }
+    },
+    "product-marketing-context": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/product-marketing-context",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.250578-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/product-marketing-context",
+      "version": "9125d82",
+      "tree_hash": "633cdcf2293799e84a37b14361f9439045b2c1a8",
+      "file_hashes": {
+        "SKILL.md": "sha256:e80bbfe3c243ccc39f238dc9bc64ec4a4f9ff0af366a5b17081b92bac69902e4",
+        "evals/evals.json": "sha256:e4a1dc56aedb94e00f6a0a6df1f660e94a63839f95e1d50bd9b1a43449c88d14"
+      }
+    },
+    "programmatic-seo": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/programmatic-seo",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.353761-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/programmatic-seo",
+      "version": "9125d82",
+      "tree_hash": "ebd45df541268af6df1eef6855731b57fe09deb2",
+      "file_hashes": {
+        "SKILL.md": "sha256:3f5b405f4058a7d4beacfef8c981ffe12dc9ecb965f6f6d121c4e762f0353cf2",
+        "evals/evals.json": "sha256:1194c1283bd9f2a39c137b1bfd5322e348af78476a17fd605ae976fd44172801",
+        "references/playbooks.md": "sha256:b2edf9b9434729630f746fec2f228e50aa5b6fe1bf753e0d4d46ecf8a3137274"
+      }
+    },
+    "quieter": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/quieter",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.772441-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/quieter",
+      "version": "6d8b466",
+      "tree_hash": "308e62c0bea442a9943cc10f03470a2a59cf88cd",
+      "file_hashes": {
+        "SKILL.md": "sha256:33d781f0fac0b21600a487bb2c432840820aacaf3d73e8e815e246db3889ce1d"
+      }
+    },
+    "ralph-tui-prd": {
+      "source": "https://github.com/subsy/ralph-tui.git/skills/ralph-tui-prd",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:39:51.890276-05:00",
+      "repo_url": "https://github.com/subsy/ralph-tui.git",
+      "subdir": "skills/ralph-tui-prd",
+      "version": "fcea670",
+      "tree_hash": "bf73ca88685816787c9822388db5b6519dd0848e",
+      "file_hashes": {
+        "SKILL.md": "sha256:9534f7cdf173c08ff084854934dc739dd94027dcb438fc14e96c87f2a272a7d8"
+      }
+    },
+    "react-best-practices": {
+      "source": "https://github.com/runkids/my-skills.git/frontend/react/react-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:30.874225-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/react/react-best-practices",
+      "version": "1accf06",
+      "tree_hash": "b9b98d3a76ad650ad97f5034c6d4e723e824e21e",
+      "file_hashes": {
+        "SKILL.md": "sha256:f6e6e80abc3cd857cb51a5601ef44649b65f6b74434fbde0cf478878a5917b50",
+        "references/react-performance-guidelines.md": "sha256:49e4299fadb5cb096ee0c574488eb5168afcf3eb65cd4452ab19327128554746",
+        "references/rules/_sections.md": "sha256:01c59969e4e867f0708c8f8ef9c6d87fab9a07d0586244f429ff84013db8a115",
+        "references/rules/_template.md": "sha256:99df2a3ea088c6c22de2484ddc7e964d0e9923846f44c63380343ecc64455442",
+        "references/rules/advanced-event-handler-refs.md": "sha256:15d28a8b5207a22db9812362662d484a4f1ea822d8ea58f9e45e87d7b93b7574",
+        "references/rules/advanced-use-latest.md": "sha256:0b7d925c96c5f063095e627a37f13b2b2cfff22d8c126be6232edcea509fa062",
+        "references/rules/async-api-routes.md": "sha256:523338540d73427dc14c0cbb19f2741ebccdf8b105a7b2c1b33d2905cf237a42",
+        "references/rules/async-defer-await.md": "sha256:9b9166c7fc58b436cf039ac4e36dd0d3c4f762b61111f579d93cdb9f2ab2b6f9",
+        "references/rules/async-dependencies.md": "sha256:bfd348ab519f168447ffdbde7b70f40ecb99115c3cdae9292182ec8e28e1ab63",
+        "references/rules/async-parallel.md": "sha256:6d2f841896279e976dfcdc1ac89e70771ac188baadfd43c096b5706cb838b961",
+        "references/rules/async-suspense-boundaries.md": "sha256:2ccf54dcd1aff3694ac5a07e1b2afffcb63ddca7c77285a0c52d89c0500c5832",
+        "references/rules/bundle-barrel-imports.md": "sha256:9e61a5d579a8a7d55194c2e110414d7ee2d8da947ba187d444daa1e54d265f0f",
+        "references/rules/bundle-conditional.md": "sha256:62c1e787a139cd0754eac6eb4ad50120b3b8836743fcfa031e1a7f6da78b301c",
+        "references/rules/bundle-defer-third-party.md": "sha256:356389745e1a55dd182e1d6758a7fa7d24c4d9a074eca36e42eaa74748753353",
+        "references/rules/bundle-dynamic-imports.md": "sha256:401817a7369f315fc5a68a1095742ff7d53d0461906880dc9d64a41495ee1986",
+        "references/rules/bundle-preload.md": "sha256:6cb284ca57e4bda8a07fc8419b78dd13b9a6d1a4cc732dbadf63971ade324d4e",
+        "references/rules/client-event-listeners.md": "sha256:aa1f9165b8e8aea6d87c8ce2df9dbc77326e3b71bd21b98ecb5f16f4cfd55a18",
+        "references/rules/client-swr-dedup.md": "sha256:644652c39c6cc00de8d1c77a7273612e868dc3f7edda30764164c12ec0f764a3",
+        "references/rules/js-batch-dom-css.md": "sha256:b2dc21bef3b5dedef3323cff55cb3394d9e10e497de20a49e45b9f6904bb8649",
+        "references/rules/js-cache-function-results.md": "sha256:6ec5a49a6a6b5f4a2820167c138445dd2ac83997a0cfed4a818eadf9fd1d6745",
+        "references/rules/js-cache-property-access.md": "sha256:73e47431e74878a927061bf0ddc7cd91a7556cb35d2573f3421e82300d9ae311",
+        "references/rules/js-cache-storage.md": "sha256:dfbe43c55d1973e7cf456cfa6978f6f09f57c3fd1d5e7fd09ba9d4708c472b8e",
+        "references/rules/js-combine-iterations.md": "sha256:71add08aeeb43091d4ff4c0b2842cce8b4bdef8ad3e732cc034bb5a84827e746",
+        "references/rules/js-early-exit.md": "sha256:925ce5ce87f3347186ca62212f29cc6baa2b8c85a96d2720ad07c3d0abf781c0",
+        "references/rules/js-hoist-regexp.md": "sha256:db7a4a651e1745e46c8b5523c76dbe36ef091876af1a661be344180ed00b81ca",
+        "references/rules/js-index-maps.md": "sha256:5df1bdc2cfabb2c98abd55d26762e5c18189535c2e686184f426082e62920391",
+        "references/rules/js-length-check-first.md": "sha256:4d4f4c90143223040c9c12c405cd2d6218f411e248cbd1204929f5b93f4ff030",
+        "references/rules/js-min-max-loop.md": "sha256:d51fed76afdf565bb3c372d47c7d4c65ec07cba7663cc5e630b59e115442fb65",
+        "references/rules/js-set-map-lookups.md": "sha256:a7fd781a6ba9ad49065961b6f9a90ef486bf6b648390e1a08704025f98e1642b",
+        "references/rules/js-tosorted-immutable.md": "sha256:17f0792269cce727e145d24b5708e128c506d5c4c455cbad8f041d7ea09dd5db",
+        "references/rules/rendering-activity.md": "sha256:1e5e7eaf3555e61d6a2e900089c676527d26259501db5594f59544b6c664f85a",
+        "references/rules/rendering-animate-svg-wrapper.md": "sha256:8798227233e2e7b3e434a6180be14e5b78e0d545af69b46dd0ac89ec543904fd",
+        "references/rules/rendering-conditional-render.md": "sha256:d072261110d36ae29f289a1e7dc6bd3fc23280ae59e06f28b610da8c00bb2469",
+        "references/rules/rendering-content-visibility.md": "sha256:c48456cbe71373f13cbcd6e0e1c423d6388e93ddf353fccf1716bed75e58fd4f",
+        "references/rules/rendering-hoist-jsx.md": "sha256:f91dc6c2dcacdc22efcfafca390c00186b934eb520113d64c448b63e84d30b43",
+        "references/rules/rendering-hydration-no-flicker.md": "sha256:dc7ab358c67c177bca6e6f360fbc935ebe4efa928c0ba3ebd3f9f3d9e2000ca3",
+        "references/rules/rendering-svg-precision.md": "sha256:f5c53cc0f8d256b191e1ffa1dbab23eec0b912168f503fcc07eed23e64586db6",
+        "references/rules/rerender-defer-reads.md": "sha256:234050a77faf50cb306be10a9e15bd4421134ab5907e75f13e6d78e2bd262dc9",
+        "references/rules/rerender-dependencies.md": "sha256:379ac335c8042df57646326de95deabef38e20ce2b8d8a21fbd579f8c74d312f",
+        "references/rules/rerender-derived-state.md": "sha256:011c9d3e655f6e91408e818d47213625c1938008f2c68a42cbd72d2873438d99",
+        "references/rules/rerender-lazy-state-init.md": "sha256:4ae844740f266fc8cbf050701230286624a2440ec5be67b9a63d9edc3c580573",
+        "references/rules/rerender-memo.md": "sha256:98eb5d9084dc33144dfbae91f5ccd2e314bc5ed6b9b4a9b1e0be5155d2ca58a8",
+        "references/rules/rerender-transitions.md": "sha256:60f4033909a62df5e5b8c601494f9e50a562e2f8c1c2d81eac24f38142265f1c",
+        "references/rules/server-cache-lru.md": "sha256:f6ff3484b8aa52910ef06aaa1e27a1beee9baaa301f5c56e11f70d11a29c2ef4",
+        "references/rules/server-cache-react.md": "sha256:56b75e081aaaea192effc4127b879a6a83f880585ee85f8fab0a9dece13a650b",
+        "references/rules/server-parallel-fetching.md": "sha256:7710423762ebed2014d371ce2080f14530ba41c50599227c3ef7c62a8e9f3475",
+        "references/rules/server-serialization.md": "sha256:35e0a6f76b409a2b3b8106bd7f42c2ddf4820d4598b381c22268cb2ec97bce1c"
+      }
+    },
+    "react-doctor": {
+      "source": "https://github.com/millionco/react-doctor.git/skills/react-doctor",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:28.593293-05:00",
+      "repo_url": "https://github.com/millionco/react-doctor.git",
+      "subdir": "skills/react-doctor",
+      "version": "87d4b86",
+      "tree_hash": "63a9d42561575b2a8f8c29798040d7b9defbbda8",
+      "file_hashes": {
+        "SKILL.md": "sha256:31122cb810ac47fbb65632c7c055fd5a08f3bd397869910ff23f440ed106ac84"
+      }
+    },
+    "receiving-code-review": {
+      "source": "https://github.com/obra/superpowers.git/skills/receiving-code-review",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:25.640533-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/receiving-code-review",
+      "version": "917e5f5",
+      "tree_hash": "7750c56fddb8b2f1cbdb1550a6e3e40d2eeac5f1",
+      "file_hashes": {
+        "SKILL.md": "sha256:c9382e92b8f32363566068ecfed19d3b2651eaf40d3942b24840f839dedfc406"
+      }
+    },
+    "referral-program": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/referral-program",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:16.817686-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/referral-program",
+      "version": "9125d82",
+      "tree_hash": "2d90d53d1842906022969a2872d1272a2c2001b1",
+      "file_hashes": {
+        "SKILL.md": "sha256:52133a3a39a6ff426fe464a3cba3927b447a169e007efb51ecb44ca83e7f91b9",
+        "evals/evals.json": "sha256:5a85f1b483081ca88a48800b82c32175c06e9bda020e4416e11f0c1413b17d54",
+        "references/affiliate-programs.md": "sha256:3479ba24987c24654191f02bbf57fa5ff89eecde8e93cf22c65538bed2c356b4",
+        "references/program-examples.md": "sha256:2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a"
+      }
+    },
+    "remotion": {
+      "source": "github.com/runkids/my-skills/utils/remotion",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.335805-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "utils/remotion",
+      "version": "6d8b466",
+      "tree_hash": "6b6dd8eff392631201c65383ba1f9e38a14273cb",
+      "file_hashes": {
+        "SKILL.md": "sha256:2f9be561c1c3659aea1b4c777a9b57733dcd466b6e85231316d2841d947584bf",
+        "rules/3d.md": "sha256:42cef6d68fb4a266ab495d35df0c60e03672b0d85c043f9b567f6aa7ff00dd0d",
+        "rules/animations.md": "sha256:4fbc3c908fa27725534a8bfeaf26c58a58750790bc0e98dc8745e27734a9abb2",
+        "rules/assets.md": "sha256:68b70928aaea682165f33dc8e98278d9dca8512b50e44abc2c884ee5f3ac78de",
+        "rules/assets/charts-bar-chart.tsx": "sha256:6e5e219c596c8515336570a5bc89c233e32e695d5816dec88eb929e798eeea61",
+        "rules/assets/text-animations-typewriter.tsx": "sha256:92b5f47d6d18387a0aa008ce9dceefd30f673ae5879e16892bd4b4ea97f5dddb",
+        "rules/assets/text-animations-word-highlight.tsx": "sha256:30e707bbc90e3734fcdb0f9e869bdb9fbbaf8ded1d923951d616f5ba402ce03d",
+        "rules/audio-visualization.md": "sha256:0f4043de86639b6390e5ab888eaa66a24a10a8bd540f1443327cb88107eae1e9",
+        "rules/audio.md": "sha256:e931664ac23bc4acfa137d8b415702bb4860b4fbabd6caed0042c0902d3bec90",
+        "rules/calculate-metadata.md": "sha256:fc7c3f411a38020686e1295078fdf0ac9e1b889296192b5c7d4a4871edb2b662",
+        "rules/can-decode.md": "sha256:d2323cc4f2a884a09d167f31a4fcb36bd94adf1002de88b99bd9af1a2bc5ed71",
+        "rules/charts.md": "sha256:c6863bd1122f53f80c2211fbe19bc5e3db8a38a5d43473748da8067af10fcf29",
+        "rules/compositions.md": "sha256:3223ce9326048ef734fe880e5ddbd33e75e12dc4deb7f6043c58d11329d47f31",
+        "rules/display-captions.md": "sha256:20b8898a90536fa427a5a39571fc7deac7bde96c4c7bfdf413eee1ef4ef85530",
+        "rules/extract-frames.md": "sha256:771eb211c58130b2e4533dfec87abe584a2070c1d3dd0a0d6f16d2bb85dd237f",
+        "rules/ffmpeg.md": "sha256:1b353dfd8f81c5edca268800428e33ee4b0ad17e870f7f76969b820268e25d48",
+        "rules/fonts.md": "sha256:1749e4cf82e8b157d4b0a26f46721152d3ef9e5e9a1686753b8bb6a1be83ddbc",
+        "rules/get-audio-duration.md": "sha256:720a5346ae79555e933498995d5cb04d1bfbeeee7232436d8835c3ec17d46281",
+        "rules/get-video-dimensions.md": "sha256:ed1bb6e0ae742e4bfcb18e7c50af23fc782a9d699b90d367250437c7f6da7304",
+        "rules/get-video-duration.md": "sha256:ed594a0d73a5274483f21c30e612aba57089d5bbc5437041aa32d07a8e789fd9",
+        "rules/gifs.md": "sha256:db5d84bb8da4c52c133cdc9820a5b6995db94a548df5f9838efb8d1224065787",
+        "rules/images.md": "sha256:833e0a038d7c158f58b39f9bca7efafbbc4b944a54b3ae1c95e0d5973345e22c",
+        "rules/import-srt-captions.md": "sha256:ad89cc1834dcd63ff225593f699611a1a20b57eff4ed8e587f429b36516ec82c",
+        "rules/light-leaks.md": "sha256:17d2f136f7bf2f438274a0ade43df017c360ae31175d8367ce476415c222dfca",
+        "rules/lottie.md": "sha256:6dd0a845f5cea9c0f3d2465b5678a16076f5778ad1a628abbf387dba0b929cbb",
+        "rules/maps.md": "sha256:5a531e1c925c58c4aa019c33bf2b6c0412560af3359295ab080f33e063e01d61",
+        "rules/measuring-dom-nodes.md": "sha256:4017103b03f14a041ac433be78c521ec2e9961629fae419c8b196d349637585b",
+        "rules/measuring-text.md": "sha256:5cab1807b9ae9f5be3fc0e1cb0e0513a69451e31e32657d6a665573331db6807",
+        "rules/parameters.md": "sha256:9de38837a07dc406052dfbb759c58ca5298ca331d86d9aa0f4e177b339e288b5",
+        "rules/sequencing.md": "sha256:7c18f2ac36974fd7b85c01efa1135ea06a14e8492dd9fe82ced3bec0b4bb605d",
+        "rules/sfx.md": "sha256:96fcc4f0973b5ed5cd9cd0d4d0479c642984cfacd8010fc7d6186c468296626b",
+        "rules/subtitles.md": "sha256:9f18ec4a9c88adf35d51b44aaf344442443fd687a4dc948366ebb683fc3ecd30",
+        "rules/tailwind.md": "sha256:6212ce72abe5eaee0eb41822b2cdf944b77ad9b082426909beb2da07151e1788",
+        "rules/text-animations.md": "sha256:40ac6b1bccf1c57d9edd46c74e847ec6e86fe775d3ef4fd14e1338f4a2606171",
+        "rules/timing.md": "sha256:3bc19fff4fea55b16a68003d2723178e12bb60e61d0149c3d1bbb23c7389e8fe",
+        "rules/transcribe-captions.md": "sha256:ad1a62af35fe176b37ac4d98f796451ca66bcc9983207a9710ec3eca6e847738",
+        "rules/transitions.md": "sha256:f6b0ca21322d68ab516345e8d57a2039c48654c98604b673913382c854e79d86",
+        "rules/transparent-videos.md": "sha256:394ccda476e084522d544471fee92d7c65672e2cbaf2201a785c3dd5c74f31a4",
+        "rules/trimming.md": "sha256:ae00948f6a903e384c7c312896adba9b50ed592f24a5a090699b7345849b36b9",
+        "rules/videos.md": "sha256:d9d3032a57f92c759daf0bd60b3282f6810ecc9958e9093a6b828de623b05328",
+        "rules/voiceover.md": "sha256:60340034cf422052007183d031171b3c88422dd3fe85f0d915283dd8ec5df3e8"
+      }
+    },
+    "request-refactor-plan": {
+      "source": "github.com/runkids/my-skills/mattpocock/request-refactor-plan",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.133736-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/request-refactor-plan",
+      "version": "6d8b466",
+      "tree_hash": "dc93d00fee8cb10afe23d0e4b28461ea7de8fe04",
+      "file_hashes": {
+        "SKILL.md": "sha256:d59de4ba6cc1fe2dd267e8b9b5a1fd88e3e739e2130bc9dd78061d2a072830b8"
+      }
+    },
+    "requesting-code-review": {
+      "source": "https://github.com/obra/superpowers.git/skills/requesting-code-review",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.510051-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/requesting-code-review",
+      "version": "917e5f5",
+      "tree_hash": "ed265b1a03114cc400d5524afc5c961a4aa9ea8b",
+      "file_hashes": {
+        "SKILL.md": "sha256:a5ff68586ccf62d1803cedeb71d60fd96ec05591d29c8d123196117eefd34cd0",
+        "code-reviewer.md": "sha256:7f5328dca12cb200005ae9d4386f63a9b0acb735ece57f82db206b4a3189ccae"
+      }
+    },
+    "scaffold-exercises": {
+      "source": "github.com/runkids/my-skills/mattpocock/scaffold-exercises",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.146875-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/scaffold-exercises",
+      "version": "6d8b466",
+      "tree_hash": "a17b42e2e780efd6ca0e0b397ffdd0a2c57931c0",
+      "file_hashes": {
+        "SKILL.md": "sha256:75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9"
+      }
+    },
+    "schema-markup": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/schema-markup",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:14.390644-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/schema-markup",
+      "version": "9125d82",
+      "tree_hash": "7a0e3936ea4cc91c8735148d5964cce5c9ce0bfa",
+      "file_hashes": {
+        "SKILL.md": "sha256:728f221b25d062afe204f3980d46db4800ac05f9fb68fd2cdcc8e7bfa7b68e79",
+        "evals/evals.json": "sha256:a7bf50c54e093b633b221ee7f149c6ded8f431df98c2ab64dfbd0f6f1290b2b9",
+        "references/schema-examples.md": "sha256:5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318"
+      }
+    },
+    "seo": {
+      "source": "github.com/runkids/my-skills/web-dev/seo",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.426811-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/seo",
+      "version": "6d8b466",
+      "tree_hash": "1ec86b22a3ac6abcc25c7aef9bd5b9885ba23f59",
+      "file_hashes": {
+        "SKILL.md": "sha256:f3e546112a3168515486c533d13156a1d4dcd9402f3d116730cef573a20e2804"
+      }
+    },
+    "seo-audit": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/seo-audit",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:13.35533-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/seo-audit",
+      "version": "9125d82",
+      "tree_hash": "363d92283cd9566761d8ec18d4fa9def5cbc2c29",
+      "file_hashes": {
+        "SKILL.md": "sha256:a6e064274364a743faeebe24c767ead7c5259cd71025aee784b2414c2e014918",
+        "evals/evals.json": "sha256:fa7fa4b047a4aceaf0247c366dfca5fe371e2adfde97e32c667c727c3e840861",
+        "references/ai-writing-detection.md": "sha256:f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4"
+      }
+    },
+    "setup-pre-commit": {
+      "source": "github.com/runkids/my-skills/mattpocock/setup-pre-commit",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.160248-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/setup-pre-commit",
+      "version": "6d8b466",
+      "tree_hash": "97faf985f16c9a8be0a1be7571e3aff92655fee0",
+      "file_hashes": {
+        "SKILL.md": "sha256:872f4037cb7e6e0e340d4175c086550072959925dffc87b160d1a30dc9f63bbd"
+      }
+    },
+    "signup-flow-cro": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/signup-flow-cro",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:13.517079-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/signup-flow-cro",
+      "version": "9125d82",
+      "tree_hash": "c37ce3c15716773e4838df861fd6b951c12f3659",
+      "file_hashes": {
+        "SKILL.md": "sha256:dbdc2e870f1c2d86b51e32c5b890e0dd18eea2e1d4d7bb0aab9e775a6636f0af",
+        "evals/evals.json": "sha256:0f34a71cac49aa7df39d403e5ffa1ac37e32f455239533c068a15a35109931c7"
+      }
+    },
+    "skill": {
+      "source": "https://github.com/napoleond/instaclaw.git/skill",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:46.150452-05:00",
+      "repo_url": "https://github.com/napoleond/instaclaw.git",
+      "subdir": "skill",
+      "version": "e83be8e",
+      "tree_hash": "b4a0c6ac5d43d04aa8f9a0a38e5505500ae7b13b",
+      "file_hashes": {
+        "SKILL.md": "sha256:0f9cb52b1474a24b45e0bc789d84321490f05ba9708188937804b779e13b846a"
+      }
+    },
+    "skill-creator": {
+      "source": "https://github.com/anthropics/skills.git/skills/skill-creator",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:23.731364-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/skill-creator",
+      "version": "12ab35c",
+      "tree_hash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+        "agents/analyzer.md": "sha256:bf68f4cac5a56c673a928c2e6d619586c5b93ea364026ab37547772cb45a663a",
+        "agents/comparator.md": "sha256:fe1fc9787c495d864c5d6eada47396478572325fde1b33a96d78bf4b849b7a3e",
+        "agents/grader.md": "sha256:57134da0c1a4eea33fbd74a1c9c44aa814f07d6bc64de303edb586f941e5d21a",
+        "assets/eval_review.html": "sha256:ce477dcc74dc1c0d1d3352646a79167b5a63634e936b1019160025065974e452",
+        "eval-viewer/generate_review.py": "sha256:fc9d1b9243fe5ab6012ebd579bd76d0035de1b79fd3b969de114defab26478fb",
+        "eval-viewer/viewer.html": "sha256:a53213426ee1100441d701a3a0d49cda7a842f992d2c36463f4d3cc0258575fa",
+        "references/schemas.md": "sha256:8e8876180a8989b406a4d3edddf875b04cdfd5805cc8616686d552b11ce4455f",
+        "scripts/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/aggregate_benchmark.py": "sha256:123ef128ea5ccc01a4b1ac212ef5567f21e9c13d3d240609780beeb3200c49aa",
+        "scripts/generate_report.py": "sha256:13df7118a3c50c83c4c3250a606d5f2b20b25a3d44cbc392b3d669ec75281453",
+        "scripts/improve_description.py": "sha256:87d864570220b699fac52da309d2d6efdb060647bfebc74f768128e646accf80",
+        "scripts/package_skill.py": "sha256:1a33059b0db1ef73375d46d513e5ea81369d2e8838c970597b0d52ddef8d1c0f",
+        "scripts/quick_validate.py": "sha256:67cf5703402013936c8fb75ad6a1afecd8841d45cc5e606b634eb05825fde365",
+        "scripts/run_eval.py": "sha256:43e3b8f80dbf69c343967ba77e268fae991d9fa3ed68b32a0ff02532cd48657f",
+        "scripts/run_loop.py": "sha256:7bd6f674203168520517eec94c55f493c0d154339b061b4d7c0f0dad187d0f21",
+        "scripts/utils.py": "sha256:3af8ae62c40c73ab712207436a0d9a981e845f25c5a7040229eb189cc8e45bb1"
+      }
+    },
+    "skillshare": {
+      "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:11.260972-05:00",
+      "repo_url": "https://github.com/runkids/skillshare.git",
+      "subdir": "skills/skillshare",
+      "version": "8b72af5",
+      "tree_hash": "bee5c7477a921ed7f8d38c7b4e24d2cc4035cdf4",
+      "file_hashes": {
+        "SKILL.md": "sha256:ff2d6086af3296fcea472713a900c4a01730d218ba89ac00ad763d3f2f88a63f",
+        "references/TROUBLESHOOTING.md": "sha256:14855dbd2f20ad7042941959f257c79f768d103e89e55d74d8c3b3d38f9ff5ee",
+        "references/audit.md": "sha256:85a31c32f17f39ce2baa5189a8004c6adec506e5fcf7d20378caa103b015fd5d",
+        "references/backup.md": "sha256:96e2e8d5e2d7cfb8765c2eebb4e6d733b79258de8b3d974fca8972557f7326a6",
+        "references/extras.md": "sha256:27529c7fba6335efabb38a2a5dac1c0e4a0b79d16d0188d3f98dad2068ec4bdf",
+        "references/init.md": "sha256:41d99a2a49f576e1a2354312856ccf730f8d19d4c8d35c592585d40bc2d14d82",
+        "references/install.md": "sha256:2b444bfcd211fae59421631ecd49331b4de287c311354f8ed3ca19f204d223db",
+        "references/log.md": "sha256:406e85525f53f4deaa0f48bf8b3b53db3e032b99f5a0e926c84542d51b3a3625",
+        "references/status.md": "sha256:0143c8250ecbedfa14607b82cbfb23107294b6c1e053b5726629556b7a47412c",
+        "references/sync.md": "sha256:75577dce829fda6050b3b761915b70d9aef0d6bdb3c010d2fef7b7b22e226a8e",
+        "references/targets.md": "sha256:130b0b07b17a88d4bc09af0262a6b161421946f5442295dc5bc828f95226763e",
+        "references/trash.md": "sha256:fb94aa6b71d469fa8f6b5e728fcab531b6eb010a2092389b02eaaadf3ebc98cf",
+        "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
+      }
+    },
+    "slack-gif-creator": {
+      "source": "https://github.com/anthropics/skills.git/skills/slack-gif-creator",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:24.223148-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/slack-gif-creator",
+      "version": "12ab35c",
+      "tree_hash": "d5cd683598c6ac0174bdb3b3b5be1dfc35430c12",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:2efca615ce55a3edd8fc05c779068a8085816617991987e446606403cd3abb22",
+        "core/easing.py": "sha256:60bc943449802541f0f0881a874faa7ef408aaaf0b758fde756664ada7740452",
+        "core/frame_composer.py": "sha256:a127ea8f2a58893ea10a5c7b5cab4e2010af6515adc538676eb0cc14f5a03985",
+        "core/gif_builder.py": "sha256:b6f50d738c491ee0438a2e86e897f71cdab9792494ba4605f140befb0bddbf89",
+        "core/validators.py": "sha256:56bd19e3aae05f8387d78ec8185d6098b3dc909d1fa041211753da37212528a3",
+        "requirements.txt": "sha256:edc7108a0c6b56183566c71ee96830f6dc791e3b41952112d9cb56b33a6bd757"
+      }
+    },
+    "social-content": {
+      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/social-content",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:15.454214-05:00",
+      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
+      "subdir": "skills/social-content",
+      "version": "9125d82",
+      "tree_hash": "ab7886207e19de982c3da1e68b1e555cad4205a9",
+      "file_hashes": {
+        "SKILL.md": "sha256:d483100c8142bf99186983eaba70660b2c6ece5d763dd7301f0140fedc3f3068",
+        "evals/evals.json": "sha256:9e9da40856215d4993aefeacdbf69b721316b94b02c4b474106eaad3cfa8301c",
+        "references/platform-limits.md": "sha256:6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
+        "references/platforms.md": "sha256:3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f",
+        "references/post-templates.md": "sha256:db6525e51a690b61faf97a0acf51a2a57526de90da01c6bb37679d056c18c7f4",
+        "references/reverse-engineering.md": "sha256:c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f"
+      }
+    },
+    "social-media-resize": {
+      "source": "https://github.com/canva-sdks/canva-claude-skills/social-media-resize",
+      "type": "github-subdir",
+      "installed_at": "2026-02-24T17:34:31.153245-06:00",
+      "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
+      "subdir": "social-media-resize",
+      "version": "18fdb6f",
+      "file_hashes": {
+        "SKILL.md": "sha256:bacbf769485ba2e3c58fa26005f94e8d54a5f4f40da27512f77dccf99259840a"
+      }
+    },
+    "subagent-driven-development": {
+      "source": "https://github.com/obra/superpowers.git/skills/subagent-driven-development",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:25.778056-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/subagent-driven-development",
+      "version": "917e5f5",
+      "tree_hash": "fbcd94ffcf589754a8ecfa59861cc8843313590e",
+      "file_hashes": {
+        "SKILL.md": "sha256:081ad3869e55c80bf8f890b4768a90c0e8057daf94b1b6fadebfc85ea5b8304a",
+        "code-quality-reviewer-prompt.md": "sha256:06d1e7c2287e5a00bd1809bf39038abd5f413b4cf917c37d30f00c48f6293421",
+        "implementer-prompt.md": "sha256:a416193f881e5a712c988fffabfe1d5a97bffcd091eb95577c84fe2136588617",
+        "spec-reviewer-prompt.md": "sha256:631980e472eec5394de8b89b69d432e54fd3f7f523ecf9afa7eb4cda0c9b2baf"
+      }
+    },
+    "supabase-postgres-best-practices": {
+      "source": "https://github.com/supabase/agent-skills.git/skills/supabase-postgres-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:27.214782-05:00",
+      "repo_url": "https://github.com/supabase/agent-skills.git",
+      "subdir": "skills/supabase-postgres-best-practices",
+      "version": "05a8f1a",
+      "tree_hash": "9e4dd36978eedd04efc649b4d431ab5ce4bb3896",
+      "file_hashes": {
+        "SKILL.md": "sha256:ccd6e4596bd51cf344fe76c464867c541ccc16b6d90ae7a9db449fb17588613b",
+        "references/_contributing.md": "sha256:bac63a98335a70c3fed45e4d5f930851d1ea18989bda01dc8969ca6ac7cd4539",
+        "references/_sections.md": "sha256:c9e992612b422c7122de0b7542ebc2450db283edaab08cfe86c6d657fcccccd5",
+        "references/_template.md": "sha256:6299954250f212caabe339d752c3e5313a8e07d1a182a4e4b425baee91df1bd2",
+        "references/advanced-full-text-search.md": "sha256:40c2606bbb4c4dce31308f201b24cc7f58c7df05b1d9c6856fe2b888d3b7cf28",
+        "references/advanced-jsonb-indexing.md": "sha256:24cacf6a8bc35901dd566d24502ce8e57f810a5c196b897e61d52726e521d106",
+        "references/conn-idle-timeout.md": "sha256:630588902c00fcec59a5988cc5d042f76dcf2c923a535abfd8c47dca205eaed5",
+        "references/conn-limits.md": "sha256:11b2a67a7c7679cbbc5d807bbb17e69c98484a581d0c8b929c03408f412b81b2",
+        "references/conn-pooling.md": "sha256:88cf086bf98ba865d2e9d0579974e1366b14157619d6a93e7da77be91084e4a5",
+        "references/conn-prepared-statements.md": "sha256:174e9332fe3dda5c99b2b00159fb1915ae36c00bab3a7882c14e73e4344e946e",
+        "references/data-batch-inserts.md": "sha256:531933b82d6a622d0fae29e0ea80be6fe5d78655adf2804c271ea84a1930de37",
+        "references/data-n-plus-one.md": "sha256:21a44905e5b16a42741892ec34bb1bfef124d049b140a76934a9acd0f46f5fc2",
+        "references/data-pagination.md": "sha256:73c9fa10a3d439bedea0e11b640bd25bf30dd50f0d9006cf85baf7c3151543fa",
+        "references/data-upsert.md": "sha256:2612af83b20a2701dde30ef1f8d7efd26b7e9eef84717226b8f038a2d2150ff7",
+        "references/lock-advisory.md": "sha256:c88d259dbf81c3771438f59a165f7eab8acd09999dd370bdf807521c73f35aab",
+        "references/lock-deadlock-prevention.md": "sha256:09aee46f51d7178c8e55fe056cd5a94a64ba2c122fe418e6900cd99f297b2347",
+        "references/lock-short-transactions.md": "sha256:5aa7f61095916986d39644b446cdbcd2bacca7ef698a3bb50b3f82dd60207602",
+        "references/lock-skip-locked.md": "sha256:6c45077f430f29cd9cd8f448c94d578e827e7bd023fcdaf717a756acb116fa4b",
+        "references/monitor-explain-analyze.md": "sha256:4cb67ffbf8e57f2e5b380b0beb4242528b513723ce314a2c2ffcf083bd4203d7",
+        "references/monitor-pg-stat-statements.md": "sha256:89dca99d4e894fcbdcac136be7ad9fbc03d1342904f065c1b198dc9cf495f098",
+        "references/monitor-vacuum-analyze.md": "sha256:2892272011710eb49b3f185ec12f15ce9ce4c365792c672f6e2a9c90da426a1a",
+        "references/query-composite-indexes.md": "sha256:73e42424e671f0266e74fdb220db3196790f69fb43e2b19c7b9483eb4971b554",
+        "references/query-covering-indexes.md": "sha256:daf2a7f0477fb7357b62b5fb5b185b1995a77a186347e45cb780e25e7a7589b6",
+        "references/query-index-types.md": "sha256:472a74f22c2df203bd0154999b3a5a0187cca2ab3d9a3978e305bb7c32f1a282",
+        "references/query-missing-indexes.md": "sha256:91ad8b0ff4365704b4830a7f077c6f140f7140fd5d3ce5cd0b92b160cf9e25f1",
+        "references/query-partial-indexes.md": "sha256:6448982bc8558c6555284958edc331b29239c6a0130e6b4501dd6d4da607a6dd",
+        "references/schema-constraints.md": "sha256:90e8efda3e9e81095e642911ad4aae2809d160f29414338fa997253238f510f8",
+        "references/schema-data-types.md": "sha256:e01b58c14c7f3f65d8ead580b9a4fcf70b83baaab0f9a5f83c569c9fd113e8c8",
+        "references/schema-foreign-key-indexes.md": "sha256:7587713d12a65a212365459b3d39e4717d8a79e4073b10bd62f1054d8192c0dd",
+        "references/schema-lowercase-identifiers.md": "sha256:4bc80f70865f2390872591f326c8a6be6456a0aeb5a7e5a2475d7cd9d43059ab",
+        "references/schema-partitioning.md": "sha256:541e13fbeaf4bb1485c9059d4c9417dbdb766cf16f4237cd63a04ada7ec45b90",
+        "references/schema-primary-keys.md": "sha256:3c8beabef82066f9a0838b926da0885117fd2d9a263aaf84cb5ca9e5f0d400e9",
+        "references/security-privileges.md": "sha256:095909274a4fb43df785d7144cf674eeb40284d2d45628f14af4108737b93663",
+        "references/security-rls-basics.md": "sha256:e04dd1a3a382aafdaaa73fe9f7976352acdde6e90c2a2470d281b94d4f44b096",
+        "references/security-rls-performance.md": "sha256:ee62c6e34468df8673d625291c1fcd7fb87041f122325eba224fc492cfe01bb3"
+      }
+    },
+    "systematic-debugging": {
+      "source": "https://github.com/obra/superpowers.git/skills/systematic-debugging",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:25.933513-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/systematic-debugging",
+      "version": "917e5f5",
+      "tree_hash": "828c239ac986cc1fc7edd10292f66e4a3640e9c0",
+      "file_hashes": {
+        "CREATION-LOG.md": "sha256:b482ef9a918fbfc6c369729e8160633ddfa2332466dd362ee73f1527c239ef8b",
+        "SKILL.md": "sha256:4999cb851360485eca5074e727bbdd62ef20549c5d5b01216fcbf5831badb473",
+        "condition-based-waiting-example.ts": "sha256:40ae5ebe497fdf310200e43fe986552546d0a22837c0d39e855db1cfd33eb88e",
+        "condition-based-waiting.md": "sha256:e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+        "defense-in-depth.md": "sha256:1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+        "find-polluter.sh": "sha256:6462747eae9b175ac145b78bcfaeab755654a75e32637f08eb633f065a9e1d7c",
+        "root-cause-tracing.md": "sha256:a81bee9448794d261b4aca8487c595d11ff4bd4e10a5f96bca1117dd32527050",
+        "test-academic.md": "sha256:fe2ba480d78ac0d686dc025f41c2a32a43d642bf533f91b0c6053a04d35d6486",
+        "test-pressure-1.md": "sha256:0b6a915db0054577819834c79be9eb614e97bddba10d73768e1fbe91cfed048a",
+        "test-pressure-2.md": "sha256:b2030aeffba07050e8ad573ddf87486457c4a016a786bb326235bebd856f2016",
+        "test-pressure-3.md": "sha256:96b50a52e2c7989c9cf20fb752c47c1e9a3a70dc362f8f7989f8f5b64dac7708"
+      }
+    },
+    "tdd": {
+      "source": "github.com/runkids/my-skills/mattpocock/tdd",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.177203-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/tdd",
+      "version": "6d8b466",
+      "tree_hash": "41c4d2f9374114643aa0b8113fab4d838962c483",
+      "file_hashes": {
+        "SKILL.md": "sha256:1d0a1439aefa3ebe6a8fe83b5bb4559610d75268edd0bd4ef7d391d841742fc5",
+        "deep-modules.md": "sha256:f2123700bf953db1740625686c75bdd145efd486357c47c6818c869fee657a32",
+        "interface-design.md": "sha256:764c5ff0e3fa6b4ab7095eb65ccc7201e090baf19fa16051dfdb72c06d27417d",
+        "mocking.md": "sha256:3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+        "refactoring.md": "sha256:54fced22dd1911b7094c3fe7979b7c1a40d40be307482c4adf7dc0588f27d6cc",
+        "tests.md": "sha256:e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a"
+      }
+    },
+    "teach-impeccable": {
+      "source": "github.com/runkids/my-skills/frontend/impeccable/teach-impeccable",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.785362-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/impeccable/teach-impeccable",
+      "version": "6d8b466",
+      "tree_hash": "56210372d6cf5669891188a9e76eee4d9bccd489",
+      "file_hashes": {
+        "SKILL.md": "sha256:42d7000a647ec23a54fc9dcd865dfbfc909eb36f1833172d2294644ab98e8682"
+      }
+    },
+    "template": {
+      "source": "https://github.com/anthropics/skills.git/template",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:23.875803-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "template",
+      "version": "12ab35c",
+      "tree_hash": "a38aa7fa73fd2835b9ce77a60274f7dc62d015a6",
+      "file_hashes": {
+        "SKILL.md": "sha256:eb685d91de039ed864fbd790cddf31684b017fd4a34ee1a55760d8d7cdbadefa"
+      }
+    },
+    "test-driven-development": {
+      "source": "https://github.com/obra/superpowers.git/skills/test-driven-development",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.646886-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/test-driven-development",
+      "version": "917e5f5",
+      "tree_hash": "98904a7d8e0e04b9bd46220b9b17298f45fe0b72",
+      "file_hashes": {
+        "SKILL.md": "sha256:7dee67b4af6bdccc7a914ca34533184d64592d0f5b23aeae631538168db14994",
+        "testing-anti-patterns.md": "sha256:bde453bc258f06543987477c837939afaa774ea2acbd9f308d702fc452bc4283"
+      }
+    },
+    "theme-factory": {
+      "source": "https://github.com/anthropics/skills.git/skills/theme-factory",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:24.399277-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/theme-factory",
+      "version": "12ab35c",
+      "tree_hash": "007940e80de6ae577a87b2b343b1a5eae715df2b",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:c35893e221e28895c52143cc11bf30e41a44817796b39d4b15727dadc9796552",
+        "theme-showcase.pdf": "sha256:3e126eca9fe99088051f7cb984c97cedb31c7d9e09ce0ba5d61bd01e70a0d253",
+        "themes/arctic-frost.md": "sha256:868a75a8fb5b2a61d0f0ab87c437fe632d3cbab6371c418f06aa2816ac109ae0",
+        "themes/botanical-garden.md": "sha256:222cb8e7496abc9b75b29453c809fb9839e7e4b01fa45deecdd896b38d087765",
+        "themes/desert-rose.md": "sha256:bd065b8629be3b64655183927e248e3d892a27b8d184b009cfba89c96102744f",
+        "themes/forest-canopy.md": "sha256:ecb722efa24688e808b5bf323c334ca2349e989cfddd72ce8400ce5d4c4bd3e7",
+        "themes/golden-hour.md": "sha256:3444a00df971d3c2f06b665e21a2e9eb5d7d7d6f6281f2758773b8345776a139",
+        "themes/midnight-galaxy.md": "sha256:0e134c4c0324df41e34ac314269aa6829cd378cf3c304b31858d0cd158d2f944",
+        "themes/modern-minimalist.md": "sha256:b8bc572b75948d4df69c401af703b9262ed6820a3ceb270da30a529e92763614",
+        "themes/ocean-depths.md": "sha256:a7ad8eec85341dbfcb2665da827a4b6a4baee08ab3335ac02421f18e6b46b2e2",
+        "themes/sunset-boulevard.md": "sha256:658af11ab04be4923692571081ffb42a428141ae537703117b9236d9f8ee22a3",
+        "themes/tech-innovation.md": "sha256:183648163026dd5eeba3df5effa335b55ba333c3ee1fe215278605e55f40a52a"
+      }
+    },
+    "triage-issue": {
+      "source": "github.com/runkids/my-skills/mattpocock/triage-issue",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.190995-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/triage-issue",
+      "version": "6d8b466",
+      "tree_hash": "bc856fb46b94fba246267c00212b4cbc988801ad",
+      "file_hashes": {
+        "SKILL.md": "sha256:834e528eb0d4f2cd46c7c14dc6d5c0a96e9fcd77c992257c78570d8a6b4cdaae"
+      }
+    },
+    "ubiquitous-language": {
+      "source": "github.com/runkids/my-skills/mattpocock/ubiquitous-language",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.205361-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/ubiquitous-language",
+      "version": "6d8b466",
+      "tree_hash": "28b1557bfd18a60c1adc597d8b02a2473ea6b754",
+      "file_hashes": {
+        "SKILL.md": "sha256:3725ffaccedaa0fcfc891a5c6281da7b0f73b0c6fa0135000eba60ba75163c4e"
+      }
+    },
+    "ui-skills": {
+      "source": "github.com/runkids/my-skills/frontend/ui-skills",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.883678-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/ui-skills",
+      "version": "6d8b466",
+      "tree_hash": "fa29545b25f17fd8ce970d3bb299860ef97e0b60",
+      "file_hashes": {
+        "SKILL.md": "sha256:44266f3a4aebcf91cc37836dd5080fa47af71871735fbb00a17b3331533b9028"
+      }
+    },
+    "upgrading-expo": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/upgrading-expo",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:30.384507-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/upgrading-expo",
+      "version": "8f26555",
+      "tree_hash": "23cb4cb2d723d4c8d1a7996e37288f28a44f23dc",
+      "file_hashes": {
+        "SKILL.md": "sha256:373efb08acd4002922b1d6eb6dbfff6a871e38841f72f0753f4928650ed70ee1",
+        "references/expo-av-to-audio.md": "sha256:b66df7e8722339e2b0ae5e22da225e313794744eb0648303ad6cfc43632cc6a1",
+        "references/expo-av-to-video.md": "sha256:e222bf0e767baee721f7e42ce68d2c26a8b844d723e830d81cdfecac805564a2",
+        "references/native-tabs.md": "sha256:bf945b38a970a556769d1c406f8089d8ece34b5f204fe32a0e10fbedc24fff83",
+        "references/new-architecture.md": "sha256:32479e9be069c5e4931dfdf3e475119ddc7a879bac8a475e259e5193bcf32cff",
+        "references/react-19.md": "sha256:bf600571e38dd7d114b58e0f6ace5a560792624dcfdc49c421134cd1669a0d77",
+        "references/react-compiler.md": "sha256:ad485033650cff963abdfd8a98d5bbe5f0825a853ffebd6cfe11a4c80b3c63db"
+      }
+    },
+    "use-dom": {
+      "source": "https://github.com/expo/skills.git/plugins/expo/skills/use-dom",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:29.150843-05:00",
+      "repo_url": "https://github.com/expo/skills.git",
+      "subdir": "plugins/expo/skills/use-dom",
+      "version": "8f26555",
+      "tree_hash": "ce309744c9ec448b2a4ac7152910da46797e316a",
+      "file_hashes": {
+        "SKILL.md": "sha256:7041bb26db02e24c45eb6c4c4879138a0f52786dd928eefd66c90a35b0e3197d"
+      }
+    },
+    "using-git-worktrees": {
+      "source": "https://github.com/obra/superpowers.git/skills/using-git-worktrees",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.793276-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/using-git-worktrees",
+      "version": "917e5f5",
+      "tree_hash": "a5b3f5965f321175a7f07dcadff0bb79adb9e9f7",
+      "file_hashes": {
+        "SKILL.md": "sha256:de9dcde34840eee074047ec327d4ea6ca4954c5a73a6d874dc48f25fe46c9e7c"
+      }
+    },
+    "using-superpowers": {
+      "source": "https://github.com/obra/superpowers.git/skills/using-superpowers",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.956213-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/using-superpowers",
+      "version": "917e5f5",
+      "tree_hash": "64c70a2b656d440ddb50818c2477e028facbc468",
+      "file_hashes": {
+        "SKILL.md": "sha256:316e29381219adf0cac62190c67aeabf427d6e6e5f2735541d502b3d339be7aa",
+        "references/codex-tools.md": "sha256:9014e6746c9a6d3af9eeb9608f1ad637ee334e5a12d178747e3042937fc3da2b",
+        "references/copilot-tools.md": "sha256:5e0e9248e8bd965a28c8721bed24ddfa44a1ee66a89ee275da4a8260fe636e02",
+        "references/gemini-tools.md": "sha256:477239fd7b4868f016662831e0fe840557ce91217f057f742a41af57a53554de"
+      }
+    },
+    "verification-before-completion": {
+      "source": "https://github.com/obra/superpowers.git/skills/verification-before-completion",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:27.114009-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/verification-before-completion",
+      "version": "917e5f5",
+      "tree_hash": "ceb2f1f67f4cadb29b32a06e54d3d0be832071f5",
+      "file_hashes": {
+        "SKILL.md": "sha256:ea52d15aabaf72bc6b558efe2c126f161b53961090ddcd712000273bfe8c7b6c"
+      }
+    },
+    "vite": {
+      "source": "https://github.com/antfu/skills.git/skills/vite",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:12.083862-05:00",
+      "repo_url": "https://github.com/antfu/skills.git",
+      "subdir": "skills/vite",
+      "version": "c35a558",
+      "tree_hash": "3c0dc60ce4ffc34fca02aaa7eb21130ae48c8dff",
+      "file_hashes": {
+        "GENERATION.md": "sha256:69dfd9d99eafc33f4580b902ad794166f4adcc76f80917f129613d6bbb60b93e",
+        "SKILL.md": "sha256:3cb7a75336e338faa9be15dd8b97479721ac8ceac6f1ff4061c9b9eefccd9983",
+        "references/build-and-ssr.md": "sha256:69c262c9bbc78676c66018f33b82d66c85d94bbf5178b2d6968494aa7bed8fe2",
+        "references/core-config.md": "sha256:d207a85730c32eff47e343ea69644a6c7898af251098a60255efe8f1c922fb4b",
+        "references/core-features.md": "sha256:5e784faa5314592bdbc9e918813d76dec94391a777fe2f32cfa048d5c0fa70f4",
+        "references/core-plugin-api.md": "sha256:594520b9adcf610b4f3378d3ef6c68c10327c93c33a7b73b3103a5fcd58e8611",
+        "references/environment-api.md": "sha256:658e4597b9cfe21b22c1677025a7a30866933f586d86c434ec139cd5149afaa2",
+        "references/rolldown-migration.md": "sha256:ba9860f8960e9794c880454b238a3a3c1962c80f9b3860399938618730bf7f72"
+      }
+    },
+    "vitest": {
+      "source": "https://github.com/antfu/skills.git/skills/vitest",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:12.254666-05:00",
+      "repo_url": "https://github.com/antfu/skills.git",
+      "subdir": "skills/vitest",
+      "version": "c35a558",
+      "tree_hash": "b9413e0a4a6880e09e63f13ce59ee7de4019a27d",
+      "file_hashes": {
+        "GENERATION.md": "sha256:3cf85efaca1c200657437fce6f9215ad805d44c1a8e4a125353294e8b6238b97",
+        "SKILL.md": "sha256:87c8cf025987d1f1a0e9c0fd0b8605946a0ebd5478676471ce296d8f0adc0f07",
+        "references/advanced-environments.md": "sha256:b3b10adfef569023d922ce370c12f15d2dacf4c59d043ce015fb1c96f168b254",
+        "references/advanced-projects.md": "sha256:10efde418c9a4406d467a565d4ac9df60c39b16908895f38efba908d573621e1",
+        "references/advanced-type-testing.md": "sha256:370c55c10174ae6d8332605ecb1a7575944c8a072a85f43637c03dce00dd1c35",
+        "references/advanced-vi.md": "sha256:1d80b9c373f6d374093c937f46d731c663c684eb8e1533f82144275aee6dfe19",
+        "references/core-cli.md": "sha256:2ff72dc4754b8738d31a041e3f3e26ea83fd18e9795521adb5510e61e50951b6",
+        "references/core-config.md": "sha256:5fd3cf0983f203f14c4f4732dde0632c1d537241daa5cffea24f7e55712a6fb3",
+        "references/core-describe.md": "sha256:c5642ff6433fca69bbfbe9526acb2becd17d8cb2c99cebd1976d87e1def91b9c",
+        "references/core-expect.md": "sha256:d39b2bf31f67d66a5f036eae6a88844e7d427854b075c395b086a6c5086a2973",
+        "references/core-hooks.md": "sha256:d6489a5d762e2bf47b7a139e0265ff2e03ba13653cf14004e05a9be8512690b9",
+        "references/core-test-api.md": "sha256:ce3ecd0aa73560e2072c79ced9d0eee39d527c1c71ccabe4e9b665326b219247",
+        "references/features-concurrency.md": "sha256:f658bade9a9f5c61518f38f08b80fe0b3e7bcd3b6c5e7b4d5cb8ef721acd84aa",
+        "references/features-context.md": "sha256:ea7a77c4ebb677ff004659f0f0f50a135744934c1a8f39629ec462fb918c7dbe",
+        "references/features-coverage.md": "sha256:d65c2b5c33d0220c1f06bb7f95bf039a1cba25f3c5e4b13fd48d6b3d30a77818",
+        "references/features-filtering.md": "sha256:29fd70bd48726bab2ee58ebf740cf1dc23efc51276d049444a31910748cf6e55",
+        "references/features-mocking.md": "sha256:9d23a9d60dbbfa1183f5753c0cf5ea7fefcf7853e57abd491f9cb00f903d6a80",
+        "references/features-snapshots.md": "sha256:e7f650ca061cc14c90d68c2ab8325ee430b046277fbc959552e64665bdac9592"
+      }
+    },
+    "vue": {
+      "source": "https://github.com/antfu/skills.git/skills/vue",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:12.396946-05:00",
+      "repo_url": "https://github.com/antfu/skills.git",
+      "subdir": "skills/vue",
+      "version": "c35a558",
+      "tree_hash": "cff239de1fa9a889b40166c85d13157b8ae5408c",
+      "file_hashes": {
+        "GENERATION.md": "sha256:e600ea01783f3066f990707ff96a88aaa53327902bfff3f876cfcda800f8bb7d",
+        "SKILL.md": "sha256:eba0d129cc4c2cf9c08116d4b136cc6800322985e831a9e04da4e97f3dca137a",
+        "references/advanced-patterns.md": "sha256:f6b9e26e3ae582dca1dfe01261c9800cd8f8dec511384d6bc816848209d2bc51",
+        "references/core-new-apis.md": "sha256:4afa9fdcdf62d2300d86686f890e4a52cbbed48e4c13a3e15f3e4572185c90ed",
+        "references/script-setup-macros.md": "sha256:ad47db85f8fbda6c055cedcc1d4175cd79d414e9be3ebf1e631d0e493eb4480a"
+      }
+    },
+    "vue-best-practices": {
+      "source": "https://github.com/antfu/skills.git/skills/vue-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:12.601895-05:00",
+      "repo_url": "https://github.com/antfu/skills.git",
+      "subdir": "skills/vue-best-practices",
+      "version": "c35a558",
+      "tree_hash": "8a9b83906ebb17c3c6beafdd6fc43908d5f03fef",
+      "file_hashes": {
+        "LICENSE.md": "sha256:2ea4e714425cf682879c4dea3d0d0a1a379a1418f463063f9eea1aa709ad946d",
+        "SKILL.md": "sha256:05b373713e6bbd216fb3ee9709289b68bcdeb9eac8ffea477e35bdbd8e0f9acd",
+        "SYNC.md": "sha256:58921f403470acbb47a8145e8e8f06844f888a213edc0d117ec01f0e89c80285",
+        "references/animation-class-based-technique.md": "sha256:d37e4ae4f124454fc5dfa54d23816edb16d337228641a77ec04c8ee9fe5a32fe",
+        "references/animation-state-driven-technique.md": "sha256:9a17a15356b32c8cd8669c3ede28dd890e9a48c03101047738a5c6dec7c716d6",
+        "references/component-async.md": "sha256:e20036c6622a1647d9e1c23f1fe871b2465cf4bab434422e17eb05710c8878f3",
+        "references/component-data-flow.md": "sha256:81277341d7dfe240721c2324548b9d404354d3ce270515acb130e8ac0c7396aa",
+        "references/component-fallthrough-attrs.md": "sha256:62d291508df9997d3b6c5adfde251d6c722926ecf5f7168dea0272564f119919",
+        "references/component-keep-alive.md": "sha256:8738608665ad42baa6d2d7548d46b3ecd318a85f4ec3a0afac5f728948ade3ca",
+        "references/component-slots.md": "sha256:726fdac036fcdb6071e669f1ed90af5b3bdc5fc150ad82ff41afa0af5e39f481",
+        "references/component-suspense.md": "sha256:6a5a98dcc6a2093f038f877eb6fefeedb199aba058a5dea71b139017c557bdd1",
+        "references/component-teleport.md": "sha256:4e48748842262df50c293ab23857c22c107e3e8360c87da482d23f0eb88b2c3f",
+        "references/component-transition-group.md": "sha256:cfdd76e2466a8c0ef8a965674a74924e5cf25e538e75ce97d02213472442ccb2",
+        "references/component-transition.md": "sha256:bc59a19f2e8eed7a228bdb6383d423a57c6dd75704ae11c9596018c9fb1cac42",
+        "references/composables.md": "sha256:8fcb3ede4ecb13f8dc7e4c7db07561652f6d306c85a91bc6736fda4fae2b624d",
+        "references/directives.md": "sha256:70d4c68ea15a961eec6471c42b4c44d37adfeb094f694b6811fb718eab7b2cf7",
+        "references/perf-avoid-component-abstraction-in-lists.md": "sha256:a5fb787065cbaa4731a12d3ab2f40284d058a4d6a45972b48b3052931e4f80da",
+        "references/perf-v-once-v-memo-directives.md": "sha256:066a45e60f6faa702cb75b76724c391d7e560aa6805c9bc379c06f2c64d97677",
+        "references/perf-virtualize-large-lists.md": "sha256:69712f1f296cf03401c47f936e1a9c32481bfd82623f536b1fe08d05c846bada",
+        "references/plugins.md": "sha256:b1583522aca059c4295708517ba987530dd6a13134f6046aed9fd7327fb9c936",
+        "references/reactivity.md": "sha256:48c97831e72f0b82bfae0344cf02a181c7723e1ee4a29a58a85009aab7d60a4b",
+        "references/render-functions.md": "sha256:01b35e671f7890939fa5acda52c5cf0a50b398e153d80cc9fc9f74c19e460357",
+        "references/sfc.md": "sha256:dfe09f28869a2bc44e618068c3b6269f55d925d096714df25e253d2bbb58c28f",
+        "references/state-management.md": "sha256:9e98a1c6d9009c0c8ef7228b6b3bcf10d30be6b713ffcef448ab7db3b419a851",
+        "references/updated-hook-performance.md": "sha256:ded08ce93f9b23082538846f84e8d159d84af757c27b2c6b43a9283df803a32b"
+      }
+    },
+    "vue-options-api-best-practices": {
+      "source": "github.com/runkids/my-skills/frontend/vue/vue-options-api-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.920221-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/vue/vue-options-api-best-practices",
+      "version": "6d8b466",
+      "tree_hash": "56c162c105c9a3ba92f790c563946510e2408a9f",
+      "file_hashes": {
+        "SKILL.md": "sha256:fd0a8c9e698a5d0413290f5c8e934f8ddd8c3db68ea5c2bd352a749b85744ea8",
+        "reference/no-arrow-functions-in-lifecycle-hooks.md": "sha256:09976ddecb206b254e3df0e605bd8e0fe2b5d097a326ec7093546cb8ed3320e7",
+        "reference/no-arrow-functions-in-methods.md": "sha256:6e47800df48a714983d5c9456e409d0985b2e1ad41e6b93043bcbe24d06ad2ed",
+        "reference/stateful-methods-lifecycle.md": "sha256:ce572e7e1f206d76065f5df5a9ff361239bc758e644474f7da026ac945e010ad",
+        "reference/ts-options-api-arrow-functions-validators.md": "sha256:0c5a6525ccf71c9fa709b2039534d9c204c2bfa9e5a8d50be161db295340edfd",
+        "reference/ts-options-api-computed-return-types.md": "sha256:1f7069179859fc7dbb881fa88539c2259ed408eb8d88024ad710cc2d3742b271",
+        "reference/ts-options-api-proptype-complex-types.md": "sha256:3c6b97836b0b0525e1be0467086b6c82759ff1eb349342f4ef07bdd98c786489",
+        "reference/ts-options-api-provide-inject-limitations.md": "sha256:fbca83e55f8444212a48d63ba73f7b017f507a1e281c0f9ac1d68a9ab152e7e4",
+        "reference/ts-options-api-type-event-handlers.md": "sha256:7f0ee1f5c093c09ca743323e9a4999fc89b0c23c364d6143aa508a36862ef358",
+        "reference/ts-options-api-use-definecomponent.md": "sha256:7430211d979c775b3b4578438447a1d4c4b02c3ec925908041ae4f808eb7d788",
+        "reference/ts-strict-mode-options-api.md": "sha256:ce786575eeb5b4a9db2b3d9890dd9691a6a09316797f4010a728d140d528464b"
+      }
+    },
+    "vue-pinia-best-practices": {
+      "source": "github.com/runkids/my-skills/frontend/vue/vue-pinia-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.958224-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/vue/vue-pinia-best-practices",
+      "version": "6d8b466",
+      "tree_hash": "37254c9685a742b50b0f41e9ff41ea063ebf098b",
+      "file_hashes": {
+        "SKILL.md": "sha256:70c5fae1e97d1df1d7a1207ad1df606d0c7375855f0c1cb0c9c94351931ab862",
+        "reference/pinia-no-active-pinia-error.md": "sha256:fa4d1c2f6d76301532f93607be12ebbb8bee0617df28048897a0024f1045aeaf",
+        "reference/pinia-setup-store-return-all-state.md": "sha256:95d5864bc01a56a40a12017dad428ea57f23b882e0a02d628643edffb8647424",
+        "reference/pinia-store-destructuring-breaks-reactivity.md": "sha256:7f00a924204a3648e2654379b4c7d71259bb0ec3dc5f68f3a11034b6f56e08cf",
+        "reference/state-url-for-ephemeral-filters.md": "sha256:577f7b629c84b82775de6b3dd7b114fac419f91b648e86c0c6b2966d1ad74ffd",
+        "reference/state-use-pinia-for-large-apps.md": "sha256:6fe95588bbc4d9eb3051e6d8898cfbf3d074c34aae20aadeea08f73e8bfccefd",
+        "reference/store-method-binding-parentheses.md": "sha256:5275681aaa16ed6fb506a3899c72c545c26f1873296878324d5317573215f3a0"
+      }
+    },
+    "vue-router-best-practices": {
+      "source": "github.com/runkids/my-skills/frontend/vue/vue-router-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:41.999324-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "frontend/vue/vue-router-best-practices",
+      "version": "6d8b466",
+      "tree_hash": "721c7107d9ca65d7728e23b1aaed1540f972ea78",
+      "file_hashes": {
+        "SKILL.md": "sha256:33889faf631e80bf112a096dfe3e76029447f05f99d6d5c0aea2daddff186d7c",
+        "reference/router-beforeenter-no-param-trigger.md": "sha256:8cf2bd4e3f40cf24b14962ea0b33b31d736d56db891aafdd721e4ca68d82c6ad",
+        "reference/router-beforerouteenter-no-this.md": "sha256:c525231bb699cacb2764e804312df2c601ba9f23d7b81936bbaf418b015d1ced",
+        "reference/router-guard-async-await-pattern.md": "sha256:97521c582a7495e5540c93975737562c41d0eb3aa99c2fb3a6acaa2411ecd69e",
+        "reference/router-navigation-guard-infinite-loop.md": "sha256:38749bac69bc717cb99539f61fa4994c9294acbb795b5b93c80e1775b0c5b2cf",
+        "reference/router-navigation-guard-next-deprecated.md": "sha256:81dee3b480c31f72456fc4a81a67a717c1f96b798fcafb938ac18b92bb7bf8c0",
+        "reference/router-param-change-no-lifecycle.md": "sha256:8813b065391b5467e878935d196eb014d5dd27ee599a128b5194a0dc0da1b557",
+        "reference/router-simple-routing-cleanup.md": "sha256:3ff3b3d102f0312fe53da77d3c54c0a1e938e511ec2588bcc53bc02f35b99374",
+        "reference/router-use-vue-router-for-production.md": "sha256:4212de1b50d1f53d5f831ca6945d53994e8e2cfbfb11b0a0c232bc53c032c8a1"
+      }
+    },
+    "web-artifacts-builder": {
+      "source": "https://github.com/anthropics/skills.git/skills/web-artifacts-builder",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:21.40789-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/web-artifacts-builder",
+      "version": "12ab35c",
+      "tree_hash": "9ecbeae7c17caa478c5b753ba1bd258688075b5f",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:81c5002c6643b0de7b8710b00e7a9038daa6fb9b68d59870ee6adb12da8d10f8",
+        "scripts/bundle-artifact.sh": "sha256:abf0e480bf6585b56fab8526a407dfb7dc740812bddd70c636e1e8f3df5f9618",
+        "scripts/init-artifact.sh": "sha256:355e5dd4382aaaee91f01f1627eaeab30b2676ffa8d9b3ec328a1ae450ebccaa",
+        "scripts/shadcn-components.tar.gz": "sha256:1296f069e825de7933de7e8ac63672495cacce3f88f2dc45554dbcddbcbca60f"
+      }
+    },
+    "web-design-guidelines": {
+      "source": "https://github.com/vercel-labs/agent-skills.git/skills/web-design-guidelines",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:36:29.874043-05:00",
+      "repo_url": "https://github.com/vercel-labs/agent-skills.git",
+      "subdir": "skills/web-design-guidelines",
+      "version": "73140fc",
+      "tree_hash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "file_hashes": {
+        "SKILL.md": "sha256:f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+      }
+    },
+    "web-development-best-practices": {
+      "source": "github.com/runkids/my-skills/web-dev/web-development-best-practices",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.446575-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/web-development-best-practices",
+      "version": "6d8b466",
+      "tree_hash": "7f190a6012cd1f53afc936223b4033f45c3bedc9",
+      "file_hashes": {
+        "SKILL.md": "sha256:f32182e2cd742818f6b3b86f40be319eeae9cb10e392e3e4a8e8f586bad4eccf"
+      }
+    },
+    "web-quality-audit": {
+      "source": "github.com/runkids/my-skills/web-dev/web-quality-audit",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.463558-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "web-dev/web-quality-audit",
+      "version": "6d8b466",
+      "tree_hash": "558f18889f365c622e77113422662b76fe1990c5",
+      "file_hashes": {
+        "SKILL.md": "sha256:aaada64b636b867d737dfd488fd947a7ca5c280983caf3b96b8915e08ad7ef01",
+        "scripts/analyze.sh": "sha256:5c500ceda2848f2e328ca54a2a5a2338e955176089a4f945e917d8473a4b4253"
+      }
+    },
+    "webapp-testing": {
+      "source": "https://github.com/anthropics/skills.git/skills/webapp-testing",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:22.615626-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/webapp-testing",
+      "version": "12ab35c",
+      "tree_hash": "74cb751576f9e9af2aedff47e67861ef26db2dc4",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "SKILL.md": "sha256:51b7349e77ec63b7744a6f63647e7566a0b4d2e301121cc10e8c2113af6556a2",
+        "examples/console_logging.py": "sha256:ea46877289acb82da7e7ce59d0bc37c8977cd57e2a006d0c88d7a1c625bf95da",
+        "examples/element_discovery.py": "sha256:d63c89604a22f8845d724e95dda45db49b1bf57c25ce0a83afbb7b8da3d402f0",
+        "examples/static_html_automation.py": "sha256:9d533aafb875ee3ab8b8ebf8f5b9003ac8d999da3d09b285cce252e623140064",
+        "scripts/with_server.py": "sha256:b0dcf4918935b795f4eda9821579b9902119235ff4447f687a30286e7d0925fd"
+      }
+    },
+    "write-a-prd": {
+      "source": "github.com/runkids/my-skills/mattpocock/write-a-prd",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.218604-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/write-a-prd",
+      "version": "6d8b466",
+      "tree_hash": "6a4010706a74c3ed8ead8e11eed44196342f348f",
+      "file_hashes": {
+        "SKILL.md": "sha256:72bd3f589ba90b10824d285757edeaab392f46974942b8f40de523bff02615d3"
+      }
+    },
+    "write-a-skill": {
+      "source": "github.com/runkids/my-skills/mattpocock/write-a-skill",
+      "type": "github-subdir",
+      "installed_at": "2026-03-28T04:54:42.231954-05:00",
+      "repo_url": "https://github.com/runkids/my-skills.git",
+      "subdir": "mattpocock/write-a-skill",
+      "version": "6d8b466",
+      "tree_hash": "d105269954ba1819b3c103f0ccc50407ada0e980",
+      "file_hashes": {
+        "SKILL.md": "sha256:be8f20e66309258034b82a7db5040b03798aa40546f9d387662c2bd86be23123"
+      }
+    },
+    "writing-plans": {
+      "source": "https://github.com/obra/superpowers.git/skills/writing-plans",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.0685-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/writing-plans",
+      "version": "917e5f5",
+      "tree_hash": "704e240d4b281baf8a339e1418baa249860197f7",
+      "file_hashes": {
+        "SKILL.md": "sha256:90056bad3d5f196fa7c9fec0ffe592e6d9c86bc983e406642a51d1a4198b7024",
+        "plan-document-reviewer-prompt.md": "sha256:6fce2aa83c63715697e9dd86050c820716100b91efbd9f12bab8477ecc060256"
+      }
+    },
+    "writing-skills": {
+      "source": "https://github.com/obra/superpowers.git/skills/writing-skills",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:26.252099-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/writing-skills",
+      "version": "917e5f5",
+      "tree_hash": "80e8c7d3be99d55d5d76c9516cc45a1e7f48f281",
+      "file_hashes": {
+        "SKILL.md": "sha256:38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
+        "anthropic-best-practices.md": "sha256:20914c2fda31670c75fe91710e18a53d413ce0d00b5102acfa251d75c9226e3f",
+        "examples/CLAUDE_MD_TESTING.md": "sha256:0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+        "graphviz-conventions.dot": "sha256:e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+        "persuasion-principles.md": "sha256:c3c84f572a51dd8b6d4fc6e5cbdc2bc3b9e07ba381a45bdabfce7ad2894dd828",
+        "render-graphs.js": "sha256:ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+        "testing-skills-with-subagents.md": "sha256:c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade"
+      }
+    },
+    "xlsx": {
+      "source": "https://github.com/anthropics/skills.git/skills/xlsx",
+      "type": "github-subdir",
+      "installed_at": "2026-04-13T15:31:24.626593-05:00",
+      "repo_url": "https://github.com/anthropics/skills.git",
+      "subdir": "skills/xlsx",
+      "version": "12ab35c",
+      "tree_hash": "f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4",
+      "file_hashes": {
+        "LICENSE.txt": "sha256:79f6d8f5b427252fa3b1c11ecdbdb6bf610b944f7530b4de78f770f38741cfaa",
+        "SKILL.md": "sha256:dd316db7785a6be12966c2a2d848931fbf5f518b3cdb0a66fa62ee835ead1cfc",
+        "scripts/office/helpers/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "scripts/office/helpers/merge_runs.py": "sha256:7c40ed838b88639c51f9ffdcfd564b568f26832b78fe44008c0e01b742669ca7",
+        "scripts/office/helpers/simplify_redlines.py": "sha256:560cb55978a834c505406eb18e2c61f62f998fc7a2d8e9721b9c563b42597896",
+        "scripts/office/pack.py": "sha256:b1800987e568261a31f462df8e1303d386e9e6ccc11a75ef46e60cc528c20683",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chart.xsd": "sha256:41b93bd8857cc68b1e43be2806a872d736a9bdd6566900062d8fdb57d7bbb354",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-chartDrawing.xsd": "sha256:3fd0586f2637b98bb9886f0e0b67d89e1cc987c2d158cc7deb5f5b9890ced412",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-diagram.xsd": "sha256:29b254ee0d10414a8504b5a08149c7baec35a60d5ff607d6b3f492aa36815f40",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-lockedCanvas.xsd": "sha256:5cb76dabd8b97d1e9308a1700b90c20139be4d50792d21a7f09789f5cccd6026",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-main.xsd": "sha256:5375417f0f5394b8dd1a7035b9679151f19a6b65df309dec10cfb4a420cb00e9",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-picture.xsd": "sha256:5d389d42befbebd91945d620242347caecd3367f9a3a7cf8d97949507ae1f53c",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-spreadsheetDrawing.xsd": "sha256:b4532b6d258832953fbb3ee4c711f4fe25d3faf46a10644b2505f17010d01e88",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/dml-wordprocessingDrawing.xsd": "sha256:bdad416b096b61d37b71603b2c949484f9070c830bdaeba93bf35e15c8900614",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/pml.xsd": "sha256:d173c3e5d61e42e2e3a97226c632fd2ab7cc481fc4e492365b87024ab546daff",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-additionalCharacteristics.xsd": "sha256:3c6709101c6aaa82888df5d8795c33f9e857196790eb320d9194e64be2b6bdd8",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-bibliography.xsd": "sha256:0b364451dc36a48dd6dae0f3b6ada05fd9b71e5208211f8ee5537d7e51a587e2",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-commonSimpleTypes.xsd": "sha256:e2abacbb9a55ce1365f8961bc1b1395bbc811e512b111000d8c333f98458dece",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlDataProperties.xsd": "sha256:0ef4bb354ff44b923564c4ddbdda5987919d220225129ec94614a618ceafc281",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-customXmlSchemaProperties.xsd": "sha256:0d103b99a4a8652f8871552a69d42d2a3760ac6a5e3ef02d979c4273257ff6a4",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesCustom.xsd": "sha256:9c085407751b9061c1f996f6c39ce58451be22a8d334f09175f0e89e42736285",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesExtended.xsd": "sha256:bc92e36ccd233722d4c5869bec71ddc7b12e2df56059942cce5a39065cc9c368",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-documentPropertiesVariantTypes.xsd": "sha256:7b5b7413e2c895b1e148e82e292a117d53c7ec65b0696c992edca57b61b4a74b",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-math.xsd": "sha256:3213ef1631606250f5010b42cad7ef716f7c59426367798e33c374c0ec391d3a",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/shared-relationshipReference.xsd": "sha256:12264f3c03d738311cd9237d212f1c07479e70f0cbe1ae725d29b36539aef637",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/sml.xsd": "sha256:beffeed56945c22a77440122c8bdc426f3fcbe7f3b12ea0976c770d1f8d54578",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-main.xsd": "sha256:f5ee623b08b6a66935e5aced2f5d8ad0fc71bf9e8e833cd490150c0fa94b8763",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-officeDrawing.xsd": "sha256:585bedc1313b40888dcc544cb74cd939a105ee674f3b1d3aa1cc6d34f70ff155",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-presentationDrawing.xsd": "sha256:133c9f64a5c5d573b78d0a474122b22506d8eadb5e063f67cdbbb8fa2f161d0e",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-spreadsheetDrawing.xsd": "sha256:6bdeb169c3717eb01108853bd9fc5a3750fb1fa5b82abbdd854d49855a40f519",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/vml-wordprocessingDrawing.xsd": "sha256:475dcae1e7d1ea46232db6f8481040c15e53a52a3c256831d3df204212b0e831",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/wml.xsd": "sha256:c2dd9f61f892deae6acd8d20771ea79b12018af25f3bf8d06639c8542d218cfd",
+        "scripts/office/schemas/ISO-IEC29500-4_2016/xml.xsd": "sha256:a539aa2fb154fa50e0f5cc97e6ad7cbc66f8ec3e3746f61ec6a8b0d5d15ecdf2",
+        "scripts/office/schemas/ecma/fouth-edition/opc-contentTypes.xsd": "sha256:9e0b7209fc69ab11987900404540969976000c5ebe4d4f58c43dc3842886bf3a",
+        "scripts/office/schemas/ecma/fouth-edition/opc-coreProperties.xsd": "sha256:451958454e8588dfc7cd945981ada142ca06ff3307937f5700df059c2b307fa8",
+        "scripts/office/schemas/ecma/fouth-edition/opc-digSig.xsd": "sha256:6de111e11403f7cd49027400755bae0ea1cabef2815f09bd40a24f0017613b24",
+        "scripts/office/schemas/ecma/fouth-edition/opc-relationships.xsd": "sha256:f565adfef5a502044abc3a9153e157edc25af78304d335994afb958874b15e26",
+        "scripts/office/schemas/mce/mc.xsd": "sha256:3a37e461ecf5a8670fdec34029703401f8728ab9c96ec1739a6ae58d55212413",
+        "scripts/office/schemas/microsoft/wml-2010.xsd": "sha256:568b26ee156cb9549aa439ca2158965f77b7c1602b7e0316f40ac6cf586e35f2",
+        "scripts/office/schemas/microsoft/wml-2012.xsd": "sha256:0fa75578a000439a7988ba0c59fdc69f774bbd416cbacc14d07125b3f686cb74",
+        "scripts/office/schemas/microsoft/wml-2018.xsd": "sha256:be0ff793a22dd31384650c3a4da14c2fa8062751c2e97b0e5ee852bda13c60ad",
+        "scripts/office/schemas/microsoft/wml-cex-2018.xsd": "sha256:fddc2b880cabb9005aebbc7e783e53c19fec1c03df7d0e2f2076a33a0fdfd081",
+        "scripts/office/schemas/microsoft/wml-cid-2016.xsd": "sha256:127ca209fa73d7cb708449cb355c871867948a96e4a74f7bf5811ef62d17991d",
+        "scripts/office/schemas/microsoft/wml-sdtdatahash-2020.xsd": "sha256:842e7163409c8d74f4d7088a8bc99500d80bc75332681a0980055b08f374a604",
+        "scripts/office/schemas/microsoft/wml-symex-2015.xsd": "sha256:16f6f8072249f431370723c2cd8974672e0d9c897e00e97dd918079df934871b",
+        "scripts/office/soffice.py": "sha256:a3e21840e29e32f947d5286028931b96eaf2dee63f75d883b8eb19c943c80aa0",
+        "scripts/office/unpack.py": "sha256:83f69cecc87910183654c06345837244402e8a99edbf3bdddc1cf72f11304b62",
+        "scripts/office/validate.py": "sha256:1aef24f8e316965a0584c30859776bd2c82a9fb69f72d79cfed041119cf95514",
+        "scripts/office/validators/__init__.py": "sha256:83e0f035c5abea238d3f2c3968afbd511ed022b527b7c9cb60a9434cc34ff987",
+        "scripts/office/validators/base.py": "sha256:d6358b67252df4dbfe4fa6647423a765960c949346ef6a8c4eb8722bb1108d25",
+        "scripts/office/validators/docx.py": "sha256:0ef04ce86b2e6b6a1cb088c0276fd0bd5b770d96fdfe7a6cc73d005feb3f0345",
+        "scripts/office/validators/pptx.py": "sha256:f937961e62a5fa0d002b8dc51a4c4e2cd8fcd59fe65853fa54edaca3fe99eccc",
+        "scripts/office/validators/redlining.py": "sha256:f4c33fdb9da0651d1d9aa76f0d5294cc9955869339ae131b2f75f3b2e366cb40",
+        "scripts/recalc.py": "sha256:cf419d15e02965aeaec17773c05b61303f7f520f67fa2696547e7da07502eac7"
+      }
+    }
+  }
+}

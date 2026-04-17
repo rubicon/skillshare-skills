@@ -27,7 +27,7 @@ Templates are the RIGHT choice when:
 You need to pass dynamic values to service calls based on entity states or trigger context.
 
 ```yaml
-action:
+actions:
   - action: light.turn_on
     target:
       entity_id: light.bedroom
@@ -41,11 +41,11 @@ action:
 Messages that include runtime information:
 
 ```yaml
-action:
+actions:
   - action: notify.mobile_app
     data:
       message: >
-        {{ trigger.to_state.name }} has been {{ trigger.to_state.state }} 
+        {{ trigger.to_state.name }} has been {{ trigger.to_state.state }}
         for {{ trigger.for.total_seconds() | int // 60 }} minutes.
 ```
 
@@ -68,11 +68,11 @@ rest:
 Using `trigger.` variables in automations:
 
 ```yaml
-action:
+actions:
   - action: notify.mobile_app
     data:
       message: >
-        {{ trigger.to_state.name }} changed from 
+        {{ trigger.to_state.name }} changed from
         {{ trigger.from_state.state }} to {{ trigger.to_state.state }}
 ```
 
@@ -199,10 +199,10 @@ template:
       - name: "Safe Sensor"
         unique_id: safe_sensor
         availability: >
-          {{ has_value('sensor.source_a') and 
+          {{ has_value('sensor.source_a') and
              has_value('sensor.source_b') }}
         state: >
-          {{ states('sensor.source_a') | float + 
+          {{ states('sensor.source_a') | float +
              states('sensor.source_b') | float }}
 ```
 
@@ -252,7 +252,7 @@ Trigger-based templates only update when sources change:
 template:
   - triggers:                    # Recommended plural form (HA 2024.10+)
       - trigger: state
-        entity_id: 
+        entity_id:
           - sensor.temp_bedroom
           - sensor.temp_living
     sensor:
@@ -333,11 +333,11 @@ For template conditions, use the shorthand:
 
 ```yaml
 # Shorthand (preferred)
-condition:
+conditions:
   - "{{ trigger.to_state.attributes.brightness > 100 }}"
 
 # Long form (equivalent but verbose)
-condition:
+conditions:
   - condition: template
     value_template: "{{ trigger.to_state.attributes.brightness > 100 }}"
 ```
@@ -347,7 +347,7 @@ condition:
 For readability in complex templates:
 
 ```yaml
-action:
+actions:
   - action: notify.mobile_app
     data:
       message: >
@@ -362,14 +362,14 @@ action:
 
 ```yaml
 automation:
-  - trigger:
+  - triggers:
       - trigger: state
         entity_id: light.bedroom
-    action:
+    actions:
       - action: notify.mobile_app
         data:
           message: >
-            Light changed from {{ trigger.from_state.state }} 
+            Light changed from {{ trigger.from_state.state }}
             to {{ trigger.to_state.state }}
             Entity: {{ trigger.entity_id }}
             Brightness: {{ trigger.to_state.attributes.brightness | default('N/A') }}
@@ -600,6 +600,8 @@ automation:
 | `is_state('entity_id', 'state')` | Check if entity has state |
 | `is_state_attr('entity_id', 'attr', 'value')` | Check attribute value |
 | `has_value('entity_id')` | True if not unknown/unavailable |
+| `entity_name('entity_id')` | Get entity display name; preferred over `friendly_name` attribute (2026.4+) |
+| `state_attr_translated('entity_id', 'attr')` | Get translated attribute value, e.g., fan modes, HVAC actions (2026.4+) |
 
 ### Common Filters
 
