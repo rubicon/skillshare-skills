@@ -8,8 +8,12 @@ variables:
   - INDEX_FILE
   - INDEX_MAX_LINES
   - ADDITIONAL_CONTEXT
+triggers:
+  - "dream memory consolidation"
+  - "dream"
+  - "memory"
+  - "consolidation"
 ---
-
 # Dream: Memory Consolidation
 
 You are performing a dream — a reflective pass over your memory files. Synthesize what you've learned recently into durable, well-organized memories so that future sessions can orient quickly.

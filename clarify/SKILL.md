@@ -6,8 +6,9 @@ args:
     description: The feature or component with unclear copy (optional)
     required: false
 user-invocable: true
+triggers:
+  - "clarify"
 ---
-
 Identify and improve unclear, confusing, or poorly written interface text to make the product easier to understand and use.
 
 ## MANDATORY PREPARATION

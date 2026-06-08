@@ -6,8 +6,9 @@ args:
     description: The feature or area to polish (optional)
     required: false
 user-invocable: true
+triggers:
+  - "polish"
 ---
-
 ## MANDATORY PREPARATION
 
 Use the frontend-design skill — it contains design principles, anti-patterns, and the **Context Gathering Protocol**. Follow the protocol before proceeding — if no design context exists yet, you MUST run teach-impeccable first. Additionally gather: quality bar (MVP vs flagship).

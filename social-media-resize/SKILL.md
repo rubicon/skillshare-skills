@@ -1,8 +1,12 @@
 ---
 name: canva-resize-for-all-social-media
 description: Resize a Canva design into multiple social media formats (Facebook post, Facebook story, Instagram post, Instagram story, LinkedIn post) and export all versions as PNGs. Use this skill when users want to resize Canva designs specifically for multiple social media platforms in one operation, rather than resizing to a single format manually.
+triggers:
+  - "social media resize"
+  - "social"
+  - "media"
+  - "resize"
 ---
-
 # Canva Resize for Social Media
 
 Automatically resize a single Canva design into multiple social media formats and export all versions as high-quality PNG images with direct download links.

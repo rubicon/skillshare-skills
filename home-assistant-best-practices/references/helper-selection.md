@@ -1,6 +1,6 @@
 # Helper Selection Guide
 
-This document covers Home Assistant's built-in helpers and integrations that should be used instead of template sensors or complex automations.
+This document covers Home Assistant's built-in helpers and integrations that should be used instead of YAML template sensors or complex automations. When no dedicated helper covers your need, the **template helper** (created via the UI / config-entry flow, not YAML `template:`) is the right escape hatch — see [Template Helpers](#template-helpers).
 
 ## Table of Contents
 1. [Numeric Aggregation](#numeric-aggregation) - min_max, statistics
@@ -10,6 +10,23 @@ This document covers Home Assistant's built-in helpers and integrations that sho
 5. [Counting and Timing](#counting-and-timing) - counter, timer
 6. [Scheduling](#scheduling) - schedule, time of day (tod)
 7. [Entity Grouping](#entity-grouping) - group, binary sensor groups
+8. [Data Smoothing](#data-smoothing) - filter
+9. [Random Values](#random-values) - random
+10. [Climate Control](#climate-control) - generic_thermostat, generic_hygrostat
+11. [Domain Conversion](#domain-conversion) - switch_as_x
+12. [Template Helpers](#template-helpers) - template (escape hatch when no dedicated helper fits)
+
+## Menu-Based Helpers
+
+Several helper integrations — most prominently **`template`**, **`group`**, and **`random`** — start with a sub-type menu before showing fields. The field set isn't known until a sub-type is picked.
+
+| Helper | Sub-types (pick one first) |
+|--------|---------------------------|
+| `template` | `sensor`, `binary_sensor`, `button`, `switch`, `light`, `cover`, `fan`, `lock`, `select`, `number`, `image`, `vacuum`, `weather`, `alarm_control_panel`, `event`, `update` |
+| `group` | `binary_sensor`, `button`, `cover`, `event`, `fan`, `light`, `lock`, `media_player`, `notify`, `sensor`, `switch`, `valve` |
+| `random` | `sensor`, `binary_sensor` |
+
+Advance the menu by submitting `{"next_step_id": "<sub-type>"}` to the first step; the resulting form's fields become available in the next step. The chosen sub-type is then written into the stored config entry as `template_type` / `group_type` etc. by the integration's validator — those are storage keys, not inputs the caller submits.
 
 ---
 
@@ -654,6 +671,7 @@ group:
 - Groups inherit the domain of their members
 - Light groups can be controlled as a single entity
 - Binary sensor groups useful for "any door open" logic
+- Created via the config-entry flow API, `group` is **menu-based**: submit `{"next_step_id": "<sub-type>"}` first (sub-types: `binary_sensor`, `button`, `cover`, `event`, `fan`, `light`, `lock`, `media_player`, `notify`, `sensor`, `switch`, `valve`), then provide `entities`. Sensor groups additionally require `type` (one of `last`, `first_available`, `max`, `mean`, `median`, `min`, `product`, `range`, `stdev`, `sum`). The stored config entry then carries `group_type` as a storage key.
 
 **Instead of:**
 ```yaml
@@ -671,6 +689,232 @@ template:
 - Any motion sensor active
 - All doors/windows closed
 - Group control in dashboards
+
+---
+
+## Data Smoothing
+
+### filter
+
+**Use for:** Smoothing noisy sensor data, throttling update frequency, or rejecting out-of-range values.
+
+**Instead of:**
+```yaml
+# WRONG - Template sensor doing manual smoothing math
+template:
+  - sensor:
+      - name: "Smoothed Power"
+        state: >
+          {% set h = states('sensor.power_history') | from_json %}
+          {{ (h | sum / h | length) | round(2) }}
+```
+
+**Use this:**
+```yaml
+# RIGHT - Filter helper (UI creates one filter per entry; YAML supports chains)
+sensor:
+  - platform: filter
+    name: "Filtered Temperature"
+    entity_id: sensor.outdoor_temp
+    filters:
+      - filter: outlier
+        window_size: 4
+        radius: 2.0
+      - filter: lowpass
+        time_constant: 10
+      - filter: time_simple_moving_average
+        window_size: "00:05"
+        precision: 2
+```
+
+**The UI config flow creates one filter per entry.** For chained pipelines (multiple filters applied in sequence), use YAML as above.
+
+**Filter types** (one per UI entry, or multiple in a YAML list):
+
+| Filter | Required | Optional | Notes |
+|--------|----------|----------|-------|
+| `lowpass` | — | `window_size` (int, default 1), `time_constant` (int, default 10) | Suppresses high-frequency noise. |
+| `outlier` | — | `window_size` (int, default 1), `radius` (float, default 2.0) | Drops samples > `radius` standard deviations from the window mean. |
+| `range` | — | `lower_bound` (float), `upper_bound` (float) | Clamps to bounds. Supply at least one. |
+| `throttle` | — | `window_size` (int, default 1) | Sample-count throttle: emit every Nth value. |
+| `time_throttle` | `window_size` (duration) | — | Time-based throttle. UI picker disables days; YAML accepts standard `cv.time_period` syntax including days. |
+| `time_simple_moving_average` | `window_size` (duration) | `type` (`last`, default) | Time-windowed SMA. Same UI-vs-YAML duration distinction as `time_throttle`. |
+
+All filters accept optional `precision` (default `2`).
+
+---
+
+## Random Values
+
+### random
+
+**Use for:** Generating random numeric or boolean values (for testing, demos, or simulated occupancy).
+
+**Instead of:**
+```yaml
+# WRONG - Template with range() / random()
+template:
+  - sensor:
+      - name: "Random Number"
+        state: "{{ range(0, 100) | random }}"
+```
+
+**Use this:**
+```yaml
+# RIGHT - Random helper (proper entity with state class, history, etc.)
+sensor:
+  - platform: random
+    name: "Random Percentage"
+    minimum: 0
+    maximum: 100
+    unit_of_measurement: "%"
+```
+
+Menu-based — pick `sensor` (numeric) or `binary_sensor` (boolean).
+
+**random → sensor**
+- Required: `name`
+- Optional: `minimum` (default `0`), `maximum` (default `20`), `device_class`, `unit_of_measurement`
+
+**random → binary_sensor**
+- Required: `name`
+- Optional: `device_class`
+
+Binary-sensor variant (boolean coin-flip — no min/max needed):
+```yaml
+binary_sensor:
+  - platform: random
+    name: "Random Boolean"
+```
+
+---
+
+## Climate Control
+
+### generic_thermostat
+
+**Use for:** Turning a switch (or fan) into a thermostat that follows a temperature sensor.
+
+```yaml
+climate:
+  - platform: generic_thermostat
+    name: "Bedroom"
+    heater: switch.bedroom_heater
+    target_sensor: sensor.bedroom_temperature
+    ac_mode: false
+    cold_tolerance: 0.3
+    hot_tolerance: 0.3
+    min_temp: 15
+    max_temp: 25
+    min_cycle_duration: "00:05:00"
+```
+
+**Parameters (config flow):**
+- Required: `name`, `heater` (switch or fan entity), `target_sensor` (temperature sensor), `ac_mode` (bool — set `true` to invert for cooling).
+- Optional: `cold_tolerance` (default `0.3`), `hot_tolerance` (default `0.3`), `min_cycle_duration`, `max_cycle_duration`, `cycle_cooldown`, `keep_alive`, `min_temp`, `max_temp`, plus a presets step (`away_temp`, `comfort_temp`, `eco_temp`, `home_temp`, `sleep_temp`, `activity_temp`).
+
+**Key behaviors:**
+- `ac_mode: true` inverts logic (heater output activates for cooling)
+- Tolerances prevent rapid cycling near the target
+- YAML platform supports `initial_hvac_mode`, `precision`, `target_temp_step` — not exposed by the UI flow
+
+---
+
+### generic_hygrostat
+
+**Use for:** Turning a switch (or fan) into a humidifier/dehumidifier controller that follows a humidity sensor.
+
+```yaml
+humidifier:
+  - platform: generic_hygrostat
+    name: "Bathroom Dehumidifier"
+    device_class: dehumidifier
+    humidifier: switch.bathroom_fan
+    target_sensor: sensor.bathroom_humidity
+    dry_tolerance: 3
+    wet_tolerance: 3
+    min_cycle_duration: "00:05:00"
+```
+
+**Parameters (config flow):**
+- Required: `name`, `device_class` (`humidifier` or `dehumidifier`), `humidifier` (switch or fan entity), `target_sensor` (humidity sensor).
+- Optional: `dry_tolerance` (default `3`), `wet_tolerance` (default `3`), `min_cycle_duration`.
+
+---
+
+## Domain Conversion
+
+### switch_as_x
+
+**Use for:** Exposing a `switch.*` entity as a different domain so it integrates correctly with voice assistants, dashboards, and HVAC logic.
+
+**Instead of:**
+```yaml
+# WRONG - Template light wrapping a switch
+template:
+  - light:
+      - name: "Lamp"
+        turn_on:
+          action: switch.turn_on
+          target:
+            entity_id: switch.lamp_plug
+        turn_off:
+          action: switch.turn_off
+          target:
+            entity_id: switch.lamp_plug
+        state: "{{ is_state('switch.lamp_plug', 'on') }}"
+```
+
+**Use this** (UI / config flow — no YAML equivalent):
+- `entity_id: switch.lamp_plug`
+- `target_domain: light`
+
+`switch_as_x` hides the original switch and registers a proper `light.*` entity that voice assistants and dashboards treat correctly.
+
+**Parameters:**
+- Required: `entity_id` (must be a `switch.*` entity), `target_domain` (one of `cover`, `fan`, `light`, `lock`, `siren`, `valve`).
+- Optional: `invert` (bool, default `false`) — reverses on/off semantics (useful for normally-closed contacts).
+
+UI-only — no YAML equivalent. The original switch entity is hidden once converted; the new domain entity inherits the switch's state.
+
+---
+
+## Template Helpers
+
+When no dedicated helper covers your need, use the **template helper** — created via the config-entry flow / UI, **not** YAML `template:` platform sensors. Template helpers are first-class HA helpers: UI-editable, reloadable without restarting, and visible in the helper registry.
+
+### template
+
+**Use for:** Custom sensor/binary_sensor/switch/light/etc. logic that no dedicated helper (min_max, derivative, threshold, statistics, etc.) provides.
+
+Menu-based — pick a sub-type first (see [Menu-Based Helpers](#menu-based-helpers) for the full sub-type list), then configure fields.
+
+**template → sensor**
+- Required: `name`, `state` (Jinja template returning the sensor value)
+- Optional: `unit_of_measurement`, `device_class`, `state_class`, `device_id`, `availability` (template)
+
+**template → binary_sensor**
+- Required: `name`, `state` (Jinja template returning truthy/falsy)
+- Optional: `device_class`, `device_id`, `availability` (template)
+
+Other sub-types follow the same shape — a `state` template plus domain-appropriate metadata.
+
+**Equivalent YAML platform** (for reference; prefer the helper):
+```yaml
+template:
+  - sensor:
+      - name: "Solar Net"
+        state: "{{ states('sensor.solar_production') | float - states('sensor.house_consumption') | float }}"
+        unit_of_measurement: "W"
+        device_class: power
+        state_class: measurement
+  - binary_sensor:
+      - name: "Someone Home"
+        state: "{{ is_state('person.alice','home') or is_state('person.bob','home') }}"
+        device_class: presence
+```
+
+See the [Decision Matrix](#decision-matrix) for when the template helper is the right choice vs. a dedicated helper — every pattern that has a dedicated helper (averaging, rate of change, thresholds, time-of-day, scheduling, any-on/all-on) should go through that helper first.
 
 ---
 
@@ -694,3 +938,11 @@ template:
 | Weekly schedule | `schedule` | Template with weekday checks |
 | Time of day mode | `tod` | Template with time checks |
 | Any-on / all-on | `group` | Template binary sensor |
+| Smooth noisy sensor | `filter` | Statistics with `mean` (filter is purpose-built for this) |
+| Throttle update rate | `filter` (`throttle`/`time_throttle`) | Custom automation with delays |
+| Reject out-of-range values | `filter` (`range`) | Template with bounds check |
+| Thermostat from switch + temp sensor | `generic_thermostat` | Automation with hysteresis logic |
+| Humidifier from switch + humidity sensor | `generic_hygrostat` | Automation with hysteresis logic |
+| Switch presented as light/cover/lock | `switch_as_x` | Template light/cover/lock |
+| Random sensor value | `random` | Template with `range()` |
+| Custom logic no other helper covers | `template` helper (via UI flow) | YAML `template:` platform sensor |

@@ -6,8 +6,9 @@ args:
     description: The feature, component, or area to extract from (optional)
     required: false
 user-invocable: true
+triggers:
+  - "extract"
 ---
-
 Identify reusable patterns, components, and design tokens, then extract and consolidate them into the design system for systematic reuse.
 
 ## Discover

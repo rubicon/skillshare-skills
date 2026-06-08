@@ -6,8 +6,9 @@ args:
     description: The feature or component to colorize (optional)
     required: false
 user-invocable: true
+triggers:
+  - "colorize"
 ---
-
 Strategically introduce color to designs that are too monochromatic, gray, or lacking in visual warmth and personality.
 
 ## MANDATORY PREPARATION

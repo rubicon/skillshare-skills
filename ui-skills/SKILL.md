@@ -1,8 +1,9 @@
 ---
 name: ui-skills
 description: Opinionated constraints for building better interfaces with agents.
+triggers:
+  - "ui skills"
 ---
-
 # UI Skills
 
 When invoked, apply these opinionated constraints for building better interfaces.

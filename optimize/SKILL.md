@@ -6,8 +6,9 @@ args:
     description: The feature or area to optimize (optional)
     required: false
 user-invocable: true
+triggers:
+  - "optimize"
 ---
-
 Identify and fix performance issues to create faster, smoother user experiences.
 
 ## Assess Performance Issues

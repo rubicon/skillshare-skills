@@ -1,8 +1,11 @@
 ---
 name: design-an-interface
 description: Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
+triggers:
+  - "design an interface"
+  - "design"
+  - "interface"
 ---
-
 # Design an Interface
 
 Based on "Design It Twice" from "A Philosophy of Software Design": your first idea is unlikely to be the best. Generate multiple radically different designs, then compare.

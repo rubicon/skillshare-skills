@@ -1,8 +1,11 @@
 ---
 name: memory-forge
 description: "AI conversation efficiency analyzer. Analyze Claude/ChatGPT/Cursor conversation history for KPI stats, cost tracking, topic distribution, and efficiency insights. Use when: user asks to analyze their AI conversation history, track API costs, see topic distribution, review conversation efficiency, or get usage insights. NOT for: code review, debugging, or general productivity tips."
+triggers:
+  - "memory forge"
+  - "memory"
+  - "forge"
 ---
-
 # Memory Forge — AI Conversation Efficiency Analyzer
 
 Analyze the user's AI conversation history (Claude Code / ChatGPT / Cursor) to provide efficiency insights and cost tracking.

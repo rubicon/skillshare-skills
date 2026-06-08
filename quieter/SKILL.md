@@ -6,8 +6,9 @@ args:
     description: The feature or component to make quieter (optional)
     required: false
 user-invocable: true
+triggers:
+  - "quieter"
 ---
-
 Reduce visual intensity in designs that are too bold, aggressive, or overstimulating, creating a more refined and approachable aesthetic without losing effectiveness.
 
 ## MANDATORY PREPARATION

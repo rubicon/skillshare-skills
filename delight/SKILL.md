@@ -6,8 +6,9 @@ args:
     description: The feature or area to add delight to (optional)
     required: false
 user-invocable: true
+triggers:
+  - "delight"
 ---
-
 Identify opportunities to add moments of joy, personality, and unexpected polish that transform functional interfaces into delightful experiences.
 
 ## MANDATORY PREPARATION

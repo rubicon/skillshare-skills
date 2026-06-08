@@ -5,8 +5,11 @@ license: MIT
 metadata:
   author: web-quality-skills
   version: "1.0"
+triggers:
+  - "core web vitals"
+  - "core"
+  - "vitals"
 ---
-
 # Core Web Vitals optimization
 
 Targeted optimization for the three Core Web Vitals metrics that affect Google Search ranking and user experience.

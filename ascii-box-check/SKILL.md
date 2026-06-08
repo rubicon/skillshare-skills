@@ -8,8 +8,11 @@ allowed-tools: "Bash(python3:*)"
 metadata:
   author: runkids
   version: 1.0.0
+triggers:
+  - "ascii box check"
+  - "ascii"
+  - "check"
 ---
-
 # ASCII Box Alignment Check
 
 Verify that all lines within an ASCII box-drawing diagram have consistent display width.
