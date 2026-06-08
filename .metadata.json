@@ -56,25 +56,10 @@
       "tracked": true,
       "branch": "main"
     },
-    "ab-test-setup": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/ab-test-setup",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.542243-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/ab-test-setup",
-      "version": "9125d82",
-      "tree_hash": "76160d84e49a78aa73adcd4812081e5397b86845",
-      "file_hashes": {
-        "SKILL.md": "sha256:f0ec8a14d24834dafeef67432df10b3505e683302ca2231ce50cdbb21bf6aa8c",
-        "evals/evals.json": "sha256:b8f6db99c9b1e01d1ad9e26b01f1e6878a811cbffa1507ab39567966c397867f",
-        "references/sample-size-guide.md": "sha256:96aef9d20c4607662beb924fa31260dee4c0db0c1dd6b607cdb3c4c701f9efd2",
-        "references/test-templates.md": "sha256:761a40b9de8d16f18fa7f60b59e77aa749607ac8014af43e0b022f47fa87c812"
-      }
-    },
     "agent-tools": {
       "source": "https://github.com/inf-sh/skills.git/tools/agent-tools",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:23.24746-05:00",
+      "installed_at": "2026-06-07T21:06:05.745956-05:00",
       "repo_url": "https://github.com/inf-sh/skills.git",
       "subdir": "tools/agent-tools",
       "version": "abf8446",
@@ -90,7 +75,7 @@
     "ai-hooks-integration": {
       "source": "https://github.com/runkids/ai-hooks-integration.git/skills/ai-hooks-integration",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:32.864977-05:00",
+      "installed_at": "2026-06-07T21:02:58.352618-05:00",
       "repo_url": "https://github.com/runkids/ai-hooks-integration.git",
       "subdir": "skills/ai-hooks-integration",
       "version": "c73efc4",
@@ -147,65 +132,10 @@
         "tests/test_unified_hook.py": "sha256:9fefd16c450d4dce6e1227e658c55ad67224073df1fde1bc68e1c93c08347245"
       }
     },
-    "analytics-tracking": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/analytics-tracking",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:16.522903-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/analytics-tracking",
-      "version": "9125d82",
-      "tree_hash": "d6d50fd2bd4440bb0f075b4f2818a70667991f8b",
-      "file_hashes": {
-        "SKILL.md": "sha256:e93ec5e3baed561a7c28b629687c6076daec9ba8d9fc95c5494bf953c66291e5",
-        "evals/evals.json": "sha256:912b64c0b018b3b136696527e35113e75a80c3d7efb2a3c3fac5f6e522166931",
-        "references/event-library.md": "sha256:efc7bdb0a7b3efdea9e67ff0d1bc894dcf89ec9b9b8f3414f123d12bee109412",
-        "references/ga4-implementation.md": "sha256:f33fd6db0cbdb1bdc183af5f52bedd956d14680e54bca2e2c3917de29698636e",
-        "references/gtm-implementation.md": "sha256:112da33832439d2ae0b2729e5031fc927df444cd1ae8eb20542d45c1b5690f52"
-      }
-    },
-    "animate": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/animate",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.555671-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/animate",
-      "version": "6d8b466",
-      "tree_hash": "bf1fa40dd0a800a6e83fa315b92c9ed248ea445d",
-      "file_hashes": {
-        "SKILL.md": "sha256:7b2509b96be10698f008ab2bae74028e96a2f228ea8ce8c152aa26f1336fa960"
-      }
-    },
-    "ascii-box-check": {
-      "source": "github.com/runkids/my-skills/utils/ascii-box-check",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.250895-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "utils/ascii-box-check",
-      "version": "6d8b466",
-      "tree_hash": "30372645b17287017d820618ba39992a81eba2c1",
-      "file_hashes": {
-        "README.md": "sha256:76e9b2bc330edd54659acd51193b4dded73e5324f91c6219dfadb0267bfdd0ca",
-        "SKILL.md": "sha256:e17a2d342316f1b435e5e57c9bfaf2c6d83ed1d93cb4052975b70649bc26271e",
-        "scripts/check.py": "sha256:298a616817bdf57eb15f585b468db5e37d923d8868bc9d2fc3e09dc3fa6f027f",
-        "scripts/pad_line.py": "sha256:f97806cf4466d6a7928a979c0e6ad3d7383c7946f9e906f8f0610f6e95921ce2"
-      }
-    },
-    "audit": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/audit",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.571843-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/audit",
-      "version": "6d8b466",
-      "tree_hash": "a9a1ba81d7aeb8c38be6bd839293cb45ae06b82d",
-      "file_hashes": {
-        "SKILL.md": "sha256:7c287c2676e09b020c2bcfb415e137acc46b0a6db3fbb0e22d8220b8e12ab7c4"
-      }
-    },
     "audit-website": {
       "source": "https://github.com/squirrelscan/skills.git/audit-website",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:52.854062-05:00",
+      "installed_at": "2026-06-07T21:02:58.844346-05:00",
       "repo_url": "https://github.com/squirrelscan/skills.git",
       "subdir": "audit-website",
       "version": "91e0dfb",
@@ -219,22 +149,10 @@
         "references/OUTPUT-FORMAT.md": "sha256:4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a"
       }
     },
-    "bolder": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/bolder",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.587539-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/bolder",
-      "version": "6d8b466",
-      "tree_hash": "ae8d08d3632c1bfc4b7c3db5614c0a37a25d2939",
-      "file_hashes": {
-        "SKILL.md": "sha256:0f37de88cf64cd447254011d8a02b898f40b1926c9f0747900977ce9af2a0496"
-      }
-    },
     "branded-presentation": {
       "source": "https://github.com/canva-sdks/canva-claude-skills.git/branded-presentation",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:23.729844-05:00",
+      "installed_at": "2026-06-07T21:03:04.482363-05:00",
       "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
       "subdir": "branded-presentation",
       "version": "7d454de",
@@ -246,7 +164,7 @@
     "building-native-ui": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/building-native-ui",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.634695-05:00",
+      "installed_at": "2026-06-07T21:06:06.347623-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/building-native-ui",
       "version": "145a923",
@@ -272,7 +190,7 @@
     "check-skill-conflicts": {
       "source": "https://github.com/plinde/claude-plugins.git/check-skill-conflicts/skills/check-skill-conflicts",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:58.584201-05:00",
+      "installed_at": "2026-06-07T21:06:12.867461-05:00",
       "repo_url": "https://github.com/plinde/claude-plugins.git",
       "subdir": "check-skill-conflicts/skills/check-skill-conflicts",
       "version": "31d9ad1",
@@ -282,22 +200,10 @@
         "scripts/check-conflicts.sh": "sha256:31c25b2058dd601a25b3bbf62edfaf0274da0b065a997801255953c65d29b9b3"
       }
     },
-    "clarify": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/clarify",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.602847-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/clarify",
-      "version": "6d8b466",
-      "tree_hash": "9ae010e30e84a6d39ce61b84037e82b0e285cf3e",
-      "file_hashes": {
-        "SKILL.md": "sha256:8eb7c1401fed4564aabc392828c850b5776167eb1d926d45997c7f93ab56ae90"
-      }
-    },
     "clawdirect": {
       "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:53.445031-05:00",
+      "installed_at": "2026-06-07T21:06:07.979625-05:00",
       "repo_url": "https://github.com/napoleond/clawdirect.git",
       "subdir": "skills/clawdirect",
       "version": "b645ffd",
@@ -309,7 +215,7 @@
     "clawdirect-dev": {
       "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect-dev",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:53.53074-05:00",
+      "installed_at": "2026-06-07T21:06:08.101946-05:00",
       "repo_url": "https://github.com/napoleond/clawdirect.git",
       "subdir": "skills/clawdirect-dev",
       "version": "b645ffd",
@@ -321,7 +227,7 @@
     "code-reviewer": {
       "source": "https://github.com/google-gemini/gemini-cli.git/.gemini/skills/code-reviewer",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:55.570186-05:00",
+      "installed_at": "2026-06-07T21:03:00.802456-05:00",
       "repo_url": "https://github.com/google-gemini/gemini-cli.git",
       "subdir": ".gemini/skills/code-reviewer",
       "version": "f40498d",
@@ -330,37 +236,10 @@
         "SKILL.md": "sha256:d2bd763e7cfa424845c54639d4a97cdb0aa03b5eedeabb1d171a16086584cec9"
       }
     },
-    "colorize": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/colorize",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.618081-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/colorize",
-      "version": "6d8b466",
-      "tree_hash": "d05b32cc0ceef553df96102a9d82ab7fb0aa22e6",
-      "file_hashes": {
-        "SKILL.md": "sha256:3961667bb6f73bf52ee1f01b07300837f93962803398ee063d6333c70c6555b0"
-      }
-    },
-    "competitor-alternatives": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/competitor-alternatives",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.709577-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/competitor-alternatives",
-      "version": "9125d82",
-      "tree_hash": "4bc4760726d967ec06fa601f341ab5ed014c251f",
-      "file_hashes": {
-        "SKILL.md": "sha256:1db87980b24239715c09c78cf77f24eb054dd59f83ee48397cfb8afd18d18790",
-        "evals/evals.json": "sha256:630927a9defa40e9edd78280b94c0c1e539b8c2a57915816c848775053655bf9",
-        "references/content-architecture.md": "sha256:9fbc1793b63f3e0302ff4f05ec74fb9944792a5f878a890aba47bab5b2ac4d35",
-        "references/templates.md": "sha256:8f367433afe78d532f81e0da757514cdbeaa3ea39689ce158c1c963079a93046"
-      }
-    },
     "content-strategy": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/content-strategy",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.043377-05:00",
+      "installed_at": "2026-06-07T21:06:04.812379-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/content-strategy",
       "version": "7f4af1e",
@@ -374,7 +253,7 @@
     "context7": {
       "source": "https://github.com/intellectronica/agent-skills.git/skills/context7",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:59.096905-05:00",
+      "installed_at": "2026-06-07T21:06:08.670217-05:00",
       "repo_url": "https://github.com/intellectronica/agent-skills.git",
       "subdir": "skills/context7",
       "version": "9b0e00a",
@@ -386,7 +265,7 @@
     "copy-editing": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copy-editing",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.327099-05:00",
+      "installed_at": "2026-06-07T21:06:04.951366-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/copy-editing",
       "version": "7f4af1e",
@@ -402,7 +281,7 @@
     "copywriting": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copywriting",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.41581-05:00",
+      "installed_at": "2026-06-07T21:06:04.139916-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/copywriting",
       "version": "7f4af1e",
@@ -414,59 +293,10 @@
         "references/natural-transitions.md": "sha256:4ff23f8943af2f65b072f26f1c53ce55f19cc26d7be211c11cae8e34b43e859f"
       }
     },
-    "core-web-vitals": {
-      "source": "github.com/runkids/my-skills/web-dev/core-web-vitals",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.389348-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "web-dev/core-web-vitals",
-      "version": "6d8b466",
-      "tree_hash": "77c3d3e256bad2ae244100c587a340888943783f",
-      "file_hashes": {
-        "SKILL.md": "sha256:b03396c9bd7a41950bbaf5964bc8f1cf60a3c81830a6171614d6413c8bff308c",
-        "references/LCP.md": "sha256:4c5043ef7e1ae4058191a51fbfe5121668bd3677842a2ef563a45a9ca6685d92"
-      }
-    },
-    "critique": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/critique",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.632914-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/critique",
-      "version": "6d8b466",
-      "tree_hash": "2df285b99876d995da0fb3530f89629810ee83e6",
-      "file_hashes": {
-        "SKILL.md": "sha256:22cfc064796a900e20e22fa185c0b2acc5a614b012d85f6faea1baaec136f9cc"
-      }
-    },
-    "delight": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/delight",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.649398-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/delight",
-      "version": "6d8b466",
-      "tree_hash": "e6b7cfe572e81c25e9a492f807d9df9e9cde4cd1",
-      "file_hashes": {
-        "SKILL.md": "sha256:2010a2d35ae02b76c3ad05db20803a0c5b15b6a8a534054541ee1be696fd2279"
-      }
-    },
-    "design-an-interface": {
-      "source": "github.com/runkids/my-skills/mattpocock/design-an-interface",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.014746-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/design-an-interface",
-      "version": "6d8b466",
-      "tree_hash": "8cee0f3972c941554b510c1d655fe8333f302b63",
-      "file_hashes": {
-        "SKILL.md": "sha256:a2596e9fa2d50e23ba014f64a5b8f9df4eb56b846a52cad152899ef5eb97b085"
-      }
-    },
     "design-md": {
       "source": "https://github.com/google-labs-code/stitch-skills.git/plugins/stitch-utilities/skills/design-md",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:56.213424-05:00",
+      "installed_at": "2026-06-07T21:03:01.497652-05:00",
       "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
       "subdir": "plugins/stitch-utilities/skills/design-md",
       "version": "1544aa4",
@@ -480,7 +310,7 @@
     "design-translation": {
       "source": "https://github.com/canva-sdks/canva-claude-skills.git/design-translation",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:23.819577-05:00",
+      "installed_at": "2026-06-07T21:03:04.364276-05:00",
       "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
       "subdir": "design-translation",
       "version": "7d454de",
@@ -489,22 +319,10 @@
         "SKILL.md": "sha256:c10b609033f5727c53d3c05dddd61c4e3d0de9a314b78420b2109dc6629192eb"
       }
     },
-    "distill": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/distill",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.66498-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/distill",
-      "version": "6d8b466",
-      "tree_hash": "eb05eb66b59ea1960a9d99fdd1e81ed622f88193",
-      "file_hashes": {
-        "SKILL.md": "sha256:5aa0388fb9519de4fab6b02556500fac9f6d164b5a5d6d4ed9a4b989b51e2f37"
-      }
-    },
     "docker-expert": {
       "source": "https://github.com/runkids/my-skills.git/devops/docker-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:52.227452-05:00",
+      "installed_at": "2026-06-07T21:06:11.912445-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "devops/docker-expert",
       "version": "b02b405",
@@ -513,22 +331,10 @@
         "SKILL.md": "sha256:e33b08feeaa8e110c08dddd030970547356514d42aa484e52f51e2fd2d4f451b"
       }
     },
-    "edit-article": {
-      "source": "github.com/runkids/my-skills/mattpocock/edit-article",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.026316-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/edit-article",
-      "version": "6d8b466",
-      "tree_hash": "7cd5903b2bcbf71e0de4c6f9ba598bcd2f982b63",
-      "file_hashes": {
-        "SKILL.md": "sha256:cc372fb25b552017765aa0dac1b108f77eaee4555d607041efc1ad5d8c995b4a"
-      }
-    },
     "expo-api-routes": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-api-routes",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.722592-05:00",
+      "installed_at": "2026-06-07T21:06:07.324793-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-api-routes",
       "version": "145a923",
@@ -540,7 +346,7 @@
     "expo-cicd-workflows": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-cicd-workflows",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.326869-05:00",
+      "installed_at": "2026-06-07T21:06:06.466625-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-cicd-workflows",
       "version": "145a923",
@@ -555,7 +361,7 @@
     "expo-deployment": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-deployment",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.811574-05:00",
+      "installed_at": "2026-06-07T21:06:06.616621-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-deployment",
       "version": "145a923",
@@ -572,7 +378,7 @@
     "expo-dev-client": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-dev-client",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.907911-05:00",
+      "installed_at": "2026-06-07T21:06:06.728235-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-dev-client",
       "version": "145a923",
@@ -584,7 +390,7 @@
     "expo-tailwind-setup": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-tailwind-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.43666-05:00",
+      "installed_at": "2026-06-07T21:06:06.847632-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-tailwind-setup",
       "version": "145a923",
@@ -593,42 +399,13 @@
         "SKILL.md": "sha256:6abfc223a376571e0ee84014b3b474a3f2828ac2ebcde59c5c2b6b4bc802e233"
       }
     },
-    "extract": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/extract",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.678299-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/extract",
-      "version": "6d8b466",
-      "tree_hash": "c96bd96dcf8e2c126423c97272247d3d3cddba3a",
-      "file_hashes": {
-        "SKILL.md": "sha256:420c980e4d6929dc8a25ff2d5ca5c38eef106e211e2270d3735ab945c06da9b6"
-      }
-    },
     "feature-radar": {
       "source": "github.com/runkids/feature-radar/skills/feature-radar"
-    },
-    "feature-radar/feature-radar": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar",
-      "type": "github-subdir",
-      "group": "feature-radar",
-      "installed_at": "2026-05-27T19:03:38.657263-05:00",
-      "repo_url": "https://github.com/runkids/feature-radar.git",
-      "subdir": "skills/feature-radar",
-      "version": "905f4aa",
-      "tree_hash": "8ce3efd8b8ef70f9d02d80185461302226b9f979",
-      "file_hashes": {
-        "SKILL.md": "sha256:5af3a3948e82fd07a82bcf20db98cd8fbcf68b7c68a78b3f6228869eedbce49a",
-        "references/DEEP-READ.md": "sha256:f22b4082d7b30e32a81220b18d85bb9703623df5e3837f44dd8bccb862e8eedb",
-        "references/DIRECTIVES.md": "sha256:4063550be6268c402fc35aeacd2531469024749f362bc94145dce4709755528b",
-        "references/SPEC.md": "sha256:e5e72729eddbcec6e22feb1fc3a5ac1282b2f932283d1763c1369f0d0ec6a6f4",
-        "references/WORKFLOW-PATTERNS.md": "sha256:06f1d7f9358b1080e4c0a4ee2babd483b5719ff23f0bd283584fec3a8b7a3ad7"
-      }
     },
     "find-skills": {
       "source": "https://github.com/vercel-labs/skills.git/skills/find-skills",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:33.371033-05:00",
+      "installed_at": "2026-06-07T21:03:05.065829-05:00",
       "repo_url": "https://github.com/vercel-labs/skills.git",
       "subdir": "skills/find-skills",
       "version": "a561e79",
@@ -637,50 +414,10 @@
         "SKILL.md": "sha256:1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
       }
     },
-    "form-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/form-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.848203-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/form-cro",
-      "version": "9125d82",
-      "tree_hash": "ad53ff2e1e58321af8132170d24bd02b7d2b8d14",
-      "file_hashes": {
-        "SKILL.md": "sha256:d6830115b70cc76eb6e4588b877f6c498d517e2df39899cf4155354a53149963",
-        "evals/evals.json": "sha256:81196e64016fb9d4e52e4c362d07f5c11070d28011eb1514c348709be60d249b"
-      }
-    },
-    "free-tool-strategy": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/free-tool-strategy",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:13.817977-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/free-tool-strategy",
-      "version": "9125d82",
-      "tree_hash": "9c85331d3ecac584097c67b822eeec32395f9408",
-      "file_hashes": {
-        "SKILL.md": "sha256:88f8f02bccb380f397a312c9468eaebc25aedb30b452ebe304d55af3cd841a9a",
-        "evals/evals.json": "sha256:90cdc0ba2210b2ab72fb1cbc89080df2cd4aeb3d779f3d743bd383e3a31b9be1",
-        "references/tool-types.md": "sha256:3869418a784ec94e95528dbe3f39cd2571cff6f7649e5e0be28d675be61d5a3f"
-      }
-    },
-    "git-guardrails-claude-code": {
-      "source": "github.com/runkids/my-skills/mattpocock/git-guardrails-claude-code",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.039827-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/git-guardrails-claude-code",
-      "version": "6d8b466",
-      "tree_hash": "bdce2d4c80dda00fb0d0ee176ea1f513bb463b33",
-      "file_hashes": {
-        "SKILL.md": "sha256:03c4de7613c712aea336d64c467ea3ed14be2cbd52345925fe949c75c01c29f7",
-        "scripts/block-dangerous-git.sh": "sha256:234922b83c0a1737ee7300806c21ac0f389b07aaeb65c2d71ccedafbc5e1ea4b"
-      }
-    },
     "grill-me": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/grill-me",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:52.31707-05:00",
+      "installed_at": "2026-06-07T21:06:12.036554-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "mattpocock/grill-me",
       "version": "b02b405",
@@ -689,22 +426,10 @@
         "SKILL.md": "sha256:74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556"
       }
     },
-    "harden": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/harden",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.695166-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/harden",
-      "version": "6d8b466",
-      "tree_hash": "8816ba03356f0c69efffb657b05d6409ae484470",
-      "file_hashes": {
-        "SKILL.md": "sha256:350f2b4c2038d05d881a64cac5b0968f6b736860e01a42c146e445ce3de45fc7"
-      }
-    },
     "home-assistant-automation-scripts": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-automation-scripts",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:59.66557-05:00",
+      "installed_at": "2026-06-07T21:06:09.216346-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-automation-scripts",
       "version": "8bb3af9",
@@ -720,7 +445,7 @@
     "home-assistant-best-practices": {
       "source": "https://github.com/homeassistant-ai/skills.git/skills/home-assistant-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:56.908123-05:00",
+      "installed_at": "2026-06-07T21:03:05.868009-05:00",
       "repo_url": "https://github.com/homeassistant-ai/skills.git",
       "subdir": "skills/home-assistant-best-practices",
       "version": "a695a02",
@@ -744,7 +469,7 @@
     "home-assistant-entities-services": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-entities-services",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:59.755519-05:00",
+      "installed_at": "2026-06-07T21:06:09.329645-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-entities-services",
       "version": "8bb3af9",
@@ -758,7 +483,7 @@
     "home-assistant-esphome": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-esphome",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:59.844345-05:00",
+      "installed_at": "2026-06-07T21:06:09.443546-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-esphome",
       "version": "8bb3af9",
@@ -772,36 +497,10 @@
         "scripts/gen_esphome_noise_psk.py": "sha256:07645b059136b3a64dc89226a400abc21d759f62b4dddb36fc22f43070bbae0b"
       }
     },
-    "improve-codebase-architecture": {
-      "source": "github.com/runkids/my-skills/mattpocock/improve-codebase-architecture",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.066007-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/improve-codebase-architecture",
-      "version": "6d8b466",
-      "tree_hash": "312e1e0b4127762914e4e7056b317a8d387bbf14",
-      "file_hashes": {
-        "REFERENCE.md": "sha256:dd47bb0359f8e09db95d393c6b9f8c77430af37826d939557edc2abef59cddbb",
-        "SKILL.md": "sha256:8e4831b6332ab9b806f9d439d56568fcceec73bfb68a4eed5d5048482d22d63a"
-      }
-    },
-    "launch-strategy": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/launch-strategy",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:16.655605-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/launch-strategy",
-      "version": "9125d82",
-      "tree_hash": "734dd2661bb982c79c9c65d71858d96a57b7fca9",
-      "file_hashes": {
-        "SKILL.md": "sha256:5d603157a784f42521128334d68904c00f62a0b7ee92dceb7b182473d5e9a8a1",
-        "evals/evals.json": "sha256:401010b0833d4fb2f738cb91921d9f32f03915c60cbc0276c41053dd48b1cf06"
-      }
-    },
     "marketing-ideas": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-ideas",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.502301-05:00",
+      "installed_at": "2026-06-07T21:06:04.472378-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/marketing-ideas",
       "version": "7f4af1e",
@@ -815,7 +514,7 @@
     "marketing-psychology": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-psychology",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.146818-05:00",
+      "installed_at": "2026-06-07T21:06:05.081784-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/marketing-psychology",
       "version": "7f4af1e",
@@ -825,22 +524,10 @@
         "evals/evals.json": "sha256:c3b7d15b3008eeb493796e21affd6a0c6e7ce312f9cfeffcdef467857903c733"
       }
     },
-    "migrate-to-shoehorn": {
-      "source": "github.com/runkids/my-skills/mattpocock/migrate-to-shoehorn",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.080148-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/migrate-to-shoehorn",
-      "version": "6d8b466",
-      "tree_hash": "5c3aba1f2b8b9d28ca152df507f8894e1ffb9a43",
-      "file_hashes": {
-        "SKILL.md": "sha256:de4da4c11d924fac79c924b2ee3d2db4a5cb98386eb490a599119463d036ae72"
-      }
-    },
     "n8n-code-javascript": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-javascript",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:57.541789-05:00",
+      "installed_at": "2026-06-07T21:06:13.625367-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-code-javascript",
       "version": "27e9d0a",
@@ -857,7 +544,7 @@
     "n8n-code-python": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-python",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:57.637788-05:00",
+      "installed_at": "2026-06-07T21:06:13.79256-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-code-python",
       "version": "27e9d0a",
@@ -874,7 +561,7 @@
     "n8n-expression-syntax": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-expression-syntax",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:57.726378-05:00",
+      "installed_at": "2026-06-07T21:06:13.920145-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-expression-syntax",
       "version": "27e9d0a",
@@ -889,7 +576,7 @@
     "n8n-mcp-tools-expert": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-mcp-tools-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:57.821967-05:00",
+      "installed_at": "2026-06-07T21:06:14.081294-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-mcp-tools-expert",
       "version": "27e9d0a",
@@ -905,7 +592,7 @@
     "n8n-node-configuration": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-node-configuration",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:57.921509-05:00",
+      "installed_at": "2026-06-07T21:06:14.226503-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-node-configuration",
       "version": "27e9d0a",
@@ -920,7 +607,7 @@
     "n8n-validation-expert": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-validation-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:58.013422-05:00",
+      "installed_at": "2026-06-07T21:06:14.363066-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-validation-expert",
       "version": "27e9d0a",
@@ -935,7 +622,7 @@
     "n8n-workflow-patterns": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-workflow-patterns",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:58.107316-05:00",
+      "installed_at": "2026-06-07T21:06:14.52783-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-workflow-patterns",
       "version": "27e9d0a",
@@ -953,7 +640,7 @@
     "native-data-fetching": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/native-data-fetching",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.536128-05:00",
+      "installed_at": "2026-06-07T21:06:06.965171-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/native-data-fetching",
       "version": "145a923",
@@ -966,7 +653,7 @@
     "next-best-practices": {
       "source": "https://github.com/vercel-labs/next-skills.git/skills/next-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:03:00.303493-05:00",
+      "installed_at": "2026-06-07T21:03:06.646733-05:00",
       "repo_url": "https://github.com/vercel-labs/next-skills.git",
       "subdir": "skills/next-best-practices",
       "version": "dc1de9c",
@@ -994,46 +681,22 @@
         "suspense-boundaries.md": "sha256:63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a"
       }
     },
-    "normalize": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/normalize",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.709232-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/normalize",
-      "version": "6d8b466",
-      "tree_hash": "1afe5d194bdafc5e2c310d67f1552c7faf63405e",
-      "file_hashes": {
-        "SKILL.md": "sha256:e93333019ce17c7eb55632521767493c06110cf22511a9a741bc71e630f79896"
-      }
-    },
     "obsidian": {
       "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:26.64924-05:00",
+      "installed_at": "2026-06-07T21:06:00.289998-05:00",
       "repo_url": "https://github.com/elizaOS/eliza.git",
       "subdir": "packages/skills/skills/obsidian",
-      "version": "af165212",
+      "version": "cfe786c2",
       "tree_hash": "6aecd4a037e5c0d0f38c2de9f97d03498cefe9e4",
       "file_hashes": {
         "SKILL.md": "sha256:53982459e6d529a4cff805864b011097c60df8941886e5f9eced142a86596d1e"
       }
     },
-    "obsidian-bases": {
-      "source": "github.com/MarsWang42/OrbitOS/EN/.agents/skills/obsidian-bases",
-      "type": "github-subdir",
-      "installed_at": "2026-03-13T10:42:59.588556-05:00",
-      "repo_url": "https://github.com/MarsWang42/OrbitOS.git",
-      "subdir": "EN/.agents/skills/obsidian-bases",
-      "version": "4836c2e",
-      "tree_hash": "9103e27e8be3be08583c321cb7c21ff53f5f6dd3",
-      "file_hashes": {
-        "SKILL.md": "sha256:769b27496cd3f9df91be7226a2e1aaca39b9cfe4b67f45defb60a9d22c4039eb"
-      }
-    },
     "obsidian-canvas-creator": {
       "source": "https://github.com/axtonliu/axton-obsidian-visual-skills.git/obsidian-canvas-creator",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:33.997363-05:00",
+      "installed_at": "2026-06-07T21:03:03.011722-05:00",
       "repo_url": "https://github.com/axtonliu/axton-obsidian-visual-skills.git",
       "subdir": "obsidian-canvas-creator",
       "version": "1265976",
@@ -1062,7 +725,7 @@
     "obsidian-markdown": {
       "source": "https://github.com/davepoon/buildwithclaude.git/plugins/all-skills/skills/obsidian-markdown",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:35.634988-05:00",
+      "installed_at": "2026-06-07T21:06:11.024119-05:00",
       "repo_url": "https://github.com/davepoon/buildwithclaude.git",
       "subdir": "plugins/all-skills/skills/obsidian-markdown",
       "version": "857fe3a",
@@ -1074,7 +737,7 @@
     "obsidian-project-assistant": {
       "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/data/obsidian-project-assistant",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:10:00.422035-05:00",
+      "installed_at": "2026-06-07T21:09:51.294305-05:00",
       "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
       "subdir": "skills/data/obsidian-project-assistant",
       "version": "8ecbb297e9",
@@ -1087,7 +750,7 @@
     "obsidian-tag-normalizer": {
       "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/documents/obsidian-tag-normalizer",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:10:00.607773-05:00",
+      "installed_at": "2026-06-07T21:09:51.504146-05:00",
       "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
       "subdir": "skills/documents/obsidian-tag-normalizer",
       "version": "8ecbb297e9",
@@ -1097,116 +760,10 @@
         "metadata.json": "sha256:7519fe0c56a02b0a8052dd4f6c825730caa5cddc71c8e1fb4d826b8504e82388"
       }
     },
-    "obsidian-vault": {
-      "source": "github.com/runkids/my-skills/mattpocock/obsidian-vault",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.095082-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/obsidian-vault",
-      "version": "6d8b466",
-      "tree_hash": "5f812e7044017ff999ae11adc62470bbeb11a587",
-      "file_hashes": {
-        "SKILL.md": "sha256:7bed1d552aa5e9345e493cd62cb13e65c5d829d153c349afdb2cb91c809fa6c4"
-      }
-    },
-    "onboard": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/onboard",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.725328-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/onboard",
-      "version": "6d8b466",
-      "tree_hash": "edc97af88b5cdab449c948330b4d031dfae56dc8",
-      "file_hashes": {
-        "SKILL.md": "sha256:a298633a609d5c258b7ae972b6b82b8208e8d07adbfc4c6e23f980e71aae7876"
-      }
-    },
-    "onboarding-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/onboarding-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:15.144265-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/onboarding-cro",
-      "version": "9125d82",
-      "tree_hash": "c04583ce1432d2d9969877cd7cd007e9f4e87e36",
-      "file_hashes": {
-        "SKILL.md": "sha256:94899064ca72db87c9d84d27f393ec61ac03db9a0c1fd465e9aee4d31cdf8134",
-        "evals/evals.json": "sha256:617f6842f6a482d928c739969612ddd21176253672c98832a662f6cdee538f8e",
-        "references/experiments.md": "sha256:b4caad0b50ca9483a6a79846d0b24a7bab62850b45a3f2232d73f78629468932"
-      }
-    },
-    "optimize": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/optimize",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.741062-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/optimize",
-      "version": "6d8b466",
-      "tree_hash": "1c05318567eb4bc67e1cc69f2d83169b14a219c0",
-      "file_hashes": {
-        "SKILL.md": "sha256:55b73a153dad1dd8a4946fc116a9d938b9270fb6224880c9828682540cb929c5"
-      }
-    },
-    "page-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/page-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:13.96555-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/page-cro",
-      "version": "9125d82",
-      "tree_hash": "d3dc4cfd6552df0653f35b5ef4b750bba1126246",
-      "file_hashes": {
-        "SKILL.md": "sha256:60db341ae3a52ecd6521bdbb3741e22b20197ec130c61728cbbb7c1951988c9c",
-        "evals/evals.json": "sha256:e7adaa24952dc15b1ef432c922082e40615b8470ed02c2fc06dacaa6e78c3b96",
-        "references/experiments.md": "sha256:bbcc356c0af36cfaa4556bf9e929deac30c65cafb37f909d7c51d4777fe254ca"
-      }
-    },
-    "paid-ads": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/paid-ads",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:16.069538-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/paid-ads",
-      "version": "9125d82",
-      "tree_hash": "e2f1b03529f010bfd165280bb635a1b146ccbb75",
-      "file_hashes": {
-        "SKILL.md": "sha256:065a516ee82d1c260ec89f859fa4856e1deb7291a136d9ea64d5f1c7e906aec3",
-        "evals/evals.json": "sha256:60b6fd1257aa3e41ace941d722a96bcff16f50d50b4daf9650ce731a6bb2b17f",
-        "references/ad-copy-templates.md": "sha256:853ab37e23b75aa3355bdbed9a1357948e635dbdf737be5a1a7aa0126d701206",
-        "references/audience-targeting.md": "sha256:21ed7c99fb1124ca38635d6f313cc2f3ca49a192f390cd55293b7bd5a028e1b1",
-        "references/platform-setup-checklists.md": "sha256:b86e206f8c7233c235d7d385a69e17fac16ac001ab130242b7700fe650752f69"
-      }
-    },
-    "paywall-upgrade-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/paywall-upgrade-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:16.205964-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/paywall-upgrade-cro",
-      "version": "9125d82",
-      "tree_hash": "23fdb20d9fb8c5c7c0b6b6b750c1ed18a006102d",
-      "file_hashes": {
-        "SKILL.md": "sha256:aa09549f503bb656af4109bfdb256d7e12fda988e5f26ecffe19c88b5d9c07e6",
-        "evals/evals.json": "sha256:9ae38af8a47e7ed597af4b5ee6289a4d0bf1eb84b4566d3f2efebe08347df811",
-        "references/experiments.md": "sha256:5a5760e23c4809ddbc123905e0073ebca2653e7edad29482db810b825d62bd19"
-      }
-    },
-    "performance": {
-      "source": "github.com/runkids/my-skills/web-dev/performance",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.407219-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "web-dev/performance",
-      "version": "6d8b466",
-      "tree_hash": "52d9671ac23cb2e73df8051a5e342bd674ca06a9",
-      "file_hashes": {
-        "SKILL.md": "sha256:4a480aded5001c237d9503ec3c6c6c6d5cc38bb7935912bb1c2bb9c3ee637350"
-      }
-    },
     "php-wordpress": {
       "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/development/php-wordpress",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:10:00.706427-05:00",
+      "installed_at": "2026-06-07T21:09:51.646294-05:00",
       "repo_url": "https://github.com/majiayu000/claude-skill-registry.git",
       "subdir": "skills/development/php-wordpress",
       "version": "8ecbb297e9",
@@ -1216,87 +773,10 @@
         "metadata.json": "sha256:8ecf3befbea562b331a6a4be538d77ba45090a39b57a0ff89d6265f2aeb3f5dc"
       }
     },
-    "polish": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/polish",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.757606-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/polish",
-      "version": "6d8b466",
-      "tree_hash": "c0c8d34bf795e83ef2c4a6cb723bd6e55dd1dd11",
-      "file_hashes": {
-        "SKILL.md": "sha256:b2a458921a707792c1a39ed95ce6a38034e14a92049119c3f12ce6dc0b3b3537"
-      }
-    },
-    "popup-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/popup-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:15.302127-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/popup-cro",
-      "version": "9125d82",
-      "tree_hash": "9765605f67cbfcb2abc966ee19a645d30bb97bb6",
-      "file_hashes": {
-        "SKILL.md": "sha256:30c6d8c8c89e088724c4bef541142022532f26b9053861084896b447cef2ff95",
-        "evals/evals.json": "sha256:c848432b048adb0eadc2f212e058e0c08d21ad1cd7196c9c8acbcf4bb0f2d931"
-      }
-    },
-    "prd-to-issues": {
-      "source": "github.com/runkids/my-skills/mattpocock/prd-to-issues",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.10879-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/prd-to-issues",
-      "version": "6d8b466",
-      "tree_hash": "d586f6f07f091195650fa4060e3c41a0d39d9aba",
-      "file_hashes": {
-        "SKILL.md": "sha256:8d964c1c399ea58ce9c05cfb9dbfef9525d2c0b6d132caae384347a3cda33c9e"
-      }
-    },
-    "prd-to-plan": {
-      "source": "github.com/runkids/my-skills/mattpocock/prd-to-plan",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.121491-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/prd-to-plan",
-      "version": "6d8b466",
-      "tree_hash": "0ebf7bab024029ceffb5562fcb051fbbb4f4db1a",
-      "file_hashes": {
-        "SKILL.md": "sha256:96fa3e558ad0b88c8776d3cee3eb50e41808273d053b5fecc3c80d4ccde9cc38"
-      }
-    },
-    "pricing-strategy": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/pricing-strategy",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.101859-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/pricing-strategy",
-      "version": "9125d82",
-      "tree_hash": "5de24bfb9a0fce1b389954aed86325f35e99e26f",
-      "file_hashes": {
-        "SKILL.md": "sha256:e049d919778199f0f33e09e4bb08f9331edd821ec32503c5b919725696ca92b3",
-        "evals/evals.json": "sha256:6b8f002adfdccd3c1d4b88abcac62666399f527b07fad4e89d470c4e1eaf97a5",
-        "references/research-methods.md": "sha256:b6aab09860dbab2f11d69cc9c179cc7f6e1a100ede28e5c49b59070a2caaeb15",
-        "references/tier-structure.md": "sha256:b59910d37cceb74484f28b065963daa60f5c4fb1ffc36a0584d0f3cad11f3e30"
-      }
-    },
-    "product-marketing-context": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/product-marketing-context",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.250578-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/product-marketing-context",
-      "version": "9125d82",
-      "tree_hash": "633cdcf2293799e84a37b14361f9439045b2c1a8",
-      "file_hashes": {
-        "SKILL.md": "sha256:e80bbfe3c243ccc39f238dc9bc64ec4a4f9ff0af366a5b17081b92bac69902e4",
-        "evals/evals.json": "sha256:e4a1dc56aedb94e00f6a0a6df1f660e94a63839f95e1d50bd9b1a43449c88d14"
-      }
-    },
     "programmatic-seo": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/programmatic-seo",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.240635-05:00",
+      "installed_at": "2026-06-07T21:06:04.641016-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/programmatic-seo",
       "version": "7f4af1e",
@@ -1307,22 +787,10 @@
         "references/playbooks.md": "sha256:b2b3fd7c58c686f0670b94cf7192ff79436ccf0d602650b33a83a9d01102f11d"
       }
     },
-    "quieter": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/quieter",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.772441-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/quieter",
-      "version": "6d8b466",
-      "tree_hash": "308e62c0bea442a9943cc10f03470a2a59cf88cd",
-      "file_hashes": {
-        "SKILL.md": "sha256:33d781f0fac0b21600a487bb2c432840820aacaf3d73e8e815e246db3889ce1d"
-      }
-    },
     "ralph-tui-prd": {
       "source": "https://github.com/subsy/ralph-tui.git/skills/ralph-tui-prd",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:36.868746-05:00",
+      "installed_at": "2026-06-07T21:10:31.081925-05:00",
       "repo_url": "https://github.com/subsy/ralph-tui.git",
       "subdir": "skills/ralph-tui-prd",
       "version": "8191b80",
@@ -1334,7 +802,7 @@
     "react-best-practices": {
       "source": "https://github.com/runkids/my-skills.git/frontend/react/react-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:52.135142-05:00",
+      "installed_at": "2026-06-07T21:06:12.214017-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "frontend/react/react-best-practices",
       "version": "b02b405",
@@ -1389,63 +857,10 @@
         "references/rules/server-serialization.md": "sha256:35e0a6f76b409a2b3b8106bd7f42c2ddf4820d4598b381c22268cb2ec97bce1c"
       }
     },
-    "referral-program": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/referral-program",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:16.817686-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/referral-program",
-      "version": "9125d82",
-      "tree_hash": "2d90d53d1842906022969a2872d1272a2c2001b1",
-      "file_hashes": {
-        "SKILL.md": "sha256:52133a3a39a6ff426fe464a3cba3927b447a169e007efb51ecb44ca83e7f91b9",
-        "evals/evals.json": "sha256:5a85f1b483081ca88a48800b82c32175c06e9bda020e4416e11f0c1413b17d54",
-        "references/affiliate-programs.md": "sha256:3479ba24987c24654191f02bbf57fa5ff89eecde8e93cf22c65538bed2c356b4",
-        "references/program-examples.md": "sha256:2baad60cdb251414ea559bd4dcf23d6c394ff66e593ae9392453f2e24f585c8a"
-      }
-    },
-    "request-refactor-plan": {
-      "source": "github.com/runkids/my-skills/mattpocock/request-refactor-plan",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.133736-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/request-refactor-plan",
-      "version": "6d8b466",
-      "tree_hash": "dc93d00fee8cb10afe23d0e4b28461ea7de8fe04",
-      "file_hashes": {
-        "SKILL.md": "sha256:d59de4ba6cc1fe2dd267e8b9b5a1fd88e3e739e2130bc9dd78061d2a072830b8"
-      }
-    },
-    "scaffold-exercises": {
-      "source": "github.com/runkids/my-skills/mattpocock/scaffold-exercises",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.146875-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/scaffold-exercises",
-      "version": "6d8b466",
-      "tree_hash": "a17b42e2e780efd6ca0e0b397ffdd0a2c57931c0",
-      "file_hashes": {
-        "SKILL.md": "sha256:75f5c9d771606fb9762f16522efc954df11c324f87148d8ff069bce166257de9"
-      }
-    },
-    "schema-markup": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/schema-markup",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:14.390644-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/schema-markup",
-      "version": "9125d82",
-      "tree_hash": "7a0e3936ea4cc91c8735148d5964cce5c9ce0bfa",
-      "file_hashes": {
-        "SKILL.md": "sha256:728f221b25d062afe204f3980d46db4800ac05f9fb68fd2cdcc8e7bfa7b68e79",
-        "evals/evals.json": "sha256:a7bf50c54e093b633b221ee7f149c6ded8f431df98c2ab64dfbd0f6f1290b2b9",
-        "references/schema-examples.md": "sha256:5d55c96ae9859a5fb84cb18828c4a96dcd468e7aeec667c88fdf9032558ab318"
-      }
-    },
     "seo-audit": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/seo-audit",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:51.610166-05:00",
+      "installed_at": "2026-06-07T21:06:04.321099-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/seo-audit",
       "version": "7f4af1e",
@@ -1457,35 +872,10 @@
         "references/international-seo.md": "sha256:d2fc76f40eccc422ae0f1d7e5b770095e89a045f38e1d0370811203da57996ff"
       }
     },
-    "setup-pre-commit": {
-      "source": "github.com/runkids/my-skills/mattpocock/setup-pre-commit",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.160248-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/setup-pre-commit",
-      "version": "6d8b466",
-      "tree_hash": "97faf985f16c9a8be0a1be7571e3aff92655fee0",
-      "file_hashes": {
-        "SKILL.md": "sha256:872f4037cb7e6e0e340d4175c086550072959925dffc87b160d1a30dc9f63bbd"
-      }
-    },
-    "signup-flow-cro": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/signup-flow-cro",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:13.517079-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/signup-flow-cro",
-      "version": "9125d82",
-      "tree_hash": "c37ce3c15716773e4838df861fd6b951c12f3659",
-      "file_hashes": {
-        "SKILL.md": "sha256:dbdc2e870f1c2d86b51e32c5b890e0dd18eea2e1d4d7bb0aab9e775a6636f0af",
-        "evals/evals.json": "sha256:0f34a71cac49aa7df39d403e5ffa1ac37e32f455239533c068a15a35109931c7"
-      }
-    },
     "skill": {
       "source": "https://github.com/napoleond/instaclaw.git/skill",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:49.998108-05:00",
+      "installed_at": "2026-06-07T21:10:31.65401-05:00",
       "repo_url": "https://github.com/napoleond/instaclaw.git",
       "subdir": "skill",
       "version": "e83be8e",
@@ -1497,7 +887,7 @@
     "skillshare": {
       "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:05:32.332795-05:00",
+      "installed_at": "2026-06-07T21:02:56.661754-05:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
       "version": "26ca9f0",
@@ -1518,38 +908,10 @@
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
       }
     },
-    "social-content": {
-      "source": "https://github.com/coreyhaines31/marketingskills.git/skills/social-content",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:31:15.454214-05:00",
-      "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
-      "subdir": "skills/social-content",
-      "version": "9125d82",
-      "tree_hash": "ab7886207e19de982c3da1e68b1e555cad4205a9",
-      "file_hashes": {
-        "SKILL.md": "sha256:d483100c8142bf99186983eaba70660b2c6ece5d763dd7301f0140fedc3f3068",
-        "evals/evals.json": "sha256:9e9da40856215d4993aefeacdbf69b721316b94b02c4b474106eaad3cfa8301c",
-        "references/platform-limits.md": "sha256:6ecc6b40ff82b95c48906341f7d3c58337671d4d94f624c858764f1ed5a77c3c",
-        "references/platforms.md": "sha256:3c4e1b15717a3bcd4ed0cf29dc167dac28aa88bbf01723fde53815122396090f",
-        "references/post-templates.md": "sha256:db6525e51a690b61faf97a0acf51a2a57526de90da01c6bb37679d056c18c7f4",
-        "references/reverse-engineering.md": "sha256:c27bef59d463b3b11331c1770f4a23e9e6bbce7d7c8db1e7f7f4f14ba206243f"
-      }
-    },
-    "social-media-resize": {
-      "source": "https://github.com/canva-sdks/canva-claude-skills/social-media-resize",
-      "type": "github-subdir",
-      "installed_at": "2026-02-24T17:34:31.153245-06:00",
-      "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
-      "subdir": "social-media-resize",
-      "version": "18fdb6f",
-      "file_hashes": {
-        "SKILL.md": "sha256:bacbf769485ba2e3c58fa26005f94e8d54a5f4f40da27512f77dccf99259840a"
-      }
-    },
     "tdd": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/tdd",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:02:52.407929-05:00",
+      "installed_at": "2026-06-07T21:06:12.329589-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "mattpocock/tdd",
       "version": "b02b405",
@@ -1563,58 +925,10 @@
         "tests.md": "sha256:e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a"
       }
     },
-    "teach-impeccable": {
-      "source": "github.com/runkids/my-skills/frontend/impeccable/teach-impeccable",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.785362-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/impeccable/teach-impeccable",
-      "version": "6d8b466",
-      "tree_hash": "56210372d6cf5669891188a9e76eee4d9bccd489",
-      "file_hashes": {
-        "SKILL.md": "sha256:42d7000a647ec23a54fc9dcd865dfbfc909eb36f1833172d2294644ab98e8682"
-      }
-    },
-    "triage-issue": {
-      "source": "github.com/runkids/my-skills/mattpocock/triage-issue",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.190995-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/triage-issue",
-      "version": "6d8b466",
-      "tree_hash": "bc856fb46b94fba246267c00212b4cbc988801ad",
-      "file_hashes": {
-        "SKILL.md": "sha256:834e528eb0d4f2cd46c7c14dc6d5c0a96e9fcd77c992257c78570d8a6b4cdaae"
-      }
-    },
-    "ubiquitous-language": {
-      "source": "github.com/runkids/my-skills/mattpocock/ubiquitous-language",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:42.205361-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "mattpocock/ubiquitous-language",
-      "version": "6d8b466",
-      "tree_hash": "28b1557bfd18a60c1adc597d8b02a2473ea6b754",
-      "file_hashes": {
-        "SKILL.md": "sha256:3725ffaccedaa0fcfc891a5c6281da7b0f73b0c6fa0135000eba60ba75163c4e"
-      }
-    },
-    "ui-skills": {
-      "source": "github.com/runkids/my-skills/frontend/ui-skills",
-      "type": "github-subdir",
-      "installed_at": "2026-03-28T04:54:41.883678-05:00",
-      "repo_url": "https://github.com/runkids/my-skills.git",
-      "subdir": "frontend/ui-skills",
-      "version": "6d8b466",
-      "tree_hash": "fa29545b25f17fd8ce970d3bb299860ef97e0b60",
-      "file_hashes": {
-        "SKILL.md": "sha256:44266f3a4aebcf91cc37836dd5080fa47af71871735fbb00a17b3331533b9028"
-      }
-    },
     "upgrading-expo": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/upgrading-expo",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:24.9982-05:00",
+      "installed_at": "2026-06-07T21:06:07.089169-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/upgrading-expo",
       "version": "145a923",
@@ -1633,7 +947,7 @@
     "use-dom": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/use-dom",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:25.094874-05:00",
+      "installed_at": "2026-06-07T21:06:07.205698-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/use-dom",
       "version": "145a923",
@@ -1645,7 +959,7 @@
     "vite": {
       "source": "https://github.com/antfu/skills.git/skills/vite",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T19:03:33.449146-05:00",
+      "installed_at": "2026-06-07T21:02:57.673513-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vite",
       "version": "50deaeb",
@@ -1664,7 +978,7 @@
     "vue": {
       "source": "https://github.com/antfu/skills.git/skills/vue",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T19:03:33.540414-05:00",
+      "installed_at": "2026-06-07T21:02:57.369082-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vue",
       "version": "50deaeb",
@@ -1680,7 +994,7 @@
     "vue-best-practices": {
       "source": "https://github.com/antfu/skills.git/skills/vue-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-05-27T19:03:33.683001-05:00",
+      "installed_at": "2026-06-07T21:02:57.54181-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vue-best-practices",
       "version": "50deaeb",
@@ -1716,7 +1030,7 @@
     "web-design-guidelines": {
       "source": "https://github.com/vercel-labs/agent-skills.git/skills/web-design-guidelines",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T20:06:22.629241-05:00",
+      "installed_at": "2026-06-07T21:03:03.863291-05:00",
       "repo_url": "https://github.com/vercel-labs/agent-skills.git",
       "subdir": "skills/web-design-guidelines",
       "version": "4ec6f84",
