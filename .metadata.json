@@ -6,18 +6,13 @@
       "tracked": true,
       "branch": "main"
     },
-    "_anthropics-skills": {
-      "source": "https://github.com/anthropics/skills.git",
+    "_claude-skills": {
+      "source": "https://github.com/jezweb/claude-skills.git",
       "tracked": true,
       "branch": "main"
     },
     "_danielgwilson-plaud": {
       "source": "https://github.com/danielgwilson/plaud.git",
-      "tracked": true,
-      "branch": "main"
-    },
-    "_jezweb-claude-skills": {
-      "source": "https://github.com/jezweb/claude-skills.git",
       "tracked": true,
       "branch": "main"
     },
@@ -43,6 +38,11 @@
     },
     "_rubicon-ai-skills": {
       "source": "https://github.com/rubicon/ai-skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_skills": {
+      "source": "https://github.com/anthropics/skills.git",
       "tracked": true,
       "branch": "main"
     },
@@ -132,10 +132,35 @@
         "tests/test_unified_hook.py": "sha256:9fefd16c450d4dce6e1227e658c55ad67224073df1fde1bc68e1c93c08347245"
       }
     },
+    "ai-image-generator": {
+      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/ai-image-generator",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:47.14045-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/design-assets/skills/ai-image-generator",
+      "version": "eb374ac",
+      "tree_hash": "fb38a30646767c97a8636989acfe3352ea4256f8",
+      "file_hashes": {
+        "SKILL.md": "sha256:c6dfa3c1153c830027380bfe49109f46f61b8359aab7940087e2d4a48e8651ec",
+        "references/prompting-guide.md": "sha256:a0606b809544dacdde37d108bc7e70b07567bf5fc35a3859f8f49d7975f6af79"
+      }
+    },
+    "app-docs": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/app-docs",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:48.249778-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/app-docs",
+      "version": "eb374ac",
+      "tree_hash": "8742bf021ea7868c57907d198c184ded415fe1a0",
+      "file_hashes": {
+        "SKILL.md": "sha256:eba7c00b342d23b3eff95d71d43791f3f4e7c9ea89bb19d6d8b9d6751bb0e003"
+      }
+    },
     "audit-website": {
       "source": "https://github.com/squirrelscan/skills.git/audit-website",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:58.844346-05:00",
+      "installed_at": "2026-06-07T22:08:37.378198-05:00",
       "repo_url": "https://github.com/squirrelscan/skills.git",
       "subdir": "audit-website",
       "version": "91e0dfb",
@@ -147,6 +172,44 @@
         "assets/icon-large.png": "sha256:5a5ccd84f57b8a030caf51cc7e57b1b412996ad7db837303a2473f6e4313073c",
         "assets/icon-small.svg": "sha256:ea7f6275693d96577383d550f97eda5e5fdd70da51b7f770dabf84bb72b7759d",
         "references/OUTPUT-FORMAT.md": "sha256:4e508b7a055d04ab588207eb9c69567f88a5002f3e402a2e08c3c19b41a2dc5a"
+      }
+    },
+    "aussie-business-english": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/aussie-business-english",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:58.032982-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/aussie-business-english",
+      "version": "eb374ac",
+      "tree_hash": "6db84873105f1741e29e56e0dcee2a78894bac39",
+      "file_hashes": {
+        "SKILL.md": "sha256:781195db8f91fdd9b916e1866ae47ddd19bf4312cb27aa8f27b8692a1a44e12c"
+      }
+    },
+    "award-application": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/award-application",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:58.256793-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/award-application",
+      "version": "eb374ac",
+      "tree_hash": "57bdc072ca3c23d2c67ebbef6b88b7ccb9e6c0e1",
+      "file_hashes": {
+        "SKILL.md": "sha256:09a148773339ec6f3aa39855c0215be222502d89b8f34914a2b615db71652925"
+      }
+    },
+    "brains-trust": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/brains-trust",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:48.470105-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/brains-trust",
+      "version": "eb374ac",
+      "tree_hash": "0c00de916362f22d1e8536e6f1fbe80294cb3b4a",
+      "file_hashes": {
+        "SKILL.md": "sha256:d898b7f174834827d57ad4a8131041b70f7ac098758f469a449bc778834a2ead",
+        "references/prompt-templates.md": "sha256:40fb7d5649edd2e1d2d5eedf3f3347746b19d5cf2ab31d27ad12e683850be033",
+        "references/provider-api-patterns.md": "sha256:138c300999ff3c084d203028b84f5797cedcf814e89de79f10af96017465eeaa"
       }
     },
     "branded-presentation": {
@@ -203,7 +266,7 @@
     "clawdirect": {
       "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:07.979625-05:00",
+      "installed_at": "2026-06-07T22:08:37.979276-05:00",
       "repo_url": "https://github.com/napoleond/clawdirect.git",
       "subdir": "skills/clawdirect",
       "version": "b645ffd",
@@ -215,13 +278,49 @@
     "clawdirect-dev": {
       "source": "https://github.com/napoleond/clawdirect.git/skills/clawdirect-dev",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:08.101946-05:00",
+      "installed_at": "2026-06-07T22:08:38.104331-05:00",
       "repo_url": "https://github.com/napoleond/clawdirect.git",
       "subdir": "skills/clawdirect-dev",
       "version": "b645ffd",
       "tree_hash": "79b9f63b631fcee06de9cceff1394ed781732e1d",
       "file_hashes": {
         "SKILL.md": "sha256:d8cd2a7583c67bd8a1c9e77d4db73cc2e8e969ae7be6ca571a0dddf96a09855f"
+      }
+    },
+    "cloudflare-api": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/cloudflare-api",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:45.370846-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/cloudflare-api",
+      "version": "eb374ac",
+      "tree_hash": "777a0f3cf0c51771df971d1298d7908a5133df8a",
+      "file_hashes": {
+        "SKILL.md": "sha256:dc3d409785ee0fb5ea5c7e7619769431c19beb5b80e7a053a0e229544c2bd9de",
+        "references/developer-platform-api.md": "sha256:e21d91fdb0dab16455530a2a35963f5dff47987a385df46a912139feedb27a75"
+      }
+    },
+    "cloudflare-worker-builder": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/cloudflare-worker-builder",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:45.623913-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/cloudflare-worker-builder",
+      "version": "eb374ac",
+      "tree_hash": "36d8a8a1f7531c8d7eb7f7b8d4217014f333f5cf",
+      "file_hashes": {
+        "SKILL.md": "sha256:ca7a2ecea9d925338520e0e9a64e7545ce1e822ab2520a9d67a8ca7ca5fc7377",
+        "assets/package.json": "sha256:a3c06e51aa7774ac821af048ded64dcefc66cbbb24fb39ac1197a67275610a3d",
+        "assets/public/index.html": "sha256:666f828cfb91306baf0b318cbcc33cfdb703013a0c4ea54af0ff50ad641f9fa7",
+        "assets/public/script.js": "sha256:cc4fa2c001fb8b12fbb95e91d9bdbd498d0aab56305fa7b3b0d6023bd19268f8",
+        "assets/public/styles.css": "sha256:8bff3ff271f32820ac2e3d0493caa3aa59c99165ce11af52cf3fa59e49d772d3",
+        "assets/src/index.ts": "sha256:c0a8b998f0e1d90261d4ca9d7e81513ce5fd92922aca61cf71020eac56162b10",
+        "assets/tsconfig.json": "sha256:6956104e94fa7add588ceb73718ee8dac3e44c1427b6e9c647e1a9961b1873e6",
+        "assets/vite.config.ts": "sha256:5d2062acc1fa802f8ca1fe41ca07ef45d4ec97fe6efef83dc8e03ff8fad37fe2",
+        "assets/wrangler.jsonc": "sha256:dba230edb1754e4bfe4f1adf5039f1a9f52c4c912c09d3101856b7f8b4c89bd7",
+        "references/architecture.md": "sha256:d3fd27f33955a41dd4ef73fea6dac6d36b37807c4a291d2e06c8f2f43d9d4e3d",
+        "references/common-issues.md": "sha256:7c0b51fb63cdf1c8455715aa2978035ce4a213b274e42fea5987bbb46e990f49",
+        "references/deployment.md": "sha256:d9b4f83effbc5ea3f1f7f2a56e4ac53057245a3c8b11ce6b7bcbfc2a73c5ce19"
       }
     },
     "code-reviewer": {
@@ -234,6 +333,32 @@
       "tree_hash": "e580e60f488d74811fbec80427183553295d7ceb",
       "file_hashes": {
         "SKILL.md": "sha256:d2bd763e7cfa424845c54639d4a97cdb0aa03b5eedeabb1d171a16086584cec9"
+      }
+    },
+    "codex-review": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/codex-review",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:48.676263-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/codex-review",
+      "version": "eb374ac",
+      "tree_hash": "055a16d109c259422f7de68879c49d8890fa919d",
+      "file_hashes": {
+        "SKILL.md": "sha256:2fdf075b1399485ba6cf5024d8f99bcf61f45db45db8ed29027d0d555e12b628",
+        "prompt.md": "sha256:9057473a357fcbd6aa4956f6690fd6596c6cbbbec0102c57b5a56b288755381a"
+      }
+    },
+    "color-palette": {
+      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/color-palette",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:47.355224-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/design-assets/skills/color-palette",
+      "version": "eb374ac",
+      "tree_hash": "eaf370cdec086a619ed1c2cb91d6034164bddc10",
+      "file_hashes": {
+        "SKILL.md": "sha256:427042cfba6711e0afcfc1f0a8067e6a8c3cf6125df179f85caeb993fc77cf45",
+        "assets/tailwind-colors.css": "sha256:826e093dcae1eac9f0a86c8264df455708b0badabc480b0e26d861c03c300c63"
       }
     },
     "content-strategy": {
@@ -293,10 +418,74 @@
         "references/natural-transitions.md": "sha256:4ff23f8943af2f65b072f26f1c53ce55f19cc26d7be211c11cae8e34b43e859f"
       }
     },
+    "d1-drizzle-schema": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/d1-drizzle-schema",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:45.831729-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/d1-drizzle-schema",
+      "version": "eb374ac",
+      "tree_hash": "4f2f0a619c56079d1172026054746676a2b774ee",
+      "file_hashes": {
+        "SKILL.md": "sha256:23bd31f1e12fac278a899edfe18b66e495266ad052719ebffb406f30a076df1a",
+        "assets/drizzle-config-template.ts": "sha256:bb4731cad7932bb968c6de8dbc434e9d591cf52bc52cf84f3a0b24464e601406",
+        "assets/schema-template.ts": "sha256:c03cb2cca2ff4e232c973c34d553931c1aa12e2b83e0f6b52ef0d85498301012",
+        "references/column-patterns.md": "sha256:2d89847ba3c4dd0fcc1846a869c11b766e2a0d5e8e0553b9f26673183b7e037e",
+        "references/d1-specifics.md": "sha256:07abb6058ba3ff65820a2ac01051ae90cae0088b717368df663652765ff549da"
+      }
+    },
+    "d1-migration": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/d1-migration",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:46.033099-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/d1-migration",
+      "version": "eb374ac",
+      "tree_hash": "389e9ed5f652450565446976d39979ceda06e21e",
+      "file_hashes": {
+        "SKILL.md": "sha256:903cc484885d37f4167be3d02df38012c3d73928bcbded9b024d3aeee053d793"
+      }
+    },
+    "db-seed": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/db-seed",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:46.249516-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/db-seed",
+      "version": "eb374ac",
+      "tree_hash": "71ba5c89e2f9cf0580a6382ed8f928a7941b5af7",
+      "file_hashes": {
+        "SKILL.md": "sha256:aac1cee67f24c0ea5eb348c7e5a07a527e483b04ea5af2cdb2f4f4a57d523954"
+      }
+    },
+    "deep-research": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/deep-research",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:48.901258-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/deep-research",
+      "version": "eb374ac",
+      "tree_hash": "d766fd7002b4568ee5172bf7ca108d0fc5c9db78",
+      "file_hashes": {
+        "SKILL.md": "sha256:df317e32cba8a8071a685450fbd4b1620711b6b77bfe8d0998ac7ab6f9afcb6b"
+      }
+    },
+    "design-loop": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-loop",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:52.139352-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/design-loop",
+      "version": "eb374ac",
+      "tree_hash": "200ccad09c9b2c740add14a6f1423e54b353bef3",
+      "file_hashes": {
+        "SKILL.md": "sha256:a62ac4c8a36be4f14bd63f1bbce41c68b23148123efa2313b8085740a9c46f51"
+      }
+    },
     "design-md": {
       "source": "https://github.com/google-labs-code/stitch-skills.git/plugins/stitch-utilities/skills/design-md",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:01.497652-05:00",
+      "installed_at": "2026-06-07T22:08:38.700244-05:00",
       "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
       "subdir": "plugins/stitch-utilities/skills/design-md",
       "version": "1544aa4",
@@ -305,6 +494,30 @@
         "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
         "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
         "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+      }
+    },
+    "design-review": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-review",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:52.34995-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/design-review",
+      "version": "eb374ac",
+      "tree_hash": "112bd26d0d3f8353062ae82c8ef130fda3c55fad",
+      "file_hashes": {
+        "SKILL.md": "sha256:cb3e3e7a862112e8c969c17382c24d3b9f35fbc5b010b614667540f0c290b084"
+      }
+    },
+    "design-system": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-system",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:52.573513-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/design-system",
+      "version": "eb374ac",
+      "tree_hash": "0bc195876d8ade2f8e44640903880a22429fa215",
+      "file_hashes": {
+        "SKILL.md": "sha256:d5583191747d0de7928e011286e22b36d656eeb397382c8145549432f66e29e0"
       }
     },
     "design-translation": {
@@ -399,8 +612,102 @@
         "SKILL.md": "sha256:6abfc223a376571e0ee84014b3b474a3f2828ac2ebcde59c5c2b6b4bc802e233"
       }
     },
+    "favicon-gen": {
+      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/favicon-gen",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:47.600757-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/design-assets/skills/favicon-gen",
+      "version": "eb374ac",
+      "tree_hash": "99e5eab396c98905b450ee547461a2138ebc0ae3",
+      "file_hashes": {
+        "SKILL.md": "sha256:acf51c71e50e92c6c557bb57e93784da11112d5c5d6dce789937ef5fc80a0baf",
+        "assets/favicon-svg-circle.svg": "sha256:855915c337d6ed14c6bd0de59f23d9ea26f86934f6e48b3bf10753798f005359",
+        "assets/favicon-svg-shield.svg": "sha256:1c5c741d4b36d271c2e388a517bd8ac3b84a53a5a8cdb6d4635f2742d35fbcc6",
+        "assets/favicon-svg-square.svg": "sha256:407525afb0a53ea019bd75af93175f5652ddf3bd85c560f93535f16c6468bc01",
+        "assets/manifest.webmanifest": "sha256:c2084678ce7b1ee6731d452cb34ebedff3700ea6a92e68929b898668f857f168",
+        "references/extraction-methods.md": "sha256:b7934d747d2c47cd0c27d6134360b67b1e20514993aa315a5b780e725170aa3d",
+        "references/format-guide.md": "sha256:1cd3b78d10c38714a3c738d55ad8ae7a8d4a9dc84c8cf93a5556985cb4f7ed69",
+        "references/monogram-patterns.md": "sha256:77865cd579ad5f1f3f723e4645428cbfac2d3b10f79a5dea3f415cd65c2d8969",
+        "references/shape-templates.md": "sha256:94c0b3d61b9232e3d990343895a3ef9f8daf35e6c7947917ad1879fd6df5b33a"
+      }
+    },
     "feature-radar": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar"
+      "source": "github.com/runkids/feature-radar/skills/feature-radar",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.066025-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar",
+      "version": "905f4aa",
+      "tree_hash": "8ce3efd8b8ef70f9d02d80185461302226b9f979",
+      "file_hashes": {
+        "SKILL.md": "sha256:5af3a3948e82fd07a82bcf20db98cd8fbcf68b7c68a78b3f6228869eedbce49a",
+        "references/DEEP-READ.md": "sha256:f22b4082d7b30e32a81220b18d85bb9703623df5e3837f44dd8bccb862e8eedb",
+        "references/DIRECTIVES.md": "sha256:4063550be6268c402fc35aeacd2531469024749f362bc94145dce4709755528b",
+        "references/SPEC.md": "sha256:e5e72729eddbcec6e22feb1fc3a5ac1282b2f932283d1763c1369f0d0ec6a6f4",
+        "references/WORKFLOW-PATTERNS.md": "sha256:06f1d7f9358b1080e4c0a4ee2babd483b5719ff23f0bd283584fec3a8b7a3ad7"
+      }
+    },
+    "feature-radar-archive": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar-archive",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.176474-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar-archive",
+      "version": "905f4aa",
+      "tree_hash": "16e85976107e866525bf6692481335def1d26184",
+      "file_hashes": {
+        "SKILL.md": "sha256:5a21e255a083a9503a6871ca6aba94cb4422260c4b5ad6d89b41c1701966ff87"
+      }
+    },
+    "feature-radar-learn": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar-learn",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.279242-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar-learn",
+      "version": "905f4aa",
+      "tree_hash": "a7015f2f174a2d9bb1ef33e6209cd3a867a51674",
+      "file_hashes": {
+        "SKILL.md": "sha256:f3c0631997f4afefb909c465e64f88b9ae688eb2103c481d8a625bf2e492a8fd"
+      }
+    },
+    "feature-radar-ref": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar-ref",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.384545-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar-ref",
+      "version": "905f4aa",
+      "tree_hash": "eb43eec4bd8a375ba85432f2414fabaea2ff2189",
+      "file_hashes": {
+        "SKILL.md": "sha256:e3a15f868c084a93bf7c035d84cb44c8815fb6582432428d03550213416b4c02"
+      }
+    },
+    "feature-radar-scan": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar-scan",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.488056-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar-scan",
+      "version": "905f4aa",
+      "tree_hash": "e286551591ce468cc3b6e2d935d02dc400dae517",
+      "file_hashes": {
+        "SKILL.md": "sha256:3163bedd33837c05a845191fd5415ba3c84daf8807a21834f6d183001b1c90bb"
+      }
+    },
+    "feature-radar-validate": {
+      "source": "github.com/runkids/feature-radar/skills/feature-radar-validate",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T21:58:29.59266-05:00",
+      "repo_url": "https://github.com/runkids/feature-radar.git",
+      "subdir": "skills/feature-radar-validate",
+      "version": "905f4aa",
+      "tree_hash": "98ea8fc928fa43bca39053d365910dd6e0b322b8",
+      "file_hashes": {
+        "SKILL.md": "sha256:1593128517743eee33482adccf9aee4de4bbfa9492b923f1eae5b67e681f09e2",
+        "scripts/validate.sh": "sha256:f3eab23fb129cbea0a296b878e84992ac7caeb01f6037cd7c211975495725d07"
+      }
     },
     "find-skills": {
       "source": "https://github.com/vercel-labs/skills.git/skills/find-skills",
@@ -414,6 +721,71 @@
         "SKILL.md": "sha256:1e85f6f9686e145aca4a124e3b704b9bbea9aa87e08515c1e352eee70f6e6e7a"
       }
     },
+    "fork-discipline": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/fork-discipline",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:49.122908-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/fork-discipline",
+      "version": "eb374ac",
+      "tree_hash": "4165057f02fdffb6f4af18ad15a24d20da8cfd46",
+      "file_hashes": {
+        "SKILL.md": "sha256:2efd10048eb7319befcd1935def54c4e572062b1660bca303bcd0c3a92268a2c"
+      }
+    },
+    "git-workflow": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/git-workflow",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:49.33886-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/git-workflow",
+      "version": "eb374ac",
+      "tree_hash": "e6cfce954ed68e12b71691285d874d573f035319",
+      "file_hashes": {
+        "SKILL.md": "sha256:cfe9c9601e73ef311ad35e8d8d82e64126d300044b5b7f2760ee5c1123ce28b1"
+      }
+    },
+    "github-release": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/github-release",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:49.556825-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/github-release",
+      "version": "eb374ac",
+      "tree_hash": "0ea0441e085b5d3c706049b07e5dd5592c84cbde",
+      "file_hashes": {
+        "SKILL.md": "sha256:6c7e72bed969dda92dd8909a24c879abe91cee08b47ccd1762ea22b621494ace",
+        "references/release-workflow.md": "sha256:16b8c9a5af4259e023c2bd2ce898f6ebd68e61f974eae79ffec93ea643de86e1",
+        "references/safety-checklist.md": "sha256:b6614ad2680e647762decb58bf8743c6b1671a68530d6a0b11e9e5c2327ac055"
+      }
+    },
+    "google-apps-script": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/google-apps-script",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:54.416261-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/google-apps-script",
+      "version": "eb374ac",
+      "tree_hash": "877b6fbf1b83699a6b12c787d86a39d94dcd58be",
+      "file_hashes": {
+        "SKILL.md": "sha256:27f7d8f83ddb712d58d8a7a9109c644cddc16a90493212760c0ec970319bd4d8"
+      }
+    },
+    "google-chat-messages": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/google-chat-messages",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:54.633958-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/google-chat-messages",
+      "version": "eb374ac",
+      "tree_hash": "4dd8d1ffc05e8f6f854d41e32ae76e15c23dcb50",
+      "file_hashes": {
+        "SKILL.md": "sha256:f78ffc506edbab4c35acdd08b8b2825fe2c5440ed4ebd57d55f4531a6d8c68e3",
+        "assets/card-builder.ts": "sha256:e4c1f225006fe42e00afbe0dacbe00610989ed52e3c359f356879ba30adbff67",
+        "assets/types.ts": "sha256:21e9b610edb8e1b8ecf3115679955051b865c65f56197d6b3e510d0f1085ce34",
+        "assets/webhook-sender.ts": "sha256:734fb30d842c29a0d31e453a396e4ef9488928a94da550ed4af630fad2bf7eee"
+      }
+    },
     "grill-me": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/grill-me",
       "type": "github-subdir",
@@ -424,6 +796,30 @@
       "tree_hash": "2a1ad17028306ebe45f0e49703fa28b9b2e7f499",
       "file_hashes": {
         "SKILL.md": "sha256:74147eb6010a65957efef2b9e0f0b3ff935c1def7fc117697151b1d0f3610556"
+      }
+    },
+    "gws-install": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/gws-install",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:54.854576-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/gws-install",
+      "version": "eb374ac",
+      "tree_hash": "7b2e51383474fea4c0efaa009e4d35da93a41861",
+      "file_hashes": {
+        "SKILL.md": "sha256:49b5d4513d524b41dd357821ccfde44c7c7c611fa9dcb329691def615995190e"
+      }
+    },
+    "gws-setup": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/gws-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:55.07926-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/gws-setup",
+      "version": "eb374ac",
+      "tree_hash": "33bca6d8f5d8ad64ac77e6ed4ab037657ddd229c",
+      "file_hashes": {
+        "SKILL.md": "sha256:5059df6669c610bbcaf130e4d8e15ae74bb3f7e04daaefdc8b05cda5b682ec80"
       }
     },
     "home-assistant-automation-scripts": {
@@ -445,7 +841,7 @@
     "home-assistant-best-practices": {
       "source": "https://github.com/homeassistant-ai/skills.git/skills/home-assistant-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:05.868009-05:00",
+      "installed_at": "2026-06-07T22:08:39.281517-05:00",
       "repo_url": "https://github.com/homeassistant-ai/skills.git",
       "subdir": "skills/home-assistant-best-practices",
       "version": "a695a02",
@@ -497,6 +893,63 @@
         "scripts/gen_esphome_noise_psk.py": "sha256:07645b059136b3a64dc89226a400abc21d759f62b4dddb36fc22f43070bbae0b"
       }
     },
+    "hono-api-scaffolder": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/hono-api-scaffolder",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:46.473479-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/hono-api-scaffolder",
+      "version": "eb374ac",
+      "tree_hash": "24735af53d21121c4383c2a97e8966cac156b82f",
+      "file_hashes": {
+        "SKILL.md": "sha256:92162caf8c395176835cee14e982b1f5f287add91d0148ac87c36e770a545e1e",
+        "assets/error-handler.ts": "sha256:12a7c117f5649ce56779dff2d5f3f133e5656306104c8e032fae2c57509af00d",
+        "assets/middleware-template.ts": "sha256:6b0eb1942bd69d8da79dc2cfdf600fbe009fd22773f03e4e56743458599c02a9",
+        "assets/route-template.ts": "sha256:65283ca8e8b09eff981e456bb462f73eb6f02ace91252275087f0d860e2c4920",
+        "references/endpoint-docs-template.md": "sha256:2ee6a2882d9a0f2aa4e0a114988e10fb38451ac4539e23712c65970d44bf5f82",
+        "references/hono-patterns.md": "sha256:50d4587f3e2f168da57d915d3bfb7fa1529091553b1f9e0e16421227200528b0"
+      }
+    },
+    "icon-set-generator": {
+      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/icon-set-generator",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:47.820628-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/design-assets/skills/icon-set-generator",
+      "version": "eb374ac",
+      "tree_hash": "918bab13c32ed1b254b197947504d2c3916b48cd",
+      "file_hashes": {
+        "SKILL.md": "sha256:ca9e667c507179b196734ce08aa0bc7519040ae84c44f57a60e240a0c3337c74",
+        "references/industry-icons.md": "sha256:a577032d12c59c3312427e021b4adc3992f8e73ba8d2901725b706095e137e10",
+        "references/preview-template.md": "sha256:f5f60323f2c94b6224b427d962587eff633a263f60bb3a0d6f0f232d8f0cb09e",
+        "references/style-presets.md": "sha256:3144d7f76e80dc7ca5e8cdc7728f3ee900738674ff9b13b0e3e4c5037b7a5fcc",
+        "references/svg-examples.md": "sha256:0052c267bd7edcb552b1422d261507e1d690574e5aa9707fa7141452ffd5d8d6"
+      }
+    },
+    "image-processing": {
+      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/image-processing",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:48.027347-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/design-assets/skills/image-processing",
+      "version": "eb374ac",
+      "tree_hash": "e850ebf139424d9a3bd320d183d77090dab6f5db",
+      "file_hashes": {
+        "SKILL.md": "sha256:33268e45cd4c778c96d3a3fb4bad09edcb595e51710552f0ce7cf840d377fafe"
+      }
+    },
+    "landing-page": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/landing-page",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:52.79372-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/landing-page",
+      "version": "eb374ac",
+      "tree_hash": "c98996ee9d7513b1632caf9c144e88ced7567c12",
+      "file_hashes": {
+        "SKILL.md": "sha256:739ed03f4cb65cc903c90921d8199fb9679505e5d90b8a86736524eee078627f"
+      }
+    },
     "marketing-ideas": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-ideas",
       "type": "github-subdir",
@@ -522,6 +975,32 @@
       "file_hashes": {
         "SKILL.md": "sha256:573bbe4f6e300e7fb75299e314f56e26382d284782caa2ae0e0f33eb2e646548",
         "evals/evals.json": "sha256:c3b7d15b3008eeb493796e21affd6a0c6e7ce312f9cfeffcdef467857903c733"
+      }
+    },
+    "mcp-builder": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/mcp-builder",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:55.354724-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/mcp-builder",
+      "version": "eb374ac",
+      "tree_hash": "65d34e989be3b6c69e5398389422425907b059ea",
+      "file_hashes": {
+        "SKILL.md": "sha256:82636fb9c08bced1e9e852489c9d7d15fc348ed47d30839701cc1faeda33f15d",
+        "assets/SCRIPTS-TEMPLATE.md": "sha256:19577a44eae0652ace8f86f0976663189e5bce31437843d8504933c83561c0a4",
+        "assets/api-client-pattern.py": "sha256:5a0693d3506123380af137fe00e370c14cfe67c3aa6304faa712165967989010",
+        "assets/basic-server.py": "sha256:00c8fa8522e7bf656528a65edbdbfe8c75dd18af452f89ef9106d0e509f21ca9",
+        "assets/client-example.py": "sha256:c41a43876ee5c998f99e2392e36a0c47b40ed22ffcea1adf9b12468a21b97987",
+        "assets/error-handling.py": "sha256:728cb26c2c9d00bacc4e3f55eb21c59555eb58ca60c3ae05c435809a05fc1a18",
+        "assets/openapi-integration.py": "sha256:ea9957f4369da85a751319cff998d15fa597a04397844eff418d57f738e1904f",
+        "assets/prompts-examples.py": "sha256:c2f351a7e419e0c13bd407253e88940c601103a6b54253dbe14ec3e89fa7cb31",
+        "assets/pyproject.toml": "sha256:e78ad123f984a1364036170c2207b665e14c61750cc7abe5fd2ab853cab69a7a",
+        "assets/requirements.txt": "sha256:f1b8acbe454d7c4db413110881e955a44477e8f412d37b07e8f2a6854a225e91",
+        "assets/resources-examples.py": "sha256:db8a6bade0f71c65d4dc9c64f811854c8c2356ffcb9773cc08e3810854361775",
+        "assets/script-template.ts": "sha256:27126cd44b116380f2b25ae8319b64f5cf9680a4655a0b444301f47b364644dd",
+        "assets/self-contained-server.py": "sha256:0a5f294560f21e72a0b9f547d00e89c298613b2c1eb2f48140e5b54c66247eb2",
+        "assets/tools-examples.py": "sha256:ddc370c3c370e30eac9b47536493dd9fbee456494c2d5c64bef605c750620c15",
+        "references/integration-patterns.md": "sha256:4cc6b8a207a86b82777855c0e147cd9ef7d3e1110afcae1cf3f55185b65dd75c"
       }
     },
     "n8n-code-javascript": {
@@ -650,6 +1129,18 @@
         "references/expo-router-loaders.md": "sha256:f842c86483a15380c44a4b49db27bf3d41e17b48b1f44b9a2bbacc563a9dcbe6"
       }
     },
+    "nemoclaw-setup": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/nemoclaw-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:55.569698-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/nemoclaw-setup",
+      "version": "eb374ac",
+      "tree_hash": "5fed4fe226b7444c500734ccc371410c7b9148c3",
+      "file_hashes": {
+        "SKILL.md": "sha256:252a27a61efb717e044e045bbeaf8c3182e0d2c9a748782944a488a743732461"
+      }
+    },
     "next-best-practices": {
       "source": "https://github.com/vercel-labs/next-skills.git/skills/next-best-practices",
       "type": "github-subdir",
@@ -681,6 +1172,18 @@
         "suspense-boundaries.md": "sha256:63e2e7125b1a1a9d652dd301814ad7140f8ab3ad6726b2b53df76a89d9bc262a"
       }
     },
+    "nz-business-english": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/nz-business-english",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:58.479446-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/nz-business-english",
+      "version": "eb374ac",
+      "tree_hash": "de2ac4bfa334ca1d52f1c74c4e5bef5a7df437e5",
+      "file_hashes": {
+        "SKILL.md": "sha256:8b1be0700d408027a3e86f90b787c2267e1f737bf80c2ed9508fbb74166feff2"
+      }
+    },
     "obsidian": {
       "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
       "type": "github-subdir",
@@ -696,7 +1199,7 @@
     "obsidian-canvas-creator": {
       "source": "https://github.com/axtonliu/axton-obsidian-visual-skills.git/obsidian-canvas-creator",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:03.011722-05:00",
+      "installed_at": "2026-06-07T22:08:39.962846-05:00",
       "repo_url": "https://github.com/axtonliu/axton-obsidian-visual-skills.git",
       "subdir": "obsidian-canvas-creator",
       "version": "1265976",
@@ -709,23 +1212,10 @@
         "references/layout-algorithms.md": "sha256:1582ed5fbdf9abbca31f738c9146c833b4bf237bbf5c4dea594fbdc53cf46677"
       }
     },
-    "obsidian-cli": {
-      "source": "https://github.com/openclaw/skills.git/skills/adolago/obsidian-cli",
-      "type": "github-subdir",
-      "installed_at": "2026-04-13T15:39:10.764477-05:00",
-      "repo_url": "https://github.com/openclaw/skills.git",
-      "subdir": "skills/adolago/obsidian-cli",
-      "version": "e0cef38450",
-      "tree_hash": "ceeff3a4ae59b53f89eeae4857fcd03e669bae8f",
-      "file_hashes": {
-        "SKILL.md": "sha256:1bf33c51c9b3367aabf4cb9a5a410a5f7dcfb6d1d152ad5b2960a2dac8715c0b",
-        "_meta.json": "sha256:46b2667083f724ed791640860d6468efa41c9f5399adf1b1c2c70e8352fc1ac8"
-      }
-    },
     "obsidian-markdown": {
       "source": "https://github.com/davepoon/buildwithclaude.git/plugins/all-skills/skills/obsidian-markdown",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:11.024119-05:00",
+      "installed_at": "2026-06-07T22:08:41.288643-05:00",
       "repo_url": "https://github.com/davepoon/buildwithclaude.git",
       "subdir": "plugins/all-skills/skills/obsidian-markdown",
       "version": "857fe3a",
@@ -760,6 +1250,30 @@
         "metadata.json": "sha256:7519fe0c56a02b0a8052dd4f6c825730caa5cddc71c8e1fb4d826b8504e82388"
       }
     },
+    "onboarding-ux": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/onboarding-ux",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:49.771661-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/onboarding-ux",
+      "version": "eb374ac",
+      "tree_hash": "b951276f1333fcf426d09e1a1a0ce24ea41ec22c",
+      "file_hashes": {
+        "SKILL.md": "sha256:063382edf1bef63c6cbc356d01bece2641ac1478ffb3e9ae017e8b4826ebac34"
+      }
+    },
+    "parcel-tracking": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/parcel-tracking",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:55.788908-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/parcel-tracking",
+      "version": "eb374ac",
+      "tree_hash": "66970dad31a49852e9b1fe92981c3fa791c44126",
+      "file_hashes": {
+        "SKILL.md": "sha256:afe98c3fa647b19e1dcf8a2a95830e3fb4fde6af1ef6294423791a3a7519bf67"
+      }
+    },
     "php-wordpress": {
       "source": "https://github.com/majiayu000/claude-skill-registry.git/skills/development/php-wordpress",
       "type": "github-subdir",
@@ -771,6 +1285,18 @@
       "file_hashes": {
         "SKILL.md": "sha256:a87ef366b730658115bab1e4aecb10a22456deff954b07623c781567bd1d88d6",
         "metadata.json": "sha256:8ecf3befbea562b331a6a4be538d77ba45090a39b57a0ff89d6265f2aeb3f5dc"
+      }
+    },
+    "product-showcase": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/product-showcase",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:53.025775-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/product-showcase",
+      "version": "eb374ac",
+      "tree_hash": "120b9a16fe15e8f7fbf1bee104d00c216d3d90fd",
+      "file_hashes": {
+        "SKILL.md": "sha256:f815f7392056625fe15b5b158e60e7bb1816a05721dfa343fff731d4068778d0"
       }
     },
     "programmatic-seo": {
@@ -785,6 +1311,47 @@
         "SKILL.md": "sha256:15cb5979cab5263ede902a830e03342869256ece17905bff240eef498e27cde1",
         "evals/evals.json": "sha256:e76b704edfc50210224aa82131dc4e917d6daa3a1467b9f7fe54b2d42af2a264",
         "references/playbooks.md": "sha256:b2b3fd7c58c686f0670b94cf7192ff79436ccf0d602650b33a83a9d01102f11d"
+      }
+    },
+    "project-docs": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/project-docs",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:49.989373-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/project-docs",
+      "version": "eb374ac",
+      "tree_hash": "5d528cf75db28192374d85b3a69a17cdadfc67dc",
+      "file_hashes": {
+        "SKILL.md": "sha256:4d4eb85080a7dc0be7db172eac8d8a3761ea5add15b92dc2a683d74caec457ab"
+      }
+    },
+    "project-health": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/project-health",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:50.234346-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/project-health",
+      "version": "eb374ac",
+      "tree_hash": "cc5e3acb5662869ccf92ef1d46dccbec5d704531",
+      "file_hashes": {
+        "SKILL.md": "sha256:bd832cb0948fa49a60b4c912ca9d556e9388cc3cc846a1b3cba934403b21f3a9",
+        "references/commit-hook.md": "sha256:07292f6cd708eeeea8e072a07871b4e9e12a2afe691d8f7e88b9fc36ba6f76b2",
+        "references/permission-presets.md": "sha256:a08f9d1c1d6d31b0deb3f041c10a9a25732b101fed8bdc1ee7486247af5cbc84",
+        "references/project-types.md": "sha256:da50620410fabe3296850fd84c8b5ca025365d93a43ea4f82cd72d2e5ac6f664",
+        "references/quality-criteria.md": "sha256:6f7e6f71997bf66b674c06a5cbf838a023abf139ed061014660986178c41000e",
+        "references/templates.md": "sha256:da7912db06ba3790f3ea0ebac08eba0418b5a04529efd8f69f16803aa4f5c0fb"
+      }
+    },
+    "proposal-writer": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/proposal-writer",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:58.706284-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/proposal-writer",
+      "version": "eb374ac",
+      "tree_hash": "d9bc88222fa4f4a86dc189a2fa4a0fadfc428f2f",
+      "file_hashes": {
+        "SKILL.md": "sha256:ba52a8eedd84b5c9df1c239765895f892b367e672cc716fa5561835e9c896217"
       }
     },
     "ralph-tui-prd": {
@@ -857,6 +1424,68 @@
         "references/rules/server-serialization.md": "sha256:35e0a6f76b409a2b3b8106bd7f42c2ddf4820d4598b381c22268cb2ec97bce1c"
       }
     },
+    "react-native": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/react-native",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:53.238021-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/react-native",
+      "version": "eb374ac",
+      "tree_hash": "6a812f6edac8548bd4edd0e059e20cbe76c0888e",
+      "file_hashes": {
+        "SKILL.md": "sha256:c32065f601f222c0cc70ddce7325dcb25904427526fe4e16061f520d02e30f27"
+      }
+    },
+    "react-patterns": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/react-patterns",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:53.467773-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/react-patterns",
+      "version": "eb374ac",
+      "tree_hash": "adb34ea0b8b005da1dce5bb6df8c49e7d8668217",
+      "file_hashes": {
+        "SKILL.md": "sha256:248d46037c16fecf13ab780278da3a1ff08f66a3aaee76dd45dc4784d0c8e787"
+      }
+    },
+    "responsiveness-check": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/responsiveness-check",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:50.447159-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/responsiveness-check",
+      "version": "eb374ac",
+      "tree_hash": "06951541c388611747f05b065bd8edc5cd9ce69b",
+      "file_hashes": {
+        "SKILL.md": "sha256:b7b9f92f088a45953d7ffbcff72c8f829cd6ba145c738412b3faf24027efce0b",
+        "references/breakpoints.md": "sha256:357f75d94b0da79b03018b5f37159aecefc63ad74db3b57915320cb4fe9c99ea",
+        "references/report-template.md": "sha256:2dd485933ae8278fed2414a4d1234cbec37a8f620debbb3b94eaca1882867d22"
+      }
+    },
+    "resume-cover-letter": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/resume-cover-letter",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:58.934618-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/resume-cover-letter",
+      "version": "eb374ac",
+      "tree_hash": "af34f49a0aa8b1509031e5c7397e49830776f085",
+      "file_hashes": {
+        "SKILL.md": "sha256:adaa35a36ae0bfa6b1ce14104aebcbfe8a51c65434087056facf4f8f45217b96"
+      }
+    },
+    "roadmap": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/roadmap",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:50.663038-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/roadmap",
+      "version": "eb374ac",
+      "tree_hash": "91a2a89d8689f70a1be245e35b426e57e0003eea",
+      "file_hashes": {
+        "SKILL.md": "sha256:99584de0f305e38616b1b766622ad7d12e7ee90e39019c422c973e4414ae1e12"
+      }
+    },
     "seo-audit": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/seo-audit",
       "type": "github-subdir",
@@ -870,6 +1499,74 @@
         "evals/evals.json": "sha256:b808dfa7ee1e312cda39cfac57f44674bd3cee6eaa151af7008760a9514bb6cf",
         "references/ai-writing-detection.md": "sha256:f1e273f56ce7e2215ff218bf903680ddcec0fd026ab90c3ebfb3439ed0edfaa4",
         "references/international-seo.md": "sha256:d2fc76f40eccc422ae0f1d7e5b770095e89a045f38e1d0370811203da57996ff"
+      }
+    },
+    "seo-local-business": {
+      "source": "github.com/jezweb/claude-skills/plugins/web-design/skills/seo-local-business",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:57.135559-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/web-design/skills/seo-local-business",
+      "version": "eb374ac",
+      "tree_hash": "a88fff24ecb19ebde70172121772e99bb64a839d",
+      "file_hashes": {
+        "SKILL.md": "sha256:0c4e773bd0b990a650aef3f563e5832fdb3dd70bb554df2a56d72f007bfcc835",
+        "assets/head-template.html": "sha256:b0e7bc3c281f1f0a7ffe5b9450ab064f4cb5555c546537e14c052f8bad3fc2d4",
+        "assets/robots-template.txt": "sha256:64f03f6864f20cbc16be4ea3c980d32f246c5a142b033f30cb57295a737abc64",
+        "assets/sitemap-template.xml": "sha256:cc4890da5ee8e6c009e185e4e9e0c5c4a76f6893327a71bb66c6f86a9d62a5e1"
+      }
+    },
+    "shadcn-ui": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/shadcn-ui",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:53.705114-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/shadcn-ui",
+      "version": "eb374ac",
+      "tree_hash": "6bd0eb58237c5d489fd8d2b0a9c97346fcc449a7",
+      "file_hashes": {
+        "SKILL.md": "sha256:496172176a69a3cc4065fbd3b7a12815b7bdee4ae43d846e34876cef111c6538",
+        "references/component-catalogue.md": "sha256:e0043acb6f6240526563193c3e82e5ee1414768f73f1bec8b0076319545cffaa",
+        "references/recipes.md": "sha256:07b045a267d21ed7862878c5a62b3d8b4dab708b1f5f3527d50fb984c508f99c"
+      }
+    },
+    "shopify-content": {
+      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-content",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:56.236414-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/shopify/skills/shopify-content",
+      "version": "eb374ac",
+      "tree_hash": "4234922109afb3b95b8b7f24ab7938d36f55b02a",
+      "file_hashes": {
+        "SKILL.md": "sha256:55cab36351012605811e8fb146237caf28d90b5ff2677744b2de32aa589183b7",
+        "references/content-types.md": "sha256:9f18f467f5977795b627193022c9ab359cd086ef2585b92fce240065a522fc68"
+      }
+    },
+    "shopify-products": {
+      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-products",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:56.463975-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/shopify/skills/shopify-products",
+      "version": "eb374ac",
+      "tree_hash": "0265f4c5482aa7313df45348a3dec169203a670c",
+      "file_hashes": {
+        "SKILL.md": "sha256:c3c4efdce12c7e8cfebcbe432f544c067f6201e9374f8e2e2a2a3235090a7bee",
+        "assets/product-csv-template.csv": "sha256:545c046da8c03a35f781a5d6c8dd862bffc3fce13cad08bc149bf382a0c63669"
+      }
+    },
+    "shopify-setup": {
+      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:56.684957-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/shopify/skills/shopify-setup",
+      "version": "eb374ac",
+      "tree_hash": "ea985b024981219eb6d0e8f89d75d85dfb228aad",
+      "file_hashes": {
+        "SKILL.md": "sha256:fe1db4ed9b0bdbc4203ee84e4bde808c13106e731c0224b79e39f70b9788f0a3",
+        "references/api-scopes.md": "sha256:ca81d4b3e6ecd1c65cbe7f8b54e935eca4ca0c6189bb60e31cc25c8389c236d8"
       }
     },
     "skill": {
@@ -908,6 +1605,73 @@
         "scripts/run.sh": "sha256:e434ebdb7d3ae0b37c00ddc36687bc975da9e766b8cb863f9aed9a624ebbdfa9"
       }
     },
+    "social-media-posts": {
+      "source": "github.com/jezweb/claude-skills/plugins/social-media/skills/social-media-posts",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:56.91089-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/social-media/skills/social-media-posts",
+      "version": "eb374ac",
+      "tree_hash": "53be9d6f7ded6e55849cfff30083b32a008143b6",
+      "file_hashes": {
+        "SKILL.md": "sha256:64e41fcb0dd59061caa7f43c18348f12192aa2310da926f9367bcd9d25a7c787"
+      }
+    },
+    "strategy-document": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/strategy-document",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:59.164333-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/strategy-document",
+      "version": "eb374ac",
+      "tree_hash": "863fec2f61b5ca9872bff53f46bdab1cb8738c57",
+      "file_hashes": {
+        "SKILL.md": "sha256:a958b28a25338d3941dd59c8ec248524ed75c119c447c7eada02e959da6e8a05"
+      }
+    },
+    "stripe-payments": {
+      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/stripe-payments",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:56.01486-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/integrations/skills/stripe-payments",
+      "version": "eb374ac",
+      "tree_hash": "1ef7da30feb212c8a6ea04adccd4013556dc84e9",
+      "file_hashes": {
+        "SKILL.md": "sha256:80760d8bd8a606b693741f8bb1c2119432674bfaf2b35117cca380ac9b250840"
+      }
+    },
+    "tailwind-theme-builder": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/tailwind-theme-builder",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:53.930362-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/tailwind-theme-builder",
+      "version": "eb374ac",
+      "tree_hash": "cf649e3b9a1c3fbaecde33ecb7d86482a165c2ce",
+      "file_hashes": {
+        "SKILL.md": "sha256:2cac96e01201f0ce8fddf9de8c04f554097ad01901d2e6ec0524d3523f91fb09",
+        "assets/components.json": "sha256:38d09e0be58f15412e01057114a5d9d4b3582200378441a3c74fd490c37b9a4b",
+        "assets/index.css": "sha256:3bb8a7a2daf4a9507f8c27deeb626b0d51166d018f7aa0d1d656dd8f652a527a",
+        "assets/theme-provider.tsx": "sha256:df87540b95499b272216c7b41a5d133bf0a449eb25049128f8a032ccd0e65580",
+        "assets/tsconfig.app.json": "sha256:8d20a8ea391818bebc7436709dd00e3e5422db9f811868127f1584efe8ff3047",
+        "assets/utils.ts": "sha256:51bbf14cd1f84f49aab2e0dbee420137015d56b6677bb439e83a908cd292cce1",
+        "assets/vite.config.ts": "sha256:37171894fd3d8b7709d1ea15c4db5f4ba0faa1b58d7c7418d11ce4e30eb5562d",
+        "references/migration-guide.md": "sha256:4580c5c918d71e3ac518d236a035bd627a5e99b254bb93f05eed67fc5ae53b42"
+      }
+    },
+    "tanstack-start": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/tanstack-start",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:46.694134-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/tanstack-start",
+      "version": "eb374ac",
+      "tree_hash": "d4626e81bc32413c00b87c4977b7df7d5b6ed9b3",
+      "file_hashes": {
+        "SKILL.md": "sha256:01e074ce5ff25217c1209459f7ad8044c733d986ec686176f0926b181deb303e"
+      }
+    },
     "tdd": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/tdd",
       "type": "github-subdir",
@@ -923,6 +1687,34 @@
         "mocking.md": "sha256:3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
         "refactoring.md": "sha256:54fced22dd1911b7094c3fe7979b7c1a40d40be307482c4adf7dc0588f27d6cc",
         "tests.md": "sha256:e12182f5c4c6a844b7c6ab4b8d2623b642aaaae5460fe58ed087efd4f3d5fb8a"
+      }
+    },
+    "team-update": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/team-update",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:50.891914-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/team-update",
+      "version": "eb374ac",
+      "tree_hash": "d999b272e6be0741d90973ac65cc87bbf15f25d1",
+      "file_hashes": {
+        "SKILL.md": "sha256:694454bef654416a4f08a6ac069e3a73e018d83e1dca471cc58f9164eae0e937",
+        "references/discovery-patterns.md": "sha256:169dee8dee6589c1336c3b0ca4119f4f409fc653c93d0d8f54fdb5fe1f5a4961",
+        "references/feedback-triage.md": "sha256:e6a7c662b7dcb312e6aa233983fabeac814568f7a0cc3249022239d3aa7d384f",
+        "references/message-composition.md": "sha256:10248e0d008f1e9c0495ccd84fcd70504d0ca41aef780d04369912841a1d7e55",
+        "references/playbook-format.md": "sha256:b51fa8ffd454ade7039e843f6865f098f456c76af0c64df4abe66d886f4378a4"
+      }
+    },
+    "uk-business-english": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/uk-business-english",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:59.387716-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/uk-business-english",
+      "version": "eb374ac",
+      "tree_hash": "cabaf4ea569211a9bef0ae3bd0b08e9ac7672462",
+      "file_hashes": {
+        "SKILL.md": "sha256:f5eaad9eb93a03658daf82c5d366015a991514eb0ba1fe57c0a41f23f5a42497"
       }
     },
     "upgrading-expo": {
@@ -944,6 +1736,18 @@
         "references/react-navigation-to-expo-router.md": "sha256:083fb891adb87a1ab02aff92b1f322014ecb2427014e20194ff9e05f5d321ca9"
       }
     },
+    "us-business-english": {
+      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/us-business-english",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:59.609341-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/writing/skills/us-business-english",
+      "version": "eb374ac",
+      "tree_hash": "f7ade391277e00eff6f50c5cd5bd2939c2eb461b",
+      "file_hashes": {
+        "SKILL.md": "sha256:9150110dec9525e7e60e3b5a0b90060ed752742dc0bb91334555103954fac280"
+      }
+    },
     "use-dom": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/use-dom",
       "type": "github-subdir",
@@ -954,6 +1758,67 @@
       "tree_hash": "ce309744c9ec448b2a4ac7152910da46797e316a",
       "file_hashes": {
         "SKILL.md": "sha256:7041bb26db02e24c45eb6c4c4879138a0f52786dd928eefd66c90a35b0e3197d"
+      }
+    },
+    "ux-audit": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-audit",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:51.250107-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/ux-audit",
+      "version": "eb374ac",
+      "tree_hash": "97e426612e648c14d3d164ad99022452bf81143e",
+      "file_hashes": {
+        "SKILL.md": "sha256:1d80c3fcd1d18c98f4fef677b2dc8a56ffca6b7f5eb680d310ccc08adc263c95",
+        "references/a11y-automation.md": "sha256:a392aa7e7f4201b6c172639022ea1ede3576272eebc9cce2d990d8d20fad707d",
+        "references/audit-config.md": "sha256:d2a72849f5a3ad3d6431a9d311b874fcb5d95b8ba8c5f2ba8d941b3e0944b42d",
+        "references/audit-output-discipline.md": "sha256:7e30dfa59c9bd0d2fcd4f87d01d5145166ed372ef7c2fcd42922a5017bbd7960",
+        "references/auth-expired-handling.md": "sha256:848ce4f741b3a7d7cee910412e6686369ff0e9758503ab3dad599a1a7b2ad80f",
+        "references/browser-tools.md": "sha256:03504eb09fa280f7b22b5ddbc76a3d790e45de8c02d8b3059461a2ba41bb8e42",
+        "references/data-seasoning.md": "sha256:ac7723dd019df26902c10bec55e45fe1f3844ddb8eaffe3bd11ce340e07eeb11",
+        "references/interaction-manifest.md": "sha256:9659e33669f527c946544fd024f6a8ac625e4f5ff959be09e65efee185216307",
+        "references/live-interaction-smoke.md": "sha256:9033b503eed0f964de9458c0f93eec135bcf513003294af49c6aa33fcbf0a0a8",
+        "references/long-running-check-in-pattern.md": "sha256:e432b3a91f8b49d537dd037fb76bc26f7bd630d44b069ba136dcce5a9a279489",
+        "references/multi-pane-stress.md": "sha256:d5f32f9ae3ccae58906c28b2ef10bffc6ec63470cacc882c018ff99ea046268c",
+        "references/perfection-checklist.md": "sha256:1609e9511f66f6adf0956c52a283b6a665283341848ebe68951348bda8e02174",
+        "references/performance-budget.md": "sha256:a64852016166bec461155af9bd59052106aa3931d6eac1d6ccd786f55a9b0d2f",
+        "references/persona-lock.md": "sha256:fa84ff482a6fe6a38764f09d4f60033eb30a2d6202c5c0bcc31db2ad9eae0443",
+        "references/playwright-killer-flows.md": "sha256:b0b9e9b58a72d227161b8e184fa4ed987df66d45f4f785aec1b1d0450a2bfd19",
+        "references/project-adaptation.md": "sha256:3434a885a9aeadc14b08a6bac707799cfc16b108534864c2bd7a6f4f2f95fa03",
+        "references/report-template.md": "sha256:329dbc2ec47ee7884138255d9608925887fd84e39b3d8f5185c133e115bc4ccd",
+        "references/round-trip-workflows.md": "sha256:a9a232c3d57fa284961e9a4aa8c1dcf0ecc557c99ae91d6d6aa00d0d1f1a4e0a",
+        "references/scenario-tests.md": "sha256:b1a335ccf401cd8a0960b1c41d21fd4c2e49bf7c973000375a707d4982cf7019",
+        "references/stress-test-recipes.md": "sha256:d3cc541f7cb69755f52fff5a8e8c7d5e84d2b2569e0a6dba9d52a5a379232bfa",
+        "references/visual-polish.md": "sha256:dc82ad8410e9fa4fe202e80c22f3f7059d695156ddd3d8abe04c2ea8d37e29b4",
+        "references/walkthrough-checklist.md": "sha256:a13b034e4a3dc37521472a3a2b5fc140ffb011f11df8ed3ad45ff85bd2b6d448",
+        "references/workflow-comprehension.md": "sha256:6fae8183bf4fb54892bd48f804036988df924285615500e41f8a7cb7b7f81f33"
+      }
+    },
+    "ux-compare": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-compare",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:51.467716-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/ux-compare",
+      "version": "eb374ac",
+      "tree_hash": "4ce8d9d5f50c9f4dad6194ac935bf8705585441b",
+      "file_hashes": {
+        "SKILL.md": "sha256:aee2092b029cf73e8f222e9dbe0a1c6b770556e9c766b29c8975a71c276a664f",
+        "references/comparison-template.md": "sha256:f6f6895708e50059db1fb0696a197c6079bc754f6fd1d09415bac2ba9d5965e7"
+      }
+    },
+    "ux-extract": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-extract",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:51.705227-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/ux-extract",
+      "version": "eb374ac",
+      "tree_hash": "fd73f790f962c3907c0721f7340c9110940b908a",
+      "file_hashes": {
+        "SKILL.md": "sha256:95cbc6cbc687c29bdab920ff27c5d2027ecaf6c66af77dbd5e8aa62b75669ab3",
+        "references/capture-checklist.md": "sha256:cc4734c48ab88df13db2dece997e2a634e9d5864aee5c1e1b624783141632804",
+        "references/pattern-library-template.md": "sha256:249617769d8a4129fbfe980d19fbc5063e99734304326fa9b737efc34753f011"
       }
     },
     "vite": {
@@ -973,6 +1838,32 @@
         "references/core-plugin-api.md": "sha256:594520b9adcf610b4f3378d3ef6c68c10327c93c33a7b73b3103a5fcd58e8611",
         "references/environment-api.md": "sha256:658e4597b9cfe21b22c1677025a7a30866933f586d86c434ec139cd5149afaa2",
         "references/rolldown-migration.md": "sha256:ba9860f8960e9794c880454b238a3a3c1962c80f9b3860399938618730bf7f72"
+      }
+    },
+    "vite-flare-starter": {
+      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/vite-flare-starter",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:46.913828-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/cloudflare/skills/vite-flare-starter",
+      "version": "eb374ac",
+      "tree_hash": "b371e694c42116724eeb12167f9f07b9baec963b",
+      "file_hashes": {
+        "SKILL.md": "sha256:30ca2d482743be44a9bde29cc4d495aa600369f1c2ca60b58497ccf6b18249c1",
+        "assets/dev-vars-template.txt": "sha256:932f3720da2c3bf631caef7290c175f526c7f7cf9fe80c705071d3fa0419c850",
+        "assets/wrangler-template.jsonc": "sha256:2e1dc9f84985cbc3afaf61a98c8ea2f29c68c5fc6088c2958d44c9ae3969f860"
+      }
+    },
+    "vitest": {
+      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/vitest",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:51.916464-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/dev-tools/skills/vitest",
+      "version": "eb374ac",
+      "tree_hash": "f8e38193613e30dc960e46b08a9667bfaf089464",
+      "file_hashes": {
+        "SKILL.md": "sha256:bcb50ff99faf6d70e9bc4b472dd8deb67fa15e7c19f554009dc024e6fab36278"
       }
     },
     "vue": {
@@ -1027,6 +1918,19 @@
         "references/updated-hook-performance.md": "sha256:ded08ce93f9b23082538846f84e8d159d84af757c27b2c6b43a9283df803a32b"
       }
     },
+    "walkthrough-video": {
+      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/walkthrough-video",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:54.161531-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/frontend/skills/walkthrough-video",
+      "version": "eb374ac",
+      "tree_hash": "41a043cb3bf0227aa2361d2b0e6757160f678c95",
+      "file_hashes": {
+        "SKILL.md": "sha256:33f243eacd9d225f06d7496bb56596b3b83c60ba71add3c4a10b4fd01237eca4",
+        "references/remotion-patterns.md": "sha256:bd9fea9051330cbdab2be60b9f10457c076d1b734f5d7b13063af3f19a828745"
+      }
+    },
     "web-design-guidelines": {
       "source": "https://github.com/vercel-labs/agent-skills.git/skills/web-design-guidelines",
       "type": "github-subdir",
@@ -1037,6 +1941,43 @@
       "tree_hash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
       "file_hashes": {
         "SKILL.md": "sha256:f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+      }
+    },
+    "wordpress-content": {
+      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-content",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:57.360103-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/wordpress/skills/wordpress-content",
+      "version": "eb374ac",
+      "tree_hash": "b240574626235f3bf4f8b3c624c43b2b664806f5",
+      "file_hashes": {
+        "SKILL.md": "sha256:0945ee9226fe76a066916cdce01371e2b6877153731e5762b001c67147356ed3"
+      }
+    },
+    "wordpress-elementor": {
+      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-elementor",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:57.582702-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/wordpress/skills/wordpress-elementor",
+      "version": "eb374ac",
+      "tree_hash": "7d56e8c44045a20742564a5205906dc4623ce7f2",
+      "file_hashes": {
+        "SKILL.md": "sha256:c102f90bf511b8e50aaef9a79048d7fa2ea7cc5c192f101e29585ef7d61552be"
+      }
+    },
+    "wordpress-setup": {
+      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-setup",
+      "type": "github-subdir",
+      "installed_at": "2026-06-07T22:00:57.805884-05:00",
+      "repo_url": "https://github.com/jezweb/claude-skills.git",
+      "subdir": "plugins/wordpress/skills/wordpress-setup",
+      "version": "eb374ac",
+      "tree_hash": "97d2dc2106ea59800422d5dac64db08363b4b113",
+      "file_hashes": {
+        "SKILL.md": "sha256:f9b9c698f583101c22bf6e84feb2aed393468a0df9e65d7619ab6848a891c727",
+        "references/wp-cli-essentials.md": "sha256:5bb5b133c6f539721b32ad342027e9bfe75937e9d4715cec72e953613c8d2b15"
       }
     }
   }
