@@ -59,7 +59,7 @@
     "agent-tools": {
       "source": "https://github.com/inf-sh/skills.git/tools/agent-tools",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:05.745956-05:00",
+      "installed_at": "2026-06-07T22:12:25.066401-05:00",
       "repo_url": "https://github.com/inf-sh/skills.git",
       "subdir": "tools/agent-tools",
       "version": "abf8446",
@@ -75,7 +75,7 @@
     "ai-hooks-integration": {
       "source": "https://github.com/runkids/ai-hooks-integration.git/skills/ai-hooks-integration",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:58.352618-05:00",
+      "installed_at": "2026-06-07T22:12:25.852835-05:00",
       "repo_url": "https://github.com/runkids/ai-hooks-integration.git",
       "subdir": "skills/ai-hooks-integration",
       "version": "c73efc4",
@@ -133,9 +133,9 @@
       }
     },
     "ai-image-generator": {
-      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/ai-image-generator",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/design-assets/skills/ai-image-generator",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:47.14045-05:00",
+      "installed_at": "2026-06-07T22:14:45.16131-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/design-assets/skills/ai-image-generator",
       "version": "eb374ac",
@@ -146,9 +146,9 @@
       }
     },
     "app-docs": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/app-docs",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/app-docs",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:48.249778-05:00",
+      "installed_at": "2026-06-07T22:14:45.295998-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/app-docs",
       "version": "eb374ac",
@@ -175,9 +175,9 @@
       }
     },
     "aussie-business-english": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/aussie-business-english",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/aussie-business-english",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:58.032982-05:00",
+      "installed_at": "2026-06-07T22:14:47.771651-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/aussie-business-english",
       "version": "eb374ac",
@@ -187,9 +187,9 @@
       }
     },
     "award-application": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/award-application",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/award-application",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:58.256793-05:00",
+      "installed_at": "2026-06-07T22:14:51.485239-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/award-application",
       "version": "eb374ac",
@@ -199,9 +199,9 @@
       }
     },
     "brains-trust": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/brains-trust",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/brains-trust",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:48.470105-05:00",
+      "installed_at": "2026-06-07T22:14:44.004057-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/brains-trust",
       "version": "eb374ac",
@@ -215,7 +215,7 @@
     "branded-presentation": {
       "source": "https://github.com/canva-sdks/canva-claude-skills.git/branded-presentation",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:04.482363-05:00",
+      "installed_at": "2026-06-07T22:12:26.591009-05:00",
       "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
       "subdir": "branded-presentation",
       "version": "7d454de",
@@ -227,7 +227,7 @@
     "building-native-ui": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/building-native-ui",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.347623-05:00",
+      "installed_at": "2026-06-07T22:12:28.266121-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/building-native-ui",
       "version": "145a923",
@@ -253,7 +253,7 @@
     "check-skill-conflicts": {
       "source": "https://github.com/plinde/claude-plugins.git/check-skill-conflicts/skills/check-skill-conflicts",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:12.867461-05:00",
+      "installed_at": "2026-06-07T22:12:29.121191-05:00",
       "repo_url": "https://github.com/plinde/claude-plugins.git",
       "subdir": "check-skill-conflicts/skills/check-skill-conflicts",
       "version": "31d9ad1",
@@ -288,9 +288,9 @@
       }
     },
     "cloudflare-api": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/cloudflare-api",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/cloudflare-api",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:45.370846-05:00",
+      "installed_at": "2026-06-07T22:14:47.086714-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/cloudflare-api",
       "version": "eb374ac",
@@ -301,9 +301,9 @@
       }
     },
     "cloudflare-worker-builder": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/cloudflare-worker-builder",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/cloudflare-worker-builder",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:45.623913-05:00",
+      "installed_at": "2026-06-07T22:14:45.457287-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/cloudflare-worker-builder",
       "version": "eb374ac",
@@ -326,7 +326,7 @@
     "code-reviewer": {
       "source": "https://github.com/google-gemini/gemini-cli.git/.gemini/skills/code-reviewer",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:00.802456-05:00",
+      "installed_at": "2026-06-07T22:14:55.111859-05:00",
       "repo_url": "https://github.com/google-gemini/gemini-cli.git",
       "subdir": ".gemini/skills/code-reviewer",
       "version": "f40498d",
@@ -336,9 +336,9 @@
       }
     },
     "codex-review": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/codex-review",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/codex-review",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:48.676263-05:00",
+      "installed_at": "2026-06-07T22:14:45.896135-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/codex-review",
       "version": "eb374ac",
@@ -349,9 +349,9 @@
       }
     },
     "color-palette": {
-      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/color-palette",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/design-assets/skills/color-palette",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:47.355224-05:00",
+      "installed_at": "2026-06-07T22:14:48.920882-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/design-assets/skills/color-palette",
       "version": "eb374ac",
@@ -364,7 +364,7 @@
     "content-strategy": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/content-strategy",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.812379-05:00",
+      "installed_at": "2026-06-07T22:12:33.223889-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/content-strategy",
       "version": "7f4af1e",
@@ -378,7 +378,7 @@
     "context7": {
       "source": "https://github.com/intellectronica/agent-skills.git/skills/context7",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:08.670217-05:00",
+      "installed_at": "2026-06-07T22:12:34.570127-05:00",
       "repo_url": "https://github.com/intellectronica/agent-skills.git",
       "subdir": "skills/context7",
       "version": "9b0e00a",
@@ -390,7 +390,7 @@
     "copy-editing": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copy-editing",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.951366-05:00",
+      "installed_at": "2026-06-07T22:12:33.373069-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/copy-editing",
       "version": "7f4af1e",
@@ -406,7 +406,7 @@
     "copywriting": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/copywriting",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.139916-05:00",
+      "installed_at": "2026-06-07T22:12:33.755664-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/copywriting",
       "version": "7f4af1e",
@@ -419,9 +419,9 @@
       }
     },
     "d1-drizzle-schema": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/d1-drizzle-schema",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/d1-drizzle-schema",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:45.831729-05:00",
+      "installed_at": "2026-06-07T22:14:48.625121-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/d1-drizzle-schema",
       "version": "eb374ac",
@@ -435,9 +435,9 @@
       }
     },
     "d1-migration": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/d1-migration",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/d1-migration",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:46.033099-05:00",
+      "installed_at": "2026-06-07T22:14:50.264849-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/d1-migration",
       "version": "eb374ac",
@@ -447,9 +447,9 @@
       }
     },
     "db-seed": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/db-seed",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/db-seed",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:46.249516-05:00",
+      "installed_at": "2026-06-07T22:14:44.135149-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/db-seed",
       "version": "eb374ac",
@@ -459,9 +459,9 @@
       }
     },
     "deep-research": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/deep-research",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/deep-research",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:48.901258-05:00",
+      "installed_at": "2026-06-07T22:14:47.916541-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/deep-research",
       "version": "eb374ac",
@@ -471,9 +471,9 @@
       }
     },
     "design-loop": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-loop",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/design-loop",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:52.139352-05:00",
+      "installed_at": "2026-06-07T22:14:50.955235-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/design-loop",
       "version": "eb374ac",
@@ -497,9 +497,9 @@
       }
     },
     "design-review": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-review",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/design-review",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:52.34995-05:00",
+      "installed_at": "2026-06-07T22:14:48.062291-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/design-review",
       "version": "eb374ac",
@@ -509,9 +509,9 @@
       }
     },
     "design-system": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/design-system",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/design-system",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:52.573513-05:00",
+      "installed_at": "2026-06-07T22:14:52.386628-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/design-system",
       "version": "eb374ac",
@@ -523,7 +523,7 @@
     "design-translation": {
       "source": "https://github.com/canva-sdks/canva-claude-skills.git/design-translation",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:04.364276-05:00",
+      "installed_at": "2026-06-07T22:12:26.437801-05:00",
       "repo_url": "https://github.com/canva-sdks/canva-claude-skills.git",
       "subdir": "design-translation",
       "version": "7d454de",
@@ -535,7 +535,7 @@
     "docker-expert": {
       "source": "https://github.com/runkids/my-skills.git/devops/docker-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:11.912445-05:00",
+      "installed_at": "2026-06-07T22:12:29.867955-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "devops/docker-expert",
       "version": "b02b405",
@@ -547,7 +547,7 @@
     "expo-api-routes": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-api-routes",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:07.324793-05:00",
+      "installed_at": "2026-06-07T22:12:27.182217-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-api-routes",
       "version": "145a923",
@@ -559,7 +559,7 @@
     "expo-cicd-workflows": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-cicd-workflows",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.466625-05:00",
+      "installed_at": "2026-06-07T22:12:27.359253-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-cicd-workflows",
       "version": "145a923",
@@ -574,7 +574,7 @@
     "expo-deployment": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-deployment",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.616621-05:00",
+      "installed_at": "2026-06-07T22:12:27.52857-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-deployment",
       "version": "145a923",
@@ -591,7 +591,7 @@
     "expo-dev-client": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-dev-client",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.728235-05:00",
+      "installed_at": "2026-06-07T22:12:27.69797-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-dev-client",
       "version": "145a923",
@@ -603,7 +603,7 @@
     "expo-tailwind-setup": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/expo-tailwind-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.847632-05:00",
+      "installed_at": "2026-06-07T22:12:27.862293-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/expo-tailwind-setup",
       "version": "145a923",
@@ -613,9 +613,9 @@
       }
     },
     "favicon-gen": {
-      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/favicon-gen",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/design-assets/skills/favicon-gen",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:47.600757-05:00",
+      "installed_at": "2026-06-07T22:14:49.759952-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/design-assets/skills/favicon-gen",
       "version": "eb374ac",
@@ -633,9 +633,9 @@
       }
     },
     "feature-radar": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.066025-05:00",
+      "installed_at": "2026-06-07T22:12:31.063028-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar",
       "version": "905f4aa",
@@ -649,9 +649,9 @@
       }
     },
     "feature-radar-archive": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar-archive",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar-archive",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.176474-05:00",
+      "installed_at": "2026-06-07T22:12:31.196615-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar-archive",
       "version": "905f4aa",
@@ -661,9 +661,9 @@
       }
     },
     "feature-radar-learn": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar-learn",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar-learn",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.279242-05:00",
+      "installed_at": "2026-06-07T22:12:31.33506-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar-learn",
       "version": "905f4aa",
@@ -673,9 +673,9 @@
       }
     },
     "feature-radar-ref": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar-ref",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar-ref",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.384545-05:00",
+      "installed_at": "2026-06-07T22:12:31.453907-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar-ref",
       "version": "905f4aa",
@@ -685,9 +685,9 @@
       }
     },
     "feature-radar-scan": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar-scan",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar-scan",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.488056-05:00",
+      "installed_at": "2026-06-07T22:12:30.784267-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar-scan",
       "version": "905f4aa",
@@ -697,9 +697,9 @@
       }
     },
     "feature-radar-validate": {
-      "source": "github.com/runkids/feature-radar/skills/feature-radar-validate",
+      "source": "https://github.com/runkids/feature-radar.git/skills/feature-radar-validate",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:58:29.59266-05:00",
+      "installed_at": "2026-06-07T22:12:30.919572-05:00",
       "repo_url": "https://github.com/runkids/feature-radar.git",
       "subdir": "skills/feature-radar-validate",
       "version": "905f4aa",
@@ -712,7 +712,7 @@
     "find-skills": {
       "source": "https://github.com/vercel-labs/skills.git/skills/find-skills",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:05.065829-05:00",
+      "installed_at": "2026-06-07T22:12:32.037187-05:00",
       "repo_url": "https://github.com/vercel-labs/skills.git",
       "subdir": "skills/find-skills",
       "version": "a561e79",
@@ -722,9 +722,9 @@
       }
     },
     "fork-discipline": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/fork-discipline",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/fork-discipline",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:49.122908-05:00",
+      "installed_at": "2026-06-07T22:14:46.036406-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/fork-discipline",
       "version": "eb374ac",
@@ -734,9 +734,9 @@
       }
     },
     "git-workflow": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/git-workflow",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/git-workflow",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:49.33886-05:00",
+      "installed_at": "2026-06-07T22:14:47.223217-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/git-workflow",
       "version": "eb374ac",
@@ -746,9 +746,9 @@
       }
     },
     "github-release": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/github-release",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/github-release",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:49.556825-05:00",
+      "installed_at": "2026-06-07T22:14:51.086268-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/github-release",
       "version": "eb374ac",
@@ -760,9 +760,9 @@
       }
     },
     "google-apps-script": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/google-apps-script",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/google-apps-script",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:54.416261-05:00",
+      "installed_at": "2026-06-07T22:14:49.899338-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/google-apps-script",
       "version": "eb374ac",
@@ -772,9 +772,9 @@
       }
     },
     "google-chat-messages": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/google-chat-messages",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/google-chat-messages",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:54.633958-05:00",
+      "installed_at": "2026-06-07T22:14:44.892679-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/google-chat-messages",
       "version": "eb374ac",
@@ -789,7 +789,7 @@
     "grill-me": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/grill-me",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:12.036554-05:00",
+      "installed_at": "2026-06-07T22:12:29.994543-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "mattpocock/grill-me",
       "version": "b02b405",
@@ -799,9 +799,9 @@
       }
     },
     "gws-install": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/gws-install",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/gws-install",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:54.854576-05:00",
+      "installed_at": "2026-06-07T22:14:44.264761-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/gws-install",
       "version": "eb374ac",
@@ -811,9 +811,9 @@
       }
     },
     "gws-setup": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/gws-setup",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/gws-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:55.07926-05:00",
+      "installed_at": "2026-06-07T22:14:46.195816-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/gws-setup",
       "version": "eb374ac",
@@ -825,7 +825,7 @@
     "home-assistant-automation-scripts": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-automation-scripts",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:09.216346-05:00",
+      "installed_at": "2026-06-07T22:12:35.343244-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-automation-scripts",
       "version": "8bb3af9",
@@ -865,7 +865,7 @@
     "home-assistant-entities-services": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-entities-services",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:09.329645-05:00",
+      "installed_at": "2026-06-07T22:12:35.466262-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-entities-services",
       "version": "8bb3af9",
@@ -879,7 +879,7 @@
     "home-assistant-esphome": {
       "source": "https://github.com/bradsjm/hassio-addons.git/addon-opencode/skills/home-assistant-esphome",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:09.443546-05:00",
+      "installed_at": "2026-06-07T22:12:35.592516-05:00",
       "repo_url": "https://github.com/bradsjm/hassio-addons.git",
       "subdir": "addon-opencode/skills/home-assistant-esphome",
       "version": "8bb3af9",
@@ -894,9 +894,9 @@
       }
     },
     "hono-api-scaffolder": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/hono-api-scaffolder",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/hono-api-scaffolder",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:46.473479-05:00",
+      "installed_at": "2026-06-07T22:14:48.760277-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/hono-api-scaffolder",
       "version": "eb374ac",
@@ -911,9 +911,9 @@
       }
     },
     "icon-set-generator": {
-      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/icon-set-generator",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/design-assets/skills/icon-set-generator",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:47.820628-05:00",
+      "installed_at": "2026-06-07T22:14:49.473482-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/design-assets/skills/icon-set-generator",
       "version": "eb374ac",
@@ -927,9 +927,9 @@
       }
     },
     "image-processing": {
-      "source": "github.com/jezweb/claude-skills/plugins/design-assets/skills/image-processing",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/design-assets/skills/image-processing",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:48.027347-05:00",
+      "installed_at": "2026-06-07T22:14:49.059868-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/design-assets/skills/image-processing",
       "version": "eb374ac",
@@ -939,9 +939,9 @@
       }
     },
     "landing-page": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/landing-page",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/landing-page",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:52.79372-05:00",
+      "installed_at": "2026-06-07T22:14:45.587511-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/landing-page",
       "version": "eb374ac",
@@ -953,7 +953,7 @@
     "marketing-ideas": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-ideas",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.472378-05:00",
+      "installed_at": "2026-06-07T22:12:33.903434-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/marketing-ideas",
       "version": "7f4af1e",
@@ -967,7 +967,7 @@
     "marketing-psychology": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/marketing-psychology",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:05.081784-05:00",
+      "installed_at": "2026-06-07T22:12:32.803449-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/marketing-psychology",
       "version": "7f4af1e",
@@ -978,9 +978,9 @@
       }
     },
     "mcp-builder": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/mcp-builder",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/mcp-builder",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:55.354724-05:00",
+      "installed_at": "2026-06-07T22:18:00.47897-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/mcp-builder",
       "version": "eb374ac",
@@ -1006,7 +1006,7 @@
     "n8n-code-javascript": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-javascript",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:13.625367-05:00",
+      "installed_at": "2026-06-07T22:12:36.594619-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-code-javascript",
       "version": "27e9d0a",
@@ -1023,7 +1023,7 @@
     "n8n-code-python": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-python",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:13.79256-05:00",
+      "installed_at": "2026-06-07T22:12:36.774417-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-code-python",
       "version": "27e9d0a",
@@ -1040,7 +1040,7 @@
     "n8n-expression-syntax": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-expression-syntax",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:13.920145-05:00",
+      "installed_at": "2026-06-07T22:12:36.911316-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-expression-syntax",
       "version": "27e9d0a",
@@ -1055,7 +1055,7 @@
     "n8n-mcp-tools-expert": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-mcp-tools-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:14.081294-05:00",
+      "installed_at": "2026-06-07T22:12:37.079585-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-mcp-tools-expert",
       "version": "27e9d0a",
@@ -1071,7 +1071,7 @@
     "n8n-node-configuration": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-node-configuration",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:14.226503-05:00",
+      "installed_at": "2026-06-07T22:12:37.246604-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-node-configuration",
       "version": "27e9d0a",
@@ -1086,7 +1086,7 @@
     "n8n-validation-expert": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-validation-expert",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:14.363066-05:00",
+      "installed_at": "2026-06-07T22:12:37.401085-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-validation-expert",
       "version": "27e9d0a",
@@ -1101,7 +1101,7 @@
     "n8n-workflow-patterns": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-workflow-patterns",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:14.52783-05:00",
+      "installed_at": "2026-06-07T22:12:36.37674-05:00",
       "repo_url": "https://github.com/czlonkowski/n8n-skills.git",
       "subdir": "skills/n8n-workflow-patterns",
       "version": "27e9d0a",
@@ -1119,7 +1119,7 @@
     "native-data-fetching": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/native-data-fetching",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:06.965171-05:00",
+      "installed_at": "2026-06-07T22:12:28.056868-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/native-data-fetching",
       "version": "145a923",
@@ -1130,9 +1130,9 @@
       }
     },
     "nemoclaw-setup": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/nemoclaw-setup",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/nemoclaw-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:55.569698-05:00",
+      "installed_at": "2026-06-07T22:14:51.217238-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/nemoclaw-setup",
       "version": "eb374ac",
@@ -1144,7 +1144,7 @@
     "next-best-practices": {
       "source": "https://github.com/vercel-labs/next-skills.git/skills/next-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:06.646733-05:00",
+      "installed_at": "2026-06-07T22:14:55.803413-05:00",
       "repo_url": "https://github.com/vercel-labs/next-skills.git",
       "subdir": "skills/next-best-practices",
       "version": "dc1de9c",
@@ -1173,9 +1173,9 @@
       }
     },
     "nz-business-english": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/nz-business-english",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/nz-business-english",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:58.479446-05:00",
+      "installed_at": "2026-06-07T22:14:48.199567-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/nz-business-english",
       "version": "eb374ac",
@@ -1187,7 +1187,7 @@
     "obsidian": {
       "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:00.289998-05:00",
+      "installed_at": "2026-06-07T22:14:37.646788-05:00",
       "repo_url": "https://github.com/elizaOS/eliza.git",
       "subdir": "packages/skills/skills/obsidian",
       "version": "cfe786c2",
@@ -1251,9 +1251,9 @@
       }
     },
     "onboarding-ux": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/onboarding-ux",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/onboarding-ux",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:49.771661-05:00",
+      "installed_at": "2026-06-07T22:14:50.414115-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/onboarding-ux",
       "version": "eb374ac",
@@ -1263,9 +1263,9 @@
       }
     },
     "parcel-tracking": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/parcel-tracking",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/parcel-tracking",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:55.788908-05:00",
+      "installed_at": "2026-06-07T22:14:50.020386-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/parcel-tracking",
       "version": "eb374ac",
@@ -1288,9 +1288,9 @@
       }
     },
     "product-showcase": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/product-showcase",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/product-showcase",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:53.025775-05:00",
+      "installed_at": "2026-06-07T22:14:52.701728-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/product-showcase",
       "version": "eb374ac",
@@ -1302,7 +1302,7 @@
     "programmatic-seo": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/programmatic-seo",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.641016-05:00",
+      "installed_at": "2026-06-07T22:12:32.937467-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/programmatic-seo",
       "version": "7f4af1e",
@@ -1314,9 +1314,9 @@
       }
     },
     "project-docs": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/project-docs",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/project-docs",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:49.989373-05:00",
+      "installed_at": "2026-06-07T22:14:51.616089-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/project-docs",
       "version": "eb374ac",
@@ -1326,9 +1326,9 @@
       }
     },
     "project-health": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/project-health",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/project-health",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:50.234346-05:00",
+      "installed_at": "2026-06-07T22:14:46.358532-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/project-health",
       "version": "eb374ac",
@@ -1343,9 +1343,9 @@
       }
     },
     "proposal-writer": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/proposal-writer",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/proposal-writer",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:58.706284-05:00",
+      "installed_at": "2026-06-07T22:14:48.334543-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/proposal-writer",
       "version": "eb374ac",
@@ -1357,7 +1357,7 @@
     "ralph-tui-prd": {
       "source": "https://github.com/subsy/ralph-tui.git/skills/ralph-tui-prd",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:10:31.081925-05:00",
+      "installed_at": "2026-06-07T22:14:42.564948-05:00",
       "repo_url": "https://github.com/subsy/ralph-tui.git",
       "subdir": "skills/ralph-tui-prd",
       "version": "8191b80",
@@ -1369,7 +1369,7 @@
     "react-best-practices": {
       "source": "https://github.com/runkids/my-skills.git/frontend/react/react-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:12.214017-05:00",
+      "installed_at": "2026-06-07T22:12:30.212925-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "frontend/react/react-best-practices",
       "version": "b02b405",
@@ -1425,9 +1425,9 @@
       }
     },
     "react-native": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/react-native",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/react-native",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:53.238021-05:00",
+      "installed_at": "2026-06-07T22:14:50.543145-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/react-native",
       "version": "eb374ac",
@@ -1437,9 +1437,9 @@
       }
     },
     "react-patterns": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/react-patterns",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/react-patterns",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:53.467773-05:00",
+      "installed_at": "2026-06-07T22:14:51.741238-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/react-patterns",
       "version": "eb374ac",
@@ -1449,9 +1449,9 @@
       }
     },
     "responsiveness-check": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/responsiveness-check",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/responsiveness-check",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:50.447159-05:00",
+      "installed_at": "2026-06-07T22:14:52.121152-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/responsiveness-check",
       "version": "eb374ac",
@@ -1463,9 +1463,9 @@
       }
     },
     "resume-cover-letter": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/resume-cover-letter",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/resume-cover-letter",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:58.934618-05:00",
+      "installed_at": "2026-06-07T22:14:47.363609-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/resume-cover-letter",
       "version": "eb374ac",
@@ -1475,9 +1475,9 @@
       }
     },
     "roadmap": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/roadmap",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/roadmap",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:50.663038-05:00",
+      "installed_at": "2026-06-07T22:14:49.195613-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/roadmap",
       "version": "eb374ac",
@@ -1489,7 +1489,7 @@
     "seo-audit": {
       "source": "https://github.com/coreyhaines31/marketingskills.git/skills/seo-audit",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:04.321099-05:00",
+      "installed_at": "2026-06-07T22:12:33.086163-05:00",
       "repo_url": "https://github.com/coreyhaines31/marketingskills.git",
       "subdir": "skills/seo-audit",
       "version": "7f4af1e",
@@ -1502,9 +1502,9 @@
       }
     },
     "seo-local-business": {
-      "source": "github.com/jezweb/claude-skills/plugins/web-design/skills/seo-local-business",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/web-design/skills/seo-local-business",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:57.135559-05:00",
+      "installed_at": "2026-06-07T22:14:46.500995-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/web-design/skills/seo-local-business",
       "version": "eb374ac",
@@ -1517,9 +1517,9 @@
       }
     },
     "shadcn-ui": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/shadcn-ui",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/shadcn-ui",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:53.705114-05:00",
+      "installed_at": "2026-06-07T22:14:52.254294-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/shadcn-ui",
       "version": "eb374ac",
@@ -1531,9 +1531,9 @@
       }
     },
     "shopify-content": {
-      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-content",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/shopify/skills/shopify-content",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:56.236414-05:00",
+      "installed_at": "2026-06-07T22:14:52.573298-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/shopify/skills/shopify-content",
       "version": "eb374ac",
@@ -1544,9 +1544,9 @@
       }
     },
     "shopify-products": {
-      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-products",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/shopify/skills/shopify-products",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:56.463975-05:00",
+      "installed_at": "2026-06-07T22:14:46.64412-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/shopify/skills/shopify-products",
       "version": "eb374ac",
@@ -1557,9 +1557,9 @@
       }
     },
     "shopify-setup": {
-      "source": "github.com/jezweb/claude-skills/plugins/shopify/skills/shopify-setup",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/shopify/skills/shopify-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:56.684957-05:00",
+      "installed_at": "2026-06-07T22:14:49.605246-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/shopify/skills/shopify-setup",
       "version": "eb374ac",
@@ -1572,7 +1572,7 @@
     "skill": {
       "source": "https://github.com/napoleond/instaclaw.git/skill",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:10:31.65401-05:00",
+      "installed_at": "2026-06-07T22:12:24.250924-05:00",
       "repo_url": "https://github.com/napoleond/instaclaw.git",
       "subdir": "skill",
       "version": "e83be8e",
@@ -1584,7 +1584,7 @@
     "skillshare": {
       "source": "https://github.com/runkids/skillshare.git/skills/skillshare",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:56.661754-05:00",
+      "installed_at": "2026-06-07T22:14:57.739867-05:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
       "version": "26ca9f0",
@@ -1606,9 +1606,9 @@
       }
     },
     "social-media-posts": {
-      "source": "github.com/jezweb/claude-skills/plugins/social-media/skills/social-media-posts",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/social-media/skills/social-media-posts",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:56.91089-05:00",
+      "installed_at": "2026-06-07T22:14:48.486633-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/social-media/skills/social-media-posts",
       "version": "eb374ac",
@@ -1618,9 +1618,9 @@
       }
     },
     "strategy-document": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/strategy-document",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/strategy-document",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:59.164333-05:00",
+      "installed_at": "2026-06-07T22:14:51.359063-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/strategy-document",
       "version": "eb374ac",
@@ -1630,9 +1630,9 @@
       }
     },
     "stripe-payments": {
-      "source": "github.com/jezweb/claude-skills/plugins/integrations/skills/stripe-payments",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/stripe-payments",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:56.01486-05:00",
+      "installed_at": "2026-06-07T22:14:47.636847-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/integrations/skills/stripe-payments",
       "version": "eb374ac",
@@ -1642,9 +1642,9 @@
       }
     },
     "tailwind-theme-builder": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/tailwind-theme-builder",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/tailwind-theme-builder",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:53.930362-05:00",
+      "installed_at": "2026-06-07T22:14:52.846388-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/tailwind-theme-builder",
       "version": "eb374ac",
@@ -1661,9 +1661,9 @@
       }
     },
     "tanstack-start": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/tanstack-start",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/tanstack-start",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:46.694134-05:00",
+      "installed_at": "2026-06-07T22:14:52.976528-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/tanstack-start",
       "version": "eb374ac",
@@ -1675,7 +1675,7 @@
     "tdd": {
       "source": "https://github.com/runkids/my-skills.git/mattpocock/tdd",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:12.329589-05:00",
+      "installed_at": "2026-06-07T22:12:29.736019-05:00",
       "repo_url": "https://github.com/runkids/my-skills.git",
       "subdir": "mattpocock/tdd",
       "version": "b02b405",
@@ -1690,9 +1690,9 @@
       }
     },
     "team-update": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/team-update",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/team-update",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:50.891914-05:00",
+      "installed_at": "2026-06-07T22:14:49.332935-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/team-update",
       "version": "eb374ac",
@@ -1706,9 +1706,9 @@
       }
     },
     "uk-business-english": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/uk-business-english",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/uk-business-english",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:59.387716-05:00",
+      "installed_at": "2026-06-07T22:14:51.995852-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/uk-business-english",
       "version": "eb374ac",
@@ -1720,7 +1720,7 @@
     "upgrading-expo": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/upgrading-expo",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:07.089169-05:00",
+      "installed_at": "2026-06-07T22:12:28.407339-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/upgrading-expo",
       "version": "145a923",
@@ -1737,9 +1737,9 @@
       }
     },
     "us-business-english": {
-      "source": "github.com/jezweb/claude-skills/plugins/writing/skills/us-business-english",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/us-business-english",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:59.609341-05:00",
+      "installed_at": "2026-06-07T22:14:44.612619-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/writing/skills/us-business-english",
       "version": "eb374ac",
@@ -1751,7 +1751,7 @@
     "use-dom": {
       "source": "https://github.com/expo/skills.git/plugins/expo/skills/use-dom",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:06:07.205698-05:00",
+      "installed_at": "2026-06-07T22:12:28.574655-05:00",
       "repo_url": "https://github.com/expo/skills.git",
       "subdir": "plugins/expo/skills/use-dom",
       "version": "145a923",
@@ -1761,9 +1761,9 @@
       }
     },
     "ux-audit": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-audit",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/ux-audit",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:51.250107-05:00",
+      "installed_at": "2026-06-07T22:14:50.815083-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/ux-audit",
       "version": "eb374ac",
@@ -1795,9 +1795,9 @@
       }
     },
     "ux-compare": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-compare",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/ux-compare",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:51.467716-05:00",
+      "installed_at": "2026-06-07T22:14:44.751063-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/ux-compare",
       "version": "eb374ac",
@@ -1808,9 +1808,9 @@
       }
     },
     "ux-extract": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/ux-extract",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/ux-extract",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:51.705227-05:00",
+      "installed_at": "2026-06-07T22:14:45.755193-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/ux-extract",
       "version": "eb374ac",
@@ -1824,7 +1824,7 @@
     "vite": {
       "source": "https://github.com/antfu/skills.git/skills/vite",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:57.673513-05:00",
+      "installed_at": "2026-06-07T22:14:58.488633-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vite",
       "version": "50deaeb",
@@ -1841,9 +1841,9 @@
       }
     },
     "vite-flare-starter": {
-      "source": "github.com/jezweb/claude-skills/plugins/cloudflare/skills/vite-flare-starter",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/vite-flare-starter",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:46.913828-05:00",
+      "installed_at": "2026-06-07T22:14:45.024602-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/cloudflare/skills/vite-flare-starter",
       "version": "eb374ac",
@@ -1855,9 +1855,9 @@
       }
     },
     "vitest": {
-      "source": "github.com/jezweb/claude-skills/plugins/dev-tools/skills/vitest",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/dev-tools/skills/vitest",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:51.916464-05:00",
+      "installed_at": "2026-06-07T22:14:46.780928-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/dev-tools/skills/vitest",
       "version": "eb374ac",
@@ -1869,7 +1869,7 @@
     "vue": {
       "source": "https://github.com/antfu/skills.git/skills/vue",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:57.369082-05:00",
+      "installed_at": "2026-06-07T22:14:58.619059-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vue",
       "version": "50deaeb",
@@ -1885,7 +1885,7 @@
     "vue-best-practices": {
       "source": "https://github.com/antfu/skills.git/skills/vue-best-practices",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:02:57.54181-05:00",
+      "installed_at": "2026-06-07T22:14:58.805772-05:00",
       "repo_url": "https://github.com/antfu/skills.git",
       "subdir": "skills/vue-best-practices",
       "version": "50deaeb",
@@ -1919,9 +1919,9 @@
       }
     },
     "walkthrough-video": {
-      "source": "github.com/jezweb/claude-skills/plugins/frontend/skills/walkthrough-video",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/frontend/skills/walkthrough-video",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:54.161531-05:00",
+      "installed_at": "2026-06-07T22:14:46.926923-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/frontend/skills/walkthrough-video",
       "version": "eb374ac",
@@ -1934,7 +1934,7 @@
     "web-design-guidelines": {
       "source": "https://github.com/vercel-labs/agent-skills.git/skills/web-design-guidelines",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T21:03:03.863291-05:00",
+      "installed_at": "2026-06-07T22:14:43.285-05:00",
       "repo_url": "https://github.com/vercel-labs/agent-skills.git",
       "subdir": "skills/web-design-guidelines",
       "version": "4ec6f84",
@@ -1944,9 +1944,9 @@
       }
     },
     "wordpress-content": {
-      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-content",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/wordpress/skills/wordpress-content",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:57.360103-05:00",
+      "installed_at": "2026-06-07T22:14:51.873748-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/wordpress/skills/wordpress-content",
       "version": "eb374ac",
@@ -1956,9 +1956,9 @@
       }
     },
     "wordpress-elementor": {
-      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-elementor",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/wordpress/skills/wordpress-elementor",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:57.582702-05:00",
+      "installed_at": "2026-06-07T22:14:50.142676-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/wordpress/skills/wordpress-elementor",
       "version": "eb374ac",
@@ -1968,9 +1968,9 @@
       }
     },
     "wordpress-setup": {
-      "source": "github.com/jezweb/claude-skills/plugins/wordpress/skills/wordpress-setup",
+      "source": "https://github.com/jezweb/claude-skills.git/plugins/wordpress/skills/wordpress-setup",
       "type": "github-subdir",
-      "installed_at": "2026-06-07T22:00:57.805884-05:00",
+      "installed_at": "2026-06-07T22:14:47.499174-05:00",
       "repo_url": "https://github.com/jezweb/claude-skills.git",
       "subdir": "plugins/wordpress/skills/wordpress-setup",
       "version": "eb374ac",
