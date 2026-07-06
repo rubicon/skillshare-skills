@@ -1,54 +1,8 @@
 {
   "version": 1,
   "entries": {
-    "_Piebald-AI-claude-code-system-prompts": {
-      "source": "https://github.com/Piebald-AI/claude-code-system-prompts.git",
-      "tracked": true,
-      "branch": "main"
-    },
     "_claude-skills": {
       "source": "https://github.com/jezweb/claude-skills.git",
-      "tracked": true,
-      "branch": "main"
-    },
-    "_danielgwilson-plaud": {
-      "source": "https://github.com/danielgwilson/plaud.git",
-      "type": "github",
-      "installed_at": "2026-06-24T02:06:19.729059-05:00",
-      "repo_url": "https://github.com/danielgwilson/plaud.git",
-      "version": "98bf299",
-      "file_hashes": {
-        ".github/workflows/ci.yml": "sha256:8940ee04cb83e272146660884816b1fa86e5ebf9cd378e6696e10a4ed0910897",
-        ".github/workflows/publish.yml": "sha256:115894f4c72e16cec70b530aa8765cc6da64e54a01d70540e39e5e2ca94eee88",
-        ".gitignore": "sha256:820febb4303d7d926ff4d6b4f435a8f7ecc82c43db4b774744aef73c8a9fbe58",
-        ".gitleaks.toml": "sha256:31329ea9a8732beec40c2a5dd7b84d8e8577b688a5810b44290f1f6010306b68",
-        "CONTRIBUTING.md": "sha256:ffc4795885e075f3a094761554e1e291d094337f87da3e166085687d93006ecf",
-        "LICENSE": "sha256:f03843dafc3ab1f25fa218a8b16bfb3cc2041a6def5119510b7a94a9425ea58c",
-        "README.md": "sha256:f3e0225679fb8cc6aef0d2441f2dc85fd5616eb4c2f0de8f0ddd668916460e1a",
-        "SECURITY.md": "sha256:05540319cf53b1c8b940e5d134358120a3b1830fd9f1cc19099522ac5c196ae5",
-        "docs/CONTRACT_V1.md": "sha256:9f58436013d4c03c5e046dce4edd902948c9132de7249e1a808ca03aafdb0509",
-        "package-lock.json": "sha256:bcac81d926003666a886776c58c86f2cba2b1a3a0cc159ed2d87e699c4a39799",
-        "package.json": "sha256:845953e39f816ab7ae3fe1dcd5f24fcf38ce6379f928ac7e1d1014f154ad4f1d",
-        "scripts/public-surface-check.mjs": "sha256:00b111f48010ec5cea37878f93b64d88054ad5f93043bd143280550e31db86a9",
-        "src/auth.ts": "sha256:2e63903f1c339e3a6ddb93445528fd4f1a67fcf041bde6a337d24af1e8974e68",
-        "src/cli.ts": "sha256:6a00fe0c7944b879fa3be3ff55fe537e3794347b0c65103e5dbdd7db0005d003",
-        "src/config.ts": "sha256:622a8f847a716d3c901251321e4c9bf8d855802c8f97d507a073a9803a830804",
-        "src/download.ts": "sha256:1c6493ce89d7b92251fcc2cdef15be4ab6225430a46fbb2c0acbb3d02fca990c",
-        "src/export.ts": "sha256:84b593af61de62b62a6f59482f9ebe5c211185c71f1155c4beadcb7b9cc6b8b7",
-        "src/output.ts": "sha256:ae55a1014a7b5a9b4eadb0a48c7f90086aae7406d2f8e8fb7ae91bb545faa10a",
-        "src/plaud-api.ts": "sha256:165dc73afc17f822958ca728cd24131e0d11063e555e9a6b8ee0e4c83b85d975",
-        "src/recordings-format.ts": "sha256:d38b9640e21dda7d601ac86672da47eb3a3ffefe37a031383bc7e688ca69bcbf",
-        "test/config.test.ts": "sha256:4ad4e588b03d6db0d8b0dbf0c997928ae05088f99e7817225b6418ef3d3471b0",
-        "test/har.test.ts": "sha256:8e51340cd6ae2b06da59b4d700eb32ac1f858e3797494791693095db45503628",
-        "test/integration-cli.test.ts": "sha256:000c841e4991f212ed61479d7dee76f74ef94fe0eea1d2ab0be5f156f0391ae8",
-        "test/plaud-api.test.ts": "sha256:376e18acebe839b7a488f1d787bbbade47be90d58acf77f2a5f6ec75b827bdd6",
-        "test/recordings-format.test.ts": "sha256:640e6ab1ab494565c5e7daae980fc38f5e5b864d70b7e8302552ea64f31a2e76",
-        "tsconfig.build.json": "sha256:fd122fd698baf55d360307d8a4ce195a2027fae5181ade00ef59ac62a55cae09",
-        "tsconfig.json": "sha256:ec0fe59e8f6b09c1b081695f46933698f4beb0c902a09d702df63cca17470aea"
-      }
-    },
-    "_obra-superpowers": {
-      "source": "https://github.com/obra/superpowers.git",
       "tracked": true,
       "branch": "main"
     },
@@ -57,18 +11,8 @@
       "tracked": true,
       "branch": "main"
     },
-    "_plaud": {
-      "source": "https://github.com/danielgwilson/plaud.git",
-      "tracked": true,
-      "branch": "main"
-    },
     "_remotion-dev-skills": {
       "source": "https://github.com/remotion-dev/skills.git",
-      "tracked": true,
-      "branch": "main"
-    },
-    "_rubicon-agency-agents": {
-      "source": "https://github.com/rubicon/agency-agents.git",
       "tracked": true,
       "branch": "main"
     },
@@ -79,6 +23,11 @@
     },
     "_skills": {
       "source": "https://github.com/anthropics/skills.git",
+      "tracked": true,
+      "branch": "main"
+    },
+    "_superpowers": {
+      "source": "https://github.com/obra/superpowers.git",
       "tracked": true,
       "branch": "main"
     },
@@ -429,6 +378,21 @@
         "references/natural-transitions.md": "sha256:4ff23f8943af2f65b072f26f1c53ce55f19cc26d7be211c11cae8e34b43e859f"
       }
     },
+    "creative/design-md": {
+      "source": "https://github.com/google-labs-code/stitch-skills.git/plugins/stitch-utilities/skills/design-md",
+      "type": "github-subdir",
+      "group": "creative",
+      "installed_at": "2026-06-24T17:05:07.253041-05:00",
+      "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
+      "subdir": "plugins/stitch-utilities/skills/design-md",
+      "version": "fac7324",
+      "tree_hash": "0a84781f35accede7cf373a4129d93bfb7651930",
+      "file_hashes": {
+        "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
+        "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
+        "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
+      }
+    },
     "d1-drizzle-schema": {
       "source": "https://github.com/jezweb/claude-skills.git/plugins/cloudflare/skills/d1-drizzle-schema",
       "type": "github-subdir",
@@ -491,20 +455,6 @@
       "tree_hash": "200ccad09c9b2c740add14a6f1423e54b353bef3",
       "file_hashes": {
         "SKILL.md": "sha256:a62ac4c8a36be4f14bd63f1bbce41c68b23148123efa2313b8085740a9c46f51"
-      }
-    },
-    "design-md": {
-      "source": "https://github.com/google-labs-code/stitch-skills.git/plugins/stitch-utilities/skills/design-md",
-      "type": "github-subdir",
-      "installed_at": "2026-06-24T17:05:07.253041-05:00",
-      "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
-      "subdir": "plugins/stitch-utilities/skills/design-md",
-      "version": "fac7324",
-      "tree_hash": "0a84781f35accede7cf373a4129d93bfb7651930",
-      "file_hashes": {
-        "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
-        "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
-        "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
       }
     },
     "design-review": {
@@ -1150,6 +1100,19 @@
         "SKILL.md": "sha256:252a27a61efb717e044e045bbeaf8c3182e0d2c9a748782944a488a743732461"
       }
     },
+    "note-taking/obsidian": {
+      "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
+      "type": "github-subdir",
+      "group": "note-taking",
+      "installed_at": "2026-06-24T17:04:42.492787-05:00",
+      "repo_url": "https://github.com/elizaOS/eliza.git",
+      "subdir": "packages/skills/skills/obsidian",
+      "version": "cdb83f3f",
+      "tree_hash": "6aecd4a037e5c0d0f38c2de9f97d03498cefe9e4",
+      "file_hashes": {
+        "SKILL.md": "sha256:53982459e6d529a4cff805864b011097c60df8941886e5f9eced142a86596d1e"
+      }
+    },
     "nz-business-english": {
       "source": "https://github.com/jezweb/claude-skills.git/plugins/writing/skills/nz-business-english",
       "type": "github-subdir",
@@ -1160,18 +1123,6 @@
       "tree_hash": "de2ac4bfa334ca1d52f1c74c4e5bef5a7df437e5",
       "file_hashes": {
         "SKILL.md": "sha256:8b1be0700d408027a3e86f90b787c2267e1f737bf80c2ed9508fbb74166feff2"
-      }
-    },
-    "obsidian": {
-      "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
-      "type": "github-subdir",
-      "installed_at": "2026-06-24T17:04:42.492787-05:00",
-      "repo_url": "https://github.com/elizaOS/eliza.git",
-      "subdir": "packages/skills/skills/obsidian",
-      "version": "cdb83f3f",
-      "tree_hash": "6aecd4a037e5c0d0f38c2de9f97d03498cefe9e4",
-      "file_hashes": {
-        "SKILL.md": "sha256:53982459e6d529a4cff805864b011097c60df8941886e5f9eced142a86596d1e"
       }
     },
     "obsidian-canvas-creator": {
@@ -1562,7 +1513,7 @@
     "skillshare": {
       "source": "github.com/runkids/skillshare/skills/skillshare",
       "type": "github-subdir",
-      "installed_at": "2026-07-05T21:50:06.108515-05:00",
+      "installed_at": "2026-07-05T21:58:44.793346-05:00",
       "repo_url": "https://github.com/runkids/skillshare.git",
       "subdir": "skills/skillshare",
       "version": "67bb2c1",
@@ -1943,6 +1894,24 @@
       "file_hashes": {
         "SKILL.md": "sha256:f9b9c698f583101c22bf6e84feb2aed393468a0df9e65d7619ab6848a891c727",
         "references/wp-cli-essentials.md": "sha256:5bb5b133c6f539721b32ad342027e9bfe75937e9d4715cec72e953613c8d2b15"
+      }
+    },
+    "writing-skills": {
+      "source": "github.com/obra/superpowers/skills/writing-skills",
+      "type": "github-subdir",
+      "installed_at": "2026-07-06T11:00:17.766928-05:00",
+      "repo_url": "https://github.com/obra/superpowers.git",
+      "subdir": "skills/writing-skills",
+      "version": "d884ae0",
+      "tree_hash": "69e051f84da949c75eaa1f94a1f5acc4c3e402b6",
+      "file_hashes": {
+        "SKILL.md": "sha256:6b8d08fe863318be8480ae8428e169640309fa9208df84bb0510012764454146",
+        "anthropic-best-practices.md": "sha256:217629b356c09c9bd11017c9788e8fc654ca1b32c92d4a51cd490e16dd65e59a",
+        "examples/CLAUDE_MD_TESTING.md": "sha256:0b379a3415e185d3c434b3ad283d8aa132f3022c2a4f210f168865b5986bcef0",
+        "graphviz-conventions.dot": "sha256:e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+        "persuasion-principles.md": "sha256:a51bc9bf75189ea73a27b3fb504a2fdfdb966fb1f7f1cdf03203230a216ccc03",
+        "render-graphs.js": "sha256:ccda971a87bb185f8febf81c56b556a20d026fa980c17b35fa3e8824fbb37852",
+        "testing-skills-with-subagents.md": "sha256:c711346852c911b24a84aa161e0cff06a4cd7f4e2fa9e9c0a266cead5afcbade"
       }
     }
   }
