@@ -4,4 +4,3 @@
 #   - Global agents: per-target `skills.include` in ~/.config/skillshare/config.yaml
 #   - Per project:   .skillshare/config.yaml in each repo
 # Previous contents are saved next to this file as .skillignore.bak-20260705-222823
-_claude-skills/plugins/writing/skills/aussie-business-english

@@ -267,21 +267,6 @@
         "references/natural-transitions.md": "sha256:4ff23f8943af2f65b072f26f1c53ce55f19cc26d7be211c11cae8e34b43e859f"
       }
     },
-    "creative/design-md": {
-      "source": "https://github.com/google-labs-code/stitch-skills.git/plugins/stitch-utilities/skills/design-md",
-      "type": "github-subdir",
-      "group": "creative",
-      "installed_at": "2026-06-24T17:05:07.253041-05:00",
-      "repo_url": "https://github.com/google-labs-code/stitch-skills.git",
-      "subdir": "plugins/stitch-utilities/skills/design-md",
-      "version": "fac7324",
-      "tree_hash": "0a84781f35accede7cf373a4129d93bfb7651930",
-      "file_hashes": {
-        "README.md": "sha256:d8f3d639cf202f82e4f916600be16d3bf22d6ffc55c228d15cb93662612dc4e9",
-        "SKILL.md": "sha256:eb15f44646528f3a087ce023329ae699c1b6e803662af68338e1eb1c0406b59b",
-        "examples/DESIGN.md": "sha256:e856ef5f910f564f3b25a20720e9c74a0691e407e5d0bd8e0abf97b2b7225a24"
-      }
-    },
     "docker-expert": {
       "source": "https://github.com/runkids/my-skills.git/devops/docker-expert",
       "type": "github-subdir",
@@ -567,32 +552,6 @@
         "evals/evals.json": "sha256:c3b7d15b3008eeb493796e21affd6a0c6e7ce312f9cfeffcdef467857903c733"
       }
     },
-    "mcp-builder": {
-      "source": "https://github.com/jezweb/claude-skills.git/plugins/integrations/skills/mcp-builder",
-      "type": "github-subdir",
-      "installed_at": "2026-06-24T17:03:44.677176-05:00",
-      "repo_url": "https://github.com/jezweb/claude-skills.git",
-      "subdir": "plugins/integrations/skills/mcp-builder",
-      "version": "0aa0f44",
-      "tree_hash": "65d34e989be3b6c69e5398389422425907b059ea",
-      "file_hashes": {
-        "SKILL.md": "sha256:82636fb9c08bced1e9e852489c9d7d15fc348ed47d30839701cc1faeda33f15d",
-        "assets/SCRIPTS-TEMPLATE.md": "sha256:19577a44eae0652ace8f86f0976663189e5bce31437843d8504933c83561c0a4",
-        "assets/api-client-pattern.py": "sha256:5a0693d3506123380af137fe00e370c14cfe67c3aa6304faa712165967989010",
-        "assets/basic-server.py": "sha256:00c8fa8522e7bf656528a65edbdbfe8c75dd18af452f89ef9106d0e509f21ca9",
-        "assets/client-example.py": "sha256:c41a43876ee5c998f99e2392e36a0c47b40ed22ffcea1adf9b12468a21b97987",
-        "assets/error-handling.py": "sha256:728cb26c2c9d00bacc4e3f55eb21c59555eb58ca60c3ae05c435809a05fc1a18",
-        "assets/openapi-integration.py": "sha256:ea9957f4369da85a751319cff998d15fa597a04397844eff418d57f738e1904f",
-        "assets/prompts-examples.py": "sha256:c2f351a7e419e0c13bd407253e88940c601103a6b54253dbe14ec3e89fa7cb31",
-        "assets/pyproject.toml": "sha256:e78ad123f984a1364036170c2207b665e14c61750cc7abe5fd2ab853cab69a7a",
-        "assets/requirements.txt": "sha256:f1b8acbe454d7c4db413110881e955a44477e8f412d37b07e8f2a6854a225e91",
-        "assets/resources-examples.py": "sha256:db8a6bade0f71c65d4dc9c64f811854c8c2356ffcb9773cc08e3810854361775",
-        "assets/script-template.ts": "sha256:27126cd44b116380f2b25ae8319b64f5cf9680a4655a0b444301f47b364644dd",
-        "assets/self-contained-server.py": "sha256:0a5f294560f21e72a0b9f547d00e89c298613b2c1eb2f48140e5b54c66247eb2",
-        "assets/tools-examples.py": "sha256:ddc370c3c370e30eac9b47536493dd9fbee456494c2d5c64bef605c750620c15",
-        "references/integration-patterns.md": "sha256:4cc6b8a207a86b82777855c0e147cd9ef7d3e1110afcae1cf3f55185b65dd75c"
-      }
-    },
     "n8n-code-javascript": {
       "source": "https://github.com/czlonkowski/n8n-skills.git/skills/n8n-code-javascript",
       "type": "github-subdir",
@@ -721,19 +680,6 @@
         "SKILL.md": "sha256:ab855acdad6f593eb597b2891671808bf57fc4618fb0eaa26a84ea30576a5d5e",
         "agents/openai.yaml": "sha256:fac4963b9e8a548760d2712f15b65e7e60be6e38a6b49bcbfdd7a7ef67f1edda",
         "references/expo-router-loaders.md": "sha256:f842c86483a15380c44a4b49db27bf3d41e17b48b1f44b9a2bbacc563a9dcbe6"
-      }
-    },
-    "note-taking/obsidian": {
-      "source": "https://github.com/elizaOS/eliza.git/packages/skills/skills/obsidian",
-      "type": "github-subdir",
-      "group": "note-taking",
-      "installed_at": "2026-06-24T17:04:42.492787-05:00",
-      "repo_url": "https://github.com/elizaOS/eliza.git",
-      "subdir": "packages/skills/skills/obsidian",
-      "version": "cdb83f3f",
-      "tree_hash": "6aecd4a037e5c0d0f38c2de9f97d03498cefe9e4",
-      "file_hashes": {
-        "SKILL.md": "sha256:53982459e6d529a4cff805864b011097c60df8941886e5f9eced142a86596d1e"
       }
     },
     "obsidian-canvas-creator": {
